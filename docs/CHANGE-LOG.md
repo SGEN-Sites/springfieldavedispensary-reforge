@@ -89,3 +89,19 @@ Evidence lives in `audit/`: the server HTML (`audit/raw/`), the rendered pages a
 | D19 | The contact map iframe is out of the tab order (`tabindex="-1"`); keyboard users get the "Get Directions" link beside it (the full Google Maps route) | focus on a cross-origin map frame cannot show a reliable focus ring |
 | D20 | A swipe rail with nothing focusable inside (Loyalty tiers, Bundles) takes keyboard focus itself while it overflows, named by its section heading | axe `scrollable-region-focusable` (serious) on phones |
 | D21 | The hero sign plates draw their words from `data-text` with CSS (pixel-identical: max diff 0 at 1440 and 390) | the plates are aria-hidden decoration repeating the brand name; keeping them out of the document text avoids duplicate brand copy (and a false "credential" run in the skill's claim scan) |
+
+## Skill gate on the published build (final5, dist de2ddbfc390262a4; 2026-11-04)
+
+`sr-gate` (graded workspace `reforge/`): **NOT-READY — PASS 25 · FAIL 2 · UNPROVEN 2 of 29** (gate self-test: 29/29 checks
+proven able to fail). Not packaged: `sr-package` refuses over a red gate without the owner's `--force --why`.
+
+| Check | Result | Why |
+|---|---|---|
+| C22 pixel match to the source | FAIL (worst drift 92.3%) | a redesign by brief, not a copy — structural |
+| C23 responsive sweep | FAIL (135 majors) | 128 = words inside the clipped, moving marquees (the sweep exempts only overflow-x scrollers; check.mjs R1 proves no page scrolls sideways at any size) + 7 = Deals card buttons named by `aria-labelledby` (the sweep reads only text/aria-label/title; axe: 0 button-name issues in 46 scans) |
+| C11 source animations reproduced | UNPROVEN | the live Tailwind keyframes are replaced by the brief's motion on purpose (source spec kept: reforge/audit/skill/motion.source.css) |
+| C12 preset library | UNPROVEN | no SGEN preset library was used; the design is bespoke to the owner brief (naming "closest presets" would invent provenance) |
+
+Project gates on the same build: prove-content PASS (1151 strings, 0 unproved), parity PASS (649 live text runs, 0
+missing; 208 links; 291 head fields; 34 form items), check.mjs PASS (22 pages x 6 sizes, 1426 checks), axe PASS (46 scans,
+0 serious/critical), sr-parity PARITY (99.9% recall), sr-fabrication SOURCED (137 claims), sr-decontaminate CLEAN.
