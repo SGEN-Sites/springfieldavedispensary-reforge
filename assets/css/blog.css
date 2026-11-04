@@ -1,0 +1,85 @@
+/* pages/blog/00-cards.css */
+/* 00-cards — lane blog: the article card + category/date row, used by the listing AND the post template. The build only
+   reads a template's own folder, so pages/post/00-cards.css is an IDENTICAL copy: keep the two byte-equal
+   (sharedChangeRequest: move .post-card/.post-meta into components.css). Tokens only. */
+.post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; }
+.post-meta__date { font: 600 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
+
+.post-card { height: 100%; gap: 0; padding: 0; }
+.post-card__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg-3); border-bottom: 1px solid var(--glass-line); }
+.post-card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.post-card__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--bg-0) 45%, transparent)); }
+.post-card:hover .post-card__media img, .post-card:focus-visible .post-card__media img { transform: scale(1.05); }
+.post-card__body { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 10px; flex: 1; padding: clamp(16px, 1.6vw, 22px); }
+.post-card__title { font-size: clamp(1.1rem, 1rem + .35vw, 1.3rem); line-height: 1.18; }
+.post-card .post-card__excerpt { margin: 0; flex: 1; color: var(--ink-2); font-size: .9375rem; line-height: 1.55; }
+.post-card__more { display: inline-flex; align-items: center; gap: .45em; margin-top: 4px; font: 650 .8125rem/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+.post-card__more .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
+.post-card:hover .post-card__more .arr, .post-card:focus-visible .post-card__more .arr { transform: translateX(4px); }
+@media (max-width: 599.98px) { .post-card .post-card__excerpt { font-size: .875rem; } }
+@media (prefers-reduced-motion: reduce) {
+  .post-card__media img, .post-card__more .arr { transition: none; }
+  .post-card:hover .post-card__media img, .post-card:hover .post-card__more .arr { transform: none; }
+}
+
+/* pages/blog/01-hero.css */
+/* 01-hero — compact; the featured card follows closely. The text column uses the full container so its left edge lines up
+   with the featured card and the cards below (pageHero's 920px box is centred, which offsets it on wide screens).
+   The outlined ghost word shows only from 1024px wide: narrower, it runs behind the end of the lede. */
+.tpl-blog .page-hero { --pool-x: 16%; --pool-y: 34%; padding-bottom: clamp(18px, 2.6vw, 34px); }
+.tpl-blog .page-hero__in { max-width: none; }
+.tpl-blog .page-hero__ghost { right: var(--gutter); }
+.tpl-blog .page-hero h1 { margin-bottom: 10px; }
+.tpl-blog .page-hero h1 .accent { font-size: 1.16em; padding-right: .14em; }
+.tpl-blog .page-hero .lede { text-wrap: pretty; }
+@media (max-width: 1023.98px) { .tpl-blog .page-hero__ghost { display: none; } }
+
+/* pages/blog/02-featured.css */
+/* 02-featured — one wide glass card: the picture (left, 1.3fr) and the text (right). Stacks under 900px. */
+.featured { --pool-x: 80%; --pool-y: 46%; --pool-w: 46%; --pool-h: 70%; padding-top: clamp(8px, 1.6vw, 20px); padding-bottom: calc(var(--sec-y) * .55); }
+.featured__card { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 0; padding: 0; min-height: clamp(320px, 29vw, 410px); }
+.featured__media { position: relative; overflow: hidden; background: var(--bg-3); }
+.featured__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.featured__media::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, transparent 64%, color-mix(in srgb, var(--bg-1) 50%, transparent)), linear-gradient(180deg, transparent 72%, color-mix(in srgb, var(--bg-0) 35%, transparent)); }
+.featured__card:hover .featured__media img, .featured__card:focus-visible .featured__media img { transform: scale(1.04); }
+.featured__body { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; padding: clamp(22px, 3.2vw, 46px); }
+.featured__title { font-size: clamp(1.65rem, 1.05rem + 1.7vw, 2.6rem); line-height: 1.06; }
+.featured__card .featured__excerpt { margin: 0; color: var(--ink-2); font-size: var(--t-body); line-height: 1.6; max-width: 44ch; }
+.featured__cta { display: inline-flex; align-items: center; gap: .5em; min-height: 46px; padding: 0 22px; margin-top: 6px; border-radius: var(--r-pill);
+  border: 1px solid var(--glass-line-hi); background: var(--sheen), var(--glass-fill-2); color: var(--ink); font: 650 .9375rem/1 var(--f-body); letter-spacing: .02em;
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+.featured__cta .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
+.featured__card:hover .featured__cta, .featured__card:focus-visible .featured__cta { border-color: color-mix(in srgb, var(--accent-glow-c) 70%, transparent); box-shadow: 0 0 30px -10px color-mix(in srgb, var(--accent-glow-c) 50%, transparent); }
+.featured__card:hover .featured__cta .arr, .featured__card:focus-visible .featured__cta .arr { transform: translateX(4px); }
+@media (max-width: 899.98px) {
+  .featured__card { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .featured__media { aspect-ratio: 16 / 9; }
+  .featured__media::after { background: linear-gradient(180deg, transparent 60%, color-mix(in srgb, var(--bg-1) 50%, transparent)); }
+}
+@media (max-width: 599.98px) {
+  .featured__body { gap: 10px; padding: 18px 18px 20px; }
+  .featured__card .featured__excerpt { font-size: .9375rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .featured__media img, .featured__cta .arr { transition: none; }
+  .featured__card:hover .featured__media img, .featured__card:hover .featured__cta .arr { transform: none; }
+}
+
+/* pages/blog/03-posts.css */
+/* 03-posts — "Categories" filter chips over the cards. >= 1100px: four across. Tablet + phones: a swipe rail. */
+.posts { --pool-x: 12%; --pool-y: 62%; --pool-a: .1; padding-top: calc(var(--sec-y) * .5); }
+.posts__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-bottom: clamp(18px, 2.2vw, 28px); }
+.posts__label { flex: 0 0 100%; margin: 0; }
+.posts__filters { flex-wrap: wrap; overflow: visible; padding-bottom: 0; }
+.posts__rail { list-style: none; --rail-col: 80%; }
+.posts__item { min-width: 0; }
+.posts__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+.posts__carousel:not([data-overflow]) .posts__controls { display: none; }
+.posts__empty { margin: 0; padding: 22px 24px; color: var(--ink-2); font-size: var(--t-body); text-align: center; }
+@media (min-width: 1100px) {
+  .posts__rail { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .posts__controls { display: none; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) { .posts__rail { --rail-col: 44%; } }
+@media (max-width: 599.98px) { .posts__filters { gap: 8px; } .posts__filters .chip { padding: 0 14px; } }

@@ -1,0 +1,227 @@
+/* pages/deals/00-visit.css */
+/* 00-visit — visit-lane shared parts. SOURCE: src/styles/pages/bundles/00-visit.css; identical copies in contact/, deals/,
+   loyalty/ and notfound/ (page CSS is per template). Shared change requested: move to components.css. */
+/* status badges above an inner-page title (pageHero's `before` slot) */
+.vh-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.page-hero--center .vh-badges { justify-content: center; }
+
+/* a small lit stage of floating cut-outs at the hero's right (desktop + tablet only) */
+.vh-stage { position: absolute; z-index: 1; top: 50%; right: max(var(--gutter), calc((100% - var(--container)) / 2)); width: clamp(220px, 22vw, 320px); aspect-ratio: 1;
+  transform: translateY(-40%); pointer-events: none; }
+.vh-stage__halo { position: absolute; inset: -12%; background: radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 30%, transparent), color-mix(in srgb, var(--emerald-c) 7%, transparent) 55%, transparent 72%),
+  radial-gradient(22% 20% at 78% 26%, color-mix(in srgb, var(--amber-c) 9%, transparent), transparent 70%); }
+.vh-stage__a { left: 22%; top: 0; width: 50%; z-index: 2; }
+.vh-stage__b { left: -8%; bottom: 10%; width: 44%; z-index: 3; }
+.vh-stage__c { right: -6%; bottom: 2%; width: 38%; z-index: 1; }
+.vh-fade img { -webkit-mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); }
+@media (max-width: 899.98px) { .vh-stage { display: none; } }
+
+/* a compact lit band (How It Works on bundles + loyalty): the heading is the band's small label, the live paragraph
+   is the statement */
+.vh-band { display: grid; gap: 14px; }
+.vh-band__label { margin: 0; color: var(--ink-2); font-variation-settings: normal; }
+.vh-band__text { max-width: 62ch; color: var(--ink); font: 500 clamp(1.125rem, .98rem + .62vw, 1.45rem)/1.5 var(--f-display); letter-spacing: -.006em;
+  text-wrap: pretty; font-variation-settings: "opsz" 24; }
+
+/* the lit closing panel ("Launching Soon") */
+.launch { overflow: hidden; isolation: isolate; --pool-x: 50%; --pool-y: 50%; --pool-a: .16; --pool-w: 62%; --pool-h: 90%; }
+.launch__panel { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.launch__panel .eyebrow { margin-bottom: 0; color: var(--ink-2); }
+.launch__panel h2 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); }
+.launch__text { max-width: 56ch; color: var(--ink-2); font-size: var(--t-lg); line-height: 1.55; }
+.launch__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 8px; }
+.launch__floats .float { width: clamp(110px, 11vw, 170px); }
+.launch__f1 { left: max(2vw, calc(50% - 600px)); top: 16%; }
+.launch__f2 { right: max(2vw, calc(50% - 600px)); bottom: 12%; }
+@media (max-width: 1199.98px) { .launch__floats { display: none; } }
+@media (max-width: 479.98px) { .launch__actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; } }
+
+/* LOCAL STAND-IN for a shared change request (chrome.css, lead-owned): below 380px the dock's "Get Directions" label
+   wrapped onto two lines. A narrower Shop Now column and tighter tracking keep every label on one line. */
+@media (max-width: 379.98px) {
+  .dock { grid-template-columns: 1fr 1.2fr 1fr; gap: 4px; padding-inline: 8px; }
+  .dock a { letter-spacing: .02em; white-space: nowrap; }
+}
+
+/* pages/deals/01-hero.css */
+/* deals 01-hero — compact hero, today chip, a small lit cut-out stage beside the copy (>= 900px), then the outlined
+   marquee of deal names along the bottom edge. */
+.tpl-deals .page-hero { --pool-x: 24%; --pool-y: 34%; padding-bottom: clamp(20px, 3vw, 36px); }
+/* the stage lives in the hero's container: right edge = the container's, centred on the copy block */
+.dl-stage { right: 0; top: 50%; width: clamp(200px, 19vw, 270px); transform: translateY(-50%); }
+.dl-stage__a { left: 26%; top: 10%; width: 46%; }
+.dl-stage__b { left: 0; bottom: 6%; width: 44%; }
+.dl-stage__c { right: 0; bottom: 2%; width: 36%; }
+.dl-today { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 4px; padding: 6px 16px 6px 8px; border-radius: var(--r-pill);
+  color: var(--ink); text-decoration: none; font-weight: 650; font-size: .9375rem; }
+.dl-today .ico { width: 16px; height: 16px; color: var(--accent); transition: transform var(--dur) var(--ease); }
+.dl-today:hover .ico { transform: translateX(3px); }
+.dl-today:hover { border-color: color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+html:not(.js) .dl-today, .dl-today:has(.dl-today__name:empty) { display: none; }
+.dl-hero__mq { position: relative; z-index: 1; margin-top: clamp(26px, 4vw, 48px); }
+@media (max-width: 599.98px) { .dl-hero__mq .mq-word { font-size: 1.75rem; } }
+/* still (reduced motion / paused): atmosphere.css turns a still marquee into a wrapped list of whole words. This one is
+   decoration (aria-hidden; every name is in the cards below), so it keeps only the FIRST ROW of that list: whole names,
+   no mid-word clip, no tall block. The half carries the .mq-word type so 1lh = one row (shared modifier requested). */
+@media (prefers-reduced-motion: reduce) {
+  .dl-hero__mq .marquee__half { font: 800 clamp(1.9rem, 1.2rem + 2.6vw, 3.6rem)/1.1 var(--f-display); max-height: 1lh; overflow: hidden; }
+}
+html[data-motion="paused"] .dl-hero__mq .marquee__half { font: 800 clamp(1.9rem, 1.2rem + 2.6vw, 3.6rem)/1.1 var(--f-display); max-height: 1lh; overflow: hidden; }
+@media (max-width: 599.98px) { .dl-hero__mq .marquee__half { font-size: 1.75rem; } }
+@media (max-width: 599.98px) { html[data-motion="paused"] .dl-hero__mq .marquee__half { font-size: 1.75rem; } }
+
+/* pages/deals/02-week.css */
+/* deals 02-week — 7 deal cards + the order call. Desktop (>=1100 x >=860): 4 x 2 grid, one screen. Below: a rail from today.
+   Each card opens its dialog#deal-<day> (the shared .modal) through one transparent button laid over the whole card. */
+.dl-week { --pool-x: 70%; --pool-y: 40%; --pool-a: .1; padding-block: calc(var(--sec-y) * .5) calc(var(--sec-y) * .7); scroll-margin-top: var(--header-h); }
+/* the rail's bottom padding leaves room for today's glow to fade out (it is clipped by the rail's scroll box otherwise) */
+.dl-week__rail { list-style: none; --rail-col: 84%; padding-bottom: 48px; margin-bottom: -48px; }
+.dl-day { list-style: none; min-width: 0; }
+.dl-card { height: 100%; padding: 20px 20px 18px; gap: 8px; }
+.dl-card__top { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 24px; }
+.dl-card__day { font: 650 .75rem/1.2 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--ink-2); }   /* ink-2 like the home card: ink-3 fell to 4.44:1 on a lit / hovered card */
+.dl-card__name { font-size: 1.3125rem; line-height: 1.12; letter-spacing: -.015em; font-variation-settings: "opsz" 24; }
+.card .dl-card__offer { color: var(--accent-hi); font-weight: 650; font-size: .9375rem; line-height: 1.4; }
+.card .dl-card__detail { color: var(--ink); font-size: .9375rem; line-height: 1.5; }
+.card .dl-card__terms { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--glass-line); color: var(--ink-2); font-size: .9375rem; line-height: 1.45; }
+.dl-card::before { content: ""; position: absolute; left: 20px; right: 20px; bottom: 0; height: 2px; border-radius: var(--r-pill);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--emerald-c) 60%, transparent), transparent); opacity: .5; }
+/* the opener: invisible, covers the card (so it is a full-card tap target); its focus ring traces the card inside its edge */
+.dl-card__open { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; margin: 0; padding: 0; border: 0; border-radius: inherit;
+  background: transparent; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.dl-card__open:focus-visible { outline: 2px solid var(--accent-hi); outline-offset: -3px; border-radius: var(--r-card); }
+.dl-card:has(.dl-card__open:focus-visible) { transform: translateY(-4px); border-color: var(--glass-line-hi); }
+@media (prefers-reduced-motion: reduce) { .dl-card:has(.dl-card__open:focus-visible) { transform: none; } }
+/* today: lit with the accent, like the home card */
+.dl-day[data-today] .dl-card { border-color: color-mix(in srgb, var(--accent-glow-c) 70%, transparent);
+  background: radial-gradient(120% 70% at 50% 0%, color-mix(in srgb, var(--accent-glow-c) 20%, transparent), transparent 62%), var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 10%, transparent), 0 0 0 1px color-mix(in srgb, var(--accent-glow-c) 30%, transparent), 0 22px 60px -24px color-mix(in srgb, var(--accent-glow-c) 50%, transparent); }
+.dl-day[data-today] .dl-card__day { color: var(--accent-hi); }
+.dl-day[data-today] .dl-card::before { background: linear-gradient(90deg, var(--accent), transparent); opacity: 1; }
+
+.dl-ready { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; padding: 22px 20px; border-radius: var(--r-card); }
+.dl-ready__title { font-size: 1.5rem; }
+.dl-ready p { color: var(--ink-2); font-size: .9375rem; }
+.dl-ready .btn { margin-top: 6px; }
+
+.dl-week__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+/* the 4 x 2 grid only where it fits one screen (wide AND tall); shorter desktops + tablets keep the rail */
+@media (min-width: 1100px) and (min-height: 860px) {
+  .dl-week__rail { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .dl-week__controls { display: none; }
+}
+@media (min-width: 1100px) and (max-height: 859.98px) { .dl-week__rail { --rail-col: calc((100% - 3 * var(--gap)) / 3.4); } }
+/* tablets: the rail runs to the viewport edges (the peeking card is not cut at the container edge) */
+@media (min-width: 768px) and (max-width: 1099.98px) {
+  .dl-week__rail { --rail-col: 40%; margin-inline: calc(-1 * var(--gutter)); --rail-pad: var(--gutter); }
+}
+@media (max-width: 767.98px) {
+  .dl-card { padding: 18px 16px 16px; }
+  .dl-card__name { font-size: 1.25rem; }
+  .card .dl-card__detail, .card .dl-card__terms { font-size: .875rem; }
+}
+
+/* pages/deals/03-featured.css */
+/* deals 03-featured — >= 1100px: three columns (bulk a little wider). Bulk (>= 768px): tier ladder in three columns; the flower
+   cut-out floating inside the card beside Shop Flower. First Visit + Bring a Friend: their middle part (the 20% stat,
+   the You/Friend chips) is centred in the shared row height, so no empty band. Below 1100px: a swipe rail. */
+.dl-feat { --pool-x: 18%; --pool-y: 55%; padding-block: calc(var(--sec-y) * .8); }
+.dl-feat__rail { list-style: none; --rail-col: 86%; }
+.dl-feat__item { min-width: 0; }
+.dl-offer { height: 100%; padding: clamp(20px, 2.2vw, 30px); gap: 12px; }
+.dl-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+.dl-offer__title { font-size: clamp(1.45rem, 1.1rem + 1.1vw, 2rem); line-height: 1.04; letter-spacing: -.022em; font-variation-settings: "opsz" 48; }
+.card .dl-offer__text { color: var(--ink-2); font-size: .9375rem; line-height: 1.55; max-width: 46ch; }
+.dl-offer__foot { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.dl-offer__foot .fine { margin: 0; }
+
+/* bulk */
+.dl-offer--bulk .dl-offer__text { max-width: 34ch; }
+.dl-tiers { list-style: none; display: grid; gap: 10px; margin-top: auto; }
+.dl-tier { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "pct off qty" "pct off wt"; align-items: center; column-gap: 14px;
+  padding: 14px 20px; border-radius: var(--r-tile); }
+.dl-tier__pct { grid-area: pct; min-width: 2.6em; font: 800 clamp(2rem, 1.3rem + 1.9vw, 3rem)/.95 var(--f-display); letter-spacing: -.04em; color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-glow-c) 90%, transparent); text-shadow: 0 0 30px color-mix(in srgb, var(--accent-glow-c) 20%, transparent); font-variation-settings: "opsz" 96; }
+.dl-tier:last-child { border-color: color-mix(in srgb, var(--accent-glow-c) 45%, transparent); background: radial-gradient(90% 120% at 0% 50%, color-mix(in srgb, var(--accent-glow-c) 14%, transparent), transparent 70%), var(--glass-fill-2); }
+.dl-tier:last-child .dl-tier__pct { color: var(--ink); -webkit-text-stroke: 0; }
+.dl-tier__off { grid-area: off; align-self: center; font: 700 .75rem/1.2 var(--f-body); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2); }
+.dl-tier__qty { grid-area: qty; justify-self: end; align-self: end; color: var(--ink); font-weight: 650; font-size: 1rem; }
+.dl-tier__wt { grid-area: wt; justify-self: end; align-self: start; color: var(--ink-2); font-size: .875rem; }
+.dl-bulk__foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+.dl-offer__cta { flex: none; }
+/* the cut-out: in the card's flow (inside its padding), so it floats instead of being cut by the card edge */
+.dl-bulk__bud { position: relative; flex: none; width: clamp(56px, 4.6vw, 66px); margin: -6px 2px 0 0; opacity: .95; }
+.dl-bulk__bud img { width: 100%; height: auto; }
+
+/* first visit: title + text on top, the big outlined 20% centred in the space left, chips + link at the foot */
+.dl-first { flex: 1 1 auto; display: flex; flex-direction: column; gap: 12px; }
+.dl-first .dl-offer__text { margin-top: 10px; }
+.dl-offer .dl-first__stat { margin-block: auto; flex-direction: row; align-items: baseline; gap: 12px; }   /* beats p:last-child's margin */
+.dl-points { list-style: none; gap: 8px; }
+.dl-points .chip { min-height: 32px; font-size: .8125rem; }
+
+/* bring a friend: the You / Friend chips centred between the copy and the foot */
+.dl-people { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-block: auto; }
+.dl-people li { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: var(--r-tile); border: 1px solid var(--glass-line); background: var(--glass-fill); }
+.dl-people li > span:last-child { display: grid; line-height: 1.3; }
+.dl-people b { color: var(--ink); font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; }
+.dl-people li > span:last-child > span { color: var(--ink-2); font-size: .875rem; }
+.dl-people__disc { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%; font: 800 1rem/1 var(--f-display); color: var(--accent-ink);
+  background: linear-gradient(180deg, var(--accent-hi), var(--accent)); }
+
+.dl-feat__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 1100px) {
+  .dl-feat__rail { grid-auto-flow: row; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); overflow: visible; margin: 0; padding: 0; }
+  .dl-feat__controls { display: none; }
+}
+/* >= 768px the ladder is three columns: a much shorter bulk card, so the row (grid or rail) is not stretched */
+@media (min-width: 768px) {
+  .dl-tiers { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .dl-tier { grid-template-columns: minmax(0, 1fr); grid-template-areas: "pct" "off" "qty" "wt"; justify-items: start; row-gap: 3px; padding: 14px 12px 12px; }
+  .dl-tier__pct { min-width: 0; margin-bottom: 2px; font-size: clamp(1.75rem, .9rem + 1.6vw, 2.5rem); }
+  .dl-tier__qty, .dl-tier__wt { justify-self: start; align-self: auto; }
+  .dl-tier__qty { font-size: .9375rem; line-height: 1.25; }
+}
+@media (min-width: 768px) and (max-width: 899.98px) { .dl-tier { padding: 12px 10px 10px; } .dl-tier__qty { font-size: .875rem; } }
+/* tablets: the rail runs to the viewport edges (the peeking card is not cut at the container edge) */
+@media (min-width: 768px) and (max-width: 1099.98px) {
+  .dl-feat__rail { --rail-col: 46%; margin-inline: calc(-1 * var(--gutter)); --rail-pad: var(--gutter); }
+}
+@media (max-width: 1099.98px) { .dl-bulk__bud { display: none; } }   /* decoration steps back where the cards are narrow */
+@media (max-width: 767.98px) {
+  .dl-offer__title .line { display: block; }   /* keep the live two-line break; no ragged 3-line wrap */
+  .dl-tier { padding: 10px 14px; column-gap: 10px; }
+  .dl-tier__pct { font-size: 2rem; }
+  .dl-tier__qty { font-size: .9375rem; }
+  .dl-first__stat .stat__num { font-size: 2.2rem; }
+  .dl-people { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* pages/deals/04-more.css */
+/* deals 04-more — the bundles + loyalty teasers side by side. Phones: a rail. */
+.dl-more { --pool-x: 60%; --pool-y: 50%; --pool-a: .09; }
+.dl-more__rail { list-style: none; --rail-col: 86%; }
+.dl-more__item { min-width: 0; }
+.dl-teaser { height: 100%; padding: clamp(20px, 2.2vw, 30px); gap: 12px; }
+.dl-teaser__title { font-size: clamp(1.6rem, 1.2rem + 1.3vw, 2.3rem); }
+.dl-teaser__tiers { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+.dl-teaser__tiers li { display: grid; gap: 2px; align-content: start; padding: 12px; border-radius: var(--r-tile); border: 1px solid var(--glass-line); background: var(--glass-fill); }
+.dl-teaser__tiers b { color: var(--ink); font: 750 1rem/1.15 var(--f-display); letter-spacing: -.01em; }
+.dl-teaser__tiers li > span:last-child { color: var(--ink-3); font-size: .8125rem; line-height: 1.35; }
+.dl-teaser__price { color: var(--ink-2); font-size: .8125rem; font-weight: 600; }
+.dl-teaser__pips { display: flex; gap: 4px; margin-bottom: 4px; }
+.dl-teaser__pips i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-hi); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+.dl-teaser__cta { margin-top: auto; align-self: flex-start; }
+.dl-more__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 768px) {
+  .dl-more__rail { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .dl-more__controls { display: none; }
+}
+/* phones: the three tiers become compact rows (name + line left, price or pips right) */
+@media (max-width: 767.98px) {
+  .dl-teaser__tiers { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .dl-teaser__tiers li { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name tag" "line tag"; column-gap: 12px; padding: 10px 12px; }
+  .dl-teaser__tiers b { grid-area: name; }
+  .dl-teaser__tiers li > span:last-child { grid-area: line; }
+  .dl-teaser__price, .dl-teaser__pips { grid-area: tag; align-self: center; margin: 0; }
+}

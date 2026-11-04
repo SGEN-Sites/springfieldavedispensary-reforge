@@ -1,0 +1,65 @@
+/* pages/notfound/00-visit.css */
+/* 00-visit — visit-lane shared parts. SOURCE: src/styles/pages/bundles/00-visit.css; identical copies in contact/, deals/,
+   loyalty/ and notfound/ (page CSS is per template). Shared change requested: move to components.css. */
+/* status badges above an inner-page title (pageHero's `before` slot) */
+.vh-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.page-hero--center .vh-badges { justify-content: center; }
+
+/* a small lit stage of floating cut-outs at the hero's right (desktop + tablet only) */
+.vh-stage { position: absolute; z-index: 1; top: 50%; right: max(var(--gutter), calc((100% - var(--container)) / 2)); width: clamp(220px, 22vw, 320px); aspect-ratio: 1;
+  transform: translateY(-40%); pointer-events: none; }
+.vh-stage__halo { position: absolute; inset: -12%; background: radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 30%, transparent), color-mix(in srgb, var(--emerald-c) 7%, transparent) 55%, transparent 72%),
+  radial-gradient(22% 20% at 78% 26%, color-mix(in srgb, var(--amber-c) 9%, transparent), transparent 70%); }
+.vh-stage__a { left: 22%; top: 0; width: 50%; z-index: 2; }
+.vh-stage__b { left: -8%; bottom: 10%; width: 44%; z-index: 3; }
+.vh-stage__c { right: -6%; bottom: 2%; width: 38%; z-index: 1; }
+.vh-fade img { -webkit-mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); }
+@media (max-width: 899.98px) { .vh-stage { display: none; } }
+
+/* a compact lit band (How It Works on bundles + loyalty): the heading is the band's small label, the live paragraph
+   is the statement */
+.vh-band { display: grid; gap: 14px; }
+.vh-band__label { margin: 0; color: var(--ink-2); font-variation-settings: normal; }
+.vh-band__text { max-width: 62ch; color: var(--ink); font: 500 clamp(1.125rem, .98rem + .62vw, 1.45rem)/1.5 var(--f-display); letter-spacing: -.006em;
+  text-wrap: pretty; font-variation-settings: "opsz" 24; }
+
+/* the lit closing panel ("Launching Soon") */
+.launch { overflow: hidden; isolation: isolate; --pool-x: 50%; --pool-y: 50%; --pool-a: .16; --pool-w: 62%; --pool-h: 90%; }
+.launch__panel { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.launch__panel .eyebrow { margin-bottom: 0; color: var(--ink-2); }
+.launch__panel h2 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); }
+.launch__text { max-width: 56ch; color: var(--ink-2); font-size: var(--t-lg); line-height: 1.55; }
+.launch__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 8px; }
+.launch__floats .float { width: clamp(110px, 11vw, 170px); }
+.launch__f1 { left: max(2vw, calc(50% - 600px)); top: 16%; }
+.launch__f2 { right: max(2vw, calc(50% - 600px)); bottom: 12%; }
+@media (max-width: 1199.98px) { .launch__floats { display: none; } }
+@media (max-width: 479.98px) { .launch__actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; } }
+
+/* LOCAL STAND-IN for a shared change request (chrome.css, lead-owned): below 380px the dock's "Get Directions" label
+   wrapped onto two lines. A narrower Shop Now column and tighter tracking keep every label on one line. */
+@media (max-width: 379.98px) {
+  .dock { grid-template-columns: 1fr 1.2fr 1fr; gap: 4px; padding-inline: 8px; }
+  .dock a { letter-spacing: .02em; white-space: nowrap; }
+}
+
+/* pages/notfound/01-hero.css */
+/* notfound 01-hero — one lit, centred screen: the big outlined 404 above the heading, the way back below. */
+.tpl-notfound .page-hero { display: grid; align-items: center; min-height: min(calc(100svh - var(--header-h) - var(--dock-h)), 760px);
+  --pool-x: 50%; --pool-y: 42%; --pool-a: .2; --pool-w: 60%; --pool-h: 80%; }
+.nf-code { display: block; margin: 0 auto 6px; font: 800 clamp(6rem, 3rem + 13vw, 13rem)/.82 var(--f-display); letter-spacing: -.05em;
+  /* stroke painted UNDER a ground-coloured fill: the outer half of the stroke shows as a clean outline and the variable
+     font's overlapping inner contours are covered */
+  color: var(--bg-1); -webkit-text-stroke: 3px rgb(var(--accent-glow) / .8); paint-order: stroke fill;
+  text-shadow: 0 0 60px rgb(var(--accent-glow) / .25); font-variation-settings: "opsz" 96; user-select: none; }
+.tpl-notfound .page-hero h1 { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.4rem); }
+.tpl-notfound .page-hero__actions { gap: 10px; }
+.nf-floats .float { width: clamp(110px, 12vw, 190px); }
+.nf-f1 { left: max(2vw, calc(50% - 640px)); top: 20%; }
+.nf-f2 { right: max(2vw, calc(50% - 620px)); bottom: 14%; }
+@media (max-width: 899.98px) { .nf-floats { display: none; } }
+@media (max-width: 599.98px) {
+  .tpl-notfound .page-hero__actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .tpl-notfound .page-hero__actions .btn:first-child { grid-column: 1 / -1; }
+  .tpl-notfound .page-hero__actions .btn { padding: 0 12px; }
+}

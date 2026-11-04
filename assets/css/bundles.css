@@ -1,0 +1,106 @@
+/* pages/bundles/00-visit.css */
+/* 00-visit — visit-lane shared parts. SOURCE: src/styles/pages/bundles/00-visit.css; identical copies in contact/, deals/,
+   loyalty/ and notfound/ (page CSS is per template). Shared change requested: move to components.css. */
+/* status badges above an inner-page title (pageHero's `before` slot) */
+.vh-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.page-hero--center .vh-badges { justify-content: center; }
+
+/* a small lit stage of floating cut-outs at the hero's right (desktop + tablet only) */
+.vh-stage { position: absolute; z-index: 1; top: 50%; right: max(var(--gutter), calc((100% - var(--container)) / 2)); width: clamp(220px, 22vw, 320px); aspect-ratio: 1;
+  transform: translateY(-40%); pointer-events: none; }
+.vh-stage__halo { position: absolute; inset: -12%; background: radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 30%, transparent), color-mix(in srgb, var(--emerald-c) 7%, transparent) 55%, transparent 72%),
+  radial-gradient(22% 20% at 78% 26%, color-mix(in srgb, var(--amber-c) 9%, transparent), transparent 70%); }
+.vh-stage__a { left: 22%; top: 0; width: 50%; z-index: 2; }
+.vh-stage__b { left: -8%; bottom: 10%; width: 44%; z-index: 3; }
+.vh-stage__c { right: -6%; bottom: 2%; width: 38%; z-index: 1; }
+.vh-fade img { -webkit-mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); }
+@media (max-width: 899.98px) { .vh-stage { display: none; } }
+
+/* a compact lit band (How It Works on bundles + loyalty): the heading is the band's small label, the live paragraph
+   is the statement */
+.vh-band { display: grid; gap: 14px; }
+.vh-band__label { margin: 0; color: var(--ink-2); font-variation-settings: normal; }
+.vh-band__text { max-width: 62ch; color: var(--ink); font: 500 clamp(1.125rem, .98rem + .62vw, 1.45rem)/1.5 var(--f-display); letter-spacing: -.006em;
+  text-wrap: pretty; font-variation-settings: "opsz" 24; }
+
+/* the lit closing panel ("Launching Soon") */
+.launch { overflow: hidden; isolation: isolate; --pool-x: 50%; --pool-y: 50%; --pool-a: .16; --pool-w: 62%; --pool-h: 90%; }
+.launch__panel { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.launch__panel .eyebrow { margin-bottom: 0; color: var(--ink-2); }
+.launch__panel h2 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); }
+.launch__text { max-width: 56ch; color: var(--ink-2); font-size: var(--t-lg); line-height: 1.55; }
+.launch__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 8px; }
+.launch__floats .float { width: clamp(110px, 11vw, 170px); }
+.launch__f1 { left: max(2vw, calc(50% - 600px)); top: 16%; }
+.launch__f2 { right: max(2vw, calc(50% - 600px)); bottom: 12%; }
+@media (max-width: 1199.98px) { .launch__floats { display: none; } }
+@media (max-width: 479.98px) { .launch__actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; } }
+
+/* LOCAL STAND-IN for a shared change request (chrome.css, lead-owned): below 380px the dock's "Get Directions" label
+   wrapped onto two lines. A narrower Shop Now column and tighter tracking keep every label on one line. */
+@media (max-width: 379.98px) {
+  .dock { grid-template-columns: 1fr 1.2fr 1fr; gap: 4px; padding-inline: 8px; }
+  .dock a { letter-spacing: .02em; white-space: nowrap; }
+}
+
+/* pages/bundles/01-hero.css */
+/* bundles 01-hero — light pool behind the cut-out stage on the right. */
+.tpl-bundles .page-hero { --pool-x: 74%; --pool-y: 50%; --pool-a: .18; --pool-w: 46%; }
+.tpl-bundles .page-hero .lede { max-width: 52ch; }
+
+/* pages/bundles/02-how.css */
+/* bundles 02-how — the band itself is .vh-band in 00-visit.css (shared with loyalty): label + statement. */
+.bd-how { padding-top: calc(var(--sec-y) * .35); }
+
+/* pages/bundles/03-bundles.css */
+/* bundles 03-bundles — three bundle cards (>= 1100px: 3 columns; below: a rail) + the fine print. Small marks are lime
+   (the High Roller card's are warm amber); emerald stays in the glows. */
+.bd-bundles { --pool-x: 76%; --pool-y: 30%; --pool-a: .1; }
+.bd-rail { list-style: none; --rail-col: 86%; }
+.bd-item { min-width: 0; }
+.bd-card { height: 100%; padding: clamp(20px, 2.2vw, 28px); gap: 10px; }
+.bd-card > :not(.float) { position: relative; z-index: 1; }
+.bd-card__top { display: flex; align-items: center; gap: 12px; min-height: 96px; }
+.bd-card__cut { position: relative; flex: none; width: 92px; height: 104px; margin: -12px -6px -8px auto; display: grid; place-items: center; }
+.bd-card__cut img { width: 100%; height: 100%; object-fit: contain; }
+.card .bd-card__price { margin: 0; white-space: nowrap; font: 800 clamp(1.6rem, 1.2rem + 1.1vw, 2.05rem)/1 var(--f-display); letter-spacing: -.03em; color: var(--ink); font-variation-settings: "opsz" 72; }
+.bd-card__name { margin-top: 6px; font-size: 1.5rem; }
+.card .bd-card__tag { margin: 0; padding-bottom: 12px; border-bottom: 1px solid var(--glass-line); font: 650 .75rem/1.35 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
+.card .bd-card__text { color: var(--ink-2); font-size: .9375rem; line-height: 1.58; }
+.bd-card__list { padding-top: 4px; }
+.card .bd-card__label { margin-bottom: 8px; font: 700 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
+.bd-card__list ul { list-style: none; display: grid; gap: 6px; }
+.bd-card__list li { position: relative; padding-left: 18px; color: var(--ink-2); font-size: .9375rem; line-height: 1.45; }
+.bd-card__list li::before { content: ""; position: absolute; left: 2px; top: .52em; width: 7px; height: 7px; border-radius: var(--r-pill);
+  background: var(--accent-hi); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+/* the top tier: the one warm light on the page */
+.bd-card--lit { border-color: color-mix(in srgb, var(--amber-c) 32%, transparent);
+  background: radial-gradient(110% 60% at 50% 0%, color-mix(in srgb, var(--amber-c) 10%, transparent), transparent 62%), radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--emerald-c) 14%, transparent), transparent 62%), var(--sheen), var(--glass-fill-2); }
+.bd-card--lit .bd-card__list li::before { background: var(--amber-c); box-shadow: 0 0 8px color-mix(in srgb, var(--amber-c) 60%, transparent); }
+.bd-fine { margin: 20px auto 0; max-width: 80ch; text-align: center; font-size: .9375rem; color: var(--ink-2); }
+.bd-controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 1100px) {
+  .bd-rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .bd-controls { display: none; }
+}
+/* tablets: the rail runs to the viewport edges (the peeking card is not cut at the container edge) */
+@media (min-width: 768px) and (max-width: 1099.98px) { .bd-rail { --rail-col: 46%; margin-inline: calc(-1 * var(--gutter)); --rail-pad: var(--gutter); } }
+@media (max-width: 767.98px) {
+  /* phones: one card in view at a time, each its own height (equal heights left the shorter two with ~150px of empty
+     glass); tablets keep equal heights because two cards sit side by side */
+  .bd-rail { align-items: start; }
+  .bd-card { height: auto; }
+  .bd-card__cut { width: 80px; height: 90px; }
+  .bd-card__top { min-height: 84px; }
+  .bd-card__list li, .card .bd-card__text { font-size: .875rem; }
+  .bd-fine { text-align: left; font-size: .875rem; }
+}
+/* small phones: the cut-out steps back so the price stays on one line beside its icon */
+@media (max-width: 399.98px) {
+  .bd-card__cut { display: none; }
+  .bd-card__top { min-height: 0; }
+}
+
+/* pages/bundles/04-launch.css */
+/* bundles 04-launch — the panel itself lives in 00-visit.css (shared with loyalty). */
+.tpl-bundles .launch { --pool-a: .18; }

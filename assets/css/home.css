@@ -1,0 +1,518 @@
+/* pages/home/01-hero.css */
+/* 01-hero — owner pick 2026-11-04: Option A "The Corner Sign" (audit/labs/hero-options; previous hero in src/labs/hero-options/v1). Tokens only (colours are tokens or
+   color-mix of tokens). The sign face (Overpass, the open Highway-Gothic model) is used ONLY on the two sign plates.
+   The hero fits one screen at every size (height = screen minus header and phone dock); the main CTA stays above the fold. */
+/* the sign face is declared in tokens.css (--f-sign) */
+
+.hero {
+  --pool-x: 70%; --pool-y: 46%; --pool-a: .16; --pool-w: 50%; --pool-h: 72%;
+  display: grid; align-items: center; overflow: hidden; isolation: isolate;
+  min-height: min(calc(100svh - var(--header-h) - var(--dock-h) - 2px), 900px);
+  padding-block: clamp(20px, 4.5vh, 56px);
+}
+.hero::before { z-index: 0; }
+.hero .particles { z-index: 0; }
+
+/* ---- the copy column (as today) ---- */
+.hero__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(24px, 4vw, 64px); align-items: center; }
+.hero__copy { position: relative; z-index: 2; }
+.hero h1 { font-size: clamp(2.6rem, 1.1rem + 4.9vw, 5.6rem); line-height: .96; margin-bottom: clamp(14px, 2vh, 22px); }
+.hero__l1, .hero__l2 { display: block; }
+.hero__l2 .accent { font-size: 1.12em; }
+.hero__tagline { max-width: 44ch; margin-bottom: clamp(16px, 2.4vh, 26px); color: var(--ink-2); }
+/* the pin and clock icons separate the two facts, so a wrapped row never ends on a dangling "·" */
+.hero__info { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 26px; margin-bottom: clamp(18px, 2.8vh, 30px); }
+.hero__info .info { margin: 0; color: var(--ink-2); }
+.hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: clamp(18px, 3vh, 32px); }
+.hero__stats { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; }
+
+/* ---- the stage: a size container; inside it one canvas of fixed shape, everything placed in % / cqw of it ---- */
+.hero__stage { position: relative; z-index: 1; justify-self: center; display: grid; align-content: center;
+  width: min(100%, 540px); height: min(628px, calc(100svh - var(--header-h) - 104px)); container-type: size; }
+.sculpt {
+  /* portrait canvas (desktop / tablet landscape): W : H = 1 : 1.163 */
+  --ar: .86;
+  --nj-x: 10%; --nj-y: 1%; --nj-h: 92%;
+  --pole-x: 44%; --pole-top: 24.5%; --pole-foot: 5%;
+  --top-y: 29%; --low-y: 43.5%; --f-main: 8.6cqw; --f-sub: 5.1cqw;
+  --win-x: 11%; --win-y: 52.5%; --win-w: 25%;
+  --bud-x: 54%; --bud-y: 62%; --bud-w: 25%;
+  --roll-x: 13%; --roll-y: 85%; --roll-w: 19%;
+  position: relative; margin-inline: auto; width: min(100cqw, calc(100cqh * var(--ar))); aspect-ratio: var(--ar); container-type: inline-size;
+}
+
+/* light behind the whole sign: an emerald halo + one small warm lamp glow at the top of the pole */
+.sculpt__halo { position: absolute; inset: -8% -12%; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(44% 38% at 46% 42%, color-mix(in srgb, var(--emerald-c) 24%, transparent), color-mix(in srgb, var(--emerald-c) 6%, transparent) 58%, transparent 74%),
+    radial-gradient(18% 13% at 46% 20%, color-mix(in srgb, var(--amber-c) 13%, transparent), transparent 70%); }
+/* 900-1279: the sculpture column sits near the window edge — keep the (already transparent) outer band of the glow inside it */
+@media (min-width: 900px) and (max-width: 1279.98px) { .sculpt__halo { inset: -8% -3%; } }
+
+/* New Jersey as a faint emerald light shape */
+.sculpt__nj { position: absolute; z-index: 0; left: var(--nj-x); top: var(--nj-y); height: var(--nj-h); width: auto; aspect-ratio: 226 / 420; overflow: visible;
+  filter: drop-shadow(0 0 1.2cqw color-mix(in srgb, var(--emerald-c) 40%, transparent)) drop-shadow(0 0 6cqw color-mix(in srgb, var(--emerald-c) 20%, transparent)); }
+.sculpt__nj path { stroke: color-mix(in srgb, var(--emerald-c) 62%, transparent); stroke-width: 1.3; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.heroA-s0 { stop-color: var(--emerald-c); stop-opacity: .3; }
+.heroA-s1 { stop-color: var(--emerald-c); stop-opacity: .13; }
+.heroA-s2 { stop-color: var(--emerald-deep-c); stop-opacity: .26; }
+
+/* the pool of light at the pole's foot */
+.sculpt__pool { position: absolute; z-index: 1; left: var(--pole-x); bottom: 0; width: 72%; height: 15%; translate: -50% 0; pointer-events: none;
+  background:
+    radial-gradient(14% 22% at 50% 52%, color-mix(in srgb, var(--mint-line) 40%, transparent), transparent 100%),
+    radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 46%, transparent), color-mix(in srgb, var(--emerald-c) 12%, transparent) 52%, transparent 100%); }
+
+/* the store photo, small, in a glass frame like a lit shop window */
+.sculpt__window { position: absolute; z-index: 2; margin: 0; left: var(--win-x); top: var(--win-y); width: var(--win-w); aspect-ratio: 382 / 510;
+  padding: .9cqw; border-radius: 2.4cqw; transform: rotate(-3deg);
+  background: var(--sheen), color-mix(in srgb, var(--emerald-c) 10%, transparent); border: 1px solid var(--glass-line-hi);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 24%, transparent), 0 0 0 1px color-mix(in srgb, var(--emerald-c) 22%, transparent),
+    0 0 4cqw -.4cqw color-mix(in srgb, var(--emerald-c) 50%, transparent), var(--shadow-2); }
+.sculpt__window img { width: 100%; height: 100%; object-fit: cover; border-radius: 1.6cqw; filter: saturate(1.05) contrast(1.04); }
+.sculpt__window::after { content: ""; position: absolute; inset: .9cqw; border-radius: 1.6cqw; pointer-events: none;
+  background: linear-gradient(152deg, color-mix(in srgb, var(--white) 16%, transparent) 0%, transparent 30%),
+              linear-gradient(0deg, color-mix(in srgb, var(--emerald-c) 20%, transparent), transparent 42%); }
+
+/* the sign: pole + two plates (the plates sway on their own wrapper, so the tilt stays on the plate) */
+.sculpt__sign { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.sculpt__pole { position: absolute; left: var(--pole-x); top: var(--pole-top); bottom: var(--pole-foot); width: max(5px, 1.7cqw); translate: -50% 0;
+  border-radius: 99px 99px 2px 2px;
+  background:
+    linear-gradient(180deg, transparent 62%, color-mix(in srgb, var(--emerald-c) 55%, transparent) 100%),
+    linear-gradient(90deg, color-mix(in srgb, var(--ink-4) 60%, transparent) 0%, color-mix(in srgb, var(--white) 88%, transparent) 36%, color-mix(in srgb, var(--ink-2) 72%, transparent) 62%, color-mix(in srgb, var(--ink-4) 40%, transparent) 100%);
+  box-shadow: 0 0 1.4cqw color-mix(in srgb, var(--emerald-c) 50%, transparent), 0 0 5cqw color-mix(in srgb, var(--emerald-c) 22%, transparent); }
+.sculpt__sway { position: absolute; left: var(--pole-x); translate: -47% 0; transform-origin: 47% 50%; }
+.sculpt__sway--top { top: var(--top-y); z-index: 2; }
+.sculpt__sway--low { top: var(--low-y); z-index: 1; translate: -50% 0; }
+
+/* a sign plate: emerald-tinted glass lit from within, the white hairline inset border, letters in the sign face */
+.plate {
+  position: relative; display: inline-flex; align-items: baseline; white-space: nowrap;
+  padding: .3em .56em .24em; border-radius: .2em;
+  font-family: var(--f-sign); font-weight: 800; line-height: 1; letter-spacing: .004em; color: var(--ink);
+  /* deep emerald glass (so the white letters read like a real sign), lit from within by a top glow + inner light */
+  background:
+    radial-gradient(80% 120% at 50% -24%, color-mix(in srgb, var(--emerald-c) 30%, transparent), transparent 66%),
+    linear-gradient(180deg, color-mix(in srgb, var(--emerald-deep-c) 74%, transparent), color-mix(in srgb, var(--emerald-deep-c) 62%, var(--bg-0)));
+  border: 1px solid color-mix(in srgb, var(--emerald-c) 60%, transparent);
+  -webkit-backdrop-filter: blur(10px) saturate(150%); backdrop-filter: blur(10px) saturate(150%);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 28%, transparent), inset 0 0 .9em color-mix(in srgb, var(--emerald-c) 18%, transparent),
+    0 0 1.5em -.2em color-mix(in srgb, var(--emerald-c) 50%, transparent), 0 .9em 1.4em -.8em var(--black);
+  text-shadow: 0 0 .6em color-mix(in srgb, var(--emerald-c) 34%, transparent);
+}
+.plate::before { content: ""; position: absolute; inset: .13em; border-radius: .12em; pointer-events: none;
+  border: max(1.25px, .05em) solid color-mix(in srgb, var(--white) 62%, transparent); }
+/* one faint diagonal glass sheen, behind the letters (the transformed plate is its own stacking context) */
+.plate::after { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(112deg, transparent 16%, color-mix(in srgb, var(--white) 7%, transparent) 28%, transparent 42%); }
+.plate--main { font-size: var(--f-main); transform: perspective(30em) rotateY(-22deg) rotate(-4deg); }
+.plate__ave { font-size: max(11px, .5em); align-self: flex-start; margin: .2em 0 0 .32em; letter-spacing: .01em; }
+.plate--sub { font-size: var(--f-sub); font-weight: 760; text-transform: uppercase; letter-spacing: .035em; padding: .34em .62em .28em;
+  transform: perspective(26em) rotateY(16deg) rotate(4deg);
+  background:
+    radial-gradient(80% 120% at 50% -24%, color-mix(in srgb, var(--emerald-c) 18%, transparent), transparent 66%),
+    linear-gradient(180deg, color-mix(in srgb, var(--emerald-deep-c) 52%, var(--bg-1)), color-mix(in srgb, var(--emerald-deep-c) 34%, var(--bg-0)));
+  border-color: color-mix(in srgb, var(--emerald-c) 42%, transparent); }
+.plate--sub::before { border-color: color-mix(in srgb, var(--white) 56%, transparent); }
+
+/* two cut-outs float near the pole's foot */
+.sculpt__bud { left: var(--bud-x); top: var(--bud-y); width: var(--bud-w); z-index: 4; }
+.sculpt__roll { left: var(--roll-x); top: var(--roll-y); width: var(--roll-w); z-index: 4; }
+
+/* ---- calm motion: plates sway ±1.2deg, the light breathes. Stopped by the pause control (atmosphere.css pauses every
+   animation) and switched off under reduced motion (below). ---- */
+@keyframes heroA-sway { from { rotate: -1.2deg; } to { rotate: 1.2deg; } }
+@keyframes heroA-breathe { from { opacity: .68; } to { opacity: 1; } }
+.sculpt__sway--top { animation: heroA-sway 10s var(--ease-soft) infinite alternate; }
+.sculpt__sway--low { animation: heroA-sway 12s var(--ease-soft) -5s infinite alternate-reverse; }
+.sculpt__nj { animation: heroA-breathe 11s var(--ease-soft) infinite alternate; }
+.sculpt__pool { animation: heroA-breathe 8s var(--ease-soft) -3s infinite alternate; }
+@media (prefers-reduced-motion: reduce) {
+  .sculpt__sway--top, .sculpt__sway--low, .sculpt__nj, .sculpt__pool { animation: none !important; }
+}
+
+/* ---- tablets landscape: narrower stage column ---- */
+@media (max-width: 1099.98px) {
+  .hero__grid { grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); }
+}
+
+/* ---- below 900: copy on top, the sculpture becomes a landscape band filling the room under the copy ---- */
+@media (max-width: 899.98px) {
+  .hero { align-items: stretch; }
+  .hero__grid { grid-template-columns: 1fr; grid-template-rows: auto minmax(0, 1fr); height: 100%; gap: clamp(12px, 2.4vh, 28px); }
+  .hero__stage { width: 100%; height: 100%; max-height: 340px; min-height: 0; align-self: center; }
+  .sculpt {
+    --ar: 1.9;
+    --nj-x: 30.5%; --nj-y: 0%; --nj-h: 100%;
+    --pole-x: 47%; --pole-top: 5%; --pole-foot: 4%;
+    --top-y: 14%; --low-y: 40%; --f-main: 6cqw; --f-sub: 3.7cqw;
+    --win-x: 6.5%; --win-y: 17%; --win-w: 18.5%;
+    --bud-x: 65%; --bud-y: 45%; --bud-w: 15.5%;
+    --roll-x: 27%; --roll-y: 76%; --roll-w: 13%;
+  }
+  .sculpt__pool { width: 54%; height: 20%; }
+  .sculpt__halo { inset: -6% -4%; }
+}
+
+/* ---- phones: decoration steps back. The band shows only when there is room (tall phones), else it hides ---- */
+@media (max-width: 599.98px) {
+  .hero__stage { display: none; }
+  .hero h1 { font-size: clamp(2.35rem, 1.2rem + 7.2vw, 3.1rem); }
+  .hero__tagline { font-size: 1.0625rem; }
+  .hero__info { flex-direction: column; align-items: flex-start; gap: 6px; }
+  /* no room for the band: centre the copy so the spare height splits above and below instead of one dead band */
+  .hero { align-items: center; }
+  .hero__grid { height: auto; grid-template-rows: auto; }
+  .hero__ctas { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .hero__ctas .btn { padding: 0 12px; min-height: 52px; font-size: .9375rem; }
+  .hero__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .hero__stats .stat-chip { min-width: 0; padding: 10px 10px; }
+  .hero__stats .stat-chip b { font-size: 1.25rem; }
+  .hero__stats .stat-chip span { font-size: .6875rem; letter-spacing: .08em; }
+}
+@media (max-width: 599.98px) and (min-height: 760px) {
+  .hero { align-items: stretch; padding-block: 20px 14px; }
+  .hero__grid { height: 100%; grid-template-rows: auto minmax(0, 1fr); gap: 14px; }
+  .hero__stage { display: grid; max-height: 210px; }
+  .sculpt {
+    --ar: 1.85;
+    --nj-x: 35%; --nj-h: 100%;
+    --pole-x: 53%; --pole-top: 4%; --pole-foot: 4%;
+    --top-y: 12%; --low-y: 43%; --f-main: 7.6cqw; --f-sub: 4.8cqw;
+    --win-x: 1.5%; --win-y: 20%; --win-w: 17.5%;
+    --bud-x: 79%; --bud-y: 38%; --bud-w: 17%;
+  }
+  .sculpt__roll { display: none; }
+  .sculpt__window { padding: 3px; border-radius: 10px; }
+  .sculpt__window img, .sculpt__window::after { border-radius: 7px; }
+  .sculpt__window::after { inset: 3px; }
+}
+/* short landscape phones / tablets: natural height, no sculpture */
+@media (max-height: 539.98px) and (max-width: 1099.98px) { .hero { min-height: 0; } .hero__stage { display: none; } }
+
+/* plate words come from data-text (decorative duplicate of the brand name, kept out of the document text) */
+.plate__text::before, .plate__word::before, .plate__ave::before { content: attr(data-text); }
+
+/* pages/home/02-categories.css */
+/* 02-categories */
+.cats { --pool-x: 20%; --pool-y: 30%; --pool-a: .09; }
+.cats__rail { list-style: none; }
+.cats__controls { display: none; }
+@media (min-width: 1100px) {
+  .cats__rail { grid-auto-flow: row; grid-template-columns: repeat(6, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) {
+  .cats__rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .cats__rail .tile { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 767.98px) {
+  .cats__rail { --rail-col: 42%; }
+  .cats__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .cats__rail .tile__name { font-size: 1rem; }
+}
+
+/* pages/home/03-weekly.css */
+/* 03-weekly */
+.weekly { --pool-x: 80%; --pool-y: 40%; padding-top: calc(var(--sec-y) * .6); }
+.weekly__mq { position: relative; z-index: 1; margin-bottom: clamp(24px, 3.4vw, 44px); }
+.weekly__rail { list-style: none; --rail-col: 62%; }
+@media (min-width: 1100px) {
+  .weekly__rail { grid-auto-flow: row; grid-template-columns: repeat(7, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .weekly__controls { display: none; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) { .weekly__rail { --rail-col: 31%; } }
+.weekly__foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: clamp(18px, 2.4vw, 28px); }
+
+/* pages/home/04-bulk.css */
+/* 04-bulk — the contrast shift: a brighter, lit panel between the dark deal rows. Light is painted (backgrounds), never a box. */
+.bulk { --pool-x: 70%; --pool-y: 60%; --pool-a: .2; --pool-w: 62%; --pool-h: 86%; padding-block: calc(var(--sec-y) * .7); }
+.bulk__panel {
+  display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: clamp(24px, 4vw, 64px); align-items: center;
+  padding: clamp(22px, 3.6vw, 52px); overflow: hidden; border-color: var(--glass-line-hi);
+  background:
+    radial-gradient(58% 80% at 82% 108%, rgb(var(--emerald) / .26), transparent 70%),
+    radial-gradient(40% 60% at 6% 0%, rgb(var(--accent-glow) / .08), transparent 70%),
+    radial-gradient(120% 90% at 50% 0%, rgb(var(--emerald) / .14), transparent 62%),
+    var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .1), 0 0 0 1px rgb(var(--emerald) / .12), var(--shadow-2), 0 30px 90px -40px rgb(var(--emerald) / .5);
+}
+.bulk__copy { position: relative; z-index: 1; }
+.bulk__badge { margin-bottom: 16px; }
+.bulk h2 { font-size: clamp(1.85rem, 1.1rem + 2.7vw, 3.4rem); }
+.bulk__text { margin-top: 14px; margin-bottom: clamp(20px, 2.4vw, 30px); }
+
+/* the ladder: three glass steps, each taller than the last, numbers at the top of each step. The lowest step holds its
+   number, OFF, qty and weight with room to spare at every width (min-height: min-content + the qty's 12px margin are the
+   floor); a 12% rise per step keeps the top step from turning into an empty slab. */
+.bulk__tiers { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 16px);
+  align-items: end; height: clamp(230px, 20vw, 288px); list-style: none; }
+.bulk__tier { --h: calc(76% + var(--step) * 12%); height: var(--h); min-height: min-content; display: flex; flex-direction: column; gap: 4px;
+  padding: clamp(14px, 1.6vw, 22px) clamp(12px, 1.4vw, 20px); border-radius: var(--r-tile); border: 1px solid var(--glass-line);
+  /* dark strong glass under a top light: the panel's light must not wash out the step text (contrast on real pixels) */
+  background: linear-gradient(180deg, rgb(var(--emerald) / .18), transparent 55%), var(--glass-strong);
+  box-shadow: inset 0 2px 0 rgb(var(--emerald) / .55), inset 0 1px 0 rgb(255 255 255 / .08); }
+.bulk__tier p { margin: 0; }
+.bulk__tier .bulk__qty { margin-top: 12px; }
+.bulk__save { display: flex; flex-direction: column; gap: 4px; margin-bottom: auto !important; }
+.bulk .stat__num { font-size: clamp(2rem, 1.1rem + 3.2vw, 4.1rem); }
+.bulk__off { font: 650 var(--t-xs)/1.2 var(--f-body); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2); }
+.bulk__qty { font: 700 clamp(.9375rem, .86rem + .3vw, 1.0625rem)/1.25 var(--f-display); color: var(--ink); letter-spacing: -.005em; }
+.bulk__wt { font-size: .9375rem; color: var(--ink-3); line-height: 1.3; }
+.bulk__tier--top { border-color: rgb(var(--accent-glow) / .6);
+  background: radial-gradient(120% 60% at 50% 0%, rgb(var(--accent-glow) / .14), transparent 70%), linear-gradient(180deg, rgb(var(--emerald) / .14), transparent 55%), var(--glass-strong);
+  box-shadow: inset 0 2px 0 rgb(var(--accent-glow) / .8), 0 0 0 1px rgb(var(--accent-glow) / .18), 0 22px 60px -24px rgb(var(--accent-glow) / .5); }
+.bulk__tier--top .bulk__off { color: var(--accent-hi); }
+
+@media (max-width: 899.98px) {
+  .bulk__panel { grid-template-columns: 1fr; }
+  .bulk__tiers { height: 220px; }
+}
+@media (max-width: 599.98px) {
+  .bulk__panel { gap: 22px; padding: 22px 18px; }
+  .bulk .btn--lg { width: 100%; }
+  .bulk__tiers { height: 180px; gap: 8px; }
+  .bulk__tier { --h: calc(72% + var(--step) * 14%); padding: 12px 10px; }
+  .bulk .stat__num { font-size: clamp(1.7rem, 1rem + 3.6vw, 2.2rem); }
+  .bulk__off { letter-spacing: .14em; }
+  .bulk__qty { font-size: .9375rem; }
+  .bulk__wt { font-size: .875rem; }
+}
+
+/* pages/home/05-featured.css */
+/* 05-featured — four deal tiles. >= 1280px: one row of four that fits one screen under the header (1280x720: section
+   <= 648px; 1440x900: <= 828px), the wide tiles sized so their two badges stay on one line. Below 1280px: a swipe rail
+   (shared rail controls). Tiles in a row are equally tall; the spare height collects above the CTA (margin-top: auto),
+   never inside a bordered panel. */
+.featured { --pool-x: 18%; --pool-y: 55%; --pool-a: .11; padding-block: calc(var(--sec-y) * .42); }
+.featured .sec-head { margin-bottom: clamp(16px, 1.8vw, 24px); }
+.featured__rail { list-style: none; --rail-col: 86%; }
+.fx { display: flex; min-width: 0; }
+.fx__card { width: 100%; height: 100%; gap: 10px; justify-content: flex-start; padding: clamp(18px, 1.7vw, 22px); }
+.fx__card > * { position: relative; z-index: 1; }
+.fx--first .fx__card { background: radial-gradient(90% 70% at 100% 100%, rgb(var(--emerald) / .2), transparent 70%), var(--sheen), var(--glass-fill-2); }
+.fx--bundles .fx__card { background: radial-gradient(60% 70% at 100% 0%, rgb(var(--amber) / .07), transparent 70%), var(--sheen), var(--glass-fill); }
+.fx--loyalty .fx__card { background: radial-gradient(80% 70% at 0% 100%, rgb(var(--emerald) / .14), transparent 70%), var(--sheen), var(--glass-fill); }
+
+.fx__badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+/* a little tighter than the shared badge so a two-badge pair fits one line in a tile */
+.fx__badges .badge { letter-spacing: .12em; padding-inline: 9px; }
+.fx__title { font-size: clamp(1.25rem, .95rem + 1vw, 1.65rem); line-height: 1.08; letter-spacing: -.018em; }
+.fx__title .accent { font-size: 1.12em; }
+.fx__card .fx__text { margin: 10px 0 0; font-size: .9375rem; line-height: 1.55; color: var(--ink-2); max-width: 46ch; }
+.fx__cta { align-self: flex-start; margin-top: auto; }
+.fx__aside { margin: 0; }
+
+/* First Visit: the 20% stat + the two promises (side by side when there is room, stacked when not). Never stretched. */
+.fx__stat { display: flex; align-items: center; gap: 10px 22px; flex-wrap: wrap; padding: 14px 16px; border-radius: var(--r-tile);
+  background: rgb(var(--emerald) / .07); border: 1px solid var(--glass-line); }
+.fx__stat .stat { margin: 0; gap: 4px; }
+.fx__stat .stat__num { font-size: clamp(2.4rem, 1.6rem + 2vw, 3.3rem); }
+.fx__points { list-style: none; display: grid; gap: 6px; }
+.fx__points li { display: flex; align-items: center; gap: 10px; color: var(--ink); font-size: .9375rem; font-weight: 550; }
+.fx__points li::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px rgb(var(--accent-glow) / .7); }
+
+/* Bring a Friend: You + Friend */
+.fx__pair { list-style: none; display: grid; gap: 6px; }
+.fx__person { display: flex; align-items: center; gap: 12px; padding: 6px 12px 6px 6px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__initial { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%;
+  font: 780 1.0625rem/1 var(--f-display); color: var(--ink);
+  background: radial-gradient(100% 100% at 30% 20%, rgb(var(--emerald) / .5), rgb(var(--emerald) / .12)); border: 1px solid rgb(var(--emerald) / .45); }
+.fx__who { display: grid; gap: 2px; line-height: 1.3; }
+.fx__who b { font: 700 .6875rem/1.2 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3); }
+.fx__who span { color: var(--ink); font-weight: 600; font-size: .9375rem; }
+.fx__card .fx__terms { margin: 8px 0 0; font-size: .9375rem; line-height: 1.45; color: var(--ink-3); }
+
+/* Curated Bundles: one inset glass list, rows split by hairlines (compact, no box per row) */
+.fx__tiers { list-style: none; display: grid; padding: 2px 14px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__tier { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name price" "line line"; align-items: baseline; column-gap: 12px; row-gap: 1px; padding: 8px 0; }
+.fx__tier + .fx__tier { border-top: 1px solid var(--glass-line); }
+.fx__price { grid-area: price; font: 750 1rem/1.2 var(--f-display); color: var(--ink); white-space: nowrap; }
+.fx__tname { grid-area: name; font: 700 .9375rem/1.25 var(--f-display); color: var(--ink); }
+.fx__tline { grid-area: line; font-size: .9375rem; color: var(--ink-3); line-height: 1.35; }
+
+/* Loyalty: Bronze / Silver / Gold — three chips across (rails); one hairline list in the >= 1280px row (see below) */
+.fx__levels { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.fx__level { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "medal name" "line line"; align-items: center; gap: 4px 8px; padding: 10px 12px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__medal { grid-area: medal; width: 16px; height: 16px; border-radius: 50%; }
+.fx__level--1 .fx__medal { background: radial-gradient(circle at 35% 30%, rgb(var(--amber) / .8), rgb(var(--amber) / .22)); box-shadow: 0 0 0 1px rgb(var(--amber) / .35); }
+.fx__level--2 .fx__medal { background: radial-gradient(circle at 35% 30%, var(--ink), var(--ink-4)); box-shadow: 0 0 0 1px rgb(255 255 255 / .2); }
+.fx__level--3 .fx__medal { background: radial-gradient(circle at 35% 30%, rgb(var(--amber)), rgb(var(--amber) / .6)); box-shadow: 0 0 0 1px rgb(var(--amber) / .6), 0 0 14px rgb(var(--amber) / .45); }
+.fx__lname { grid-area: name; font: 700 .9375rem/1.2 var(--f-display); color: var(--ink); }
+.fx__lline { grid-area: line; font-size: .9375rem; line-height: 1.3; color: var(--ink-3); }
+
+.featured__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+
+/* >= 1280px: the four deals in one row. Column weights give the two-badge tiles (Bring a Friend, Curated Bundles) the
+   width their badge pair needs (1280: 282px / 332px), so every title starts on the same line. */
+@media (min-width: 1280px) {
+  .featured__rail { grid-auto-flow: row; grid-template-columns: minmax(0, 1fr) minmax(0, 1.07fr) minmax(0, 1.26fr) minmax(0, 1fr); gap: 14px; overflow: visible; margin: 0; padding: 0; }
+  .featured__controls { display: none; }
+  .fx__title { font-size: clamp(1.25rem, .9rem + .55vw, 1.45rem); }
+  /* Loyalty levels: one row each (medal, name, line), right-aligned line — 3 chips across would not hold "Exclusive" here */
+  .fx__levels { grid-template-columns: 1fr; gap: 0; padding: 2px 14px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+  .fx__level { grid-template-columns: auto auto minmax(0, 1fr); grid-template-areas: "medal name line"; gap: 8px; padding: 9px 0; background: none; border: 0; border-radius: 0; }
+  .fx__level + .fx__level { border-top: 1px solid var(--glass-line); }
+  .fx__lline { text-align: right; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) { .featured__rail { --rail-col: 46%; } }
+@media (min-width: 1100px) and (max-width: 1279.98px) { .featured__rail { --rail-col: 36%; } }
+@media (max-width: 767.98px) {
+  .fx__card { padding: 18px 16px; gap: 10px; }
+  .fx__card .fx__text { font-size: .875rem; }
+  .fx__stat { padding: 12px 14px; }
+  .fx__level { padding: 10px 8px; }
+  .fx__lname { font-size: .875rem; }
+  .fx__card .fx__terms, .fx__tline, .fx__lline { font-size: .875rem; }
+}
+
+/* pages/home/06-pillars.css */
+/* 06-pillars — four promises; desktop 4-up, tablets 4-up / 2 x 2, phones a compact 2 x 2 */
+.pillars { --pool-x: 50%; --pool-y: 8%; --pool-w: 60%; --pool-h: 60%; padding-block: calc(var(--sec-y) * .7); }
+.pillars__grid { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
+/* icon / title / text rows are shared across a row of cards (subgrid): a two-line title ("Minority-Women Owned") makes
+   every title row in that row two lines tall, so each card's body copy starts on the same line */
+@supports (grid-template-rows: subgrid) {
+  .pillar { display: grid; grid-row: span 3; grid-template-rows: subgrid; align-content: start; }
+}
+.pillar { padding: clamp(20px, 2vw, 28px); gap: 12px; justify-content: flex-start;
+  background: radial-gradient(110% 70% at 50% 0%, rgb(var(--emerald) / .1), transparent 66%), var(--sheen), var(--glass-fill); }
+.pillar .icon-disc { margin-bottom: 4px; }
+.pillar h3 { font-size: clamp(1.0625rem, .95rem + .45vw, 1.3rem); }
+.pillar p { font-size: .9375rem; line-height: 1.55; }
+/* a lit hairline that grows under the icon on hover */
+.pillar::before { content: ""; position: absolute; left: clamp(20px, 2vw, 28px); right: clamp(20px, 2vw, 28px); top: 0; height: 1px;
+  background: linear-gradient(90deg, rgb(var(--emerald) / .7), transparent); opacity: .5; transition: opacity var(--dur) var(--ease); }
+.pillar:hover::before { opacity: 1; }
+
+@media (max-width: 899.98px) { .pillars__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 599.98px) {
+  .pillars__grid { gap: 10px; }
+  .pillar { padding: 16px 14px; gap: 8px; }
+  .pillar .icon-disc { width: 40px; height: 40px; border-radius: 12px; }
+  .pillar .icon-disc svg { width: 20px; height: 20px; }
+  .pillar h3 { font-size: 1rem; line-height: 1.2; }
+  .pillar p { font-size: .875rem; line-height: 1.5; }
+}
+
+/* pages/home/07-order.css */
+/* 07-order — split bento: head + "Ready to order?" left, the three methods stacked right */
+.order { --pool-x: 78%; --pool-y: 50%; --pool-a: .12; padding-block: calc(var(--sec-y) * .7); }
+.order__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); grid-template-rows: auto 1fr; gap: var(--gap) clamp(24px, 3.6vw, 56px);
+  grid-template-areas: "head methods" "ready methods"; }
+.order__head { grid-area: head; }
+.order__head .sec-head { margin-bottom: 0; }
+.order__methods { grid-area: methods; list-style: none; display: grid; gap: var(--gap); align-content: center; }
+.order__ready { grid-area: ready; align-self: end; }
+
+.method { flex-direction: row; align-items: flex-start; gap: 18px; padding: clamp(18px, 1.9vw, 24px); }
+.method__body { min-width: 0; }
+.method h3 { font-size: clamp(1.0625rem, .95rem + .45vw, 1.3rem); margin-bottom: 6px; }
+.method p { font-size: .9375rem; line-height: 1.55; margin: 0; }
+
+.order__ready { position: relative; overflow: hidden; padding: clamp(22px, 2.6vw, 34px); padding-right: clamp(140px, 13vw, 190px); }
+.order__ready h3 { font-size: clamp(1.35rem, 1.05rem + 1vw, 1.85rem); margin-bottom: 8px; }
+.order__ready p { color: var(--ink-2); margin-bottom: 18px; }
+.order__ready-copy { position: relative; z-index: 2; }
+/* the cut-out floats INSIDE the card (its float rise is 14px, so the bottom inset covers it): never sliced by an edge */
+.order__float { right: clamp(8px, 1vw, 14px); bottom: clamp(12px, 1.2vw, 18px); width: clamp(116px, 11vw, 158px); z-index: 1; }
+.order__float img { -webkit-mask-image: radial-gradient(closest-side, #000 62%, transparent 100%); mask-image: radial-gradient(closest-side, #000 62%, transparent 100%); }
+
+@media (max-width: 899.98px) {
+  .order__grid { grid-template-columns: 1fr; grid-template-rows: none; grid-template-areas: "head" "methods" "ready"; }
+}
+/* phones: compact method rows and a one-block "Ready to order?" (title over text + button side by side), so the whole
+   section stays under one 360x740 screen */
+@media (max-width: 599.98px) {
+  .order { padding-block: calc(var(--sec-y) * .5); }
+  .order__methods { gap: 8px; }
+  .method { gap: 12px; padding: 12px 14px 12px 12px; }
+  .method .icon-disc { width: 36px; height: 36px; border-radius: 11px; }
+  .method .icon-disc svg { width: 18px; height: 18px; }
+  .method h3 { font-size: 1rem; margin-bottom: 2px; }
+  .method p { font-size: .875rem; line-height: 1.5; }
+  .order__ready { padding: 16px; padding-right: 16px; }
+  .order__ready-copy { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "title title" "text cta"; align-items: center; gap: 6px 12px; }
+  .order__ready h3 { grid-area: title; margin: 0; font-size: 1.25rem; }
+  .order__ready p { grid-area: text; margin: 0; font-size: .9375rem; line-height: 1.45; }
+  .order__ready .btn { grid-area: cta; padding: 0 18px; }
+  .order__float { display: none; }
+}
+
+/* pages/home/08-brands.css */
+/* 08-brands — a compact band (<= ~320px at 1440): small centred title, one outlined marquee between two hairlines of light */
+.brands { overflow: hidden; }
+.brands__title { text-align: center; font-size: clamp(1.45rem, 1.05rem + 1.4vw, 2.2rem); margin-bottom: clamp(16px, 2vw, 26px); }
+.brands__band { position: relative; z-index: 1;
+  background: radial-gradient(50% 120% at 50% 50%, rgb(var(--emerald) / .1), transparent 72%); }
+.brands__band .marquee { padding-block: clamp(10px, 1.4vw, 18px); }
+.brands .mq-word { font-size: clamp(1.6rem, 1.05rem + 2.2vw, 3.2rem); }
+/* moving: the alternate words stay outlined (the brief's outlined marquee), but with the heavier stroke of
+   .stat__num--outline so they read as clearly as the filled ones (the shared 1px / 65% stroke is too faint here) */
+.brands .mq-word--outline { -webkit-text-stroke: 1.5px rgb(var(--accent-glow) / .9); }
+
+/* still (paused / reduced motion): a wrapped, centred list in two-three lines, never clipped mid-word */
+/* atmosphere.css leaves .marquee__half at flex: none (max-content wide), so its flex-wrap never wraps: give it the row */
+@media (prefers-reduced-motion: reduce) {
+  .brands .marquee__half { flex: 1 1 100%; min-width: 0; row-gap: 2px; padding-inline: var(--gutter); }
+  .brands .mq-word { font-size: clamp(1.15rem, .9rem + 1.1vw, 1.75rem); letter-spacing: -.012em; }
+  .brands .mq-sep { padding: 0 .55em; }
+  .brands .marquee__half > .mq-sep:last-child { display: none; }
+  /* small still words: the 1px outline reads weakly, so the alternate words are filled in the softer ink instead */
+  .brands .mq-word--outline { color: var(--ink-3); -webkit-text-stroke: 0; }
+}
+html[data-motion="paused"] .brands .marquee__half > .mq-sep:last-child { display: none; }
+html[data-motion="paused"] .brands .marquee__half { flex: 1 1 100%; min-width: 0; row-gap: 2px; padding-inline: var(--gutter); }
+html[data-motion="paused"] .brands .mq-word { font-size: clamp(1.15rem, .9rem + 1.1vw, 1.75rem); letter-spacing: -.012em; }
+html[data-motion="paused"] .brands .mq-sep { padding: 0 .55em; }
+html[data-motion="paused"] .brands .mq-word--outline { color: var(--ink-3); -webkit-text-stroke: 0; }
+
+/* pages/home/09-rooted.css */
+/* 09-rooted — story left; a bento right: the framed interior photo + the four stats (2 x 2). Phones: photo | stat list. */
+.rooted { --pool-x: 24%; --pool-y: 40%; overflow: hidden; isolation: isolate; padding-block: calc(var(--sec-y) * .8); }
+/* the ghost word sits in the open band above the bento, its right edge on the container's edge (never clipped by the
+   viewport, never behind the stat cards): sized so its box (.8em) ends above the stats at every desktop width */
+.rooted__ghost { top: 2px; right: max(var(--gutter), calc((100% - var(--container)) / 2)); font-size: clamp(3.5rem, 1.5rem + 5.4vw, 6.75rem); }
+.rooted__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(28px, 4.4vw, 72px); align-items: center; }
+.rooted h2 { margin-bottom: 18px; }
+.rooted__text { color: var(--ink-2); max-width: 54ch; margin-bottom: clamp(20px, 2.4vw, 30px); }
+
+.rooted__bento { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); gap: var(--gap); align-items: stretch; }
+/* the photo never sets the row height (it is 382 x 510 and must not be upscaled into a tall slab): the stats do */
+.rooted__photo { margin: 0; min-height: 220px; max-height: 510px;
+  box-shadow: var(--shadow-2), 0 0 60px -20px rgb(var(--emerald) / .45); }
+.rooted__photo img { position: absolute; inset: 0; object-position: 50% 45%; }
+.rooted__stats { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.rooted__stat { justify-content: flex-end; gap: 8px; min-height: clamp(128px, 11vw, 158px); padding: clamp(16px, 1.8vw, 24px); border-radius: var(--r-tile); }
+.rooted__stat .stat__num { font-size: clamp(2.1rem, 1.3rem + 2.4vw, 3.4rem); }
+.rooted__stat--1 { background: radial-gradient(100% 90% at 0% 100%, rgb(var(--accent-glow) / .12), transparent 70%), var(--sheen), var(--glass-fill-2); border-color: rgb(var(--accent-glow) / .35); }
+.rooted__stat--4 { background: radial-gradient(100% 90% at 100% 0%, rgb(var(--amber) / .1), transparent 70%), var(--sheen), var(--glass-fill); }
+
+@media (max-width: 899.98px) {
+  .rooted__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 599.98px) {
+  .rooted .btn--lg { width: 100%; }
+  .rooted__bento { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 10px; }
+  .rooted__stats { grid-template-columns: 1fr; gap: 8px; }
+  .rooted__stat { min-height: 0; padding: 12px 14px; gap: 4px; }
+  .rooted__stat .stat__num { font-size: 1.75rem; }
+  .rooted__stat .stat__label { font-size: .6875rem; letter-spacing: .14em; }
+}
+
+/* pages/home/10-vip.css */
+/* 10-vip — the closing call: one accent-lit glass panel, the email field and Subscribe side by side (stacked on phones) */
+.vip { --pool-x: 50%; --pool-y: 60%; --pool-a: .16; --pool-w: 64%; --pool-h: 90%; overflow: hidden; isolation: isolate; padding-block: calc(var(--sec-y) * .8) var(--sec-y); }
+.vip .particles i:nth-child(n + 7) { display: none; }
+.vip__panel { text-align: center; padding: clamp(26px, 4vw, 52px) clamp(20px, 4vw, 56px) clamp(14px, 2.4vw, 30px); }
+.vip__icon { margin: 0 auto 16px; }
+.vip h2 { margin-bottom: 12px; }
+.vip__text { margin: 0 auto clamp(20px, 2.6vw, 28px); max-width: 52ch; }
+.vip__form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; max-width: 560px; margin-inline: auto; text-align: left; }
+.vip__input { min-height: 54px; }
+.vip__status { grid-column: 1 / -1; text-align: center; margin: 0; }
+@media (max-width: 599.98px) {
+  .vip__form { grid-template-columns: 1fr; }
+  .vip__btn { width: 100%; }
+}
