@@ -8,7 +8,7 @@
 // Canonicals stay on the live domain on purpose: the live site is the real one. Every link in dist/ is relative, so the
 // preview works under the GitHub Pages sub-folder (/<repo>/); the 404 links from --base (build.mjs).
 //
-//   node src/tools/make-preview.mjs --out <dir>      (everything in <dir> except .git is replaced)
+//   node src/tools/make-preview.mjs --out <dir> [--base /<repo>/]   (everything in <dir> except .git is replaced)
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto'; import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const DIST = path.join(ROOT, 'dist');
@@ -16,6 +16,8 @@ const i = process.argv.indexOf('--out');
 if (i < 0 || !process.argv[i + 1]) { console.error('usage: node src/tools/make-preview.mjs --out <dir>'); process.exit(2); }
 const OUT = path.resolve(process.argv[i + 1]);
 if (OUT === DIST || OUT.startsWith(DIST + path.sep)) { console.error('refusing to write inside dist/'); process.exit(2); }
+const bi = process.argv.indexOf('--base'); const BASE = bi > 0 ? process.argv[bi + 1].replace(/\/?$/, '/') : '/';
+if (!/^\/[A-Za-z0-9._\/-]*\/$/.test(BASE)) { console.error('--base must look like /<repo>/'); process.exit(2); }
 const NOINDEX = '<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">';
 const sha = (b) => crypto.createHash('sha256').update(b).digest('hex');
 fs.mkdirSync(OUT, { recursive: true });
@@ -32,6 +34,14 @@ for (const f of pages) {
     const m = src.match(/<meta name="description"[^>]*>\n/); if (!m) { console.error('no meta description to anchor the robots tag in ' + rel); process.exit(1); }
     out = src.replace(m[0], m[0] + NOINDEX + '\n'); back = out.replace(NOINDEX + '\n', '');
   } else { console.error(`dist/${rel} has ${tags.length} robots tags`); process.exit(1); }
+  // the 404 is served at any missing URL, so it links from the site root; under a sub-folder host (/<repo>/) re-base it
+  if (rel === '404.html' && BASE !== '/') {
+    if (out.includes(`="${BASE}`)) { console.error('404.html already contains the base path; cannot prove the re-base'); process.exit(1); }
+    const based = out.replace(/(\s(?:href|src))="\/(?!\/)/g, `$1="${BASE}`);
+    const unbased = based.split(`="${BASE}`).join('="/');          // step 1 reverses exactly ...
+    if (unbased !== out) { console.error('404.html re-base is not reversible'); process.exit(1); }
+    out = based;                                                    // ... and `back` (robots reversed) is still checked below
+  }
   if (back !== src || (out.match(/<meta name="robots"/g) || []).length !== 1) { console.error(`the preview of ${rel} differs from dist/ by more than the robots tag`); process.exit(1); }
   fs.writeFileSync(path.join(OUT, rel), out);
 }
