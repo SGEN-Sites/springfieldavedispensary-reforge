@@ -1,0 +1,28 @@
+{
+ "_note": "NEW page (brief page 9: a 404 in the same style). Link labels are live chrome words (audit/pages/index); the code, heading and line are DECLARED in src/content/ui-labels.d/visit.json. Links are absolute from the site root (build.mjs --base).",
+ "eyebrow": "Springfield Ave Dispensary",
+ "code": "404",
+ "title": {
+  "text": "Page not found",
+  "accent": "found"
+ },
+ "lede": "The page you were looking for has moved or no longer exists.",
+ "primary": {
+  "text": "Shop Now",
+  "href": "shop/"
+ },
+ "links": [
+  {
+   "text": "Home",
+   "href": ""
+  },
+  {
+   "text": "Deals",
+   "href": "deals/"
+  },
+  {
+   "text": "Contact",
+   "href": "contact/"
+  }
+ ]
+}

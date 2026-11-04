@@ -1,0 +1,26 @@
+/* 08-brands — a compact band (<= ~320px at 1440): small centred title, one outlined marquee between two hairlines of light */
+.brands { overflow: hidden; }
+.brands__title { text-align: center; font-size: clamp(1.45rem, 1.05rem + 1.4vw, 2.2rem); margin-bottom: clamp(16px, 2vw, 26px); }
+.brands__band { position: relative; z-index: 1;
+  background: radial-gradient(50% 120% at 50% 50%, rgb(var(--emerald) / .1), transparent 72%); }
+.brands__band .marquee { padding-block: clamp(10px, 1.4vw, 18px); }
+.brands .mq-word { font-size: clamp(1.6rem, 1.05rem + 2.2vw, 3.2rem); }
+/* moving: the alternate words stay outlined (the brief's outlined marquee), but with the heavier stroke of
+   .stat__num--outline so they read as clearly as the filled ones (the shared 1px / 65% stroke is too faint here) */
+.brands .mq-word--outline { -webkit-text-stroke: 1.5px rgb(var(--accent-glow) / .9); }
+
+/* still (paused / reduced motion): a wrapped, centred list in two-three lines, never clipped mid-word */
+/* atmosphere.css leaves .marquee__half at flex: none (max-content wide), so its flex-wrap never wraps: give it the row */
+@media (prefers-reduced-motion: reduce) {
+  .brands .marquee__half { flex: 1 1 100%; min-width: 0; row-gap: 2px; padding-inline: var(--gutter); }
+  .brands .mq-word { font-size: clamp(1.15rem, .9rem + 1.1vw, 1.75rem); letter-spacing: -.012em; }
+  .brands .mq-sep { padding: 0 .55em; }
+  .brands .marquee__half > .mq-sep:last-child { display: none; }
+  /* small still words: the 1px outline reads weakly, so the alternate words are filled in the softer ink instead */
+  .brands .mq-word--outline { color: var(--ink-3); -webkit-text-stroke: 0; }
+}
+html[data-motion="paused"] .brands .marquee__half > .mq-sep:last-child { display: none; }
+html[data-motion="paused"] .brands .marquee__half { flex: 1 1 100%; min-width: 0; row-gap: 2px; padding-inline: var(--gutter); }
+html[data-motion="paused"] .brands .mq-word { font-size: clamp(1.15rem, .9rem + 1.1vw, 1.75rem); letter-spacing: -.012em; }
+html[data-motion="paused"] .brands .mq-sep { padding: 0 .55em; }
+html[data-motion="paused"] .brands .mq-word--outline { color: var(--ink-3); -webkit-text-stroke: 0; }

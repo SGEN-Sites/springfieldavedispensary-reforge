@@ -1,0 +1,321 @@
+{
+ "_note": "Careers (lane story). Every string from audit/pages/careers rendered.html (DOM case) / expanded.json; the role lists are the live <details> lists. Form messages are the live handler strings declared in ui-labels.json; 'Details' is declared in ui-labels.d/story.json.",
+ "hero": {
+  "eyebrow": "Now Hiring at Springfield Ave Dispensary",
+  "title": "Grow With Us",
+  "titleAccent": "Grow",
+  "lede": "We’re building New Jersey’s most trusted neighborhood dispensaries — and we’re looking for great people to join the team. Competitive pay, real growth, and a crew that has your back.",
+  "perks": [
+   {
+    "icon": "briefcase",
+    "text": "Competitive Pay"
+   },
+   {
+    "icon": "tag",
+    "text": "Employee Discount"
+   },
+   {
+    "icon": "cap",
+    "text": "Expert-Led Training"
+   },
+   {
+    "icon": "star",
+    "text": "Path To Leadership"
+   }
+  ],
+  "ctaPrimary": {
+   "text": "Apply Now",
+   "href": "#apply"
+  },
+  "ctaSecondary": {
+   "text": "Open Roles",
+   "href": "#roles"
+  }
+ },
+ "roles": {
+  "eyebrow": "Careers",
+  "title": "Open Roles",
+  "titleAccent": "Roles",
+  "lede": "Pick the role that fits you and apply right from this page.",
+  "skip": {
+   "text": "Skip to Application Form ↓",
+   "href": "#apply"
+  },
+  "detailsLabel": "Details",
+  "doLabel": "What you’ll do",
+  "lookLabel": "What we’re looking for",
+  "applyLabel": "Apply Now",
+  "items": [
+   {
+    "slug": "budtender",
+    "icon": "leaf",
+    "title": "Budtender",
+    "type": "Full-Time / Part-Time",
+    "summary": "Be the face of the dispensary. Guide customers through our menu, recommend products that fit their needs, and create a welcoming, judgment-free experience.",
+    "do": [
+     "Greet and educate customers on cannabis products, dosing, and effects",
+     "Process orders accurately on POS and Dutchie",
+     "Maintain a clean, organized sales floor and display cases",
+     "Verify IDs and follow all NJ-CRC compliance rules"
+    ],
+    "look": [
+     "Must be 21+ with a valid government-issued ID",
+     "Cannabis product knowledge (or strong desire to learn)",
+     "Excellent customer service and communication skills",
+     "Reliable transportation and weekend availability"
+    ],
+    "value": "Budtender"
+   },
+   {
+    "slug": "lead-budtender",
+    "icon": "star",
+    "title": "Lead Budtender",
+    "type": "Full-Time",
+    "summary": "Set the standard on the floor. Mentor new budtenders, own product knowledge training, and help shift leads keep the customer experience tight.",
+    "do": [
+     "Train and coach new budtenders on product and process",
+     "Run cash drawer reconciliation and end-of-day reports",
+     "Be the go-to expert for complex customer questions",
+     "Support the Shift Lead with floor coverage and breaks"
+    ],
+    "look": [
+     "6+ months budtender experience (or equivalent retail leadership)",
+     "Deep cannabis product knowledge",
+     "Comfortable training and giving feedback to peers",
+     "Open availability including evenings and weekends"
+    ],
+    "value": "Lead Budtender"
+   },
+   {
+    "slug": "inventory-specialist",
+    "icon": "layers",
+    "title": "Inventory Specialist",
+    "type": "Full-Time",
+    "summary": "Own the back-of-house. Receive deliveries, audit manifests, manage expirations, and keep our Dutchie menu perfectly in sync with what is actually on the shelf.",
+    "do": [
+     "Receive vendor deliveries and verify against manifests",
+     "Track expiration dates and rotate stock (FIFO)",
+     "Maintain accurate counts in Dutchie + internal inventory tools",
+     "Flag discrepancies and coordinate with management on returns"
+    ],
+    "look": [
+     "Prior inventory, receiving, or warehouse experience",
+     "Strong attention to detail and comfort with spreadsheets",
+     "Ability to lift up to 40 lbs",
+     "Basic familiarity with cannabis product categories is a plus"
+    ],
+    "value": "Inventory Specialist"
+   },
+   {
+    "slug": "delivery-driver",
+    "icon": "truck",
+    "title": "Delivery Driver",
+    "type": "Part-Time / Full-Time",
+    "summary": "Bring premium cannabis right to the customer’s door. Run safe, on-time deliveries throughout our service area while representing the brand with professionalism.",
+    "do": [
+     "Run scheduled delivery routes in a company or personal vehicle",
+     "Verify customer ID and Dutchie Pay payment at the door",
+     "Maintain a clean driving log and follow all CRC delivery rules",
+     "Communicate ETAs and handle customer questions in transit"
+    ],
+    "look": [
+     "Valid NJ driver’s license with a clean driving record (3+ years)",
+     "Reliable, insured vehicle (mileage reimbursed)",
+     "Smartphone proficiency for routing and order apps",
+     "Must pass background check"
+    ],
+    "value": "Delivery Driver"
+   },
+   {
+    "slug": "security",
+    "icon": "shield",
+    "title": "Security",
+    "type": "Full-Time / Part-Time",
+    "summary": "Keep our team and customers safe. Monitor entry, verify IDs, and maintain a calm, welcoming presence at the front of the store.",
+    "do": [
+     "Verify all customer IDs at entry (21+)",
+     "Monitor sales floor and parking lot via cameras and walkthroughs",
+     "De-escalate situations calmly and professionally",
+     "Coordinate with local law enforcement when necessary"
+    ],
+    "look": [
+     "NJ SORA certification preferred (or willingness to obtain)",
+     "Prior security, military, or law enforcement experience a plus",
+     "Calm under pressure with strong verbal communication",
+     "Ability to stand for long shifts"
+    ],
+    "value": "Security"
+   },
+   {
+    "slug": "shift-lead",
+    "icon": "users",
+    "title": "Shift Lead",
+    "type": "Full-Time",
+    "summary": "Run the floor. You’re the on-shift point person for budtenders, customer escalations, opening/closing procedures, and daily compliance.",
+    "do": [
+     "Open and close the store following SOPs and compliance checklists",
+     "Coach and direct budtenders during the shift",
+     "Resolve customer escalations and process refunds/exchanges",
+     "Monitor floor coverage, break rotations, and queue times"
+    ],
+    "look": [
+     "1+ year retail leadership experience (cannabis preferred)",
+     "Strong working knowledge of NJ-CRC compliance",
+     "Comfortable with POS, scheduling tools, and Dutchie back-office",
+     "Open availability including weekends and evenings"
+    ],
+    "value": "Shift Lead"
+   },
+   {
+    "slug": "assistant-manager",
+    "icon": "briefcase",
+    "title": "Assistant Manager",
+    "type": "Full-Time",
+    "summary": "Partner with the Store Manager on day-to-day operations, scheduling, hiring, and team performance. A direct path to Store Manager.",
+    "do": [
+     "Build weekly schedules and manage time-off requests",
+     "Run interviews, onboarding, and performance check-ins",
+     "Hit daily, weekly, and monthly sales and KPI targets",
+     "Own vendor relationships and inventory planning alongside the GM"
+    ],
+    "look": [
+     "2+ years retail or hospitality management experience",
+     "Cannabis industry experience strongly preferred",
+     "Strong people-leadership and conflict-resolution skills",
+     "Comfortable with reporting, P&L, and labor cost management"
+    ],
+    "value": "Assistant Manager"
+   },
+   {
+    "slug": "store-manager",
+    "icon": "store",
+    "title": "Store Manager",
+    "type": "Full-Time",
+    "summary": "Run the whole store. Own P&L, team development, compliance, vendor strategy, and the customer experience top to bottom.",
+    "do": [
+     "Own all store-level KPIs (sales, labor, margin, compliance)",
+     "Hire, develop, and retain a high-performing team",
+     "Maintain full NJ-CRC compliance across all operations",
+     "Partner with ownership on growth, marketing, and expansion plans"
+    ],
+    "look": [
+     "3+ years multi-report retail or hospitality leadership",
+     "Cannabis industry experience required",
+     "Track record of hitting financial and operational targets",
+     "Strong written and verbal communication"
+    ],
+    "value": "Store Manager"
+   },
+   {
+    "slug": "marketing-coordinator",
+    "icon": "spark",
+    "title": "Marketing Coordinator",
+    "type": "Full-Time",
+    "summary": "Drive the brand forward. Own social media, in-store promotions, email campaigns, and community partnerships across both stores.",
+    "do": [
+     "Plan and post content across Instagram, TikTok, and Facebook",
+     "Run weekly email campaigns and product drops",
+     "Coordinate in-store events, vendor pop-ups, and community partnerships",
+     "Track campaign performance and report on what’s working"
+    ],
+    "look": [
+     "1+ year hands-on marketing experience (cannabis or regulated industry a plus)",
+     "Strong copywriting and basic design skills (Canva / Figma)",
+     "Familiarity with Meta Business Suite, Mailchimp / Klaviyo",
+     "Self-starter who ships work without being micro-managed"
+    ],
+    "value": "Marketing Coordinator"
+   }
+  ]
+ },
+ "apply": {
+  "title": "Apply Now",
+  "titleAccent": "Now",
+  "lede": "Tell us a bit about yourself. We review every application and respond to fits within a few business days.",
+  "api": "/api/careers/apply",
+  "_extra": {
+   "site": "sfd"
+  },
+  "messages": {
+   "success": "Thanks — we got your application. If it looks like a fit, we'll reach out within a few business days.",
+   "error": "Something went wrong. Please try again.",
+   "network": "Network error. Please try again.",
+   "sending": "Submitting…"
+  },
+  "fields": {
+   "role": {
+    "label": "Role",
+    "placeholder": "Select a role…"
+   },
+   "name": {
+    "label": "Full Name"
+   },
+   "email": {
+    "label": "Email Address"
+   },
+   "phone": {
+    "label": "Phone Number"
+   },
+   "availability": {
+    "label": "Availability",
+    "placeholder": "e.g. Full-time, weekends, evenings only"
+   },
+   "resume": {
+    "label": "Resume Link",
+    "hint": "(optional — Google Drive, Dropbox, LinkedIn)",
+    "placeholder": "https://"
+   },
+   "experience": {
+    "label": "Relevant Experience",
+    "placeholder": "Past roles, cannabis knowledge, customer-facing experience, etc."
+   },
+   "message": {
+    "label": "Why do you want to work with us?",
+    "hint": "(optional)"
+   }
+  },
+  "options": [
+   {
+    "value": "Budtender",
+    "text": "Budtender"
+   },
+   {
+    "value": "Lead Budtender",
+    "text": "Lead Budtender"
+   },
+   {
+    "value": "Inventory Specialist",
+    "text": "Inventory Specialist"
+   },
+   {
+    "value": "Delivery Driver",
+    "text": "Delivery Driver"
+   },
+   {
+    "value": "Security",
+    "text": "Security"
+   },
+   {
+    "value": "Shift Lead",
+    "text": "Shift Lead"
+   },
+   {
+    "value": "Assistant Manager",
+    "text": "Assistant Manager"
+   },
+   {
+    "value": "Store Manager",
+    "text": "Store Manager"
+   },
+   {
+    "value": "Marketing Coordinator",
+    "text": "Marketing Coordinator"
+   },
+   {
+    "value": "Other",
+    "text": "Other / Not Listed"
+   }
+  ],
+  "submit": "Submit Application"
+ }
+}

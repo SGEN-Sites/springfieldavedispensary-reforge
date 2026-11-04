@@ -1,0 +1,7 @@
+/* contact 01-hero — the shared compact page hero; light pool behind the title; from 900px a small lit stage at the right:
+   the interior photo in a tilted glass frame + one floating cut-out (hidden on phones and small tablets by .vh-stage). */
+.tpl-contact .page-hero { --pool-x: 18%; --pool-y: 30%; }
+.ct-stage { width: clamp(210px, 20vw, 290px); transform: translateY(-46%); }
+.ct-stage__frame { position: absolute; left: 22%; top: 0; width: 58%; aspect-ratio: 382 / 510; z-index: 1; rotate: 5deg; border-radius: var(--r-tile); border-color: var(--glass-line-hi); }
+.ct-stage__frame img { width: 100%; height: 100%; object-fit: cover; }
+.ct-stage__cut { left: -6%; bottom: 4%; width: 50%; z-index: 2; }

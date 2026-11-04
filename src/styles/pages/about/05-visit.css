@@ -1,0 +1,17 @@
+/* about/05-visit — the closing call in a lit glass panel, particles rising inside it. */
+.visit { padding-top: calc(var(--sec-y) * .5); }
+.visit__panel { overflow: hidden; isolation: isolate; text-align: center; padding: clamp(36px, 5.6vw, 80px) clamp(18px, 4vw, 56px); }
+.visit__panel::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(60% 85% at 50% 105%, rgb(var(--emerald) / .26), transparent 70%), radial-gradient(30% 40% at 86% 8%, rgb(var(--amber) / .09), transparent 70%); }
+.visit__in { position: relative; z-index: 1; max-width: 660px; margin-inline: auto; }
+.visit h2 { font-size: clamp(2.2rem, 1.3rem + 3.3vw, 4.1rem); margin-bottom: 14px; }
+.visit .lede { margin-inline: auto; }
+.visit .eyebrow { color: var(--ink-2); }   /* ink-3 measured 4.1:1 over the lit panel on phones; ink-2 clears 4.5:1 */
+.visit__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: clamp(20px, 2.6vw, 30px); }
+/* address + hours: one block centred as a unit, text left-aligned inside, so the two icons share one edge at every
+   width; the address breaks only after "Suite C," and each day range stays whole */
+.visit__info { display: grid; grid-template-columns: minmax(0, max-content); justify-content: center; gap: 8px; margin-top: 22px; }
+.visit__info .info { margin: 0; text-align: left; }
+@media (max-width: 599.98px) {
+  .visit__actions { display: grid; grid-template-columns: minmax(0, 1fr); }
+}

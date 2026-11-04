@@ -1,0 +1,89 @@
+{
+ "_note": "Blog listing (lane blog). Every string from audit/pages/blog/rendered.html (DOM case). \"empty\" is declared in ui-labels.d/blog.json (Updates has no posts and the live page shows no empty-state line). The live \"Load More\" button is a declared removal (removals.d/blog.json).",
+ "hero": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "Dispatch",
+   "accent": "Dispatch"
+  },
+  "lede": "News, education, and updates from the team.",
+  "ghost": "Dispatch"
+ },
+ "featured": {
+  "href": "blog/live-rosin-science/",
+  "imageKey": "blog-live-rosin",
+  "badge": "Featured",
+  "date": "Nov 02, 2025",
+  "title": {
+   "text": "The Science of Live Rosin Concentrates",
+   "accent": "Rosin"
+  },
+  "excerpt": "Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.",
+  "cta": "Read Article →"
+ },
+ "posts": {
+  "label": "Categories",
+  "filters": [
+   {
+    "text": "All",
+    "catSlug": ""
+   },
+   {
+    "text": "Education",
+    "catSlug": "education"
+   },
+   {
+    "text": "Deals & Picks",
+    "catSlug": "deals-picks"
+   },
+   {
+    "text": "Updates",
+    "catSlug": "updates"
+   },
+   {
+    "text": "Community",
+    "catSlug": "community"
+   }
+  ],
+  "readMore": "Read More →",
+  "empty": "No posts in this category yet.",
+  "items": [
+   {
+    "href": "blog/understanding-terpenes/",
+    "imageKey": "blog-terpenes",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Oct 12, 2025",
+    "title": "Understanding Terpenes: The Secret to Your High",
+    "excerpt": "THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains."
+   },
+   {
+    "href": "blog/edibles-101-dosing/",
+    "imageKey": "blog-edibles",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Sep 28, 2025",
+    "title": "Edibles 101: Dosing for Beginners",
+    "excerpt": "Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably."
+   },
+   {
+    "href": "blog/sativa-summer-picks/",
+    "imageKey": "blog-sativa-summer",
+    "catLabel": "Deals & Picks",
+    "catSlug": "deals-picks",
+    "date": "Aug 15, 2025",
+    "title": "Our Top Sativa Picks for Summer",
+    "excerpt": "Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use."
+   },
+   {
+    "href": "blog/community-cleanup-recap/",
+    "imageKey": "blog-delivery",
+    "catLabel": "Community",
+    "catSlug": "community",
+    "date": "Jul 04, 2025",
+    "title": "Community Clean-Up Event Recap",
+    "excerpt": "Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event."
+   }
+  ]
+ }
+}

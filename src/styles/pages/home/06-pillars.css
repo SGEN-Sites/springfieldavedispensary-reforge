@@ -1,0 +1,27 @@
+/* 06-pillars — four promises; desktop 4-up, tablets 4-up / 2 x 2, phones a compact 2 x 2 */
+.pillars { --pool-x: 50%; --pool-y: 8%; --pool-w: 60%; --pool-h: 60%; padding-block: calc(var(--sec-y) * .7); }
+.pillars__grid { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
+/* icon / title / text rows are shared across a row of cards (subgrid): a two-line title ("Minority-Women Owned") makes
+   every title row in that row two lines tall, so each card's body copy starts on the same line */
+@supports (grid-template-rows: subgrid) {
+  .pillar { display: grid; grid-row: span 3; grid-template-rows: subgrid; align-content: start; }
+}
+.pillar { padding: clamp(20px, 2vw, 28px); gap: 12px; justify-content: flex-start;
+  background: radial-gradient(110% 70% at 50% 0%, rgb(var(--emerald) / .1), transparent 66%), var(--sheen), var(--glass-fill); }
+.pillar .icon-disc { margin-bottom: 4px; }
+.pillar h3 { font-size: clamp(1.0625rem, .95rem + .45vw, 1.3rem); }
+.pillar p { font-size: .9375rem; line-height: 1.55; }
+/* a lit hairline that grows under the icon on hover */
+.pillar::before { content: ""; position: absolute; left: clamp(20px, 2vw, 28px); right: clamp(20px, 2vw, 28px); top: 0; height: 1px;
+  background: linear-gradient(90deg, rgb(var(--emerald) / .7), transparent); opacity: .5; transition: opacity var(--dur) var(--ease); }
+.pillar:hover::before { opacity: 1; }
+
+@media (max-width: 899.98px) { .pillars__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 599.98px) {
+  .pillars__grid { gap: 10px; }
+  .pillar { padding: 16px 14px; gap: 8px; }
+  .pillar .icon-disc { width: 40px; height: 40px; border-radius: 12px; }
+  .pillar .icon-disc svg { width: 20px; height: 20px; }
+  .pillar h3 { font-size: 1rem; line-height: 1.2; }
+  .pillar p { font-size: .875rem; line-height: 1.5; }
+}

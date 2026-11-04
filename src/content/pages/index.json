@@ -1,0 +1,181 @@
+{
+ "_note": "Homepage copy, DOM case, from audit/pages/index/rendered.html and index/deal-modals.json (the 7 deal dialogs). Links = the live hrefs.",
+ "hero": {
+  "eyebrow": "Recreational Cannabis · Irvington, NJ · Dispensary Near Me",
+  "h1": ["Elevating", "Irvington, NJ"],
+  "h1Accent": "Irvington",
+  "tagline": "Minority-women owned. Premium cannabis, real education, and a community that has your back.",
+  "address": "1070 Springfield Ave Suite C, Irvington NJ",
+  "hours": "Mon–Sat: 9AM – 8PM · Sun: 10AM – 8PM",
+  "ctaPrimary": { "text": "Order Online →", "href": "shop/" },
+  "ctaSecondary": { "text": "Our Story", "href": "about/" },
+  "stats": [
+   { "num": "200+", "label": "Strains" },
+   { "num": "21+", "label": "ID Required" },
+   { "num": "NJ", "label": "CRC Licensed" }
+  ],
+  "photoAlt": "Springfield Ave Dispensary interior"
+ },
+ "categories": {
+  "eyebrow": "Browse the Menu",
+  "title": "Shop by Category",
+  "titleAccent": "Category",
+  "action": { "text": "Full Menu", "href": "shop/" },
+  "items": [
+   { "name": "Flower", "sub": "200+ strains", "href": "shop/?dtche[category]=flower", "imageKey": "flower", "alt": "Flower" },
+   { "name": "Pre-Rolls", "sub": "Singles & packs", "href": "shop/?dtche[category]=pre-rolls", "imageKey": "prerolls", "alt": "Pre-Rolls" },
+   { "name": "Vapes", "sub": "Live resin & distillate", "href": "shop/?dtche[category]=vaporizers", "imageKey": "vapes", "alt": "Vapes" },
+   { "name": "Edibles", "sub": "Gummies, chocolates & more", "href": "shop/?dtche[category]=edibles", "imageKey": "edibles", "alt": "Edibles" },
+   { "name": "Concentrates", "sub": "Live rosin, wax & shatter", "href": "shop/?dtche[category]=concentrates", "imageKey": "concentrates", "alt": "Concentrates" },
+   { "name": "Accessories", "sub": "Bongs, bowls & grinders", "href": "shop/?dtche[category]=accessories", "imageKey": "accessories", "alt": "Accessories" }
+  ]
+ },
+ "weekly": {
+  "eyebrow": "Deals",
+  "title": "Weekly Specials",
+  "titleAccent": "Specials",
+  "action": { "text": "View All Deals", "href": "deals/" },
+  "shopAll": { "text": "Shop All Deals", "href": "shop/" },
+  "todayBadge": "TODAY",
+  "days": [
+   { "dayIndex": 1, "day": "Monday", "name": "Munchie Monday", "offer": "20% off all edibles",
+     "detail": "Get 20% off every edible on our menu — gummies, chocolates, beverages, and capsules. No minimum spend, no code needed.",
+     "terms": "Valid in-store only · Cannot be combined with other offers" },
+   { "dayIndex": 2, "day": "Tuesday", "name": "Toke Tuesday", "offer": "Spend $100, get $20 off",
+     "detail": "Spend $100 or more on any products and automatically receive $20 off your total at checkout. Stack your favorites — it all counts.",
+     "terms": "Valid in-store and online · Applies to pre-tax total · Cannot be combined with other offers" },
+   { "dayIndex": 3, "day": "Wednesday", "name": "Wax Wednesday", "offer": "20% off concentrates & rosin",
+     "detail": "20% off our full concentrates and rosin menu — live resin, live rosin, wax, shatter, badder, and diamonds. The best day to explore our extract collection.",
+     "terms": "Valid in-store only · Select limited-release brands excluded · While supplies last" },
+   { "dayIndex": 4, "day": "Thursday", "name": "Thrifty Thursday", "offer": "$30 top-shelf eighths · Any 2 vapes for $70",
+     "detail": "Two deals, all day long: pick any eighth from our Thrifty Thursday selection for just $30, or mix and match any 2 vapes from our full menu for a flat $70.",
+     "terms": "Valid in-store only · $30 eighths while supplies last · Any 2 vapes for $70 applies to equal or lesser value · Select premium brands excluded" },
+   { "dayIndex": 5, "day": "Friday", "name": "Flower Friday", "offer": "25% off premium indoor flower",
+     "detail": "25% off all premium indoor flower — eighths, quarters, halves, and full ounces. Best selection of the week. Grab something new before the weekend.",
+     "terms": "Valid in-store only · Applies to premium tier only · Budget and value-tier strains not included" },
+   { "dayIndex": 6, "day": "Saturday", "name": "Saucy Saturday", "offer": "Build a bundle — any 8th + cart + edible for $80",
+     "detail": "Build your perfect weekend kit: choose any eighth, any cartridge, and any edible from our full menu and pay just $80 — a savings of up to $90 depending on your picks.",
+     "terms": "Valid in-store only · One bundle per customer per visit · Select product tiers may be excluded · Ask a budtender for eligible items" },
+   { "dayIndex": 0, "day": "Sunday", "name": "Sunday Sesh", "offer": "Spend $75, add an eighth for just $1",
+     "detail": "Spend $75 or more on any products and unlock the add-on: pick any available eighth from our Sunday Sesh selection and add it to your order for just $1.",
+     "terms": "Valid in-store only · One qualifying eighth per transaction · Eighth selection subject to availability · While supplies last" }
+  ],
+  "dealShop": { "text": "Shop Now", "href": "shop/" }
+ },
+ "featured": {
+  "eyebrow": "Spotlight",
+  "title": "Featured Deals",
+  "titleAccent": "Deals",
+  "bulk": {
+   "badge": "New Deal",
+   "title": ["The More You Grab,", "The More You Save"],
+   "titleAccent": "Save",
+   "text": "Stack your eighths and unlock bigger discounts",
+   "cta": { "text": "Shop Flower", "href": "shop/?dtche[category]=flower" },
+   "offWord": "off",
+   "tiers": [
+    { "pct": "10%", "qty": "2 Eighths", "weight": "7g" },
+    { "pct": "15%", "qty": "4 Eighths", "weight": "14g" },
+    { "pct": "25%", "qty": "8 Eighths", "weight": "1 oz" }
+   ]
+  },
+  "bundles": {
+   "badges": ["Coming Soon", "In-Store Exclusive"],
+   "title": ["Curated", "Bundles"],
+   "titleAccent": "Bundles",
+   "text": "Hand-picked by our budtenders — three tiers, zero guesswork, just great cannabis",
+   "cta": { "text": "Explore Bundles", "href": "bundles/" },
+   "tiers": [
+    { "price": "From $100", "name": "Head Stash", "line": "Start here, no regrets" },
+    { "price": "From $100", "name": "Cloud 9", "line": "Head in the clouds" },
+    { "price": "From $180", "name": "High Roller", "line": "No half measures" }
+   ]
+  },
+  "loyalty": {
+   "badge": "Coming Soon",
+   "title": ["Loyalty That", "Levels Up"],
+   "titleAccent": "Levels Up",
+   "text": "Our tiered customer loyalty program rewards every visit. Bronze, Silver, Gold — the higher your tier, the bigger the perks.",
+   "cta": { "text": "Join the VIP List", "href": "loyalty/" },
+   "tiers": [
+    { "name": "Bronze", "line": "Entry rewards" },
+    { "name": "Silver", "line": "Exclusive deals" },
+    { "name": "Gold", "line": "Max rewards" }
+   ]
+  },
+  "firstVisit": {
+   "badge": "Always On",
+   "title": ["First Visit?", "20% Off On Us"],
+   "titleAccent": "20% Off",
+   "text": "New to Treehouse? Every first-time purchase gets 20% off — no coupon needed.",
+   "_flag": "F1 in docs/CHANGE-LOG.md: 'Treehouse' is another dispensary's name; kept verbatim until the owner decides",
+   "cta": { "text": "Shop Now", "href": "shop/" },
+   "stat": { "num": "20%", "label": "First Purchase" },
+   "points": ["Auto-applied", "No code needed"]
+  },
+  "friend": {
+   "badges": ["New Deal", "In-Store Only"],
+   "title": ["Bring a Friend,", "Save 25% Each"],
+   "titleAccent": "25%",
+   "text": "Come in together, save together — you and a friend each get 25% off your full orders on the same visit.",
+   "cta": { "text": "Shop Now", "href": "shop/" },
+   "people": [
+    { "initial": "Y", "who": "You", "line": "25% off your order" },
+    { "initial": "F", "who": "Friend", "line": "25% off their order" }
+   ],
+   "terms": "Both orders must be on the same visit"
+  }
+ },
+ "pillars": {
+  "eyebrow": "Why Us",
+  "title": "More Than a Dispensary",
+  "titleAccent": "Dispensary",
+  "items": [
+   { "icon": "heart", "title": "Minority-Women Owned", "text": "Proudly owned by women of color — community-first, always." },
+   { "icon": "cap", "title": "Education First", "text": "We empower every customer with real knowledge, not just a bag and a receipt." },
+   { "icon": "car", "title": "Curbside Pickup", "text": "Order online and pick up fast at 1070 Springfield Ave, Irvington NJ." },
+   { "icon": "truck", "title": "Free Delivery $60+", "text": "Cannabis delivery in Irvington and Essex County via Dutchie Pay." }
+  ]
+ },
+ "order": {
+  "eyebrow": "Convenience",
+  "title": "Ways to Order",
+  "titleAccent": "Order",
+  "lede": "We make getting your cannabis easy — choose the method that fits your day.",
+  "methods": [
+   { "icon": "store", "title": "In-Store", "text": "Walk in to our Irvington location. Our budtenders are on the floor and ready to help. No appointment needed." },
+   { "icon": "car", "title": "Curbside Pickup", "text": "Order online and skip the line. We'll have your order packed and ready — just text us when you pull up." },
+   { "icon": "truck", "title": "Cannabis Delivery", "text": "Free delivery on orders $60+ · Powered by Dutchie Pay ACH · Orders under $60: $11 flat fee · Irvington and Essex County" }
+  ],
+  "ready": { "title": "Ready to order?", "text": "Browse our live menu and place an order now.", "cta": { "text": "View Full Menu", "href": "shop/" } }
+ },
+ "brands": {
+  "title": "Brands We Carry",
+  "titleAccent": "Brands",
+  "names": ["Cookies", "Dogwalkers", "WYLD", "Wana", "Rythm", "Kind Tree", "Full Tilt", "Ozone", "Niche", "Garden Greens", "Victory Farms", "Parks Grove"]
+ },
+ "rooted": {
+  "eyebrow": "Our Story",
+  "title": ["Rooted in", "Irvington"],
+  "titleAccent": "Irvington",
+  "text": "Springfield Ave Dispensary was founded by minority women who saw their community deserved better — a safe, elevated cannabis experience led by people who actually live here. We invest in Irvington, hire locally, and lead with education every single day.",
+  "cta": { "text": "Read Our Full Story", "href": "about/" },
+  "stats": [
+   { "num": "500+", "label": "Products" },
+   { "num": "20+", "label": "Brands" },
+   { "num": "9+", "label": "Communities Served" },
+   { "num": "4.8★", "label": "Reviews" }
+  ],
+  "photoAlt": "Springfield Ave Dispensary interior"
+ },
+ "vip": {
+  "title": "Join the VIP List",
+  "titleAccent": "VIP",
+  "text": "Get exclusive 420 deals, new product alerts, and early access to specials before they go live.",
+  "placeholder": "Enter your email",
+  "inputLabel": "Email address",
+  "button": "Subscribe",
+  "api": "/api/newsletter/subscribe",
+  "_payload": { "site": "sfd", "source": "home_vip_newsletter" }
+ }
+}

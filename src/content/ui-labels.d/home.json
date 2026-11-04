@@ -1,0 +1,6 @@
+{
+ "_note": "Home lane (sections 04-10). Strings the home sections print that are not in src/content/pages/index.json (read-only for the lane). Same shape as ui-labels.json.",
+ "labels": [
+  { "text": "Email address", "why": "LIVE: the aria-label of the homepage VIP email input (audit/pages/index/rendered.html, <input aria-label=\"Email address\">), used as the visually-hidden <label> of the same field; parity C6 requires it. Not in index.json only because the lane may not edit that file (see sharedChangeRequests)." }
+ ]
+}

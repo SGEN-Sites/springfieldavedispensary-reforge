@@ -1,0 +1,8 @@
+{
+ "_note": "Strings the visit lane (contact, deals, bundles, loyalty, 404) ADDS that are not on the rendered live Springfield pages. Never a claim, price, statistic or fact.",
+ "labels": [
+  { "text": "404", "why": "the HTTP status shown as the big outlined numeral on the new 404 page (brief page 9); a status code, not a claim" },
+  { "text": "Page not found", "why": "heading of the new 404 page (brief page 9); the live site has no 404 page" },
+  { "text": "The page you were looking for has moved or no longer exists.", "why": "the one explanatory line on the new 404 page (brief page 9); describes the error, makes no claim about the store" }
+ ]
+}

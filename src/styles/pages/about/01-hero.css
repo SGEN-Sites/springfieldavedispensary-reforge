@@ -1,0 +1,25 @@
+/* about/01-hero — the compact page hero, lit by painted light only: an emerald pool behind the right half (where the
+   outlined "Irvington" sits) and a faint warm glow at the top right. The blurred interior photo is not used here (at
+   this blur it read as grey smudges); the real photo is shown sharp, framed, in the next section. */
+.tpl-about .page-hero {
+  --pool-x: 22%; --pool-y: 26%;
+  background:
+    radial-gradient(40% 72% at 76% 64%, color-mix(in srgb, var(--emerald-c) 13%, transparent), transparent 72%),
+    radial-gradient(22% 40% at 92% 12%, color-mix(in srgb, var(--amber-c) 7%, transparent), transparent 70%),
+    linear-gradient(180deg, transparent 55%, var(--bg-1) 100%);
+}
+.tpl-about .page-hero__in { max-width: none; }   /* align with the content container (shared change requested, as other lanes) */
+.tpl-about .page-hero__in > * { max-width: 920px; }
+/* the outlined word: sized so it sits wholly inside the hero, right-aligned to the content edge, clear of the lede;
+   below 900px it would sit behind the chips, so it steps back */
+.tpl-about .page-hero__ghost { font-size: clamp(4.5rem, -1rem + 9vw, 7.5rem); bottom: 18px;
+  right: max(var(--gutter), calc((100% - var(--container)) / 2)); }
+@media (max-width: 899.98px) { .tpl-about .page-hero__ghost { display: none; } }
+.about-facts { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin-top: clamp(18px, 2.4vw, 26px); }
+.about-fact { min-height: 40px; padding: 0 16px 0 13px; color: var(--ink); font-weight: 600; letter-spacing: .01em;
+  background: var(--sheen), var(--glass-fill-2); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+.about-fact svg { width: 16px; height: 16px; flex: none; color: var(--accent-hi); }
+@media (max-width: 599.98px) {
+  .about-facts { gap: 8px; }
+  .about-fact { min-height: 36px; padding: 0 12px 0 10px; font-size: .8125rem; }
+}

@@ -1,0 +1,22 @@
+/* about/03-rooted — the founding story + big stat callouts in one lit glass band. */
+.rooted { --pool-x: 50%; --pool-y: 55%; padding-block: calc(var(--sec-y) * .6); }
+.rooted__panel { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(28px, 4.5vw, 72px); align-items: center;
+  padding: clamp(24px, 3.8vw, 56px); overflow: hidden; }
+.rooted__copy h2 { margin-bottom: 16px; }
+.rooted__copy p { color: var(--ink-2); max-width: 54ch; margin: 0; }
+/* 3 columns: the second row (9+, 4.8★) starts on the first row's column lines */
+.rooted__stats { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(22px, 2.6vw, 34px) 0; }
+.rooted__stat { padding: 2px 16px 2px 20px; border-left: 1px solid var(--glass-line); }
+.rooted__stat .stat__num { font-size: clamp(2.2rem, 1.3rem + 2.6vw, 3.6rem); white-space: nowrap; }
+/* suffix: smaller, raised to the digits' top half, never outlined (the outlined "+" showed its overlapping contours) */
+.rooted__stat .stat__suf { display: inline-block; margin-left: .05em; font-size: .6em; line-height: 1; vertical-align: .5em; }
+.rooted__stat .stat__num--outline .stat__suf { -webkit-text-stroke: 0; color: color-mix(in srgb, var(--accent-glow-c) 90%, transparent); }
+@media (max-width: 899.98px) {
+  .rooted__panel { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 599.98px) {
+  .rooted__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 0; }
+  .rooted__stat { padding: 0 10px 0 14px; }
+  .rooted__stat:last-child { grid-column: 1 / -1; }
+  .rooted__stat .stat__label { letter-spacing: .12em; }
+}

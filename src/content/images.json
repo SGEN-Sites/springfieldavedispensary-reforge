@@ -1,0 +1,435 @@
+{
+ "logo-96": {
+  "file": "assets/img/logo-96.webp",
+  "w": 96,
+  "h": 138,
+  "origin": "https://springfieldavedispensary.store/assets/springfield_ave_Dispensary_pic_5_1776381103426-xunct0WO.jpg",
+  "alt": "Springfield Ave Dispensary",
+  "role": "LOGO",
+  "bytes": 7392
+ },
+ "logo-192": {
+  "file": "assets/img/logo-192.webp",
+  "w": 192,
+  "h": 276,
+  "origin": "https://springfieldavedispensary.store/assets/springfield_ave_Dispensary_pic_5_1776381103426-xunct0WO.jpg",
+  "alt": "Springfield Ave Dispensary",
+  "role": "LOGO",
+  "bytes": 17826
+ },
+ "logo-320": {
+  "file": "assets/img/logo-320.webp",
+  "w": 285,
+  "h": 409,
+  "origin": "https://springfieldavedispensary.store/assets/springfield_ave_Dispensary_pic_5_1776381103426-xunct0WO.jpg",
+  "alt": "Springfield Ave Dispensary",
+  "role": "LOGO",
+  "bytes": 18512
+ },
+ "interior": {
+  "file": "assets/img/interior-382.webp",
+  "w": 382,
+  "h": 510,
+  "origin": "https://springfieldavedispensary.store/assets/image_1776388493068-BD0KN1kN.png",
+  "alt": "Springfield Ave Dispensary interior",
+  "role": "CONTENT IMAGE",
+  "bytes": 33896
+ },
+ "interior-backdrop": {
+  "file": "assets/img/interior-backdrop.webp",
+  "w": 1146,
+  "h": 1530,
+  "origin": "https://springfieldavedispensary.store/assets/image_1776388493068-BD0KN1kN.png",
+  "alt": "",
+  "role": "BACKGROUND",
+  "bytes": 10648
+ },
+ "interior-wide": {
+  "file": "assets/img/interior-wide-382.webp",
+  "w": 382,
+  "h": 286,
+  "origin": "https://springfieldavedispensary.store/assets/image_1776388493068-BD0KN1kN.png",
+  "alt": "Springfield Ave Dispensary interior",
+  "role": "CONTENT IMAGE",
+  "bytes": 18710
+ },
+ "cat-flower-360": {
+  "file": "assets/img/cat-flower-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-flower-DoT33rfR.png",
+  "alt": "Flower",
+  "role": "CONTENT IMAGE",
+  "bytes": 42670
+ },
+ "cat-flower-560": {
+  "file": "assets/img/cat-flower-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-flower-DoT33rfR.png",
+  "alt": "Flower",
+  "role": "CONTENT IMAGE",
+  "bytes": 94592
+ },
+ "cut-flower-280": {
+  "file": "assets/img/cut-flower-280.webp",
+  "w": 280,
+  "h": 394,
+  "origin": "https://springfieldavedispensary.store/assets/cat-flower-DoT33rfR.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 94896
+ },
+ "cut-flower-440": {
+  "file": "assets/img/cut-flower-440.webp",
+  "w": 440,
+  "h": 619,
+  "origin": "https://springfieldavedispensary.store/assets/cat-flower-DoT33rfR.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 207862
+ },
+ "cat-prerolls-360": {
+  "file": "assets/img/cat-prerolls-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-prerolls-Bizi0SxC.png",
+  "alt": "Pre-Rolls",
+  "role": "CONTENT IMAGE",
+  "bytes": 4814
+ },
+ "cat-prerolls-560": {
+  "file": "assets/img/cat-prerolls-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-prerolls-Bizi0SxC.png",
+  "alt": "Pre-Rolls",
+  "role": "CONTENT IMAGE",
+  "bytes": 8796
+ },
+ "cut-prerolls-280": {
+  "file": "assets/img/cut-prerolls-280.webp",
+  "w": 280,
+  "h": 242,
+  "origin": "https://springfieldavedispensary.store/assets/cat-prerolls-Bizi0SxC.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 16220
+ },
+ "cut-prerolls-440": {
+  "file": "assets/img/cut-prerolls-440.webp",
+  "w": 440,
+  "h": 380,
+  "origin": "https://springfieldavedispensary.store/assets/cat-prerolls-Bizi0SxC.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 30450
+ },
+ "cat-vapes-360": {
+  "file": "assets/img/cat-vapes-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "Vapes",
+  "role": "CONTENT IMAGE",
+  "bytes": 4656
+ },
+ "cat-vapes-560": {
+  "file": "assets/img/cat-vapes-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "Vapes",
+  "role": "CONTENT IMAGE",
+  "bytes": 8424
+ },
+ "cut-vapes-280": {
+  "file": "assets/img/cut-vapes-280.webp",
+  "w": 280,
+  "h": 394,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 35226
+ },
+ "cut-vapes-440": {
+  "file": "assets/img/cut-vapes-440.webp",
+  "w": 440,
+  "h": 619,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 84344
+ },
+ "cat-edibles-360": {
+  "file": "assets/img/cat-edibles-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "Edibles",
+  "role": "CONTENT IMAGE",
+  "bytes": 20214
+ },
+ "cat-edibles-560": {
+  "file": "assets/img/cat-edibles-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "Edibles",
+  "role": "CONTENT IMAGE",
+  "bytes": 39466
+ },
+ "cut-edibles-280": {
+  "file": "assets/img/cut-edibles-280.webp",
+  "w": 280,
+  "h": 400,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 67092
+ },
+ "cut-edibles-440": {
+  "file": "assets/img/cut-edibles-440.webp",
+  "w": 440,
+  "h": 629,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 148124
+ },
+ "cat-concentrates-360": {
+  "file": "assets/img/cat-concentrates-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-concentrates-DkG8KeHJ.png",
+  "alt": "Concentrates",
+  "role": "CONTENT IMAGE",
+  "bytes": 16294
+ },
+ "cat-concentrates-560": {
+  "file": "assets/img/cat-concentrates-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-concentrates-DkG8KeHJ.png",
+  "alt": "Concentrates",
+  "role": "CONTENT IMAGE",
+  "bytes": 30518
+ },
+ "cut-concentrates-280": {
+  "file": "assets/img/cut-concentrates-280.webp",
+  "w": 280,
+  "h": 282,
+  "origin": "https://springfieldavedispensary.store/assets/cat-concentrates-DkG8KeHJ.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 30220
+ },
+ "cut-concentrates-440": {
+  "file": "assets/img/cut-concentrates-440.webp",
+  "w": 440,
+  "h": 443,
+  "origin": "https://springfieldavedispensary.store/assets/cat-concentrates-DkG8KeHJ.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 61734
+ },
+ "cat-accessories-360": {
+  "file": "assets/img/cat-accessories-360.webp",
+  "w": 360,
+  "h": 514,
+  "origin": "https://springfieldavedispensary.store/assets/cat-accessories-DNiq1a1M.png",
+  "alt": "Accessories",
+  "role": "CONTENT IMAGE",
+  "bytes": 11032
+ },
+ "cat-accessories-560": {
+  "file": "assets/img/cat-accessories-560.webp",
+  "w": 560,
+  "h": 800,
+  "origin": "https://springfieldavedispensary.store/assets/cat-accessories-DNiq1a1M.png",
+  "alt": "Accessories",
+  "role": "CONTENT IMAGE",
+  "bytes": 22454
+ },
+ "cut-accessories-280": {
+  "file": "assets/img/cut-accessories-280.webp",
+  "w": 280,
+  "h": 377,
+  "origin": "https://springfieldavedispensary.store/assets/cat-accessories-DNiq1a1M.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 41930
+ },
+ "cut-accessories-440": {
+  "file": "assets/img/cut-accessories-440.webp",
+  "w": 440,
+  "h": 593,
+  "origin": "https://springfieldavedispensary.store/assets/cat-accessories-DNiq1a1M.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT",
+  "bytes": 91622
+ },
+ "blog-live-rosin-480": {
+  "file": "assets/img/blog-live-rosin-480.webp",
+  "w": 480,
+  "h": 262,
+  "origin": "https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 12856
+ },
+ "blog-live-rosin-960": {
+  "file": "assets/img/blog-live-rosin-960.webp",
+  "w": 960,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 32596
+ },
+ "blog-live-rosin-1408": {
+  "file": "assets/img/blog-live-rosin-1408.webp",
+  "w": 1408,
+  "h": 768,
+  "origin": "https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 52812
+ },
+ "blog-terpenes-480": {
+  "file": "assets/img/blog-terpenes-480.webp",
+  "w": 480,
+  "h": 262,
+  "origin": "https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 29794
+ },
+ "blog-terpenes-960": {
+  "file": "assets/img/blog-terpenes-960.webp",
+  "w": 960,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 81668
+ },
+ "blog-terpenes-1408": {
+  "file": "assets/img/blog-terpenes-1408.webp",
+  "w": 1408,
+  "h": 768,
+  "origin": "https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 137496
+ },
+ "blog-edibles-480": {
+  "file": "assets/img/blog-edibles-480.webp",
+  "w": 480,
+  "h": 262,
+  "origin": "https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 12402
+ },
+ "blog-edibles-960": {
+  "file": "assets/img/blog-edibles-960.webp",
+  "w": 960,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 51366
+ },
+ "blog-edibles-1408": {
+  "file": "assets/img/blog-edibles-1408.webp",
+  "w": 1408,
+  "h": 768,
+  "origin": "https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 116600
+ },
+ "blog-sativa-summer-480": {
+  "file": "assets/img/blog-sativa-summer-480.webp",
+  "w": 480,
+  "h": 262,
+  "origin": "https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 20752
+ },
+ "blog-sativa-summer-960": {
+  "file": "assets/img/blog-sativa-summer-960.webp",
+  "w": 960,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 50436
+ },
+ "blog-sativa-summer-1408": {
+  "file": "assets/img/blog-sativa-summer-1408.webp",
+  "w": 1408,
+  "h": 768,
+  "origin": "https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 80788
+ },
+ "blog-delivery-480": {
+  "file": "assets/img/blog-delivery-480.webp",
+  "w": 480,
+  "h": 262,
+  "origin": "https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 24218
+ },
+ "blog-delivery-960": {
+  "file": "assets/img/blog-delivery-960.webp",
+  "w": 960,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 96578
+ },
+ "blog-delivery-1408": {
+  "file": "assets/img/blog-delivery-1408.webp",
+  "w": 1408,
+  "h": 768,
+  "origin": "https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 202906
+ },
+ "og": {
+  "file": "assets/img/sad-opengraph.jpg",
+  "w": 1200,
+  "h": 630,
+  "origin": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+  "alt": "",
+  "role": "OG"
+ },
+ "fav-favicon.ico": {
+  "file": "assets/img/favicon.ico",
+  "origin": "https://springfieldavedispensary.store/favicon.ico",
+  "role": "ICON/UI"
+ },
+ "fav-favicon.svg": {
+  "file": "assets/img/favicon.svg",
+  "origin": "https://springfieldavedispensary.store/favicon.svg",
+  "role": "ICON/UI"
+ },
+ "fav-favicon-192.png": {
+  "file": "assets/img/favicon-192.png",
+  "origin": "https://springfieldavedispensary.store/favicon-192.png",
+  "role": "ICON/UI"
+ },
+ "fav-favicon-32.png": {
+  "file": "assets/img/favicon-32.png",
+  "origin": "https://springfieldavedispensary.store/favicon-32.png",
+  "role": "ICON/UI"
+ }
+}

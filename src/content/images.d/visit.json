@@ -1,0 +1,11 @@
+{
+ "_note": "Visit lane cut-out, made by src/tools/visit-images.py from src/assets-static/img/cat-edibles-560.webp (the live Springfield category shot). Decorative (alt empty).",
+ "visit-cut-edibles-280": {
+  "file": "assets/img/visit-cut-edibles-280.webp",
+  "w": 280,
+  "h": 334,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT"
+ }
+}

@@ -1,0 +1,50 @@
+/* contact 02-main — form (left) + store information and map (right). Desktop: one screen. Phones: info first, then form. */
+.ct-main { --pool-x: 72%; --pool-y: 30%; --pool-a: .1; padding-top: calc(var(--sec-y) * .45); }
+.ct-main__grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: var(--gap-lg); align-items: start; }
+.ct-h2 { font-size: clamp(1.55rem, 1.15rem + 1.2vw, 2.1rem); margin-bottom: clamp(16px, 2vw, 22px); }
+.ct-form { scroll-margin-top: calc(var(--header-h) + 16px); }
+.ct-form__grid { gap: 14px 16px; }
+.ct-form__foot { display: grid; gap: 8px; margin-top: 4px; }
+.ct-form .field textarea { min-height: 132px; }
+
+.ct-side { display: grid; gap: var(--gap); }
+.ct-info__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px 26px; }
+.ct-block--wide { grid-column: 1 / -1; padding-top: 14px; border-top: 1px solid var(--glass-line); }
+.ct-block__title { display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+  font: 650 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); font-variation-settings: normal; }
+.ct-block__title svg { width: 16px; height: 16px; color: var(--accent-hi); }
+.ct-block__addr { margin-bottom: 2px; color: var(--ink); font-size: 1.0625rem; line-height: 1.5; }
+.ct-block .link-arrow { font-size: .9375rem; }
+.ct-hours { margin: 0; display: grid; }
+.ct-hours div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 7px 0; border-bottom: 1px solid var(--glass-line); }
+.ct-hours div:last-child { border-bottom: 0; }
+.ct-hours dt { color: var(--ink-2); font-size: .9375rem; }
+.ct-hours dd { margin: 0; color: var(--ink); font-size: .9375rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ct-mail { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); font-size: 1rem; overflow-wrap: anywhere; text-decoration-color: color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+.ct-mail:hover { color: var(--white); }
+
+/* the live Google map, in a lit frame; until it loads (or when blocked) the frame shows a soft lit ground */
+.ct-map { margin: 0; aspect-ratio: 16 / 9; background: radial-gradient(60% 70% at 50% 45%, color-mix(in srgb, var(--emerald-c) 16%, transparent), transparent 72%), var(--bg-3); }
+.ct-map iframe { display: block; width: 100%; height: 100%; border: 0; filter: invert(.9) hue-rotate(180deg) saturate(.75) brightness(.95) contrast(.95); }   /* the live map, tinted into the dark world */
+.ct-map::after { background: none; }
+/* focus inside the cross-origin map: the iframe is the parent document's focused element, so :focus / :focus-within show the
+   ring with no timing; contact.js's .is-focus stays as a fallback (an iframe does not always match :focus-visible) */
+.ct-map iframe:focus, .ct-map:focus-within iframe, .ct-map.is-focus iframe { outline: 3px solid var(--accent-hi); outline-offset: -3px; border-radius: var(--r-card); }
+
+@media (max-width: 899.98px) {
+  .ct-main__grid { grid-template-columns: minmax(0, 1fr); }
+  .ct-side { order: -1; }
+}
+/* tablets: store information and the map side by side above the form */
+@media (min-width: 600px) and (max-width: 899.98px) {
+  .ct-side { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; }
+  .ct-info__grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .ct-block + .ct-block { padding-top: 14px; border-top: 1px solid var(--glass-line); }
+  .ct-block--wide { padding-top: 14px; }
+  .ct-map { aspect-ratio: auto; min-height: 260px; }
+}
+@media (max-width: 559.98px) {
+  .ct-info__grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .ct-block + .ct-block { padding-top: 14px; border-top: 1px solid var(--glass-line); }
+  .ct-map { aspect-ratio: 16 / 11; }
+}

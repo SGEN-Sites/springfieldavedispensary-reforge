@@ -1,0 +1,35 @@
+{
+ "_note": "Menu lane cut-outs, made by src/tools/menu-images.py from src/assets-static/img/cat-<slug>-560.webp (live category shots). Decorative (alt empty).",
+ "menu-cut-vapes-103": {
+  "file": "assets/img/menu-cut-vapes-103.webp",
+  "w": 103,
+  "h": 275,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT"
+ },
+ "menu-cut-vapes-206": {
+  "file": "assets/img/menu-cut-vapes-206.webp",
+  "w": 206,
+  "h": 550,
+  "origin": "https://springfieldavedispensary.store/assets/cat-vapes-Dv9pJ1kK.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT"
+ },
+ "menu-cut-edibles-280": {
+  "file": "assets/img/menu-cut-edibles-280.webp",
+  "w": 280,
+  "h": 334,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT"
+ },
+ "menu-cut-edibles-440": {
+  "file": "assets/img/menu-cut-edibles-440.webp",
+  "w": 440,
+  "h": 524,
+  "origin": "https://springfieldavedispensary.store/assets/cat-edibles-BMiO4rxF.png",
+  "alt": "",
+  "role": "DECORATIVE CUT-OUT"
+ }
+}

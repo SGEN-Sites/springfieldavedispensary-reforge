@@ -1,0 +1,52 @@
+{
+ "_note": "Post (lane blog, template post). Every string from audit/pages/blog-community-cleanup-recap/rendered.html (DOM case); \"eyebrow\" of related = the live footer link text \"Blog\".",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Community",
+ "date": "Jul 04, 2025",
+ "title": {
+  "text": "Community Clean-Up Event Recap",
+  "accent": "Community"
+ },
+ "pictureKey": "blog-delivery",
+ "pictureAlt": "Community Clean-Up Event Recap",
+ "body": [
+  "What a turnout. Over 60 volunteers showed up on Saturday morning to help us pick up Irvington Park, and together we hauled out more than 40 bags of trash and recycling in under three hours. Coffee, bagels, and good music kept the energy up.",
+  "We started doing these quarterly clean-ups because we believe being a good neighbor means more than just being a good business. The cannabis industry has a real opportunity to invest back into the communities that have historically been hit hardest by prohibition — and that starts with simple, hands-on stuff like keeping our shared spaces clean.",
+  "Big thanks to the Irvington Parks Department for the partnership, to our friends at the local coffee roaster for keeping us caffeinated, and most of all to every volunteer who gave up a Saturday morning. The next one is already on the calendar — sign up at the shop or watch our social channels for details.",
+  "If you have ideas for community projects we should support, stop in and tell us. We listen."
+ ],
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/live-rosin-science/",
+    "imageKey": "blog-live-rosin",
+    "catLabel": "Education",
+    "title": "The Science of Live Rosin Concentrates"
+   },
+   {
+    "href": "blog/understanding-terpenes/",
+    "imageKey": "blog-terpenes",
+    "catLabel": "Education",
+    "title": "Understanding Terpenes: The Secret to Your High"
+   },
+   {
+    "href": "blog/edibles-101-dosing/",
+    "imageKey": "blog-edibles",
+    "catLabel": "Education",
+    "title": "Edibles 101: Dosing for Beginners"
+   }
+  ]
+ }
+}

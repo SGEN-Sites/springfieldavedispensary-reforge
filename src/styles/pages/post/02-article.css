@@ -1,0 +1,24 @@
+/* 02-article — the framed picture (a breakout, wider than the text), then the body in a readable column, then the CTA.
+   Reading column --post-col = 34 x the 17-18px body (612px at 18px: about 65-75 characters a line; 68ch held ~90).
+   01-hero.css starts the back link, meta row and h1 on the same left edge. From 900px wide the picture is 2.2:1 and its
+   width also follows the viewport height (105vh = 2.2 x 48vh), so the drop-cap lead starts inside the first screen. */
+.tpl-post { --post-fs: clamp(1.0625rem, 1rem + .25vw, 1.125rem); --post-col: calc(var(--post-fs) * 34); }
+.post-article { --pool-x: 50%; --pool-y: 6%; --pool-a: .1; --pool-w: 80%; --pool-h: 40%; padding-top: 0; padding-bottom: calc(var(--sec-y) * .8); }
+.post-figure { width: min(100%, 960px); aspect-ratio: 16 / 9; margin: 0 auto clamp(28px, 3.4vw, 44px); border-color: var(--glass-line-hi);
+  box-shadow: var(--shadow-2), 0 0 0 6px color-mix(in srgb, var(--white) 2.5%, transparent), 0 0 70px -24px color-mix(in srgb, var(--emerald-c) 40%, transparent); }
+@media (min-width: 900px) { .post-figure { aspect-ratio: 11 / 5; width: min(100%, 960px, 105vh); } }
+.post-prose, .post-cta { width: min(100%, var(--post-col)); margin-inline: auto; font-size: var(--post-fs); }
+.post-prose { line-height: 1.78; color: var(--ink-2); }
+.post-prose p { margin: 0 0 1.25em; }
+.post-prose p:last-child { margin-bottom: 0; }
+.post-prose p:first-child { font-size: 1.1em; line-height: 1.68; color: var(--ink); }
+.post-prose p:first-child::first-letter { float: left; margin: .05em .12em 0 0; font: italic 400 3.5em/.8 var(--f-accent); color: var(--ink); text-shadow: 0 0 28px color-mix(in srgb, var(--emerald-c) 45%, transparent); }
+.post-cta { margin-top: clamp(28px, 3.6vw, 44px); padding-top: clamp(22px, 3vw, 32px); border-top: 1px solid var(--glass-line); }
+.post-cta .arr { transition: transform var(--dur) var(--ease); }
+.post-cta .btn:hover .arr { transform: translateX(3px); }
+@media (max-width: 599.98px) {
+  .post-prose { line-height: 1.72; }
+  .post-prose p:first-child::first-letter { font-size: 3.1em; }
+  .post-cta .btn { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .post-cta .arr { transition: none; } .post-cta .btn:hover .arr { transform: none; } }

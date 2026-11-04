@@ -1,0 +1,10 @@
+/* contact 04-faq — heading left, the four live questions right (native accordions). Phones: one column. */
+.ct-faq { --pool-x: 20%; --pool-y: 60%; --pool-a: .09; }
+.ct-faq__grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: var(--gap-lg); align-items: start; }
+.ct-faq .sec-head { margin-bottom: 0; }
+.ct-faq .acc > summary { font-size: 1rem; line-height: 1.35; }
+.ct-faq .acc__body p { font-size: .9375rem; line-height: 1.6; color: var(--ink-2); max-width: 64ch; }
+@media (max-width: 899.98px) {
+  .ct-faq__grid { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .ct-faq .sec-head { margin-bottom: 18px; }
+}

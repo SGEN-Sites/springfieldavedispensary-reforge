@@ -1,0 +1,52 @@
+{
+ "_note": "Post (lane blog, template post). Every string from audit/pages/blog-live-rosin-science/rendered.html (DOM case); \"eyebrow\" of related = the live footer link text \"Blog\".",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 02, 2025",
+ "title": {
+  "text": "The Science of Live Rosin Concentrates",
+  "accent": "Rosin"
+ },
+ "pictureKey": "blog-live-rosin",
+ "pictureAlt": "The Science of Live Rosin Concentrates",
+ "body": [
+  "Live rosin is the gold standard of solventless cannabis concentrates. Unlike distillate or wax — which use butane, propane, or CO₂ to strip cannabinoids out of the plant — live rosin is pressed using nothing but heat and pressure. The result is an extract that captures the full chemical fingerprint of the original flower, terpenes and all.",
+  "The process starts with fresh-frozen flower harvested at peak ripeness. The frozen plant material is gently agitated in ice water, which knocks the trichome heads (where the cannabinoids and terpenes live) off the plant. Those trichomes are filtered through fine micron screens, dried into hash, and finally pressed between heated plates. What flows out is a thick, glistening sap.",
+  "Because no solvents are ever used, nothing has to be purged out at the end. Every aromatic compound that was in the living plant is still in your jar. That is why live rosin tastes so loud — strawberry, diesel, gas, citrus, whatever the strain is known for, it comes through with a clarity you cannot get from solvent-based extracts.",
+  "If you have only tried distillate cartridges or shatter, doing a small dab of live rosin is a different experience entirely. Start small — a half-grain-of-rice-sized dab is plenty. Ask our budtenders which strains we have in live rosin form this week."
+ ],
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/understanding-terpenes/",
+    "imageKey": "blog-terpenes",
+    "catLabel": "Education",
+    "title": "Understanding Terpenes: The Secret to Your High"
+   },
+   {
+    "href": "blog/edibles-101-dosing/",
+    "imageKey": "blog-edibles",
+    "catLabel": "Education",
+    "title": "Edibles 101: Dosing for Beginners"
+   },
+   {
+    "href": "blog/sativa-summer-picks/",
+    "imageKey": "blog-sativa-summer",
+    "catLabel": "Deals & Picks",
+    "title": "Our Top Sativa Picks for Summer"
+   }
+  ]
+ }
+}

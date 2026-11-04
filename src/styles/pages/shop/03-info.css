@@ -1,0 +1,11 @@
+/* 03-info — the live SEO paragraph beside the Order Info box. One compact row on desktop; stacked on phones. */
+.menu-info { --pool-x: 82%; --pool-y: 46%; --pool-a: .1; --pool-w: 50%; padding-block: clamp(24px, 3.4vw, 48px) clamp(36px, 5vw, 76px); }
+.menu-info__grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: var(--gap-lg); align-items: start; }
+.menu-info__title { font-size: clamp(1.55rem, 1.05rem + 1.6vw, 2.35rem); margin-bottom: 14px; }
+.menu-info__seo p { max-width: 66ch; color: var(--ink-2); }
+.menu-info__order { display: flex; gap: 16px; align-items: flex-start; padding: clamp(18px, 2.2vw, 28px); }
+.menu-info__label { margin: 4px 0 8px; font: 650 var(--t-xs)/1.2 var(--f-body); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--ink-2); }
+.menu-info__order p { font-size: .9375rem; line-height: 1.6; color: var(--ink-2); }
+.menu-info__order strong { color: var(--ink); font-weight: 650; }
+@media (max-width: 899.98px) { .menu-info__grid { grid-template-columns: 1fr; } }
+@media (max-width: 599.98px) { .menu-info__order { gap: 12px; } .menu-info__order .icon-disc { width: 40px; height: 40px; } }

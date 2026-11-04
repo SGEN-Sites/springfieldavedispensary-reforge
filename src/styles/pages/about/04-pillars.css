@@ -1,0 +1,36 @@
+/* about/04-pillars — glass bento. Wide cards (7 of 12) hold a floating product cut-out, clipped by the card.
+   Every card reads from the top (icon, a fixed gap, title, text), so the titles in a row share one line; the card
+   height is the content's (no forced minimum), the cut-outs sit in the cards' right part. */
+.pillars { --pool-x: 18%; --pool-y: 62%; --pool-a: .11; }
+.bento { list-style: none; display: grid; gap: var(--gap); grid-template-columns: repeat(12, minmax(0, 1fr)); }
+.bento__item { padding: clamp(20px, 2.4vw, 30px); gap: 10px; justify-content: flex-start; }
+.bento__item--1, .bento__item--4 { grid-column: span 7; }
+.bento__item--2, .bento__item--3 { grid-column: span 5; }
+.bento__item .icon-disc { margin-bottom: 8px; }
+.bento__item h3 { margin: 0; }
+.bento__item p { max-width: 52ch; margin: 0; font-size: .9375rem; }
+.bento__item--cut h3, .bento__item--cut p { max-width: min(52ch, 68%); position: relative; z-index: 2; }
+.bento__cut { right: 3%; bottom: -14%; width: 190px; z-index: 1; opacity: .95; }
+.bento__item--4 .bento__cut { bottom: 4%; width: 176px; }
+.bento__cut img { -webkit-mask-image: radial-gradient(closest-side, #000 60%, transparent 100%); mask-image: radial-gradient(closest-side, #000 60%, transparent 100%); }
+@media (max-width: 1099.98px) {
+  .bento__item--1, .bento__item--2, .bento__item--3, .bento__item--4 { grid-column: span 6; }
+  .bento__cut, .bento__item--4 .bento__cut { width: 120px; right: 2%; bottom: 6%; }
+  .bento__item--cut h3, .bento__item--cut p { max-width: calc(100% - 132px); }
+}
+/* below 900px a cut-out would crowd the text: decoration steps back */
+@media (max-width: 899.98px) {
+  .bento__cut { display: none; }
+  .bento__item--cut h3, .bento__item--cut p { max-width: none; }
+}
+@media (max-width: 767.98px) {
+  .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .bento__item--1, .bento__item--2, .bento__item--3, .bento__item--4 { grid-column: span 1; }
+  .bento__item { padding: 16px 14px; gap: 8px; }
+  .bento__item .icon-disc { width: 40px; height: 40px; border-radius: 12px; margin-bottom: 4px; }
+  .bento__item .icon-disc svg { width: 19px; height: 19px; }
+  .bento__item h3 { font-size: 1.0625rem; }
+  .bento__item p { font-size: .875rem; line-height: 1.5; }
+  .bento__item--cut h3, .bento__item--cut p { max-width: none; }
+  .bento__cut { display: none; }
+}

@@ -1,0 +1,76 @@
+/* pages/post/00-cards.css */
+/* 00-cards — lane blog: the article card + category/date row, used by the listing AND the post template. The build only
+   reads a template's own folder, so pages/post/00-cards.css is an IDENTICAL copy: keep the two byte-equal
+   (sharedChangeRequest: move .post-card/.post-meta into components.css). Tokens only. */
+.post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; }
+.post-meta__date { font: 600 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
+
+.post-card { height: 100%; gap: 0; padding: 0; }
+.post-card__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg-3); border-bottom: 1px solid var(--glass-line); }
+.post-card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.post-card__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--bg-0) 45%, transparent)); }
+.post-card:hover .post-card__media img, .post-card:focus-visible .post-card__media img { transform: scale(1.05); }
+.post-card__body { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 10px; flex: 1; padding: clamp(16px, 1.6vw, 22px); }
+.post-card__title { font-size: clamp(1.1rem, 1rem + .35vw, 1.3rem); line-height: 1.18; }
+.post-card .post-card__excerpt { margin: 0; flex: 1; color: var(--ink-2); font-size: .9375rem; line-height: 1.55; }
+.post-card__more { display: inline-flex; align-items: center; gap: .45em; margin-top: 4px; font: 650 .8125rem/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+.post-card__more .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
+.post-card:hover .post-card__more .arr, .post-card:focus-visible .post-card__more .arr { transform: translateX(4px); }
+@media (max-width: 599.98px) { .post-card .post-card__excerpt { font-size: .875rem; } }
+@media (prefers-reduced-motion: reduce) {
+  .post-card__media img, .post-card__more .arr { transition: none; }
+  .post-card:hover .post-card__media img, .post-card:hover .post-card__more .arr { transform: none; }
+}
+
+/* pages/post/01-hero.css */
+/* 01-hero — the post hero: back link, category + date, the h1. ONE left edge with the article: every child starts where
+   the reading column (--post-col, 02-article.css) starts; the h1 may run wider to the right (max 21ch). Trimmed padding
+   so the picture and the start of the text share the first screen. */
+.page-hero--post { --pool-x: 30%; --pool-y: 12%; padding-block: clamp(24px, 3.8vw, 56px) clamp(20px, 2.4vw, 32px); }
+.page-hero--post .page-hero__in { max-width: 960px; margin-inline: auto; }
+.page-hero--post .page-hero__in > * { margin-left: max(0px, (100% - var(--post-col)) / 2); }
+.page-hero--post h1 { font-size: clamp(2.05rem, 1.2rem + 2.9vw, 3.75rem); line-height: 1.02; margin-bottom: 0; max-width: 21ch; }
+.post-back { display: inline-flex; align-items: center; min-height: 44px; margin: 0 0 2px; color: var(--ink-2); text-decoration: none;
+  font: 650 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; transition: color var(--dur) var(--ease); }
+.post-back:hover { color: var(--ink); }
+.post-hero__meta { margin: 0 0 12px; }
+
+/* pages/post/02-article.css */
+/* 02-article — the framed picture (a breakout, wider than the text), then the body in a readable column, then the CTA.
+   Reading column --post-col = 34 x the 17-18px body (612px at 18px: about 65-75 characters a line; 68ch held ~90).
+   01-hero.css starts the back link, meta row and h1 on the same left edge. From 900px wide the picture is 2.2:1 and its
+   width also follows the viewport height (105vh = 2.2 x 48vh), so the drop-cap lead starts inside the first screen. */
+.tpl-post { --post-fs: clamp(1.0625rem, 1rem + .25vw, 1.125rem); --post-col: calc(var(--post-fs) * 34); }
+.post-article { --pool-x: 50%; --pool-y: 6%; --pool-a: .1; --pool-w: 80%; --pool-h: 40%; padding-top: 0; padding-bottom: calc(var(--sec-y) * .8); }
+.post-figure { width: min(100%, 960px); aspect-ratio: 16 / 9; margin: 0 auto clamp(28px, 3.4vw, 44px); border-color: var(--glass-line-hi);
+  box-shadow: var(--shadow-2), 0 0 0 6px color-mix(in srgb, var(--white) 2.5%, transparent), 0 0 70px -24px color-mix(in srgb, var(--emerald-c) 40%, transparent); }
+@media (min-width: 900px) { .post-figure { aspect-ratio: 11 / 5; width: min(100%, 960px, 105vh); } }
+.post-prose, .post-cta { width: min(100%, var(--post-col)); margin-inline: auto; font-size: var(--post-fs); }
+.post-prose { line-height: 1.78; color: var(--ink-2); }
+.post-prose p { margin: 0 0 1.25em; }
+.post-prose p:last-child { margin-bottom: 0; }
+.post-prose p:first-child { font-size: 1.1em; line-height: 1.68; color: var(--ink); }
+.post-prose p:first-child::first-letter { float: left; margin: .05em .12em 0 0; font: italic 400 3.5em/.8 var(--f-accent); color: var(--ink); text-shadow: 0 0 28px color-mix(in srgb, var(--emerald-c) 45%, transparent); }
+.post-cta { margin-top: clamp(28px, 3.6vw, 44px); padding-top: clamp(22px, 3vw, 32px); border-top: 1px solid var(--glass-line); }
+.post-cta .arr { transition: transform var(--dur) var(--ease); }
+.post-cta .btn:hover .arr { transform: translateX(3px); }
+@media (max-width: 599.98px) {
+  .post-prose { line-height: 1.72; }
+  .post-prose p:first-child::first-letter { font-size: 3.1em; }
+  .post-cta .btn { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .post-cta .arr { transition: none; } .post-cta .btn:hover .arr { transform: none; } }
+
+/* pages/post/03-related.css */
+/* 03-related — "More from Dispatch": three across from 768px; a swipe rail on phones. A hairline of light on top. */
+.related { --pool-x: 72%; --pool-y: 58%; padding-top: calc(var(--sec-y) * .8); }
+.related::after { content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: min(100% - 2 * var(--gutter), var(--container)); height: 1px; pointer-events: none;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--emerald-c) 35%, transparent), color-mix(in srgb, var(--accent-glow-c) 25%, transparent), color-mix(in srgb, var(--emerald-c) 35%, transparent), transparent); }
+.related__rail { list-style: none; --rail-col: 78%; }
+.related__item { min-width: 0; }
+.related__controls { display: none; }
+.post-card--compact .post-card__title { font-size: clamp(1.05rem, .98rem + .3vw, 1.25rem); }
+@media (min-width: 768px) {
+  .related__rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+}
+@media (max-width: 767.98px) { .related__controls { display: flex; justify-content: flex-end; margin-top: 14px; } }

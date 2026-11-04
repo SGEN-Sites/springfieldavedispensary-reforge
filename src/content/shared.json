@@ -1,0 +1,151 @@
+{
+ "_note": "Chrome copy shared by every page. Every string is from the live Springfield pages (DOM case) or declared in ui-labels.json.",
+ "brand": {
+  "line1": "Springfield Ave",
+  "line2": "Dispensary",
+  "name": "Springfield Ave Dispensary",
+  "logoAlt": "Springfield Ave Dispensary"
+ },
+ "nav": [
+  {
+   "text": "Home",
+   "href": ""
+  },
+  {
+   "text": "Menu",
+   "href": "shop/"
+  },
+  {
+   "text": "Deals",
+   "href": "deals/"
+  },
+  {
+   "text": "About",
+   "href": "about/"
+  },
+  {
+   "text": "Blog",
+   "href": "blog/"
+  },
+  {
+   "text": "Careers",
+   "href": "careers/"
+  },
+  {
+   "text": "Contact",
+   "href": "contact/"
+  }
+ ],
+ "shopNow": "Shop Now",
+ "menuOpen": "Open menu",
+ "menuClose": "Close menu",
+ "skip": "Skip to content",
+ "status": {
+  "open": "Open Now",
+  "closed": "Closed"
+ },
+ "motion": {
+  "pause": "Pause motion",
+  "play": "Play motion"
+ },
+ "dock": {
+  "deals": "Deals",
+  "directions": "Get Directions"
+ },
+ "address": {
+  "street": "1070 Springfield Ave Suite C",
+  "cityLine": "Irvington, NJ 07111",
+  "oneLine": "1070 Springfield Ave Suite C, Irvington, NJ 07111"
+ },
+ "directionsHref": "https://www.google.com/maps/dir/?api=1&destination=1070%20Springfield%20Ave%20Suite%20C%2C%20Irvington%2C%20NJ%2007111",
+ "email": "springfieldavedispensary@gmail.com",
+ "_weeklyHours": [
+  [
+   10,
+   20
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   9,
+   20
+  ],
+  [
+   9,
+   20
+  ]
+ ],
+ "footer": {
+  "blurb": "Premium recreational cannabis. Knowledgeable staff, top-tier products, and a judgment-free environment.",
+  "quickLinksTitle": "Quick Links",
+  "quickLinks": [
+   {
+    "text": "Menu",
+    "href": "shop/"
+   },
+   {
+    "text": "About Us",
+    "href": "about/"
+   },
+   {
+    "text": "Blog",
+    "href": "blog/"
+   },
+   {
+    "text": "Careers",
+    "href": "careers/"
+   },
+   {
+    "text": "Contact",
+    "href": "contact/"
+   }
+  ],
+  "moreTitle": "More",
+  "moreLinks": [
+   {
+    "text": "Deals",
+    "href": "deals/"
+   },
+   {
+    "text": "Curated Bundles",
+    "href": "bundles/"
+   },
+   {
+    "text": "Loyalty",
+    "href": "loyalty/"
+   }
+  ],
+  "visitTitle": "Visit Us",
+  "hoursTitle": "Hours",
+  "hours": [
+   "Mon–Sat: 9AM – 8PM",
+   "Sun: 10AM – 8PM"
+  ],
+  "copyright": "© 2026 Springfield Ave Dispensary. All rights reserved.",
+  "brandLines": [
+   "SPRINGFIELD AVE",
+   "DISPENSARY"
+  ]
+ },
+ "gate": {
+  "title": "Are you 21 or older?",
+  "body": "You must be at least 21 years of age to view this website. By clicking \"Yes\", you verify that you are 21+.",
+  "no": "No",
+  "yes": "Yes",
+  "_noHref": "https://google.com"
+ }
+}

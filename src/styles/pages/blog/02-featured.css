@@ -1,0 +1,30 @@
+/* 02-featured — one wide glass card: the picture (left, 1.3fr) and the text (right). Stacks under 900px. */
+.featured { --pool-x: 80%; --pool-y: 46%; --pool-w: 46%; --pool-h: 70%; padding-top: clamp(8px, 1.6vw, 20px); padding-bottom: calc(var(--sec-y) * .55); }
+.featured__card { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 0; padding: 0; min-height: clamp(320px, 29vw, 410px); }
+.featured__media { position: relative; overflow: hidden; background: var(--bg-3); }
+.featured__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.featured__media::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, transparent 64%, color-mix(in srgb, var(--bg-1) 50%, transparent)), linear-gradient(180deg, transparent 72%, color-mix(in srgb, var(--bg-0) 35%, transparent)); }
+.featured__card:hover .featured__media img, .featured__card:focus-visible .featured__media img { transform: scale(1.04); }
+.featured__body { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; padding: clamp(22px, 3.2vw, 46px); }
+.featured__title { font-size: clamp(1.65rem, 1.05rem + 1.7vw, 2.6rem); line-height: 1.06; }
+.featured__card .featured__excerpt { margin: 0; color: var(--ink-2); font-size: var(--t-body); line-height: 1.6; max-width: 44ch; }
+.featured__cta { display: inline-flex; align-items: center; gap: .5em; min-height: 46px; padding: 0 22px; margin-top: 6px; border-radius: var(--r-pill);
+  border: 1px solid var(--glass-line-hi); background: var(--sheen), var(--glass-fill-2); color: var(--ink); font: 650 .9375rem/1 var(--f-body); letter-spacing: .02em;
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+.featured__cta .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
+.featured__card:hover .featured__cta, .featured__card:focus-visible .featured__cta { border-color: color-mix(in srgb, var(--accent-glow-c) 70%, transparent); box-shadow: 0 0 30px -10px color-mix(in srgb, var(--accent-glow-c) 50%, transparent); }
+.featured__card:hover .featured__cta .arr, .featured__card:focus-visible .featured__cta .arr { transform: translateX(4px); }
+@media (max-width: 899.98px) {
+  .featured__card { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .featured__media { aspect-ratio: 16 / 9; }
+  .featured__media::after { background: linear-gradient(180deg, transparent 60%, color-mix(in srgb, var(--bg-1) 50%, transparent)); }
+}
+@media (max-width: 599.98px) {
+  .featured__body { gap: 10px; padding: 18px 18px 20px; }
+  .featured__card .featured__excerpt { font-size: .9375rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .featured__media img, .featured__cta .arr { transition: none; }
+  .featured__card:hover .featured__media img, .featured__card:hover .featured__cta .arr { transform: none; }
+}

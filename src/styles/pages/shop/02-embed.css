@@ -1,0 +1,92 @@
+/* 02-embed — sticky category filters under the header, then the live Dutchie menu at full container width.
+   The embed's ancestors carry no transform / filter / backdrop-filter / contain: Dutchie's fullscreen checkout is
+   position:fixed and must stay relative to the viewport. Tokens only. */
+.menu-embed { padding-block: 0 clamp(28px, 4vw, 56px); }
+
+/* ---- the filter bar: glass strip, sticky for the length of the menu */
+.menu-bar { position: sticky; top: var(--header-h); z-index: 30; border-block: 1px solid var(--glass-line);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--bg-1) 97%, transparent), color-mix(in srgb, var(--bg-1) 94%, transparent));
+  -webkit-backdrop-filter: blur(16px) saturate(140%); backdrop-filter: blur(16px) saturate(140%); }
+.menu-bar__in { display: flex; align-items: center; min-height: 66px; }
+.menu-cats { flex: 1; min-width: 0; }
+.menu-cats__list { list-style: none; gap: 8px; padding: 10px 0; }
+.menu-cats__list > li:first-child { margin-left: auto; }
+.menu-cats__list > li:last-child { margin-right: auto; }
+.menu-chip { padding: 0 18px; font-size: .8125rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.menu-chip[aria-current] { background: rgb(var(--accent-glow) / .16); border-color: rgb(var(--accent-glow) / .65); color: var(--ink);
+  box-shadow: 0 0 24px -10px rgb(var(--accent-glow) / .7); }
+/* below 1100px the eight chips do not fit: an edge-to-edge swipe row that fades at its edges */
+@media (max-width: 1099.98px) {
+  .menu-cats__list { margin-inline: calc(-1 * var(--gutter)); padding: 10px var(--gutter); scroll-padding-inline: var(--gutter);
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent);
+            mask-image: linear-gradient(90deg, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent); }
+}
+@media (max-width: 767.98px) {
+  .menu-bar__in { min-height: 62px; }
+  .menu-cats__list { padding-block: 9px; }
+  .menu-chip { padding: 0 15px; font-size: .75rem; }
+}
+
+/* ---- the frame: a lit rim around the white Dutchie menu (no blur: see the note above) */
+.menu-stage { padding-top: clamp(14px, 2vw, 24px); }
+.menu-frame { padding: 6px; border-radius: var(--r-card); border: 1px solid var(--glass-line-hi);
+  background: radial-gradient(120% 60% at 50% 0%, rgb(var(--emerald) / .14), transparent 60%), var(--sheen), var(--glass-fill);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .07), var(--shadow-2), 0 0 60px -30px rgb(var(--emerald) / .5); }
+.menu-slot { position: relative; min-height: 800px; border-radius: var(--r-tile); overflow: hidden; background: var(--bg-2);
+  scroll-margin-top: calc(var(--header-h) + 82px); }
+.menu-mount { position: relative; }
+.menu-mount iframe { display: block; transition: opacity .45s var(--ease); }
+.menu-slot[data-state="loading"] .menu-mount { position: absolute; inset: 0 0 auto; opacity: 0; pointer-events: none; }
+@media (max-width: 767.98px) {
+  .menu-stage { width: 100%; padding-top: 0; }
+  .menu-frame { padding: 0; border-radius: 0; border-inline: 0; box-shadow: none; background: var(--glass-fill); }
+  .menu-slot { min-height: 720px; border-radius: 0; scroll-margin-top: calc(var(--header-h) + 64px); }
+}
+
+/* ---- waiting: a light skeleton in the reserved space (JS only) */
+.menu-slot__status, .menu-skel { display: none; }
+.js .menu-slot[data-state="loading"] .menu-skel { display: grid; }
+.js .menu-slot[data-state="loading"] .menu-slot__status:not([hidden]) { display: flex; }
+.menu-slot__status { position: absolute; z-index: 2; top: clamp(24px, 2.6vw, 34px); right: clamp(24px, 2.6vw, 34px); align-items: center; gap: 8px; margin: 0;
+  font: 600 var(--t-xs)/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+.menu-slot__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px rgb(var(--accent-glow) / .8); animation: menu-pulse 1.4s var(--ease-soft) infinite alternate; }
+.menu-skel { gap: 22px; align-content: start; padding: clamp(16px, 2.2vw, 28px); }
+.menu-skel__bar { height: 54px; border-radius: var(--r-input); }
+.menu-skel__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.menu-skel__card { display: grid; gap: 12px; padding: 14px; border-radius: var(--r-tile); border: 1px solid var(--glass-line); background: var(--glass-fill); }
+.menu-skel__img { aspect-ratio: 1; border-radius: var(--r-input); }
+.menu-skel__line { height: 12px; border-radius: var(--r-pill); }
+.menu-skel__line--short { width: 58%; }
+.menu-skel__btn { height: 36px; margin-top: 6px; border-radius: var(--r-pill); }
+.menu-skel__bar, .menu-skel__img, .menu-skel__line, .menu-skel__btn {
+  background: linear-gradient(100deg, rgb(255 255 255 / .035) 35%, rgb(255 255 255 / .085) 50%, rgb(255 255 255 / .035) 65%) 0 0 / 300% 100%;
+  animation: menu-shimmer 1.8s linear infinite; }
+@keyframes menu-shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
+@keyframes menu-pulse { from { opacity: .45; } to { opacity: 1; } }
+@media (max-width: 1023.98px) { .menu-skel__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .menu-skel__card:nth-child(n + 7) { display: none; } }
+@media (max-width: 767.98px) { .menu-skel__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .menu-skel__card:nth-child(n + 7) { display: grid; } .menu-skel__bar { height: 46px; } }
+@media (prefers-reduced-motion: reduce) { .menu-skel__bar, .menu-skel__img, .menu-skel__line, .menu-skel__btn, .menu-slot__dot { animation: none; } }
+
+/* ---- no JS, or the embed blocked / never arrived: a clear way to the same menu */
+.menu-fallback { display: grid; place-items: center; padding: clamp(40px, 6vw, 72px) 20px; }
+.menu-fallback .btn { white-space: normal; text-align: center; }
+html:not(.js) .menu-slot, .menu-slot[data-state="error"] { min-height: 0; }
+.js .menu-slot:not([data-state="error"]):not([data-quiet]) .menu-fallback { display: none; }
+
+/* ---- Dutchie's own controls (it injects them with its own styles at runtime), in the site's material.
+   "Skip to menu" stays visually hidden until keyboard focus (Dutchie's rule); menu.js puts it right after our skip link.
+   "Scroll to top" is fixed at bottom 19px: on phones that is under the dock, so it rises above it; 44px target. */
+html #dutchie--skip-to-menu:focus-visible { position: fixed; left: 12px; top: 12px; padding: 12px 18px; border-radius: var(--r-pill);
+  background: var(--accent); color: var(--accent-ink); font: 700 .9375rem/1 var(--f-body); outline: 2px solid var(--accent-hi); outline-offset: 3px; }
+html #dutchie--back-to-top { width: 44px; height: 44px; left: calc(50% - 22px); border-radius: 50%; border: 1px solid var(--glass-line-hi);
+  background-color: color-mix(in srgb, var(--bg-3) 94%, transparent) !important; box-shadow: var(--shadow-1); }
+html #dutchie--back-to-top:focus-visible { outline: 2px solid var(--accent-hi); outline-offset: 3px; }
+@media (max-width: 767.98px) { html #dutchie--back-to-top { bottom: calc(var(--dock-h) + 14px + env(safe-area-inset-bottom)); } }
+
+/* ---- the iframe loaded but Dutchie never spoke (blocked frame, refused page): keep a way to the menu above it */
+.menu-slot[data-quiet] .menu-fallback { display: grid; padding: 16px 20px; border-bottom: 1px solid var(--glass-line); }
+
+/* ---- Dutchie's fullscreen checkout (html/body get .dutchie--is-fullscreen.dutchie--is-fullscreen-enabled): lift the
+   menu's stacking contexts above the sticky header, the phone dock and the next section */
+.dutchie--is-fullscreen.dutchie--is-fullscreen-enabled main { z-index: 80; }
+.dutchie--is-fullscreen.dutchie--is-fullscreen-enabled .menu-stage { z-index: 10; }

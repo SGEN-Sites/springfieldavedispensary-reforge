@@ -1,0 +1,85 @@
+/* 05-featured — four deal tiles. >= 1280px: one row of four that fits one screen under the header (1280x720: section
+   <= 648px; 1440x900: <= 828px), the wide tiles sized so their two badges stay on one line. Below 1280px: a swipe rail
+   (shared rail controls). Tiles in a row are equally tall; the spare height collects above the CTA (margin-top: auto),
+   never inside a bordered panel. */
+.featured { --pool-x: 18%; --pool-y: 55%; --pool-a: .11; padding-block: calc(var(--sec-y) * .42); }
+.featured .sec-head { margin-bottom: clamp(16px, 1.8vw, 24px); }
+.featured__rail { list-style: none; --rail-col: 86%; }
+.fx { display: flex; min-width: 0; }
+.fx__card { width: 100%; height: 100%; gap: 10px; justify-content: flex-start; padding: clamp(18px, 1.7vw, 22px); }
+.fx__card > * { position: relative; z-index: 1; }
+.fx--first .fx__card { background: radial-gradient(90% 70% at 100% 100%, rgb(var(--emerald) / .2), transparent 70%), var(--sheen), var(--glass-fill-2); }
+.fx--bundles .fx__card { background: radial-gradient(60% 70% at 100% 0%, rgb(var(--amber) / .07), transparent 70%), var(--sheen), var(--glass-fill); }
+.fx--loyalty .fx__card { background: radial-gradient(80% 70% at 0% 100%, rgb(var(--emerald) / .14), transparent 70%), var(--sheen), var(--glass-fill); }
+
+.fx__badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+/* a little tighter than the shared badge so a two-badge pair fits one line in a tile */
+.fx__badges .badge { letter-spacing: .12em; padding-inline: 9px; }
+.fx__title { font-size: clamp(1.25rem, .95rem + 1vw, 1.65rem); line-height: 1.08; letter-spacing: -.018em; }
+.fx__title .accent { font-size: 1.12em; }
+.fx__card .fx__text { margin: 10px 0 0; font-size: .9375rem; line-height: 1.55; color: var(--ink-2); max-width: 46ch; }
+.fx__cta { align-self: flex-start; margin-top: auto; }
+.fx__aside { margin: 0; }
+
+/* First Visit: the 20% stat + the two promises (side by side when there is room, stacked when not). Never stretched. */
+.fx__stat { display: flex; align-items: center; gap: 10px 22px; flex-wrap: wrap; padding: 14px 16px; border-radius: var(--r-tile);
+  background: rgb(var(--emerald) / .07); border: 1px solid var(--glass-line); }
+.fx__stat .stat { margin: 0; gap: 4px; }
+.fx__stat .stat__num { font-size: clamp(2.4rem, 1.6rem + 2vw, 3.3rem); }
+.fx__points { list-style: none; display: grid; gap: 6px; }
+.fx__points li { display: flex; align-items: center; gap: 10px; color: var(--ink); font-size: .9375rem; font-weight: 550; }
+.fx__points li::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px rgb(var(--accent-glow) / .7); }
+
+/* Bring a Friend: You + Friend */
+.fx__pair { list-style: none; display: grid; gap: 6px; }
+.fx__person { display: flex; align-items: center; gap: 12px; padding: 6px 12px 6px 6px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__initial { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%;
+  font: 780 1.0625rem/1 var(--f-display); color: var(--ink);
+  background: radial-gradient(100% 100% at 30% 20%, rgb(var(--emerald) / .5), rgb(var(--emerald) / .12)); border: 1px solid rgb(var(--emerald) / .45); }
+.fx__who { display: grid; gap: 2px; line-height: 1.3; }
+.fx__who b { font: 700 .6875rem/1.2 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3); }
+.fx__who span { color: var(--ink); font-weight: 600; font-size: .9375rem; }
+.fx__card .fx__terms { margin: 8px 0 0; font-size: .9375rem; line-height: 1.45; color: var(--ink-3); }
+
+/* Curated Bundles: one inset glass list, rows split by hairlines (compact, no box per row) */
+.fx__tiers { list-style: none; display: grid; padding: 2px 14px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__tier { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name price" "line line"; align-items: baseline; column-gap: 12px; row-gap: 1px; padding: 8px 0; }
+.fx__tier + .fx__tier { border-top: 1px solid var(--glass-line); }
+.fx__price { grid-area: price; font: 750 1rem/1.2 var(--f-display); color: var(--ink); white-space: nowrap; }
+.fx__tname { grid-area: name; font: 700 .9375rem/1.25 var(--f-display); color: var(--ink); }
+.fx__tline { grid-area: line; font-size: .9375rem; color: var(--ink-3); line-height: 1.35; }
+
+/* Loyalty: Bronze / Silver / Gold — three chips across (rails); one hairline list in the >= 1280px row (see below) */
+.fx__levels { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.fx__level { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "medal name" "line line"; align-items: center; gap: 4px 8px; padding: 10px 12px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+.fx__medal { grid-area: medal; width: 16px; height: 16px; border-radius: 50%; }
+.fx__level--1 .fx__medal { background: radial-gradient(circle at 35% 30%, rgb(var(--amber) / .8), rgb(var(--amber) / .22)); box-shadow: 0 0 0 1px rgb(var(--amber) / .35); }
+.fx__level--2 .fx__medal { background: radial-gradient(circle at 35% 30%, var(--ink), var(--ink-4)); box-shadow: 0 0 0 1px rgb(255 255 255 / .2); }
+.fx__level--3 .fx__medal { background: radial-gradient(circle at 35% 30%, rgb(var(--amber)), rgb(var(--amber) / .6)); box-shadow: 0 0 0 1px rgb(var(--amber) / .6), 0 0 14px rgb(var(--amber) / .45); }
+.fx__lname { grid-area: name; font: 700 .9375rem/1.2 var(--f-display); color: var(--ink); }
+.fx__lline { grid-area: line; font-size: .9375rem; line-height: 1.3; color: var(--ink-3); }
+
+.featured__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+
+/* >= 1280px: the four deals in one row. Column weights give the two-badge tiles (Bring a Friend, Curated Bundles) the
+   width their badge pair needs (1280: 282px / 332px), so every title starts on the same line. */
+@media (min-width: 1280px) {
+  .featured__rail { grid-auto-flow: row; grid-template-columns: minmax(0, 1fr) minmax(0, 1.07fr) minmax(0, 1.26fr) minmax(0, 1fr); gap: 14px; overflow: visible; margin: 0; padding: 0; }
+  .featured__controls { display: none; }
+  .fx__title { font-size: clamp(1.25rem, .9rem + .55vw, 1.45rem); }
+  /* Loyalty levels: one row each (medal, name, line), right-aligned line — 3 chips across would not hold "Exclusive" here */
+  .fx__levels { grid-template-columns: 1fr; gap: 0; padding: 2px 14px; border-radius: var(--r-tile); background: var(--glass-fill); border: 1px solid var(--glass-line); }
+  .fx__level { grid-template-columns: auto auto minmax(0, 1fr); grid-template-areas: "medal name line"; gap: 8px; padding: 9px 0; background: none; border: 0; border-radius: 0; }
+  .fx__level + .fx__level { border-top: 1px solid var(--glass-line); }
+  .fx__lline { text-align: right; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) { .featured__rail { --rail-col: 46%; } }
+@media (min-width: 1100px) and (max-width: 1279.98px) { .featured__rail { --rail-col: 36%; } }
+@media (max-width: 767.98px) {
+  .fx__card { padding: 18px 16px; gap: 10px; }
+  .fx__card .fx__text { font-size: .875rem; }
+  .fx__stat { padding: 12px 14px; }
+  .fx__level { padding: 10px 8px; }
+  .fx__lname { font-size: .875rem; }
+  .fx__card .fx__terms, .fx__tline, .fx__lline { font-size: .875rem; }
+}

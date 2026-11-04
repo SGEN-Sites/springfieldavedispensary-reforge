@@ -1,0 +1,10 @@
+/* 01-hero — compact; the featured card follows closely. The text column uses the full container so its left edge lines up
+   with the featured card and the cards below (pageHero's 920px box is centred, which offsets it on wide screens).
+   The outlined ghost word shows only from 1024px wide: narrower, it runs behind the end of the lede. */
+.tpl-blog .page-hero { --pool-x: 16%; --pool-y: 34%; padding-bottom: clamp(18px, 2.6vw, 34px); }
+.tpl-blog .page-hero__in { max-width: none; }
+.tpl-blog .page-hero__ghost { right: var(--gutter); }
+.tpl-blog .page-hero h1 { margin-bottom: 10px; }
+.tpl-blog .page-hero h1 .accent { font-size: 1.16em; padding-right: .14em; }
+.tpl-blog .page-hero .lede { text-wrap: pretty; }
+@media (max-width: 1023.98px) { .tpl-blog .page-hero__ghost { display: none; } }

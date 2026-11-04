@@ -1,0 +1,53 @@
+/* 04-bulk — the contrast shift: a brighter, lit panel between the dark deal rows. Light is painted (backgrounds), never a box. */
+.bulk { --pool-x: 70%; --pool-y: 60%; --pool-a: .2; --pool-w: 62%; --pool-h: 86%; padding-block: calc(var(--sec-y) * .7); }
+.bulk__panel {
+  display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: clamp(24px, 4vw, 64px); align-items: center;
+  padding: clamp(22px, 3.6vw, 52px); overflow: hidden; border-color: var(--glass-line-hi);
+  background:
+    radial-gradient(58% 80% at 82% 108%, rgb(var(--emerald) / .26), transparent 70%),
+    radial-gradient(40% 60% at 6% 0%, rgb(var(--accent-glow) / .08), transparent 70%),
+    radial-gradient(120% 90% at 50% 0%, rgb(var(--emerald) / .14), transparent 62%),
+    var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .1), 0 0 0 1px rgb(var(--emerald) / .12), var(--shadow-2), 0 30px 90px -40px rgb(var(--emerald) / .5);
+}
+.bulk__copy { position: relative; z-index: 1; }
+.bulk__badge { margin-bottom: 16px; }
+.bulk h2 { font-size: clamp(1.85rem, 1.1rem + 2.7vw, 3.4rem); }
+.bulk__text { margin-top: 14px; margin-bottom: clamp(20px, 2.4vw, 30px); }
+
+/* the ladder: three glass steps, each taller than the last, numbers at the top of each step. The lowest step holds its
+   number, OFF, qty and weight with room to spare at every width (min-height: min-content + the qty's 12px margin are the
+   floor); a 12% rise per step keeps the top step from turning into an empty slab. */
+.bulk__tiers { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 16px);
+  align-items: end; height: clamp(230px, 20vw, 288px); list-style: none; }
+.bulk__tier { --h: calc(76% + var(--step) * 12%); height: var(--h); min-height: min-content; display: flex; flex-direction: column; gap: 4px;
+  padding: clamp(14px, 1.6vw, 22px) clamp(12px, 1.4vw, 20px); border-radius: var(--r-tile); border: 1px solid var(--glass-line);
+  /* dark strong glass under a top light: the panel's light must not wash out the step text (contrast on real pixels) */
+  background: linear-gradient(180deg, rgb(var(--emerald) / .18), transparent 55%), var(--glass-strong);
+  box-shadow: inset 0 2px 0 rgb(var(--emerald) / .55), inset 0 1px 0 rgb(255 255 255 / .08); }
+.bulk__tier p { margin: 0; }
+.bulk__tier .bulk__qty { margin-top: 12px; }
+.bulk__save { display: flex; flex-direction: column; gap: 4px; margin-bottom: auto !important; }
+.bulk .stat__num { font-size: clamp(2rem, 1.1rem + 3.2vw, 4.1rem); }
+.bulk__off { font: 650 var(--t-xs)/1.2 var(--f-body); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2); }
+.bulk__qty { font: 700 clamp(.9375rem, .86rem + .3vw, 1.0625rem)/1.25 var(--f-display); color: var(--ink); letter-spacing: -.005em; }
+.bulk__wt { font-size: .9375rem; color: var(--ink-3); line-height: 1.3; }
+.bulk__tier--top { border-color: rgb(var(--accent-glow) / .6);
+  background: radial-gradient(120% 60% at 50% 0%, rgb(var(--accent-glow) / .14), transparent 70%), linear-gradient(180deg, rgb(var(--emerald) / .14), transparent 55%), var(--glass-strong);
+  box-shadow: inset 0 2px 0 rgb(var(--accent-glow) / .8), 0 0 0 1px rgb(var(--accent-glow) / .18), 0 22px 60px -24px rgb(var(--accent-glow) / .5); }
+.bulk__tier--top .bulk__off { color: var(--accent-hi); }
+
+@media (max-width: 899.98px) {
+  .bulk__panel { grid-template-columns: 1fr; }
+  .bulk__tiers { height: 220px; }
+}
+@media (max-width: 599.98px) {
+  .bulk__panel { gap: 22px; padding: 22px 18px; }
+  .bulk .btn--lg { width: 100%; }
+  .bulk__tiers { height: 180px; gap: 8px; }
+  .bulk__tier { --h: calc(72% + var(--step) * 14%); padding: 12px 10px; }
+  .bulk .stat__num { font-size: clamp(1.7rem, 1rem + 3.6vw, 2.2rem); }
+  .bulk__off { letter-spacing: .14em; }
+  .bulk__qty { font-size: .9375rem; }
+  .bulk__wt { font-size: .875rem; }
+}

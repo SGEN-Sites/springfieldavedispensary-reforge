@@ -1,0 +1,7 @@
+{
+ "_note": "Menu lane (shop + shop-category): strings the redesign adds to /shop and /shop/<category>/. Never a claim, price, stat or fact.",
+ "labels": [
+  { "text": "Loading menu…", "why": "status text (role=status) shown with the skeleton while the live Dutchie embed loads; the live page shows a blank white box instead" },
+  { "text": "Open the menu on Dutchie", "why": "fallback link when JavaScript is off or the Dutchie embed is blocked / never arrives; it opens the live Dutchie menu URL the live iframe uses (audit/pages/shop*/harvest.json iframes[].src)" }
+ ]
+}

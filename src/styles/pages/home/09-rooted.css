@@ -1,0 +1,31 @@
+/* 09-rooted — story left; a bento right: the framed interior photo + the four stats (2 x 2). Phones: photo | stat list. */
+.rooted { --pool-x: 24%; --pool-y: 40%; overflow: hidden; isolation: isolate; padding-block: calc(var(--sec-y) * .8); }
+/* the ghost word sits in the open band above the bento, its right edge on the container's edge (never clipped by the
+   viewport, never behind the stat cards): sized so its box (.8em) ends above the stats at every desktop width */
+.rooted__ghost { top: 2px; right: max(var(--gutter), calc((100% - var(--container)) / 2)); font-size: clamp(3.5rem, 1.5rem + 5.4vw, 6.75rem); }
+.rooted__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(28px, 4.4vw, 72px); align-items: center; }
+.rooted h2 { margin-bottom: 18px; }
+.rooted__text { color: var(--ink-2); max-width: 54ch; margin-bottom: clamp(20px, 2.4vw, 30px); }
+
+.rooted__bento { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); gap: var(--gap); align-items: stretch; }
+/* the photo never sets the row height (it is 382 x 510 and must not be upscaled into a tall slab): the stats do */
+.rooted__photo { margin: 0; min-height: 220px; max-height: 510px;
+  box-shadow: var(--shadow-2), 0 0 60px -20px rgb(var(--emerald) / .45); }
+.rooted__photo img { position: absolute; inset: 0; object-position: 50% 45%; }
+.rooted__stats { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.rooted__stat { justify-content: flex-end; gap: 8px; min-height: clamp(128px, 11vw, 158px); padding: clamp(16px, 1.8vw, 24px); border-radius: var(--r-tile); }
+.rooted__stat .stat__num { font-size: clamp(2.1rem, 1.3rem + 2.4vw, 3.4rem); }
+.rooted__stat--1 { background: radial-gradient(100% 90% at 0% 100%, rgb(var(--accent-glow) / .12), transparent 70%), var(--sheen), var(--glass-fill-2); border-color: rgb(var(--accent-glow) / .35); }
+.rooted__stat--4 { background: radial-gradient(100% 90% at 100% 0%, rgb(var(--amber) / .1), transparent 70%), var(--sheen), var(--glass-fill); }
+
+@media (max-width: 899.98px) {
+  .rooted__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 599.98px) {
+  .rooted .btn--lg { width: 100%; }
+  .rooted__bento { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 10px; }
+  .rooted__stats { grid-template-columns: 1fr; gap: 8px; }
+  .rooted__stat { min-height: 0; padding: 12px 14px; gap: 4px; }
+  .rooted__stat .stat__num { font-size: 1.75rem; }
+  .rooted__stat .stat__label { font-size: .6875rem; letter-spacing: .14em; }
+}

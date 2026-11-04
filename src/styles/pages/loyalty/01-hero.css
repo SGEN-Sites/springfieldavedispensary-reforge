@@ -1,0 +1,17 @@
+/* loyalty 01-hero — the fan of three glass member cards (decorative), lit from behind; hidden below 900px. Lime pips on
+   Bronze + Silver, warm amber on Gold (the one warm light); emerald only in the glows. */
+.tpl-loyalty .page-hero { --pool-x: 74%; --pool-y: 50%; --pool-a: .18; --pool-w: 46%; }
+.tpl-loyalty .page-hero .lede { max-width: 50ch; }
+.ly-art { width: clamp(240px, 24vw, 340px); }
+.ly-art__card { position: absolute; left: 50%; top: 50%; width: 74%; aspect-ratio: 1.6; margin: -23% 0 0 -37%; border-radius: var(--r-tile); filter: none;
+  border: 1px solid var(--glass-line-hi); background: var(--sheen), var(--glass-fill-2); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 12%, transparent), 0 24px 50px -24px color-mix(in srgb, var(--black) 90%, transparent); }
+.ly-art__card--1 { translate: -22% 18%; }
+.ly-art__card--2 { translate: -4% 2%; background: radial-gradient(120% 90% at 30% 0%, color-mix(in srgb, var(--emerald-c) 22%, transparent), transparent 65%), var(--sheen), var(--glass-fill-2); }
+.ly-art__card--3 { translate: 16% -16%; border-color: color-mix(in srgb, var(--amber-c) 45%, transparent);
+  background: radial-gradient(120% 100% at 30% 0%, color-mix(in srgb, var(--amber-c) 20%, transparent), transparent 62%), radial-gradient(90% 90% at 100% 100%, color-mix(in srgb, var(--emerald-c) 20%, transparent), transparent 70%), var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 16%, transparent), 0 0 50px -12px color-mix(in srgb, var(--amber-c) 35%, transparent), 0 30px 60px -24px color-mix(in srgb, var(--black) 90%, transparent); }
+.ly-art__pips { position: absolute; left: 14px; bottom: 14px; display: flex; gap: 5px; }
+.ly-art__pips i { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-hi); box-shadow: 0 0 10px color-mix(in srgb, var(--accent-glow-c) 70%, transparent); }
+.ly-art__card--3 .ly-art__pips i { background: var(--amber-c); box-shadow: 0 0 10px color-mix(in srgb, var(--amber-c) 80%, transparent); }
+.ly-art__seal { position: absolute; right: 14px; top: 14px; --seal: 40px; }

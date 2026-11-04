@@ -1,0 +1,81 @@
+{
+ "_note": "Bundles page copy, DOM case, from audit/pages/bundles/rendered.html (the RENDERED page). Prices are the rendered values From $100 / From $100 / From $180; the server snapshot's $130/$210 are not used (F3). COMING SOON kept as live (F2).",
+ "hero": {
+  "badges": [
+   "Coming Soon",
+   "In-Store Exclusive"
+  ],
+  "title": [
+   "Curated",
+   "Bundles"
+  ],
+  "titleAccent": "Bundles",
+  "lede": "Three hand-picked bundles — tell your budtender which one you want and they'll put it together on the spot."
+ },
+ "how": {
+  "title": "How It Works",
+  "text": "Walk in, pick your bundle, and your budtender assembles it on the spot — no pre-ordering, no guesswork. Available exclusively in-store. Every bundle is tailored to you based on your preferences and what's in stock."
+ },
+ "listTitle": "What's in it",
+ "items": [
+  {
+   "price": "From $100",
+   "name": "Head Stash",
+   "tagline": "Half-zip of the finest flower",
+   "text": "Built for the flower purist. A full half-ounce of high-end indoor — your budtender picks the strain based on your direction. Two pre-rolls for grab-and-go sessions and a full-spectrum edible to round out the experience. This is 14g done right.",
+   "list": [
+    "½ oz (14g) premium indoor flower — budtender's pick",
+    "2 × 1g pre-rolls",
+    "1 edible — full-spectrum"
+   ],
+   "_cut": "cut-flower-280",
+   "_icon": "leaf"
+  },
+  {
+   "price": "From $100",
+   "name": "Cloud 9",
+   "tagline": "All vapor, no compromise",
+   "text": "For the vape and concentrate crowd. A premium cartridge for on-the-go sessions, a concentrate for the real thing at home, and a full-spectrum edible to close it out. Your budtender matches everything to your preferred effect and terpene profile.",
+   "list": [
+    "1 × 1g cartridge — budtender's pick",
+    "1 × 1g concentrate — budtender's pick",
+    "1 edible — full-spectrum"
+   ],
+   "_cut": "cut-concentrates-280",
+   "_icon": "bolt",
+   "_fade": true
+  },
+  {
+   "price": "From $180",
+   "name": "High Roller",
+   "tagline": "The full ounce. Every format.",
+   "text": "The complete experience — flower and concentrates, maxed out at a full ounce. A half-zip of exotic or limited-run flower plus a quarter of a second premium strain, a cartridge, a concentrate, and a top-shelf edible. Head Stash meets Cloud 9 at the highest tier.",
+   "list": [
+    "½ oz (14g) exotic or limited-run flower",
+    "¼ oz (7g) premium flower — second strain",
+    "1 × 1g cartridge — budtender's pick",
+    "1 × 1g concentrate — budtender's pick",
+    "3 × 1g pre-rolls",
+    "1 edible — top-shelf"
+   ],
+   "_cut": "cut-prerolls-280",
+   "_icon": "star",
+   "_lit": true
+  }
+ ],
+ "fine": "Exact items vary based on current inventory and budtender recommendation. All bundles subject to availability. In-store only.",
+ "launch": {
+  "eyebrow": "Springfield Ave Dispensary",
+  "title": "Launching Soon",
+  "titleAccent": "Soon",
+  "text": "Curated Bundles are being finalized and will be available exclusively in-store. In the meantime, visit us and ask a budtender — they'll help you build anything you see here.",
+  "primary": {
+   "text": "Browse the Menu",
+   "href": "shop/"
+  },
+  "secondary": {
+   "text": "Contact Us",
+   "href": "contact/"
+  }
+ }
+}

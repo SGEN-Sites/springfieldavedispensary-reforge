@@ -1,0 +1,8 @@
+{
+ "_note": "Home lane (sections 04-10). Live strings the redesign does not carry, each with a reason. Same shape as removals.json. None are text runs (parity C1 does not read them); listed so nothing live disappears silently.",
+ "removals": [
+  { "page": "index", "text": "Previous deal", "why": "aria-label of the live Featured Deals carousel arrow. Desktop (>= 1280px) now shows every featured deal at once in one row of four tiles; below 1280px the deals are a swipe rail with the shared rail controls (\"Previous\" / \"Next\", declared in ui-labels.json)." },
+  { "page": "index", "text": "Next deal", "why": "aria-label of the live Featured Deals carousel arrow; replaced as for \"Previous deal\"." },
+  { "page": "index", "text": "Go to slide 1", "why": "aria-labels \"Go to slide 1\" to \"Go to slide 5\" of the live Featured Deals carousel dots (two sets). The redesign has no slideshow: Bulk savings is its own section (04) and the other four deals are one row of tiles / a swipe rail (05)." }
+ ]
+}

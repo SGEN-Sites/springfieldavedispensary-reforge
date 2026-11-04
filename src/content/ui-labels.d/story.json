@@ -1,0 +1,9 @@
+{
+ "_note": "Lane story (about, careers): strings the redesign adds. Never a claim, price, statistic or fact.",
+ "labels": [
+  {
+   "text": "Details",
+   "why": "careers role-card button that opens that role’s Details dialog holding the two live lists “What you’ll do” / “What we’re looking for” (a dialog, so opening a role never changes the card, its row or the section height; nine cards fit one desktop grid); each button is described by its role title (aria-describedby)"
+  }
+ ]
+}

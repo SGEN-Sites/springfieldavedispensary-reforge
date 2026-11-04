@@ -1,0 +1,51 @@
+{
+ "_note": "Strings the redesign ADDS that are not on the rendered live Springfield pages. Never a claim, price, statistic or fact. Each says why. Lanes add theirs in src/content/ui-labels.d/<lane>.json (same shape); the lead merges.",
+ "labels": [
+  { "text": "Deals", "why": "nav/footer/dock label for the new Deals page the brief asks for (page 8)" },
+  { "text": "Loyalty", "why": "footer link label to the existing live /loyalty page (orphaned in the live nav)" },
+  { "text": "More", "why": "footer column heading for the extra links" },
+  { "text": "Close menu", "why": "accessible name of the drawer close button (live has only 'Open menu')" },
+  { "text": "Skip to content", "why": "skip link (accessibility)" },
+  { "text": "Pause motion", "why": "pause-motion control the brief requires" },
+  { "text": "Play motion", "why": "pause-motion control, pressed state" },
+  { "text": "Previous", "why": "carousel control accessible name" },
+  { "text": "Next", "why": "carousel control accessible name" },
+  { "text": "Close", "why": "dialog close button accessible name" },
+  { "text": "All", "why": "filter label (live blog uses ALL; menu filters use ALL) — fallback if DOM case differs" },
+  { "text": "Closed", "why": "the live status label when the store is closed (live code: label \"Closed\"); the capture ran while the store was open so it never rendered" },
+  { "text": "Thanks — we got your message. We'll get back to you within one business day.", "why": "LIVE /api/contact success message (live bundle form handler; shown only after a submit, so no capture renders it)" },
+  { "text": "Thanks — we got your application. If it looks like a fit, we'll reach out within a few business days.", "why": "LIVE /api/careers/apply success message (live bundle form handler)" },
+  { "text": "You're in. Watch your inbox for VIP-only deals.", "why": "LIVE /api/newsletter/subscribe success message (live bundle form handler)" },
+  { "text": "You're already on the VIP list — see you at the next drop.", "why": "LIVE newsletter 'alreadySubscribed' message (live bundle form handler)" },
+  { "text": "Something went wrong. Please try again.", "why": "LIVE form error fallback (all three forms)" },
+  { "text": "Network error. Please try again.", "why": "LIVE form network-error message (all three forms)" },
+  { "text": "Sending…", "why": "LIVE contact button label while sending" },
+  { "text": "Submitting…", "why": "LIVE careers button label while sending" },
+  { "text": "Subscribing…", "why": "LIVE newsletter button label while sending" }
+ ],
+ "pageMeta": {
+  "_note": "Head fields for the two NEW pages (the live site has neither). Factual, built from live words; no claims.",
+  "deals": {
+   "title": "Cannabis Deals & Weekly Specials | Springfield Ave Dispensary — Irvington, NJ",
+   "description": "Weekly specials, bulk savings and featured deals at Springfield Ave Dispensary in Irvington, NJ — 1070 Springfield Ave Suite C.",
+   "canonical": "https://springfieldavedispensary.store/deals",
+   "og": {
+    "og:type": "website", "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabis Deals & Weekly Specials | Springfield Ave Dispensary — Irvington, NJ",
+    "og:description": "Weekly specials, bulk savings and featured deals at Springfield Ave Dispensary in Irvington, NJ — 1070 Springfield Ave Suite C.",
+    "og:url": "https://springfieldavedispensary.store/deals",
+    "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabis Deals & Weekly Specials | Springfield Ave Dispensary — Irvington, NJ",
+    "twitter:description": "Weekly specials, bulk savings and featured deals at Springfield Ave Dispensary in Irvington, NJ — 1070 Springfield Ave Suite C.",
+    "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+   }
+  },
+  "notfound": {
+   "title": "Page Not Found | Springfield Ave Dispensary",
+   "description": "This page could not be found. Browse the menu, this week's deals or our story at Springfield Ave Dispensary in Irvington, NJ.",
+   "robots": "noindex",
+   "og": {}
+  }
+ }
+}

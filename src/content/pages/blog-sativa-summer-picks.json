@@ -1,0 +1,53 @@
+{
+ "_note": "Post (lane blog, template post). Every string from audit/pages/blog-sativa-summer-picks/rendered.html (DOM case); \"eyebrow\" of related = the live footer link text \"Blog\".",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Deals & Picks",
+ "date": "Aug 15, 2025",
+ "title": {
+  "text": "Our Top Sativa Picks for Summer",
+  "accent": "Summer"
+ },
+ "pictureKey": "blog-sativa-summer",
+ "pictureAlt": "Our Top Sativa Picks for Summer",
+ "body": [
+  "Summer is sativa season. When the days are long and you want to be outside on a hike, at the beach, or just hanging on the porch, the last thing you want is a strain that glues you to the couch. We pulled three of our staff favorites from the current menu — all bright, energetic, and built for sunshine.",
+  "Durban Poison is the classic. Pure landrace sativa from South Africa, sweet anise smell, and a clear-headed buzz that's almost coffee-like. Great for daytime productivity and surprisingly social. If you have errands to run and want to actually enjoy them, this is the move.",
+  "Super Lemon Haze is louder and brighter. Heavy on limonene, with a citrus zest you can smell from across the room. It's an uplifting, almost giggly high — pairs beautifully with music, food, and friends. Watch the dose; it can be sneaky-strong.",
+  "Jack Herer rounds it out. Named after the cannabis legend, this is a piney, peppery sativa with a slow-build creative high. A lot of writers, artists, and musicians keep this one in rotation for a reason. If you want to be focused but loose, Jack delivers.",
+  "All three rotate in and out of stock — check the live menu for current availability and weekly 420 deals."
+ ],
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/live-rosin-science/",
+    "imageKey": "blog-live-rosin",
+    "catLabel": "Education",
+    "title": "The Science of Live Rosin Concentrates"
+   },
+   {
+    "href": "blog/understanding-terpenes/",
+    "imageKey": "blog-terpenes",
+    "catLabel": "Education",
+    "title": "Understanding Terpenes: The Secret to Your High"
+   },
+   {
+    "href": "blog/edibles-101-dosing/",
+    "imageKey": "blog-edibles",
+    "catLabel": "Education",
+    "title": "Edibles 101: Dosing for Beginners"
+   }
+  ]
+ }
+}

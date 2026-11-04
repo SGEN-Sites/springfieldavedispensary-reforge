@@ -1,0 +1,25 @@
+/* deals 01-hero — compact hero, today chip, a small lit cut-out stage beside the copy (>= 900px), then the outlined
+   marquee of deal names along the bottom edge. */
+.tpl-deals .page-hero { --pool-x: 24%; --pool-y: 34%; padding-bottom: clamp(20px, 3vw, 36px); }
+/* the stage lives in the hero's container: right edge = the container's, centred on the copy block */
+.dl-stage { right: 0; top: 50%; width: clamp(200px, 19vw, 270px); transform: translateY(-50%); }
+.dl-stage__a { left: 26%; top: 10%; width: 46%; }
+.dl-stage__b { left: 0; bottom: 6%; width: 44%; }
+.dl-stage__c { right: 0; bottom: 2%; width: 36%; }
+.dl-today { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 4px; padding: 6px 16px 6px 8px; border-radius: var(--r-pill);
+  color: var(--ink); text-decoration: none; font-weight: 650; font-size: .9375rem; }
+.dl-today .ico { width: 16px; height: 16px; color: var(--accent); transition: transform var(--dur) var(--ease); }
+.dl-today:hover .ico { transform: translateX(3px); }
+.dl-today:hover { border-color: color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+html:not(.js) .dl-today, .dl-today:has(.dl-today__name:empty) { display: none; }
+.dl-hero__mq { position: relative; z-index: 1; margin-top: clamp(26px, 4vw, 48px); }
+@media (max-width: 599.98px) { .dl-hero__mq .mq-word { font-size: 1.75rem; } }
+/* still (reduced motion / paused): atmosphere.css turns a still marquee into a wrapped list of whole words. This one is
+   decoration (aria-hidden; every name is in the cards below), so it keeps only the FIRST ROW of that list: whole names,
+   no mid-word clip, no tall block. The half carries the .mq-word type so 1lh = one row (shared modifier requested). */
+@media (prefers-reduced-motion: reduce) {
+  .dl-hero__mq .marquee__half { font: 800 clamp(1.9rem, 1.2rem + 2.6vw, 3.6rem)/1.1 var(--f-display); max-height: 1lh; overflow: hidden; }
+}
+html[data-motion="paused"] .dl-hero__mq .marquee__half { font: 800 clamp(1.9rem, 1.2rem + 2.6vw, 3.6rem)/1.1 var(--f-display); max-height: 1lh; overflow: hidden; }
+@media (max-width: 599.98px) { .dl-hero__mq .marquee__half { font-size: 1.75rem; } }
+@media (max-width: 599.98px) { html[data-motion="paused"] .dl-hero__mq .marquee__half { font-size: 1.75rem; } }

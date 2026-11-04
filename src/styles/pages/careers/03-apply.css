@@ -1,0 +1,30 @@
+/* careers/03-apply — heading left, the 2-column glass form right (one screen on desktop); one column on phones. */
+.apply { --pool-x: 22%; --pool-y: 38%; padding-block: calc(var(--sec-y) * .8); }
+.apply__grid { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.55fr); gap: clamp(28px, 4.5vw, 72px); align-items: start; }
+.apply__intro h2 { margin-bottom: 14px; }
+.apply__intro .lede { font-size: var(--t-body); }
+.apply__form { padding: clamp(20px, 3vw, 36px); }
+.apply__form .form-grid { gap: 16px 18px; }
+.apply__form .field { align-content: end; }
+.apply__form .field .opt { text-transform: none; letter-spacing: .01em; font-weight: 500; color: var(--ink-3); }
+.apply__form textarea { min-height: 0; height: 128px; }
+.apply__form ::placeholder { font-size: .9375rem; }
+.apply__submit { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 4px; }
+.apply__submit .form-status { margin: 0; flex: 1 1 220px; }
+.apply__form select.is-picked { animation: role-picked 1.4s var(--ease) 1; border-color: var(--accent); }
+@keyframes role-picked { 0% { box-shadow: 0 0 0 0 rgb(var(--accent-glow) / .6); } 100% { box-shadow: 0 0 0 14px rgb(var(--accent-glow) / 0); } }
+@media (prefers-reduced-motion: reduce) { .apply__form select.is-picked { animation: none; } }
+@media (max-width: 899.98px) {
+  .apply__grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 599.98px) {
+  .apply__form { padding: 18px 14px; }
+  .apply__form textarea { height: 108px; }
+  .apply__submit .btn { width: 100%; }
+}
+/* narrow phones (360-399): the live Availability placeholder ("e.g. Full-time, weekends, evenings only", 280px at 15px)
+   must fit whole — slimmer input side padding and a 14px placeholder (261px) inside the ~272px text box */
+@media (max-width: 399.98px) {
+  .apply__form .field input { padding-inline: 12px; }
+  .apply__form ::placeholder { font-size: .875rem; }
+}

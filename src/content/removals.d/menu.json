@@ -1,0 +1,4 @@
+{
+ "_note": "Menu lane (shop + shop-category): live strings not carried. None: every live text run, link, alt and head field of /shop and the seven category pages is in the build. Dutchie's own injected 'Skip to menu' button (outside #root) is drawn by Dutchie's script on the rebuilt pages too.",
+ "removals": []
+}

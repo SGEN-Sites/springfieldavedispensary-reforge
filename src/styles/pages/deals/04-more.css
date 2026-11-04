@@ -1,0 +1,27 @@
+/* deals 04-more — the bundles + loyalty teasers side by side. Phones: a rail. */
+.dl-more { --pool-x: 60%; --pool-y: 50%; --pool-a: .09; }
+.dl-more__rail { list-style: none; --rail-col: 86%; }
+.dl-more__item { min-width: 0; }
+.dl-teaser { height: 100%; padding: clamp(20px, 2.2vw, 30px); gap: 12px; }
+.dl-teaser__title { font-size: clamp(1.6rem, 1.2rem + 1.3vw, 2.3rem); }
+.dl-teaser__tiers { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+.dl-teaser__tiers li { display: grid; gap: 2px; align-content: start; padding: 12px; border-radius: var(--r-tile); border: 1px solid var(--glass-line); background: var(--glass-fill); }
+.dl-teaser__tiers b { color: var(--ink); font: 750 1rem/1.15 var(--f-display); letter-spacing: -.01em; }
+.dl-teaser__tiers li > span:last-child { color: var(--ink-3); font-size: .8125rem; line-height: 1.35; }
+.dl-teaser__price { color: var(--ink-2); font-size: .8125rem; font-weight: 600; }
+.dl-teaser__pips { display: flex; gap: 4px; margin-bottom: 4px; }
+.dl-teaser__pips i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-hi); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+.dl-teaser__cta { margin-top: auto; align-self: flex-start; }
+.dl-more__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 768px) {
+  .dl-more__rail { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .dl-more__controls { display: none; }
+}
+/* phones: the three tiers become compact rows (name + line left, price or pips right) */
+@media (max-width: 767.98px) {
+  .dl-teaser__tiers { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .dl-teaser__tiers li { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name tag" "line tag"; column-gap: 12px; padding: 10px 12px; }
+  .dl-teaser__tiers b { grid-area: name; }
+  .dl-teaser__tiers li > span:last-child { grid-area: line; }
+  .dl-teaser__price, .dl-teaser__pips { grid-area: tag; align-self: center; margin: 0; }
+}

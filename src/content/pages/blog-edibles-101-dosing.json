@@ -1,0 +1,52 @@
+{
+ "_note": "Post (lane blog, template post). Every string from audit/pages/blog-edibles-101-dosing/rendered.html (DOM case); \"eyebrow\" of related = the live footer link text \"Blog\".",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Sep 28, 2025",
+ "title": {
+  "text": "Edibles 101: Dosing for Beginners",
+  "accent": "Edibles"
+ },
+ "pictureKey": "blog-edibles",
+ "pictureAlt": "Edibles 101: Dosing for Beginners",
+ "body": [
+  "Edibles are the most misunderstood category in cannabis, and they are responsible for almost every bad experience first-timers tell us about. The good news: once you understand the timing, edibles are also the most consistent, longest-lasting, and most enjoyable way to use cannabis for a lot of people.",
+  "The single most important rule: start with 2.5 mg of THC. Yes, that is a quarter of a standard 10 mg gummy. Then wait at least two full hours before taking more. Edibles are processed by your liver into a different, more potent compound (11-hydroxy-THC), and that conversion takes time. Most people start to feel something between 45 and 90 minutes in, and the effects keep climbing for another hour or two after that. Eating a second dose at the 30-minute mark because nothing is happening yet is the classic mistake — by the time both doses fully kick in, you are way over your head.",
+  "If you do take too much, do not panic. You can't overdose on cannabis in any medically dangerous sense, but you can have a deeply unpleasant few hours. Find a calm space, hydrate, eat something simple, and remember: it always wears off. Some people swear by chewing whole black peppercorns — there is real science behind it; the caryophyllene binds to the same receptors and dampens the high.",
+  "Once you find your dose — for most people that's somewhere between 5 and 10 mg — edibles become a totally different tool than smoking. The high lasts four to six hours, comes on gently, and is great for sleep, body relaxation, and creative focus. Just respect the timing."
+ ],
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/live-rosin-science/",
+    "imageKey": "blog-live-rosin",
+    "catLabel": "Education",
+    "title": "The Science of Live Rosin Concentrates"
+   },
+   {
+    "href": "blog/understanding-terpenes/",
+    "imageKey": "blog-terpenes",
+    "catLabel": "Education",
+    "title": "Understanding Terpenes: The Secret to Your High"
+   },
+   {
+    "href": "blog/sativa-summer-picks/",
+    "imageKey": "blog-sativa-summer",
+    "catLabel": "Deals & Picks",
+    "title": "Our Top Sativa Picks for Summer"
+   }
+  ]
+ }
+}

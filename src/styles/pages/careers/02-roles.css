@@ -1,0 +1,54 @@
+/* careers/02-roles — nine compact role cards: a 3 x 3 grid on desktops >= 1100 x 840 (one section, about one screen), a
+   swipe rail otherwise (3-up on short desktops, 2-up on tablets, one card + a peek on phones).
+   Cards in a row stretch to one height and the button row sits at the card bottom, so Details / Apply Now line up.
+   The two live lists open in a per-role dialog (.role-modal), so a card, its row and the section never change size. */
+.roles { --pool-x: 76%; --pool-y: 34%; --pool-a: .1; padding-block: calc(var(--sec-y) * .5); }
+.roles__head { margin-bottom: clamp(16px, 1.8vw, 22px); }
+.roles__head .lede { font-size: var(--t-body); }
+.roles__head h2 + p { margin-top: 8px; }
+.roles__rail { list-style: none; --rail-col: 84%; }
+.roles__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+.role { display: grid; min-width: 0; scroll-margin-top: calc(var(--header-h) + 16px); }
+.role-card { padding: 14px 16px; gap: 8px; }
+.role-card__head { display: flex; align-items: center; gap: 12px; }
+.role-card__head .icon-disc { width: 38px; height: 38px; border-radius: 12px; }
+.role-card__head .icon-disc svg { width: 19px; height: 19px; }
+.role-card h3 { font-size: 1.125rem; line-height: 1.15; }
+.role-card .role-card__type { margin: 4px 0 0; font: 650 .6875rem/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+.role-card .role-card__summary { margin: 0; line-height: 1.5; }
+.role-card__foot { display: flex; align-items: center; gap: 10px; margin-top: auto; padding-top: 4px; }
+.role-card__more { display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; flex: 1 1 0; min-width: 0; min-height: 44px;
+  padding: 0 14px 0 16px; border: 1px solid var(--glass-line); border-radius: var(--r-pill); cursor: pointer;
+  background: color-mix(in srgb, var(--white) 3%, transparent); font: 650 .75rem/1 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink);
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease); }
+.role-card__more svg { width: 14px; height: 14px; flex: none; color: var(--accent); transition: transform var(--dur) var(--ease); }
+.role-card__more:hover { border-color: var(--glass-line-hi); background: color-mix(in srgb, var(--white) 6%, transparent); }
+.role-card__more:hover svg { transform: translateX(2px); }
+.role-card__apply { flex: none; }
+/* running text is >= 15px from tablet up (R8); phones keep the 14px card size */
+@media (min-width: 768px) { .role-card .role-card__summary { font-size: .9375rem; } }
+@media (min-width: 768px) and (max-width: 1099.98px) { .roles__rail { --rail-col: calc((100% - var(--gap)) / 2.1); } }
+@media (min-width: 1100px) { .roles__rail { --rail-col: calc((100% - 2 * var(--gap)) / 3); } }
+/* desktops tall enough to hold all nine: a grid, no rail */
+@media (min-width: 1100px) and (min-height: 840px) {
+  .roles__rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; overflow: visible; margin: 0; padding: 0; }
+  .roles__controls { display: none; }
+}
+
+/* the per-role Details dialog: the shared modal, wider, the two lists side by side when there is room */
+dialog.modal.role-modal { width: min(760px, calc(100vw - 32px)); }
+.role-modal .eyebrow, .role-modal .modal__title { padding-right: 48px; }
+.role-modal .modal__title { margin-bottom: 0; }
+.role-modal__lists { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 32px; margin: 18px 0 6px; padding-top: 18px; border-top: 1px solid var(--glass-line); }
+.role-modal__lists h4 { margin-bottom: 10px; font: 650 .6875rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
+.role-modal__lists ul { list-style: none; display: grid; gap: 8px; }
+.role-modal__lists li { position: relative; padding-left: 16px; font-size: .9375rem; line-height: 1.5; color: var(--ink-2); }
+.role-modal__lists li::before { content: ""; position: absolute; left: 2px; top: .6em; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent-hi); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-glow-c) 60%, transparent); }
+.modal__panel .role-modal__apply { margin: 16px 0 0; }
+@media (max-width: 639.98px) {
+  .role-modal__lists { grid-template-columns: minmax(0, 1fr); gap: 16px; margin-top: 14px; padding-top: 14px; }
+  .role-modal__lists ul { gap: 6px; }
+  .role-modal__lists li { font-size: .875rem; line-height: 1.45; }
+  .modal__panel .role-modal__apply { width: 100%; }
+}

@@ -1,0 +1,14 @@
+/* 10-vip — the closing call: one accent-lit glass panel, the email field and Subscribe side by side (stacked on phones) */
+.vip { --pool-x: 50%; --pool-y: 60%; --pool-a: .16; --pool-w: 64%; --pool-h: 90%; overflow: hidden; isolation: isolate; padding-block: calc(var(--sec-y) * .8) var(--sec-y); }
+.vip .particles i:nth-child(n + 7) { display: none; }
+.vip__panel { text-align: center; padding: clamp(26px, 4vw, 52px) clamp(20px, 4vw, 56px) clamp(14px, 2.4vw, 30px); }
+.vip__icon { margin: 0 auto 16px; }
+.vip h2 { margin-bottom: 12px; }
+.vip__text { margin: 0 auto clamp(20px, 2.6vw, 28px); max-width: 52ch; }
+.vip__form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; max-width: 560px; margin-inline: auto; text-align: left; }
+.vip__input { min-height: 54px; }
+.vip__status { grid-column: 1 / -1; text-align: center; margin: 0; }
+@media (max-width: 599.98px) {
+  .vip__form { grid-template-columns: 1fr; }
+  .vip__btn { width: 100%; }
+}

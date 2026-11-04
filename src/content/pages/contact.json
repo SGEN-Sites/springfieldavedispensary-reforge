@@ -1,0 +1,160 @@
+{
+ "_note": "Contact page copy, DOM case, from audit/pages/contact/rendered.html + expanded.json (FAQ answers). 'Ways to Order' = the homepage's live copy (audit/pages/index), the brief's 'pickup and delivery info'. No phone number exists on the live site (F5): the form's optional Phone Number field is a field, not a number.",
+ "hero": {
+  "eyebrow": "Visit Us",
+  "title": "Contact Us",
+  "titleAccent": "Us",
+  "lede": "Questions? Comments? We're here to help. Reach out using the form below or visit us in store.",
+  "primary": {
+   "text": "Send a Message",
+   "href": "#contact-form"
+  },
+  "secondary": {
+   "text": "Get Directions",
+   "href": "https://www.google.com/maps/dir/?api=1&destination=1070%20Springfield%20Ave%20Suite%20C%2C%20Irvington%2C%20NJ%2007111"
+  }
+ },
+ "form": {
+  "title": "Send a Message",
+  "titleAccent": "Message",
+  "api": "/api/contact",
+  "_payload": {
+   "site": "sfd"
+  },
+  "fields": [
+   {
+    "id": "contact-name",
+    "label": "Full Name",
+    "_name": "name",
+    "_type": "text",
+    "_auto": "name",
+    "_max": 120,
+    "_required": true
+   },
+   {
+    "id": "contact-phone",
+    "label": "Phone Number",
+    "_name": "phone",
+    "_type": "tel",
+    "_auto": "tel",
+    "_max": 40,
+    "_required": false
+   },
+   {
+    "id": "contact-email",
+    "label": "Email Address",
+    "_name": "email",
+    "_type": "email",
+    "_auto": "email",
+    "_max": 254,
+    "_required": true,
+    "_wide": true
+   },
+   {
+    "id": "contact-message",
+    "label": "Message",
+    "_name": "message",
+    "_type": "textarea",
+    "_min": 5,
+    "_max": 5000,
+    "_required": true,
+    "_wide": true
+   }
+  ],
+  "button": "Send Message",
+  "msgSending": "Sending…",
+  "msgSuccess": "Thanks — we got your message. We'll get back to you within one business day.",
+  "msgError": "Something went wrong. Please try again.",
+  "msgNetwork": "Network error. Please try again."
+ },
+ "store": {
+  "title": "Store Information",
+  "titleAccent": "Information",
+  "location": {
+   "title": "Location",
+   "lines": [
+    "1070 Springfield Ave Suite C",
+    "Irvington, NJ 07111"
+   ],
+   "directions": {
+    "text": "Get Directions",
+    "href": "https://www.google.com/maps/dir/?api=1&destination=1070%20Springfield%20Ave%20Suite%20C%2C%20Irvington%2C%20NJ%2007111"
+   }
+  },
+  "hours": {
+   "title": "Hours",
+   "rows": [
+    {
+     "days": "Mon - Sat",
+     "time": "9:00 AM - 8:00 PM"
+    },
+    {
+     "days": "Sunday",
+     "time": "10:00 AM - 8:00 PM"
+    }
+   ]
+  },
+  "contact": {
+   "title": "Contact",
+   "email": "springfieldavedispensary@gmail.com"
+  },
+  "map": {
+   "title": "Springfield Ave Dispensary location map",
+   "src": "https://www.google.com/maps?q=1070%20Springfield%20Ave%2C%20Irvington%2C%20NJ%2007111&output=embed"
+  }
+ },
+ "order": {
+  "eyebrow": "Convenience",
+  "title": "Ways to Order",
+  "titleAccent": "Order",
+  "lede": "We make getting your cannabis easy — choose the method that fits your day.",
+  "methods": [
+   {
+    "icon": "store",
+    "title": "In-Store",
+    "text": "Walk in to our Irvington location. Our budtenders are on the floor and ready to help. No appointment needed."
+   },
+   {
+    "icon": "car",
+    "title": "Curbside Pickup",
+    "text": "Order online and skip the line. We'll have your order packed and ready — just text us when you pull up."
+   },
+   {
+    "icon": "truck",
+    "title": "Cannabis Delivery",
+    "text": "Free delivery on orders $60+ · Powered by Dutchie Pay ACH · Orders under $60: $11 flat fee · Irvington and Essex County"
+   }
+  ],
+  "ready": {
+   "title": "Ready to order?",
+   "text": "Browse our live menu and place an order now.",
+   "cta": {
+    "text": "View Full Menu",
+    "href": "shop/"
+   }
+  }
+ },
+ "faq": {
+  "eyebrow": "We're here to help",
+  "title": "Frequently Asked Questions",
+  "titleAccent": "Questions",
+  "items": [
+   {
+    "q": "Do I need a medical card to purchase?",
+    "a": "No! We are a recreational dispensary. Any adult 21 years of age or older with a valid, non-expired government-issued ID (state ID, driver's license, or passport) can purchase from us."
+   },
+   {
+    "q": "What forms of payment do you accept?",
+    "a": "We accept cash and debit cards in-store. We also accept Dutchie Pay (an ACH payment system) for online orders and delivery. We have an ATM on site for your convenience."
+   },
+   {
+    "q": "How much cannabis can I buy at once?",
+    "a": "Under New Jersey law, recreational customers can purchase up to 1 ounce of usable cannabis (or the equivalent in other products) per transaction. This equals 1 ounce of flower, 1,000mg of edibles, or 1,000mg (1 gram) of concentrates."
+   },
+   {
+    "q": "Do you deliver?",
+    "a": "Yes! We offer free delivery to the Irvington area and surrounding Essex County on orders over $60. Orders under $60 are subject to an $11 delivery fee. Deliveries must be paid via Dutchie Pay (ACH) prior to arrival. The person who placed the order must be present with valid ID to receive the delivery."
+   }
+  ]
+ }
+}

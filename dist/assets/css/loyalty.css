@@ -1,0 +1,120 @@
+/* pages/loyalty/00-visit.css */
+/* 00-visit — visit-lane shared parts. SOURCE: src/styles/pages/bundles/00-visit.css; identical copies in contact/, deals/,
+   loyalty/ and notfound/ (page CSS is per template). Shared change requested: move to components.css. */
+/* status badges above an inner-page title (pageHero's `before` slot) */
+.vh-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.page-hero--center .vh-badges { justify-content: center; }
+
+/* a small lit stage of floating cut-outs at the hero's right (desktop + tablet only) */
+.vh-stage { position: absolute; z-index: 1; top: 50%; right: max(var(--gutter), calc((100% - var(--container)) / 2)); width: clamp(220px, 22vw, 320px); aspect-ratio: 1;
+  transform: translateY(-40%); pointer-events: none; }
+.vh-stage__halo { position: absolute; inset: -12%; background: radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 30%, transparent), color-mix(in srgb, var(--emerald-c) 7%, transparent) 55%, transparent 72%),
+  radial-gradient(22% 20% at 78% 26%, color-mix(in srgb, var(--amber-c) 9%, transparent), transparent 70%); }
+.vh-stage__a { left: 22%; top: 0; width: 50%; z-index: 2; }
+.vh-stage__b { left: -8%; bottom: 10%; width: 44%; z-index: 3; }
+.vh-stage__c { right: -6%; bottom: 2%; width: 38%; z-index: 1; }
+.vh-fade img { -webkit-mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); }
+@media (max-width: 899.98px) { .vh-stage { display: none; } }
+
+/* a compact lit band (How It Works on bundles + loyalty): the heading is the band's small label, the live paragraph
+   is the statement */
+.vh-band { display: grid; gap: 14px; }
+.vh-band__label { margin: 0; color: var(--ink-2); font-variation-settings: normal; }
+.vh-band__text { max-width: 62ch; color: var(--ink); font: 500 clamp(1.125rem, .98rem + .62vw, 1.45rem)/1.5 var(--f-display); letter-spacing: -.006em;
+  text-wrap: pretty; font-variation-settings: "opsz" 24; }
+
+/* the lit closing panel ("Launching Soon") */
+.launch { overflow: hidden; isolation: isolate; --pool-x: 50%; --pool-y: 50%; --pool-a: .16; --pool-w: 62%; --pool-h: 90%; }
+.launch__panel { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.launch__panel .eyebrow { margin-bottom: 0; color: var(--ink-2); }
+.launch__panel h2 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); }
+.launch__text { max-width: 56ch; color: var(--ink-2); font-size: var(--t-lg); line-height: 1.55; }
+.launch__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 8px; }
+.launch__floats .float { width: clamp(110px, 11vw, 170px); }
+.launch__f1 { left: max(2vw, calc(50% - 600px)); top: 16%; }
+.launch__f2 { right: max(2vw, calc(50% - 600px)); bottom: 12%; }
+@media (max-width: 1199.98px) { .launch__floats { display: none; } }
+@media (max-width: 479.98px) { .launch__actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; } }
+
+/* LOCAL STAND-IN for a shared change request (chrome.css, lead-owned): below 380px the dock's "Get Directions" label
+   wrapped onto two lines. A narrower Shop Now column and tighter tracking keep every label on one line. */
+@media (max-width: 379.98px) {
+  .dock { grid-template-columns: 1fr 1.2fr 1fr; gap: 4px; padding-inline: 8px; }
+  .dock a { letter-spacing: .02em; white-space: nowrap; }
+}
+
+/* pages/loyalty/01-hero.css */
+/* loyalty 01-hero — the fan of three glass member cards (decorative), lit from behind; hidden below 900px. Lime pips on
+   Bronze + Silver, warm amber on Gold (the one warm light); emerald only in the glows. */
+.tpl-loyalty .page-hero { --pool-x: 74%; --pool-y: 50%; --pool-a: .18; --pool-w: 46%; }
+.tpl-loyalty .page-hero .lede { max-width: 50ch; }
+.ly-art { width: clamp(240px, 24vw, 340px); }
+.ly-art__card { position: absolute; left: 50%; top: 50%; width: 74%; aspect-ratio: 1.6; margin: -23% 0 0 -37%; border-radius: var(--r-tile); filter: none;
+  border: 1px solid var(--glass-line-hi); background: var(--sheen), var(--glass-fill-2); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 12%, transparent), 0 24px 50px -24px color-mix(in srgb, var(--black) 90%, transparent); }
+.ly-art__card--1 { translate: -22% 18%; }
+.ly-art__card--2 { translate: -4% 2%; background: radial-gradient(120% 90% at 30% 0%, color-mix(in srgb, var(--emerald-c) 22%, transparent), transparent 65%), var(--sheen), var(--glass-fill-2); }
+.ly-art__card--3 { translate: 16% -16%; border-color: color-mix(in srgb, var(--amber-c) 45%, transparent);
+  background: radial-gradient(120% 100% at 30% 0%, color-mix(in srgb, var(--amber-c) 20%, transparent), transparent 62%), radial-gradient(90% 90% at 100% 100%, color-mix(in srgb, var(--emerald-c) 20%, transparent), transparent 70%), var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 16%, transparent), 0 0 50px -12px color-mix(in srgb, var(--amber-c) 35%, transparent), 0 30px 60px -24px color-mix(in srgb, var(--black) 90%, transparent); }
+.ly-art__pips { position: absolute; left: 14px; bottom: 14px; display: flex; gap: 5px; }
+.ly-art__pips i { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-hi); box-shadow: 0 0 10px color-mix(in srgb, var(--accent-glow-c) 70%, transparent); }
+.ly-art__card--3 .ly-art__pips i { background: var(--amber-c); box-shadow: 0 0 10px color-mix(in srgb, var(--amber-c) 80%, transparent); }
+.ly-art__seal { position: absolute; right: 14px; top: 14px; --seal: 40px; }
+
+/* pages/loyalty/02-how.css */
+/* loyalty 02-how — the band itself is .vh-band in 00-visit.css (shared with bundles): label + statement. */
+.ly-how { padding-top: calc(var(--sec-y) * .35); }
+
+/* pages/loyalty/03-tiers.css */
+/* loyalty 03-tiers — three tier cards, light rising Bronze -> Silver -> Gold (Gold: the one warm light). Phones: a rail.
+   Tier bars and ticks are lime (Gold's warm amber), set in an emerald-lit disc like the shared .icon-disc. */
+.ly-tiers { --pool-x: 78%; --pool-y: 45%; --pool-a: .12; }
+.ly-rail { list-style: none; --rail-col: 84%; }
+.ly-item { min-width: 0; }
+.ly-tier { height: 100%; padding: clamp(20px, 2.2vw, 28px); gap: 12px; }
+.ly-tier__head { display: flex; align-items: center; gap: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--glass-line); }
+.ly-tier h3 { font-size: clamp(1.4rem, 1.15rem + .8vw, 1.8rem); }
+.card .ly-tier__sub { margin: 2px 0 0; font: 650 .75rem/1.3 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
+.ly-pips { display: grid; grid-auto-flow: column; gap: 4px; align-items: end; padding: 10px; border-radius: var(--r-input); border: 1px solid color-mix(in srgb, var(--emerald-c) 30%, transparent);
+  background: radial-gradient(100% 100% at 30% 20%, color-mix(in srgb, var(--emerald-c) 22%, transparent), color-mix(in srgb, var(--emerald-c) 5%, transparent)); }
+.ly-pips i { width: 6px; border-radius: var(--r-pill); background: var(--accent-hi); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+.ly-pips i:nth-child(1) { height: 10px; } .ly-pips i:nth-child(2) { height: 16px; } .ly-pips i:nth-child(3) { height: 22px; }
+.card .ly-tier__label { margin: 2px 0 0; font: 700 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
+.ly-tier ul { list-style: none; display: grid; gap: 8px; }
+.ly-tier li { position: relative; padding-left: 20px; color: var(--ink-2); font-size: .9375rem; line-height: 1.45; }
+.ly-tier li::before { content: ""; position: absolute; left: 1px; top: .3em; width: 11px; height: 6px; border-left: 2px solid var(--accent-hi); border-bottom: 2px solid var(--accent-hi); transform: rotate(-45deg); }
+/* gold: most lit — warm light, lit border, its own glow */
+.ly-tier--gold { border-color: color-mix(in srgb, var(--amber-c) 42%, transparent);
+  background: radial-gradient(110% 70% at 50% 0%, color-mix(in srgb, var(--amber-c) 16%, transparent), transparent 62%), radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--emerald-c) 16%, transparent), transparent 62%), var(--sheen), var(--glass-fill-2);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 10%, transparent), 0 0 0 1px color-mix(in srgb, var(--amber-c) 14%, transparent), 0 24px 70px -30px color-mix(in srgb, var(--amber-c) 45%, transparent); }
+.ly-tier--gold .ly-pips { border-color: color-mix(in srgb, var(--amber-c) 40%, transparent); background: radial-gradient(100% 100% at 30% 20%, color-mix(in srgb, var(--amber-c) 25%, transparent), color-mix(in srgb, var(--amber-c) 5%, transparent)); }
+.ly-tier--gold .ly-pips i { background: var(--amber-c); box-shadow: 0 0 8px color-mix(in srgb, var(--amber-c) 70%, transparent); }
+.ly-tier--gold li::before { border-color: var(--amber-c); }
+.ly-controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 768px) {
+  .ly-rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .ly-controls { display: none; }
+}
+@media (max-width: 767.98px) { .ly-tier li { font-size: .875rem; } }
+
+/* pages/loyalty/04-enroll.css */
+/* loyalty 04-enroll — two step cards with big outlined numerals. Phones: stacked (only two). */
+.ly-enroll { --pool-x: 20%; --pool-y: 55%; }
+.ly-steps { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.ly-step { padding: clamp(20px, 2.4vw, 32px); gap: 12px; }
+.ly-step__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.ly-step__num { font: 800 clamp(2.6rem, 1.6rem + 2.6vw, 4rem)/.9 var(--f-display); letter-spacing: -.04em; color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-glow-c) 85%, transparent); text-shadow: 0 0 30px color-mix(in srgb, var(--accent-glow-c) 20%, transparent); font-variation-settings: "opsz" 96; }
+.ly-step h3 { font-size: clamp(1.25rem, 1.05rem + .6vw, 1.55rem); }
+.card.ly-step p { font-size: .9375rem; line-height: 1.6; color: var(--ink-2); max-width: 60ch; }
+.ly-step a { color: var(--ink); font-weight: 600; text-decoration-color: color-mix(in srgb, var(--accent-glow-c) 60%, transparent); }
+.ly-step a:hover { color: var(--white); }
+@media (max-width: 767.98px) { .ly-steps { grid-template-columns: minmax(0, 1fr); } .card.ly-step p { font-size: .875rem; } }
+
+/* the in-sentence dutchie.com link: a 44px-tall hit area without moving the line (sweep: 84x17 tap target) */
+.ly-step p a { display: inline-block; padding-block: 14px; margin-block: -14px; }
+
+/* pages/loyalty/05-launch.css */
+/* loyalty 05-launch — the panel lives in 00-visit.css (shared with bundles). */
+.tpl-loyalty .launch { --pool-c: var(--emerald); }

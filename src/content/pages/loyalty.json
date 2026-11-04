@@ -1,0 +1,95 @@
+{
+ "_note": "Loyalty page copy, DOM case, from audit/pages/loyalty/rendered.html (the RENDERED page; the server snapshot reads as a live program and is not carried, F3). COMING SOON kept as live (F2). enroll.eyebrow 'Loyalty Rewards Program' = the live page's own title (audit/pages/loyalty/harvest.json head.title).",
+ "hero": {
+  "badge": "Coming Soon",
+  "title": [
+   "Loyalty That",
+   "Levels Up"
+  ],
+  "titleAccent": "Levels Up",
+  "lede": "Our tiered customer loyalty program rewards you every time you visit. The higher your tier, the bigger the perks."
+ },
+ "how": {
+  "title": "How It Works",
+  "text": "Every purchase earns you points toward your next tier. Accumulate enough and your account advances automatically — unlocking better discounts, exclusive deals, and priority perks. Tiers are evaluated on a rolling basis so your status always reflects your recent activity."
+ },
+ "tiers": {
+  "eyebrow": "Bronze, Silver, Gold",
+  "title": "Program Tiers",
+  "titleAccent": "Tiers",
+  "perksTitle": "Member Perks",
+  "items": [
+   {
+    "name": "Bronze",
+    "sub": "Entry level",
+    "_level": 1,
+    "perks": [
+     "Birthday discount — 15% off on your birthday",
+     "Early access to weekly deal notifications",
+     "Member-only flash deals"
+    ]
+   },
+   {
+    "name": "Silver",
+    "sub": "Mid tier",
+    "_level": 2,
+    "perks": [
+     "Everything in Bronze",
+     "10% off every visit (applied at register)",
+     "Priority budtender scheduling for consultations",
+     "Exclusive Silver-only monthly deal"
+    ]
+   },
+   {
+    "name": "Gold",
+    "sub": "Top tier",
+    "_level": 3,
+    "perks": [
+     "Everything in Silver",
+     "15% off every visit",
+     "First access to new product drops and limited releases",
+     "Complimentary product sample on qualifying visits",
+     "Dedicated Gold member line during peak hours"
+    ]
+   }
+  ]
+ },
+ "enroll": {
+  "eyebrow": "Loyalty Rewards Program",
+  "title": "How to Enroll",
+  "titleAccent": "Enroll",
+  "steps": [
+   {
+    "num": "01",
+    "title": "In Person at the Register",
+    "text": "Ask any budtender or cashier to sign you up when you check in. We'll create your loyalty account on the spot — all you need is a valid 21+ ID. Your points start accumulating immediately on your first qualifying purchase.",
+    "_icon": "store"
+   },
+   {
+    "num": "02",
+    "title": "Via Your Dutchie Account",
+    "text": "Already have a Dutchie account? Your loyalty membership will be linked automatically once the program launches. No Dutchie account yet? Create one free at",
+    "link": {
+     "text": "dutchie.com",
+     "href": "https://dutchie.com"
+    },
+    "after": "— it also makes online ordering and express pickup faster.",
+    "_icon": "bag"
+   }
+  ]
+ },
+ "launch": {
+  "eyebrow": "Springfield Ave Dispensary",
+  "title": "Program Launching Soon",
+  "titleAccent": "Soon",
+  "text": "Our tiered loyalty program is being finalized and will roll out in the coming months. Visit us in store to get on the early-access list and be among the first enrolled when we go live.",
+  "primary": {
+   "text": "Visit Us",
+   "href": "contact/"
+  },
+  "secondary": {
+   "text": "Shop Now",
+   "href": "shop/"
+  }
+ }
+}

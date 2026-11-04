@@ -1,0 +1,140 @@
+/* pages/contact/00-visit.css */
+/* 00-visit — visit-lane shared parts. SOURCE: src/styles/pages/bundles/00-visit.css; identical copies in contact/, deals/,
+   loyalty/ and notfound/ (page CSS is per template). Shared change requested: move to components.css. */
+/* status badges above an inner-page title (pageHero's `before` slot) */
+.vh-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.page-hero--center .vh-badges { justify-content: center; }
+
+/* a small lit stage of floating cut-outs at the hero's right (desktop + tablet only) */
+.vh-stage { position: absolute; z-index: 1; top: 50%; right: max(var(--gutter), calc((100% - var(--container)) / 2)); width: clamp(220px, 22vw, 320px); aspect-ratio: 1;
+  transform: translateY(-40%); pointer-events: none; }
+.vh-stage__halo { position: absolute; inset: -12%; background: radial-gradient(50% 50% at 50% 52%, color-mix(in srgb, var(--emerald-c) 30%, transparent), color-mix(in srgb, var(--emerald-c) 7%, transparent) 55%, transparent 72%),
+  radial-gradient(22% 20% at 78% 26%, color-mix(in srgb, var(--amber-c) 9%, transparent), transparent 70%); }
+.vh-stage__a { left: 22%; top: 0; width: 50%; z-index: 2; }
+.vh-stage__b { left: -8%; bottom: 10%; width: 44%; z-index: 3; }
+.vh-stage__c { right: -6%; bottom: 2%; width: 38%; z-index: 1; }
+.vh-fade img { -webkit-mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); mask-image: radial-gradient(closest-side, var(--black) 58%, transparent 100%); }
+@media (max-width: 899.98px) { .vh-stage { display: none; } }
+
+/* a compact lit band (How It Works on bundles + loyalty): the heading is the band's small label, the live paragraph
+   is the statement */
+.vh-band { display: grid; gap: 14px; }
+.vh-band__label { margin: 0; color: var(--ink-2); font-variation-settings: normal; }
+.vh-band__text { max-width: 62ch; color: var(--ink); font: 500 clamp(1.125rem, .98rem + .62vw, 1.45rem)/1.5 var(--f-display); letter-spacing: -.006em;
+  text-wrap: pretty; font-variation-settings: "opsz" 24; }
+
+/* the lit closing panel ("Launching Soon") */
+.launch { overflow: hidden; isolation: isolate; --pool-x: 50%; --pool-y: 50%; --pool-a: .16; --pool-w: 62%; --pool-h: 90%; }
+.launch__panel { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.launch__panel .eyebrow { margin-bottom: 0; color: var(--ink-2); }
+.launch__panel h2 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); }
+.launch__text { max-width: 56ch; color: var(--ink-2); font-size: var(--t-lg); line-height: 1.55; }
+.launch__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 8px; }
+.launch__floats .float { width: clamp(110px, 11vw, 170px); }
+.launch__f1 { left: max(2vw, calc(50% - 600px)); top: 16%; }
+.launch__f2 { right: max(2vw, calc(50% - 600px)); bottom: 12%; }
+@media (max-width: 1199.98px) { .launch__floats { display: none; } }
+@media (max-width: 479.98px) { .launch__actions { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; } }
+
+/* LOCAL STAND-IN for a shared change request (chrome.css, lead-owned): below 380px the dock's "Get Directions" label
+   wrapped onto two lines. A narrower Shop Now column and tighter tracking keep every label on one line. */
+@media (max-width: 379.98px) {
+  .dock { grid-template-columns: 1fr 1.2fr 1fr; gap: 4px; padding-inline: 8px; }
+  .dock a { letter-spacing: .02em; white-space: nowrap; }
+}
+
+/* pages/contact/01-hero.css */
+/* contact 01-hero — the shared compact page hero; light pool behind the title; from 900px a small lit stage at the right:
+   the interior photo in a tilted glass frame + one floating cut-out (hidden on phones and small tablets by .vh-stage). */
+.tpl-contact .page-hero { --pool-x: 18%; --pool-y: 30%; }
+.ct-stage { width: clamp(210px, 20vw, 290px); transform: translateY(-46%); }
+.ct-stage__frame { position: absolute; left: 22%; top: 0; width: 58%; aspect-ratio: 382 / 510; z-index: 1; rotate: 5deg; border-radius: var(--r-tile); border-color: var(--glass-line-hi); }
+.ct-stage__frame img { width: 100%; height: 100%; object-fit: cover; }
+.ct-stage__cut { left: -6%; bottom: 4%; width: 50%; z-index: 2; }
+
+/* pages/contact/02-main.css */
+/* contact 02-main — form (left) + store information and map (right). Desktop: one screen. Phones: info first, then form. */
+.ct-main { --pool-x: 72%; --pool-y: 30%; --pool-a: .1; padding-top: calc(var(--sec-y) * .45); }
+.ct-main__grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: var(--gap-lg); align-items: start; }
+.ct-h2 { font-size: clamp(1.55rem, 1.15rem + 1.2vw, 2.1rem); margin-bottom: clamp(16px, 2vw, 22px); }
+.ct-form { scroll-margin-top: calc(var(--header-h) + 16px); }
+.ct-form__grid { gap: 14px 16px; }
+.ct-form__foot { display: grid; gap: 8px; margin-top: 4px; }
+.ct-form .field textarea { min-height: 132px; }
+
+.ct-side { display: grid; gap: var(--gap); }
+.ct-info__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px 26px; }
+.ct-block--wide { grid-column: 1 / -1; padding-top: 14px; border-top: 1px solid var(--glass-line); }
+.ct-block__title { display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+  font: 650 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); font-variation-settings: normal; }
+.ct-block__title svg { width: 16px; height: 16px; color: var(--accent-hi); }
+.ct-block__addr { margin-bottom: 2px; color: var(--ink); font-size: 1.0625rem; line-height: 1.5; }
+.ct-block .link-arrow { font-size: .9375rem; }
+.ct-hours { margin: 0; display: grid; }
+.ct-hours div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 7px 0; border-bottom: 1px solid var(--glass-line); }
+.ct-hours div:last-child { border-bottom: 0; }
+.ct-hours dt { color: var(--ink-2); font-size: .9375rem; }
+.ct-hours dd { margin: 0; color: var(--ink); font-size: .9375rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ct-mail { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); font-size: 1rem; overflow-wrap: anywhere; text-decoration-color: color-mix(in srgb, var(--accent-glow-c) 55%, transparent); }
+.ct-mail:hover { color: var(--white); }
+
+/* the live Google map, in a lit frame; until it loads (or when blocked) the frame shows a soft lit ground */
+.ct-map { margin: 0; aspect-ratio: 16 / 9; background: radial-gradient(60% 70% at 50% 45%, color-mix(in srgb, var(--emerald-c) 16%, transparent), transparent 72%), var(--bg-3); }
+.ct-map iframe { display: block; width: 100%; height: 100%; border: 0; filter: invert(.9) hue-rotate(180deg) saturate(.75) brightness(.95) contrast(.95); }   /* the live map, tinted into the dark world */
+.ct-map::after { background: none; }
+/* focus inside the cross-origin map: the iframe is the parent document's focused element, so :focus / :focus-within show the
+   ring with no timing; contact.js's .is-focus stays as a fallback (an iframe does not always match :focus-visible) */
+.ct-map iframe:focus, .ct-map:focus-within iframe, .ct-map.is-focus iframe { outline: 3px solid var(--accent-hi); outline-offset: -3px; border-radius: var(--r-card); }
+
+@media (max-width: 899.98px) {
+  .ct-main__grid { grid-template-columns: minmax(0, 1fr); }
+  .ct-side { order: -1; }
+}
+/* tablets: store information and the map side by side above the form */
+@media (min-width: 600px) and (max-width: 899.98px) {
+  .ct-side { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; }
+  .ct-info__grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .ct-block + .ct-block { padding-top: 14px; border-top: 1px solid var(--glass-line); }
+  .ct-block--wide { padding-top: 14px; }
+  .ct-map { aspect-ratio: auto; min-height: 260px; }
+}
+@media (max-width: 559.98px) {
+  .ct-info__grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .ct-block + .ct-block { padding-top: 14px; border-top: 1px solid var(--glass-line); }
+  .ct-map { aspect-ratio: 16 / 11; }
+}
+
+/* pages/contact/03-order.css */
+/* contact 03-order — three compact ways to order + the "Ready to order?" strip. Phones: icon-left rows. */
+.ct-order { --pool-x: 80%; --pool-y: 50%; }
+.ct-order .sec-head .lede, .ct-faq .sec-head .lede { text-wrap: pretty; }
+.ct-ways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); list-style: none; }
+.ct-way { padding: clamp(18px, 2vw, 26px); gap: 14px; }
+.ct-way h3 { font-size: 1.25rem; margin-bottom: 6px; }
+.ct-way p { font-size: .9375rem; }
+.ct-ready { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 28px; margin-top: var(--gap); padding: 18px clamp(18px, 2.4vw, 28px); }
+.ct-ready h3 { font-size: 1.25rem; margin-bottom: 2px; }
+.ct-ready p { color: var(--ink-2); font-size: .9375rem; }
+@media (max-width: 899.98px) {
+  .ct-ways { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .ct-way { flex-direction: row; align-items: flex-start; padding: 16px; }
+  .ct-way h3 { font-size: 1.125rem; margin-bottom: 4px; }
+}
+@media (max-width: 559.98px) {
+  .ct-way .icon-disc { width: 40px; height: 40px; border-radius: var(--r-badge); }
+  .ct-way p { font-size: .875rem; }
+  .ct-ready { flex-direction: column; align-items: stretch; }
+  .ct-ready .btn { width: 100%; }
+}
+
+/* pages/contact/04-faq.css */
+/* contact 04-faq — heading left, the four live questions right (native accordions). Phones: one column. */
+.ct-faq { --pool-x: 20%; --pool-y: 60%; --pool-a: .09; }
+.ct-faq__grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: var(--gap-lg); align-items: start; }
+.ct-faq .sec-head { margin-bottom: 0; }
+.ct-faq .acc > summary { font-size: 1rem; line-height: 1.35; }
+.ct-faq .acc__body p { font-size: .9375rem; line-height: 1.6; color: var(--ink-2); max-width: 64ch; }
+@media (max-width: 899.98px) {
+  .ct-faq__grid { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .ct-faq .sec-head { margin-bottom: 18px; }
+}

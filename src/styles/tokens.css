@@ -1,0 +1,128 @@
+/* tokens.css — the one source of colour, type, space, radius and motion values. Change values HERE, never at a call site.
+   World: a deep green-black ground; the brand green is LIGHT (pools, glows), never paint; one warm amber glow, used
+   sparingly; warm off-white ink; ONE accent (the brand's own lime, live --accent-cta #a3ce0c) for every call to action. */
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 400 800; font-display: swap;
+  src: url("../fonts/bricolage-latin.woff2") format("woff2"); }
+@font-face { font-family: "Instrument Serif"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url("../fonts/instrument-serif-italic-latin.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url("../fonts/inter-latin.woff2") format("woff2"); }
+/* the sign face: Overpass (the open Highway-Gothic model), used ONLY for lettering on street-sign plates (owner pick, hero A) */
+@font-face { font-family: "Overpass Sign"; font-style: normal; font-weight: 600 900; font-display: swap;
+  src: url("../fonts/overpass-latin.woff2") format("woff2"); }
+
+:root {
+  color-scheme: dark;
+
+  /* ground — green-black, never flat black */
+  --bg-0: #040a06;
+  --bg-1: #07110b;
+  --bg-2: #0b1810;
+  --bg-3: #102217;
+  --bg-4: #15301f;
+
+  /* ink — warm off-white, softer tones for support copy (all >= 4.5:1 on --bg-2) */
+  --ink: #f5f0e6;
+  --ink-2: #d6cfc1;
+  --ink-3: #aea797;
+  --ink-4: #8c958c;
+
+  /* light (as rgb triplets so alpha can vary) */
+  --emerald: 56 196 124;      /* brand green as light */
+  --emerald-deep: 31 107 63;  /* the live --accent family, for pools */
+  --amber: 240 172 92;        /* the one warm glow — sparingly */
+
+  /* the ONE call-to-action accent */
+  --accent: #a3ce0c;
+  --accent-hi: #c6e84f;
+  --accent-lo: #86ad00;
+  --accent-ink: #0b1504;
+  --accent-glow: 163 206 12;
+
+  /* hex twins of the light triplets (alpha via color-mix) + named helper colours */
+  --emerald-c: #38c47c;
+  --emerald-deep-c: #1f6b3f;
+  --amber-c: #f0ac5c;
+  --accent-glow-c: #a3ce0c;
+  --white: #ffffff;
+  --black: #000000;
+  --seal-cream-hi: #fffdf6;
+  --seal-cream: #efe8d6;
+  --seal-cream-lo: #e2d9c2;
+  --closed: #e98a6c;
+  --danger-ink: #ffb4a2;
+  --soon-ink: #f8deb9;
+  --mint-line: #e4ffee;
+
+  /* glass */
+  --glass-fill: rgba(220, 246, 230, .05);
+  --glass-fill-2: rgba(220, 246, 230, .085);
+  --glass-strong: rgba(10, 26, 17, .72);
+  --glass-line: rgba(228, 255, 238, .12);
+  --glass-line-hi: rgba(236, 255, 244, .26);
+  --glass-blur: 18px;
+  --sheen: linear-gradient(180deg, rgba(255, 255, 255, .085) 0%, rgba(255, 255, 255, .02) 34%, rgba(255, 255, 255, 0) 60%);
+  --shadow-1: 0 18px 50px -28px rgba(0, 0, 0, .85);
+  --shadow-2: 0 30px 80px -30px rgba(0, 0, 0, .9);
+
+  /* accent-word gradient (headline accent words only) */
+  --accent-word: linear-gradient(96deg, #f6f3d8 0%, #dff08c 38%, var(--accent-hi) 62%, #9fdcae 100%);
+
+  /* type */
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-accent: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --f-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-sign: "Overpass Sign", "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --t-xs: .75rem;
+  --t-sm: .875rem;
+  --t-md: 1rem;
+  --t-body: clamp(1rem, .96rem + .18vw, 1.0625rem);
+  --t-lg: clamp(1.0625rem, 1rem + .3vw, 1.1875rem);
+  --t-h1: clamp(2.45rem, 1.25rem + 4.4vw, 5.1rem);
+  --t-h2: clamp(1.85rem, 1.2rem + 2.5vw, 3.2rem);
+  --t-h3: clamp(1.15rem, 1rem + .6vw, 1.45rem);
+  --t-stat: clamp(2.2rem, 1.4rem + 3vw, 4rem);
+  --lh-body: 1.62;
+  --lh-head: 1.02;
+  --track-eyebrow: .22em;
+
+  /* space */
+  --gutter: clamp(16px, 4vw, 48px);
+  --container: 1240px;
+  --container-narrow: 780px;
+  --measure: 68ch;
+  --sec-y: clamp(56px, 6.5vw, 96px);
+  --gap: clamp(12px, 1.5vw, 20px);
+  --gap-lg: clamp(20px, 2.6vw, 36px);
+
+  /* radius */
+  --r-card: 22px;
+  --r-tile: 18px;
+  --r-input: 14px;
+  --r-badge: 10px;
+  --r-pill: 999px;
+
+  /* chrome sizes */
+  --header-h: 72px;
+  --dock-h: 0px;
+
+  /* motion */
+  --ease: cubic-bezier(.22, .8, .24, 1);
+  --ease-soft: cubic-bezier(.4, 0, .2, 1);
+  --dur-fast: .18s;
+  --dur: .32s;
+  --dur-reveal: .7s;
+
+  /* layers */
+  --z-atmos: 0;
+  --z-content: 1;
+  --z-header: 40;
+  --z-dock: 45;
+  --z-drawer: 60;
+  --z-dialog: 70;
+  --z-gate: 90;
+}
+
+@media (max-width: 767.98px) {
+  :root { --header-h: 64px; --dock-h: 68px; --glass-blur: 12px; --r-card: 18px; --r-tile: 16px; }
+}

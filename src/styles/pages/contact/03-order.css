@@ -1,0 +1,21 @@
+/* contact 03-order — three compact ways to order + the "Ready to order?" strip. Phones: icon-left rows. */
+.ct-order { --pool-x: 80%; --pool-y: 50%; }
+.ct-order .sec-head .lede, .ct-faq .sec-head .lede { text-wrap: pretty; }
+.ct-ways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); list-style: none; }
+.ct-way { padding: clamp(18px, 2vw, 26px); gap: 14px; }
+.ct-way h3 { font-size: 1.25rem; margin-bottom: 6px; }
+.ct-way p { font-size: .9375rem; }
+.ct-ready { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 28px; margin-top: var(--gap); padding: 18px clamp(18px, 2.4vw, 28px); }
+.ct-ready h3 { font-size: 1.25rem; margin-bottom: 2px; }
+.ct-ready p { color: var(--ink-2); font-size: .9375rem; }
+@media (max-width: 899.98px) {
+  .ct-ways { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .ct-way { flex-direction: row; align-items: flex-start; padding: 16px; }
+  .ct-way h3 { font-size: 1.125rem; margin-bottom: 4px; }
+}
+@media (max-width: 559.98px) {
+  .ct-way .icon-disc { width: 40px; height: 40px; border-radius: var(--r-badge); }
+  .ct-way p { font-size: .875rem; }
+  .ct-ready { flex-direction: column; align-items: stretch; }
+  .ct-ready .btn { width: 100%; }
+}

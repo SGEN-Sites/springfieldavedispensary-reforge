@@ -1,0 +1,3 @@
+/* bundles 01-hero — light pool behind the cut-out stage on the right. */
+.tpl-bundles .page-hero { --pool-x: 74%; --pool-y: 50%; --pool-a: .18; --pool-w: 46%; }
+.tpl-bundles .page-hero .lede { max-width: 52ch; }

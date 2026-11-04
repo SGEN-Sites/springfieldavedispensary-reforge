@@ -1,0 +1,234 @@
+{
+ "_note": "NEW page (brief page 8: the full weekly specials and bulk offers on one page). Every string is the homepage's live copy (audit/pages/index rendered.html + index/deal-modals.json), copied from the proved index.json. F1 ('New to Treehouse?') kept verbatim, flagged. Bundles + Loyalty 'Coming Soon' kept as live (F2). weekly.dealShop = the live deal dialog's 'Shop Now' (index/deal-modals.json dialog html: <a href=\"/shop\">Shop Now</a>).",
+ "hero": {
+  "eyebrow": "Deals",
+  "title": "Weekly Specials",
+  "titleAccent": "Specials",
+  "todayBadge": "TODAY",
+  "cta": {
+   "text": "Shop All Deals",
+   "href": "shop/"
+  }
+ },
+ "weekly": {
+  "days": [
+   {
+    "dayIndex": 1,
+    "day": "Monday",
+    "name": "Munchie Monday",
+    "offer": "20% off all edibles",
+    "detail": "Get 20% off every edible on our menu — gummies, chocolates, beverages, and capsules. No minimum spend, no code needed.",
+    "terms": "Valid in-store only · Cannot be combined with other offers"
+   },
+   {
+    "dayIndex": 2,
+    "day": "Tuesday",
+    "name": "Toke Tuesday",
+    "offer": "Spend $100, get $20 off",
+    "detail": "Spend $100 or more on any products and automatically receive $20 off your total at checkout. Stack your favorites — it all counts.",
+    "terms": "Valid in-store and online · Applies to pre-tax total · Cannot be combined with other offers"
+   },
+   {
+    "dayIndex": 3,
+    "day": "Wednesday",
+    "name": "Wax Wednesday",
+    "offer": "20% off concentrates & rosin",
+    "detail": "20% off our full concentrates and rosin menu — live resin, live rosin, wax, shatter, badder, and diamonds. The best day to explore our extract collection.",
+    "terms": "Valid in-store only · Select limited-release brands excluded · While supplies last"
+   },
+   {
+    "dayIndex": 4,
+    "day": "Thursday",
+    "name": "Thrifty Thursday",
+    "offer": "$30 top-shelf eighths · Any 2 vapes for $70",
+    "detail": "Two deals, all day long: pick any eighth from our Thrifty Thursday selection for just $30, or mix and match any 2 vapes from our full menu for a flat $70.",
+    "terms": "Valid in-store only · $30 eighths while supplies last · Any 2 vapes for $70 applies to equal or lesser value · Select premium brands excluded"
+   },
+   {
+    "dayIndex": 5,
+    "day": "Friday",
+    "name": "Flower Friday",
+    "offer": "25% off premium indoor flower",
+    "detail": "25% off all premium indoor flower — eighths, quarters, halves, and full ounces. Best selection of the week. Grab something new before the weekend.",
+    "terms": "Valid in-store only · Applies to premium tier only · Budget and value-tier strains not included"
+   },
+   {
+    "dayIndex": 6,
+    "day": "Saturday",
+    "name": "Saucy Saturday",
+    "offer": "Build a bundle — any 8th + cart + edible for $80",
+    "detail": "Build your perfect weekend kit: choose any eighth, any cartridge, and any edible from our full menu and pay just $80 — a savings of up to $90 depending on your picks.",
+    "terms": "Valid in-store only · One bundle per customer per visit · Select product tiers may be excluded · Ask a budtender for eligible items"
+   },
+   {
+    "dayIndex": 0,
+    "day": "Sunday",
+    "name": "Sunday Sesh",
+    "offer": "Spend $75, add an eighth for just $1",
+    "detail": "Spend $75 or more on any products and unlock the add-on: pick any available eighth from our Sunday Sesh selection and add it to your order for just $1.",
+    "terms": "Valid in-store only · One qualifying eighth per transaction · Eighth selection subject to availability · While supplies last"
+   }
+  ],
+  "dealShop": {
+   "text": "Shop Now",
+   "href": "shop/"
+  },
+  "ready": {
+   "title": "Ready to order?",
+   "text": "Browse our live menu and place an order now.",
+   "cta": {
+    "text": "View Full Menu",
+    "href": "shop/"
+   }
+  }
+ },
+ "featured": {
+  "eyebrow": "Spotlight",
+  "title": "Featured Deals",
+  "titleAccent": "Deals",
+  "bulk": {
+   "badge": "New Deal",
+   "title": [
+    "The More You Grab,",
+    "The More You Save"
+   ],
+   "titleAccent": "Save",
+   "text": "Stack your eighths and unlock bigger discounts",
+   "cta": {
+    "text": "Shop Flower",
+    "href": "shop/?dtche[category]=flower"
+   },
+   "offWord": "off",
+   "tiers": [
+    {
+     "pct": "10%",
+     "qty": "2 Eighths",
+     "weight": "7g"
+    },
+    {
+     "pct": "15%",
+     "qty": "4 Eighths",
+     "weight": "14g"
+    },
+    {
+     "pct": "25%",
+     "qty": "8 Eighths",
+     "weight": "1 oz"
+    }
+   ]
+  },
+  "firstVisit": {
+   "badge": "Always On",
+   "title": [
+    "First Visit?",
+    "20% Off On Us"
+   ],
+   "titleAccent": "20% Off",
+   "text": "New to Treehouse? Every first-time purchase gets 20% off — no coupon needed.",
+   "_flag": "F1 in docs/CHANGE-LOG.md: 'Treehouse' is another dispensary's name; kept verbatim until the owner decides",
+   "cta": {
+    "text": "Shop Now",
+    "href": "shop/"
+   },
+   "stat": {
+    "num": "20%",
+    "label": "First Purchase"
+   },
+   "points": [
+    "Auto-applied",
+    "No code needed"
+   ]
+  },
+  "friend": {
+   "badges": [
+    "New Deal",
+    "In-Store Only"
+   ],
+   "title": [
+    "Bring a Friend,",
+    "Save 25% Each"
+   ],
+   "titleAccent": "25%",
+   "text": "Come in together, save together — you and a friend each get 25% off your full orders on the same visit.",
+   "cta": {
+    "text": "Shop Now",
+    "href": "shop/"
+   },
+   "people": [
+    {
+     "initial": "Y",
+     "who": "You",
+     "line": "25% off your order"
+    },
+    {
+     "initial": "F",
+     "who": "Friend",
+     "line": "25% off their order"
+    }
+   ],
+   "terms": "Both orders must be on the same visit"
+  }
+ },
+ "more": {
+  "bundles": {
+   "badges": [
+    "Coming Soon",
+    "In-Store Exclusive"
+   ],
+   "title": [
+    "Curated",
+    "Bundles"
+   ],
+   "titleAccent": "Bundles",
+   "text": "Hand-picked by our budtenders — three tiers, zero guesswork, just great cannabis",
+   "cta": {
+    "text": "Explore Bundles",
+    "href": "bundles/"
+   },
+   "tiers": [
+    {
+     "price": "From $100",
+     "name": "Head Stash",
+     "line": "Start here, no regrets"
+    },
+    {
+     "price": "From $100",
+     "name": "Cloud 9",
+     "line": "Head in the clouds"
+    },
+    {
+     "price": "From $180",
+     "name": "High Roller",
+     "line": "No half measures"
+    }
+   ]
+  },
+  "loyalty": {
+   "badge": "Coming Soon",
+   "title": [
+    "Loyalty That",
+    "Levels Up"
+   ],
+   "titleAccent": "Levels Up",
+   "text": "Our tiered customer loyalty program rewards every visit. Bronze, Silver, Gold — the higher your tier, the bigger the perks.",
+   "cta": {
+    "text": "Join the VIP List",
+    "href": "loyalty/"
+   },
+   "tiers": [
+    {
+     "name": "Bronze",
+     "line": "Entry rewards"
+    },
+    {
+     "name": "Silver",
+     "line": "Exclusive deals"
+    },
+    {
+     "name": "Gold",
+     "line": "Max rewards"
+    }
+   ]
+  }
+ }
+}

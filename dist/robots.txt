@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /css-export
+Disallow: /seo-export
+Disallow: /compare
+Disallow: /templates/
+Disallow: /seo/
+
+Sitemap: https://springfieldavedispensary.store/sitemap.xml

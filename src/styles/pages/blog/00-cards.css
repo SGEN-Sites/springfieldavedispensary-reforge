@@ -1,0 +1,22 @@
+/* 00-cards — lane blog: the article card + category/date row, used by the listing AND the post template. The build only
+   reads a template's own folder, so pages/post/00-cards.css is an IDENTICAL copy: keep the two byte-equal
+   (sharedChangeRequest: move .post-card/.post-meta into components.css). Tokens only. */
+.post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; }
+.post-meta__date { font: 600 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
+
+.post-card { height: 100%; gap: 0; padding: 0; }
+.post-card__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg-3); border-bottom: 1px solid var(--glass-line); }
+.post-card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
+.post-card__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--bg-0) 45%, transparent)); }
+.post-card:hover .post-card__media img, .post-card:focus-visible .post-card__media img { transform: scale(1.05); }
+.post-card__body { position: relative; z-index: 1; display: flex; flex-direction: column; gap: 10px; flex: 1; padding: clamp(16px, 1.6vw, 22px); }
+.post-card__title { font-size: clamp(1.1rem, 1rem + .35vw, 1.3rem); line-height: 1.18; }
+.post-card .post-card__excerpt { margin: 0; flex: 1; color: var(--ink-2); font-size: .9375rem; line-height: 1.55; }
+.post-card__more { display: inline-flex; align-items: center; gap: .45em; margin-top: 4px; font: 650 .8125rem/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); }
+.post-card__more .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
+.post-card:hover .post-card__more .arr, .post-card:focus-visible .post-card__more .arr { transform: translateX(4px); }
+@media (max-width: 599.98px) { .post-card .post-card__excerpt { font-size: .875rem; } }
+@media (prefers-reduced-motion: reduce) {
+  .post-card__media img, .post-card__more .arr { transition: none; }
+  .post-card:hover .post-card__media img, .post-card:hover .post-card__more .arr { transform: none; }
+}

@@ -1,0 +1,15 @@
+/* loyalty 04-enroll — two step cards with big outlined numerals. Phones: stacked (only two). */
+.ly-enroll { --pool-x: 20%; --pool-y: 55%; }
+.ly-steps { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.ly-step { padding: clamp(20px, 2.4vw, 32px); gap: 12px; }
+.ly-step__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.ly-step__num { font: 800 clamp(2.6rem, 1.6rem + 2.6vw, 4rem)/.9 var(--f-display); letter-spacing: -.04em; color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-glow-c) 85%, transparent); text-shadow: 0 0 30px color-mix(in srgb, var(--accent-glow-c) 20%, transparent); font-variation-settings: "opsz" 96; }
+.ly-step h3 { font-size: clamp(1.25rem, 1.05rem + .6vw, 1.55rem); }
+.card.ly-step p { font-size: .9375rem; line-height: 1.6; color: var(--ink-2); max-width: 60ch; }
+.ly-step a { color: var(--ink); font-weight: 600; text-decoration-color: color-mix(in srgb, var(--accent-glow-c) 60%, transparent); }
+.ly-step a:hover { color: var(--white); }
+@media (max-width: 767.98px) { .ly-steps { grid-template-columns: minmax(0, 1fr); } .card.ly-step p { font-size: .875rem; } }
+
+/* the in-sentence dutchie.com link: a 44px-tall hit area without moving the line (sweep: 84x17 tap target) */
+.ly-step p a { display: inline-block; padding-block: 14px; margin-block: -14px; }

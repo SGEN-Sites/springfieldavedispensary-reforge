@@ -1,0 +1,74 @@
+/* deals 03-featured — >= 1100px: three columns (bulk a little wider). Bulk (>= 768px): tier ladder in three columns; the flower
+   cut-out floating inside the card beside Shop Flower. First Visit + Bring a Friend: their middle part (the 20% stat,
+   the You/Friend chips) is centred in the shared row height, so no empty band. Below 1100px: a swipe rail. */
+.dl-feat { --pool-x: 18%; --pool-y: 55%; padding-block: calc(var(--sec-y) * .8); }
+.dl-feat__rail { list-style: none; --rail-col: 86%; }
+.dl-feat__item { min-width: 0; }
+.dl-offer { height: 100%; padding: clamp(20px, 2.2vw, 30px); gap: 12px; }
+.dl-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+.dl-offer__title { font-size: clamp(1.45rem, 1.1rem + 1.1vw, 2rem); line-height: 1.04; letter-spacing: -.022em; font-variation-settings: "opsz" 48; }
+.card .dl-offer__text { color: var(--ink-2); font-size: .9375rem; line-height: 1.55; max-width: 46ch; }
+.dl-offer__foot { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.dl-offer__foot .fine { margin: 0; }
+
+/* bulk */
+.dl-offer--bulk .dl-offer__text { max-width: 34ch; }
+.dl-tiers { list-style: none; display: grid; gap: 10px; margin-top: auto; }
+.dl-tier { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "pct off qty" "pct off wt"; align-items: center; column-gap: 14px;
+  padding: 14px 20px; border-radius: var(--r-tile); }
+.dl-tier__pct { grid-area: pct; min-width: 2.6em; font: 800 clamp(2rem, 1.3rem + 1.9vw, 3rem)/.95 var(--f-display); letter-spacing: -.04em; color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-glow-c) 90%, transparent); text-shadow: 0 0 30px color-mix(in srgb, var(--accent-glow-c) 20%, transparent); font-variation-settings: "opsz" 96; }
+.dl-tier:last-child { border-color: color-mix(in srgb, var(--accent-glow-c) 45%, transparent); background: radial-gradient(90% 120% at 0% 50%, color-mix(in srgb, var(--accent-glow-c) 14%, transparent), transparent 70%), var(--glass-fill-2); }
+.dl-tier:last-child .dl-tier__pct { color: var(--ink); -webkit-text-stroke: 0; }
+.dl-tier__off { grid-area: off; align-self: center; font: 700 .75rem/1.2 var(--f-body); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2); }
+.dl-tier__qty { grid-area: qty; justify-self: end; align-self: end; color: var(--ink); font-weight: 650; font-size: 1rem; }
+.dl-tier__wt { grid-area: wt; justify-self: end; align-self: start; color: var(--ink-2); font-size: .875rem; }
+.dl-bulk__foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+.dl-offer__cta { flex: none; }
+/* the cut-out: in the card's flow (inside its padding), so it floats instead of being cut by the card edge */
+.dl-bulk__bud { position: relative; flex: none; width: clamp(56px, 4.6vw, 66px); margin: -6px 2px 0 0; opacity: .95; }
+.dl-bulk__bud img { width: 100%; height: auto; }
+
+/* first visit: title + text on top, the big outlined 20% centred in the space left, chips + link at the foot */
+.dl-first { flex: 1 1 auto; display: flex; flex-direction: column; gap: 12px; }
+.dl-first .dl-offer__text { margin-top: 10px; }
+.dl-offer .dl-first__stat { margin-block: auto; flex-direction: row; align-items: baseline; gap: 12px; }   /* beats p:last-child's margin */
+.dl-points { list-style: none; gap: 8px; }
+.dl-points .chip { min-height: 32px; font-size: .8125rem; }
+
+/* bring a friend: the You / Friend chips centred between the copy and the foot */
+.dl-people { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-block: auto; }
+.dl-people li { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: var(--r-tile); border: 1px solid var(--glass-line); background: var(--glass-fill); }
+.dl-people li > span:last-child { display: grid; line-height: 1.3; }
+.dl-people b { color: var(--ink); font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; }
+.dl-people li > span:last-child > span { color: var(--ink-2); font-size: .875rem; }
+.dl-people__disc { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%; font: 800 1rem/1 var(--f-display); color: var(--accent-ink);
+  background: linear-gradient(180deg, var(--accent-hi), var(--accent)); }
+
+.dl-feat__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+@media (min-width: 1100px) {
+  .dl-feat__rail { grid-auto-flow: row; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); overflow: visible; margin: 0; padding: 0; }
+  .dl-feat__controls { display: none; }
+}
+/* >= 768px the ladder is three columns: a much shorter bulk card, so the row (grid or rail) is not stretched */
+@media (min-width: 768px) {
+  .dl-tiers { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .dl-tier { grid-template-columns: minmax(0, 1fr); grid-template-areas: "pct" "off" "qty" "wt"; justify-items: start; row-gap: 3px; padding: 14px 12px 12px; }
+  .dl-tier__pct { min-width: 0; margin-bottom: 2px; font-size: clamp(1.75rem, .9rem + 1.6vw, 2.5rem); }
+  .dl-tier__qty, .dl-tier__wt { justify-self: start; align-self: auto; }
+  .dl-tier__qty { font-size: .9375rem; line-height: 1.25; }
+}
+@media (min-width: 768px) and (max-width: 899.98px) { .dl-tier { padding: 12px 10px 10px; } .dl-tier__qty { font-size: .875rem; } }
+/* tablets: the rail runs to the viewport edges (the peeking card is not cut at the container edge) */
+@media (min-width: 768px) and (max-width: 1099.98px) {
+  .dl-feat__rail { --rail-col: 46%; margin-inline: calc(-1 * var(--gutter)); --rail-pad: var(--gutter); }
+}
+@media (max-width: 1099.98px) { .dl-bulk__bud { display: none; } }   /* decoration steps back where the cards are narrow */
+@media (max-width: 767.98px) {
+  .dl-offer__title .line { display: block; }   /* keep the live two-line break; no ragged 3-line wrap */
+  .dl-tier { padding: 10px 14px; column-gap: 10px; }
+  .dl-tier__pct { font-size: 2rem; }
+  .dl-tier__qty { font-size: .9375rem; }
+  .dl-first__stat .stat__num { font-size: 2.2rem; }
+  .dl-people { grid-template-columns: minmax(0, 1fr); }
+}

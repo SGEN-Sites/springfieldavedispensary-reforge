@@ -1,0 +1,52 @@
+{
+ "_note": "Post (lane blog, template post). Every string from audit/pages/blog-understanding-terpenes/rendered.html (DOM case); \"eyebrow\" of related = the live footer link text \"Blog\".",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Oct 12, 2025",
+ "title": {
+  "text": "Understanding Terpenes: The Secret to Your High",
+  "accent": "Terpenes"
+ },
+ "pictureKey": "blog-terpenes",
+ "pictureAlt": "Understanding Terpenes: The Secret to Your High",
+ "body": [
+  "Walk into any dispensary and the first number you see on every label is THC percentage. It is the easiest spec to compare, but it is a poor predictor of how a strain will actually feel. Two strains can both clock 28% THC and deliver wildly different experiences. The reason is terpenes.",
+  "Terpenes are the aromatic oils that give cannabis its smell — and they are not unique to cannabis. Limonene is the same molecule that makes lemon peel smell like lemon. Pinene is what you smell in pine forests. Myrcene shows up in mangoes and hops. Cannabis plants produce dozens of these compounds, and the specific blend in any given strain is a big part of why one bud feels uplifting and another puts you to sleep.",
+  "A few worth knowing: myrcene tends to be sedative and is the dominant terp in classic indica strains like Granddaddy Purple. Limonene leans bright and uplifting — it is the workhorse in lemon-forward sativas. Caryophyllene is peppery, anti-inflammatory, and one of the few terpenes that actually binds to your endocannabinoid receptors. Pinene cuts through brain fog.",
+  "Next time you shop, ask to smell a few strains side by side and read the terpene profile on the label, not just the THC. Once you learn which terpenes you respond to, you'll find your favorites a lot faster."
+ ],
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/live-rosin-science/",
+    "imageKey": "blog-live-rosin",
+    "catLabel": "Education",
+    "title": "The Science of Live Rosin Concentrates"
+   },
+   {
+    "href": "blog/edibles-101-dosing/",
+    "imageKey": "blog-edibles",
+    "catLabel": "Education",
+    "title": "Edibles 101: Dosing for Beginners"
+   },
+   {
+    "href": "blog/sativa-summer-picks/",
+    "imageKey": "blog-sativa-summer",
+    "catLabel": "Deals & Picks",
+    "title": "Our Top Sativa Picks for Summer"
+   }
+  ]
+ }
+}

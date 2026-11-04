@@ -1,0 +1,56 @@
+{
+ "_note": "About (lane story). Every string from audit/pages/about (DOM case) or audit/pages/index (site.json evidence for about: about + index). Shared chrome strings (address, hours, directions) come from shared.json at render time.",
+ "hero": {
+  "eyebrow": "About Us",
+  "title": "Our Story",
+  "titleAccent": "Story",
+  "lede": "Empowering Irvington through education, community, and top-tier cannabis.",
+  "ghost": "Irvington",
+  "facts": [
+   { "icon": "heart", "text": "Minority-Women Owned" },
+   { "icon": "pin", "text": "Irvington, NJ" }
+  ]
+ },
+ "mission": {
+  "title": "The Mission",
+  "lead": {
+   "text": "Springfield Ave Dispensary is proud to be a minority-women owned business rooted right here in Irvington, NJ. We saw a need in our community for a safe, elevated, and educational recreational cannabis experience — so we built it.",
+   "accent": "minority-women owned"
+  },
+  "body": "Our shelves carry the widest variety of premium recreational cannabis products, but our real differentiator is our approach. We empower our customers with knowledge. We demystify cannabis, breaking down terpenes, cannabinoids, and consumption methods so you always leave confident in your purchase.",
+  "nearMe": {
+   "strong": "Dispensary near me?",
+   "text": "We're located at 1070 Springfield Ave Suite C, Irvington, NJ 07111. Serving Newark, East Orange, Orange, Maplewood & Essex County. 420 deals updated weekly."
+  }
+ },
+ "rooted": {
+  "title": ["Rooted in", "Irvington"],
+  "titleAccent": "Irvington",
+  "text": "Springfield Ave Dispensary was founded by minority women who saw their community deserved better — a safe, elevated cannabis experience led by people who actually live here. We invest in Irvington, hire locally, and lead with education every single day.",
+  "stats": [
+   { "num": "200+", "label": "Strains" },
+   { "num": "500+", "label": "Products" },
+   { "num": "20+", "label": "Brands" },
+   { "num": "9+", "label": "Communities Served" },
+   { "num": "4.8★", "label": "Reviews" }
+  ]
+ },
+ "pillars": {
+  "eyebrow": "Why Us",
+  "title": "Core Pillars",
+  "titleAccent": "Pillars",
+  "items": [
+   { "icon": "shield", "title": "Premium Quality", "text": "We strictly vet every grower and producer. If it's on our menu, it meets our rigid standards for potency and purity.", "_cutKey": "cut-flower-280" },
+   { "icon": "users", "title": "Community First", "text": "We hire locally, support local initiatives, and keep our revenue circulating within the community we serve." },
+   { "icon": "heart", "title": "Judgment Free", "text": "Everyone's wellness journey is unique. Our environment is welcoming, inclusive, and entirely stigma-free." },
+   { "icon": "spark", "title": "Expert Guidance", "text": "Our staff is rigorously trained on cannabis science to provide personalized recommendations that actually work.", "_cutKey": "cut-concentrates-280" }
+  ]
+ },
+ "visit": {
+  "eyebrow": "Visit Us",
+  "title": "Come Say High",
+  "titleAccent": "High",
+  "text": "Experience the difference of a dispensary that genuinely cares about the plant and the people.",
+  "cta": { "text": "Visit Us Today", "href": "contact/" }
+ }
+}

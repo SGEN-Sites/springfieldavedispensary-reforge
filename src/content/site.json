@@ -1,0 +1,673 @@
+{
+ "schema": "springfield/site@1",
+ "origin": "https://springfieldavedispensary.store",
+ "generatedFrom": "audit/pages/*/harvest.json",
+ "pages": [
+  {
+   "id": "index",
+   "template": "home",
+   "path": "",
+   "livePath": "/",
+   "evidence": [
+    "index"
+   ],
+   "head": {
+    "title": "Springfield Ave Dispensary | Recreational Cannabis in Irvington, NJ",
+    "description": "Springfield Ave Dispensary — minority-women owned recreational cannabis dispensary in Irvington, NJ. Premium cannabis, real education, and free delivery on orders $60+. Open 7 days.",
+    "canonical": "https://springfieldavedispensary.store/",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Springfield Ave Dispensary | Recreational Cannabis in Irvington, NJ",
+     "og:description": "Minority-women owned recreational cannabis dispensary in Irvington, NJ. Premium cannabis, real education, and free delivery on $60+. Browse our live Dutchie menu.",
+     "og:url": "https://springfieldavedispensary.store/",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Springfield Ave Dispensary | Irvington, NJ",
+     "twitter:description": "Minority-women owned recreational cannabis dispensary in Irvington, NJ. Free delivery on $60+.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Where is Springfield Ave Dispensary located?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Springfield Ave Dispensary is located at 1070 Springfield Ave Suite C, Irvington, NJ 07111. We serve the Irvington community and all of Essex County, including Newark, East Orange, Orange, and Maplewood.\"}},{\"@type\":\"Question\",\"name\":\"What are Springfield Ave Dispensary's hours?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Springfield Ave Dispensary is open Monday through Saturday from 9AM to 8PM, and Sunday from 10AM to 8PM.\"}},{\"@type\":\"Question\",\"name\":\"Does Springfield Ave Dispensary offer cannabis delivery?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes! We offer free cannabis delivery in Irvington and Essex County on orders $60 or more. Orders under $60 have an $11 flat delivery fee. Delivery is powered by Dutchie Pay ACH.\"}},{\"@type\":\"Question\",\"name\":\"Do I need a medical card to shop at Springfield Ave Dispensary?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No medical card is required. Springfield Ave Dispensary is a recreational cannabis dispensary open to any adult 21 or older with a valid government-issued photo ID.\"}},{\"@type\":\"Question\",\"name\":\"What makes Springfield Ave Dispensary unique?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Springfield Ave Dispensary is a minority-women owned business proudly rooted in Irvington, NJ. We lead with education — our budtenders break down terpenes, cannabinoids, and consumption methods so every customer leaves feeling confident in their purchase. We invest in our community and hire locally.\"}}]}"
+    ]
+   },
+   "serverTitle": "Springfield Ave Dispensary | Recreational Cannabis in Irvington, NJ"
+  },
+  {
+   "id": "shop",
+   "template": "shop",
+   "path": "shop/",
+   "livePath": "/shop",
+   "evidence": [
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Shop | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Browse the full cannabis menu at Springfield Ave Dispensary in Irvington, NJ. Flower, pre-rolls, vapes, edibles, concentrates and more — updated daily.",
+    "canonical": "https://springfieldavedispensary.store/shop",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Shop | Springfield Ave Dispensary",
+     "og:description": "Shop the live cannabis menu at Springfield Ave Dispensary in Irvington, NJ. Flower, vapes, edibles, concentrates, and accessories — same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Shop | Springfield Ave Dispensary",
+     "twitter:description": "Shop the live cannabis menu at Springfield Ave Dispensary in Irvington, NJ. Flower, vapes, edibles, concentrates, and accessories — same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Shop | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-flower",
+   "template": "shop-category",
+   "path": "shop/flower/",
+   "livePath": "/shop/flower",
+   "evidence": [
+    "shop-flower",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Flower | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Shop premium cannabis flower at Springfield Ave Dispensary in Irvington. Indica, sativa & hybrid strains from top NJ cultivators. Same-day pickup and delivery available.",
+    "canonical": "https://springfieldavedispensary.store/shop/flower",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Flower | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Shop premium cannabis flower at Springfield Ave Dispensary in Irvington. Indica, sativa & hybrid strains from top NJ cultivators. Same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop/flower",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Flower | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Shop premium cannabis flower at Springfield Ave Dispensary in Irvington. Indica, sativa & hybrid strains from top NJ cultivators. Same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Flower | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-pre-rolls",
+   "template": "shop-category",
+   "path": "shop/pre-rolls/",
+   "livePath": "/shop/pre-rolls",
+   "evidence": [
+    "shop-pre-rolls",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Pre-Rolls | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Buy cannabis pre-rolls at Springfield Ave Dispensary in Irvington. Singles, infused pre-rolls & multi-packs from top NJ brands. Same-day pickup and delivery available.",
+    "canonical": "https://springfieldavedispensary.store/shop/pre-rolls",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Pre-Rolls | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Buy cannabis pre-rolls at Springfield Ave Dispensary in Irvington. Singles, infused pre-rolls & multi-packs from top NJ brands. Same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop/pre-rolls",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Pre-Rolls | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Buy cannabis pre-rolls at Springfield Ave Dispensary in Irvington. Singles, infused pre-rolls & multi-packs from top NJ brands. Same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Pre-Rolls | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-vaporizers",
+   "template": "shop-category",
+   "path": "shop/vaporizers/",
+   "livePath": "/shop/vaporizers",
+   "evidence": [
+    "shop-vaporizers",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Vapes & Cartridges | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Shop cannabis vapes and cartridges at Springfield Ave Dispensary in Irvington. Licensed NJ brands — cartridges, pods & disposables. Same-day pickup and delivery available.",
+    "canonical": "https://springfieldavedispensary.store/shop/vaporizers",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Vapes & Cartridges | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Shop cannabis vapes and cartridges at Springfield Ave Dispensary in Irvington. Licensed NJ brands — cartridges, pods & disposables. Same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop/vaporizers",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Vapes & Cartridges | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Shop cannabis vapes and cartridges at Springfield Ave Dispensary in Irvington. Licensed NJ brands — cartridges, pods & disposables. Same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Vapes &amp; Cartridges | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-concentrates",
+   "template": "shop-category",
+   "path": "shop/concentrates/",
+   "livePath": "/shop/concentrates",
+   "evidence": [
+    "shop-concentrates",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Concentrates | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Buy cannabis concentrates and extracts at Springfield Ave Dispensary in Irvington. Live resin, rosin, wax & shatter from licensed NJ producers. Same-day pickup and delivery available.",
+    "canonical": "https://springfieldavedispensary.store/shop/concentrates",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Concentrates | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Buy cannabis concentrates and extracts at Springfield Ave Dispensary in Irvington. Live resin, rosin, wax & shatter from licensed NJ producers. Same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop/concentrates",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Concentrates | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Buy cannabis concentrates and extracts at Springfield Ave Dispensary in Irvington. Live resin, rosin, wax & shatter from licensed NJ producers. Same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Concentrates | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-edibles",
+   "template": "shop-category",
+   "path": "shop/edibles/",
+   "livePath": "/shop/edibles",
+   "evidence": [
+    "shop-edibles",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Edibles | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Shop cannabis edibles at Springfield Ave Dispensary in Irvington. Gummies, chocolates & beverages — precisely dosed and lab-tested. Same-day pickup and delivery available.",
+    "canonical": "https://springfieldavedispensary.store/shop/edibles",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Edibles | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Shop cannabis edibles at Springfield Ave Dispensary in Irvington. Gummies, chocolates & beverages — precisely dosed and lab-tested. Same-day pickup and delivery available.",
+     "og:url": "https://springfieldavedispensary.store/shop/edibles",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Edibles | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Shop cannabis edibles at Springfield Ave Dispensary in Irvington. Gummies, chocolates & beverages — precisely dosed and lab-tested. Same-day pickup and delivery available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Edibles | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-topicals",
+   "template": "shop-category",
+   "path": "shop/topicals/",
+   "livePath": "/shop/topicals",
+   "evidence": [
+    "shop-topicals",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Topicals | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Buy cannabis topicals at Springfield Ave Dispensary in Irvington. CBD and THC-infused lotions, balms & patches. Lab-tested for purity. Same-day pickup available.",
+    "canonical": "https://springfieldavedispensary.store/shop/topicals",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Topicals | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Buy cannabis topicals at Springfield Ave Dispensary in Irvington. CBD and THC-infused lotions, balms & patches. Lab-tested for purity. Same-day pickup available.",
+     "og:url": "https://springfieldavedispensary.store/shop/topicals",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Topicals | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Buy cannabis topicals at Springfield Ave Dispensary in Irvington. CBD and THC-infused lotions, balms & patches. Lab-tested for purity. Same-day pickup available.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Topicals | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "shop-accessories",
+   "template": "shop-category",
+   "path": "shop/accessories/",
+   "livePath": "/shop/accessories",
+   "evidence": [
+    "shop-accessories",
+    "shop",
+    "index"
+   ],
+   "head": {
+    "title": "Cannabis Accessories | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Shop cannabis accessories at Springfield Ave Dispensary in Irvington. Pipes, papers, grinders & more. In-store pickup available at Springfield Ave Dispensary.",
+    "canonical": "https://springfieldavedispensary.store/shop/accessories",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Accessories | Springfield Ave Dispensary — Irvington, NJ",
+     "og:description": "Shop cannabis accessories at Springfield Ave Dispensary in Irvington. Pipes, papers, grinders & more. In-store pickup available at Springfield Ave Dispensary.",
+     "og:url": "https://springfieldavedispensary.store/shop/accessories",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Accessories | Springfield Ave Dispensary — Irvington, NJ",
+     "twitter:description": "Shop cannabis accessories at Springfield Ave Dispensary in Irvington. Pipes, papers, grinders & more. In-store pickup available at Springfield Ave Dispensary.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Accessories | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "deals",
+   "template": "deals",
+   "path": "deals/",
+   "livePath": null,
+   "evidence": [
+    "index"
+   ],
+   "isNew": true,
+   "head": {
+    "declared": "deals"
+   }
+  },
+  {
+   "id": "bundles",
+   "template": "bundles",
+   "path": "bundles/",
+   "livePath": "/bundles",
+   "evidence": [
+    "bundles",
+    "index"
+   ],
+   "head": {
+    "title": "Curated Cannabis Bundles | Springfield Ave Dispensary",
+    "description": "Curated cannabis bundles at Springfield Ave Dispensary in Irvington, NJ — Head Stash, Cloud 9, and High Roller. Assembled in-store by your budtender.",
+    "canonical": "https://springfieldavedispensary.store/bundles",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Curated Cannabis Bundles | Springfield Ave Dispensary",
+     "og:description": "Three hand-picked cannabis bundles at Springfield Ave Dispensary in Irvington, NJ. Head Stash, Cloud 9, and High Roller — assembled in-store by your budtender.",
+     "og:url": "https://springfieldavedispensary.store/bundles",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Curated Cannabis Bundles | Springfield Ave Dispensary",
+     "twitter:description": "Three hand-picked cannabis bundles at Springfield Ave Dispensary in Irvington, NJ. Head Stash, Cloud 9, and High Roller — assembled in-store by your budtender.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Curated Cannabis Bundles | Springfield Ave Dispensary"
+  },
+  {
+   "id": "loyalty",
+   "template": "loyalty",
+   "path": "loyalty/",
+   "livePath": "/loyalty",
+   "evidence": [
+    "loyalty",
+    "index"
+   ],
+   "head": {
+    "title": "Loyalty Rewards Program | Springfield Ave Dispensary",
+    "description": "Earn points on every purchase at Springfield Ave Dispensary in Irvington, NJ. Join our loyalty rewards program and save on cannabis today.",
+    "canonical": "https://springfieldavedispensary.store/loyalty",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Loyalty Rewards | Springfield Ave Dispensary",
+     "og:description": "Shop at Springfield Ave Dispensary in Irvington and earn loyalty points on every visit. Redeem for discounts on flower, vapes, edibles, and more.",
+     "og:url": "https://springfieldavedispensary.store/loyalty",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Loyalty Rewards | Springfield Ave Dispensary",
+     "twitter:description": "Shop at Springfield Ave Dispensary in Irvington and earn loyalty points on every visit. Redeem for discounts on flower, vapes, edibles, and more.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Loyalty Rewards Program | Springfield Ave Dispensary"
+  },
+  {
+   "id": "about",
+   "template": "about",
+   "path": "about/",
+   "livePath": "/about",
+   "evidence": [
+    "about",
+    "index"
+   ],
+   "head": {
+    "title": "About Springfield Ave Dispensary | Cannabis Dispensary in Irvington, NJ",
+    "description": "Learn about Springfield Ave Dispensary, a licensed recreational cannabis dispensary in Irvington, NJ. Our story, our values, and our commitment to the community.",
+    "canonical": "https://springfieldavedispensary.store/about",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "About Springfield Ave Dispensary",
+     "og:description": "Springfield Ave Dispensary is a licensed recreational cannabis dispensary in Irvington, NJ. Discover our story and commitment to quality cannabis and community.",
+     "og:url": "https://springfieldavedispensary.store/about",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "About Springfield Ave Dispensary",
+     "twitter:description": "Springfield Ave Dispensary is a licensed recreational cannabis dispensary in Irvington, NJ. Discover our story and commitment to quality cannabis and community.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "About Springfield Ave Dispensary | Cannabis Dispensary in Irvington, NJ"
+  },
+  {
+   "id": "blog",
+   "template": "blog",
+   "path": "blog/",
+   "livePath": "/blog",
+   "evidence": [
+    "blog",
+    "blog-live-rosin-science",
+    "blog-understanding-terpenes",
+    "blog-edibles-101-dosing",
+    "blog-sativa-summer-picks",
+    "blog-community-cleanup-recap"
+   ],
+   "head": {
+    "title": "Cannabis Blog | Springfield Ave Dispensary — Irvington, NJ",
+    "description": "Cannabis education, strain picks, deals, and dispensary news from the team at Springfield Ave Dispensary in Irvington, NJ.",
+    "canonical": "https://springfieldavedispensary.store/blog",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Cannabis Blog | Springfield Ave Dispensary",
+     "og:description": "Cannabis education, strain spotlights, dosing guides, and dispensary updates from Springfield Ave Dispensary in Irvington, NJ.",
+     "og:url": "https://springfieldavedispensary.store/blog",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Cannabis Blog | Springfield Ave Dispensary",
+     "twitter:description": "Cannabis education, strain spotlights, dosing guides, and dispensary updates from Springfield Ave Dispensary in Irvington, NJ.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Cannabis Blog | Springfield Ave Dispensary — Irvington, NJ"
+  },
+  {
+   "id": "blog-live-rosin-science",
+   "template": "post",
+   "path": "blog/live-rosin-science/",
+   "livePath": "/blog/live-rosin-science",
+   "evidence": [
+    "blog-live-rosin-science",
+    "blog"
+   ],
+   "head": {
+    "title": "The Science of Live Rosin Concentrates | Springfield Ave Dispensary Blog",
+    "description": "Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.",
+    "canonical": "https://springfieldavedispensary.store/blog/live-rosin-science",
+    "og": {
+     "og:type": "article",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "The Science of Live Rosin Concentrates",
+     "og:description": "Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.",
+     "og:url": "https://springfieldavedispensary.store/blog/live-rosin-science",
+     "og:image": "https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "The Science of Live Rosin Concentrates",
+     "twitter:description": "Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.",
+     "twitter:image": "https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"The Science of Live Rosin Concentrates\",\n  \"description\": \"Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.\",\n  \"datePublished\": \"2025-11-02\",\n  \"image\": \"https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png\",\n  \"url\": \"https://springfieldavedispensary.store/blog/live-rosin-science\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  }\n}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Science of Live Rosin Concentrates\",\"description\":\"Why is everyone talking about solventless? We break down how live rosin is made and why it preserves the truest essence of the plant.\",\"datePublished\":\"2025-11-01\",\"image\":\"https://springfieldavedispensary.store/assets/blog-live-rosin-Bwqusn29.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/live-rosin-science\"}}"
+    ]
+   },
+   "serverTitle": "The Science of Live Rosin Concentrates | Springfield Ave Dispensary Blog"
+  },
+  {
+   "id": "blog-understanding-terpenes",
+   "template": "post",
+   "path": "blog/understanding-terpenes/",
+   "livePath": "/blog/understanding-terpenes",
+   "evidence": [
+    "blog-understanding-terpenes",
+    "blog"
+   ],
+   "head": {
+    "title": "Understanding Terpenes: The Secret to Your High | Springfield Ave Dispensary Blog",
+    "description": "THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains.",
+    "canonical": "https://springfieldavedispensary.store/blog/understanding-terpenes",
+    "og": {
+     "og:type": "article",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Understanding Terpenes: The Secret to Your High",
+     "og:description": "THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains.",
+     "og:url": "https://springfieldavedispensary.store/blog/understanding-terpenes",
+     "og:image": "https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Understanding Terpenes: The Secret to Your High",
+     "twitter:description": "THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains.",
+     "twitter:image": "https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Understanding Terpenes: The Secret to Your High\",\n  \"description\": \"THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains.\",\n  \"datePublished\": \"2025-10-12\",\n  \"image\": \"https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png\",\n  \"url\": \"https://springfieldavedispensary.store/blog/understanding-terpenes\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  }\n}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Understanding Terpenes: The Secret to Your High\",\"description\":\"THC isn't the whole story. Learn how terpenes shape the flavor, aroma, and specific effects of your favorite strains.\",\"datePublished\":\"2025-10-11\",\"image\":\"https://springfieldavedispensary.store/assets/blog-terpenes-DlsjIO1a.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/understanding-terpenes\"}}"
+    ]
+   },
+   "serverTitle": "Understanding Terpenes: The Secret to Your High | Springfield Ave Dispensary Blog"
+  },
+  {
+   "id": "blog-edibles-101-dosing",
+   "template": "post",
+   "path": "blog/edibles-101-dosing/",
+   "livePath": "/blog/edibles-101-dosing",
+   "evidence": [
+    "blog-edibles-101-dosing",
+    "blog"
+   ],
+   "head": {
+    "title": "Edibles 101: Dosing for Beginners | Springfield Ave Dispensary Blog",
+    "description": "Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably.",
+    "canonical": "https://springfieldavedispensary.store/blog/edibles-101-dosing",
+    "og": {
+     "og:type": "article",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Edibles 101: Dosing for Beginners",
+     "og:description": "Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably.",
+     "og:url": "https://springfieldavedispensary.store/blog/edibles-101-dosing",
+     "og:image": "https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Edibles 101: Dosing for Beginners",
+     "twitter:description": "Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably.",
+     "twitter:image": "https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Edibles 101: Dosing for Beginners\",\n  \"description\": \"Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably.\",\n  \"datePublished\": \"2025-09-28\",\n  \"image\": \"https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png\",\n  \"url\": \"https://springfieldavedispensary.store/blog/edibles-101-dosing\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  }\n}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Edibles 101: Dosing for Beginners\",\"description\":\"Start low and go slow. A comprehensive guide to navigating edible dosages safely and enjoyably.\",\"datePublished\":\"2025-09-27\",\"image\":\"https://springfieldavedispensary.store/assets/blog-edibles-DOV5vQBZ.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/edibles-101-dosing\"}}"
+    ]
+   },
+   "serverTitle": "Edibles 101: Dosing for Beginners | Springfield Ave Dispensary Blog"
+  },
+  {
+   "id": "blog-sativa-summer-picks",
+   "template": "post",
+   "path": "blog/sativa-summer-picks/",
+   "livePath": "/blog/sativa-summer-picks",
+   "evidence": [
+    "blog-sativa-summer-picks",
+    "blog"
+   ],
+   "head": {
+    "title": "Our Top Sativa Picks for Summer | Springfield Ave Dispensary Blog",
+    "description": "Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use.",
+    "canonical": "https://springfieldavedispensary.store/blog/sativa-summer-picks",
+    "og": {
+     "og:type": "article",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Our Top Sativa Picks for Summer",
+     "og:description": "Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use.",
+     "og:url": "https://springfieldavedispensary.store/blog/sativa-summer-picks",
+     "og:image": "https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Our Top Sativa Picks for Summer",
+     "twitter:description": "Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use.",
+     "twitter:image": "https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Our Top Sativa Picks for Summer\",\n  \"description\": \"Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use.\",\n  \"datePublished\": \"2025-08-15\",\n  \"image\": \"https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png\",\n  \"url\": \"https://springfieldavedispensary.store/blog/sativa-summer-picks\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  }\n}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Our Top Sativa Picks for Summer\",\"description\":\"Beat the heat with these energizing, uplifting strains perfect for outdoor activities and daytime use.\",\"datePublished\":\"2025-08-14\",\"image\":\"https://springfieldavedispensary.store/assets/blog-sativa-summer-j9WCh2Yn.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/sativa-summer-picks\"}}"
+    ]
+   },
+   "serverTitle": "Our Top Sativa Picks for Summer | Springfield Ave Dispensary Blog"
+  },
+  {
+   "id": "blog-community-cleanup-recap",
+   "template": "post",
+   "path": "blog/community-cleanup-recap/",
+   "livePath": "/blog/community-cleanup-recap",
+   "evidence": [
+    "blog-community-cleanup-recap",
+    "blog"
+   ],
+   "head": {
+    "title": "Community Clean-Up Event Recap | Springfield Ave Dispensary Blog",
+    "description": "Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event.",
+    "canonical": "https://springfieldavedispensary.store/blog/community-cleanup-recap",
+    "og": {
+     "og:type": "article",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Community Clean-Up Event Recap",
+     "og:description": "Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event.",
+     "og:url": "https://springfieldavedispensary.store/blog/community-cleanup-recap",
+     "og:image": "https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Community Clean-Up Event Recap",
+     "twitter:description": "Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event.",
+     "twitter:image": "https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+     "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Community Clean-Up Event Recap\",\n  \"description\": \"Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event.\",\n  \"datePublished\": \"2025-07-04\",\n  \"image\": \"https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png\",\n  \"url\": \"https://springfieldavedispensary.store/blog/community-cleanup-recap\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Springfield Ave Dispensary\",\n    \"url\": \"https://springfieldavedispensary.store\"\n  }\n}",
+     "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Community Clean-Up Event Recap\",\"description\":\"Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event.\",\"datePublished\":\"2025-07-03\",\"image\":\"https://springfieldavedispensary.store/assets/blog-delivery-Coozz06M.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/community-cleanup-recap\"}}"
+    ]
+   },
+   "serverTitle": "Community Clean-Up Event Recap | Springfield Ave Dispensary Blog"
+  },
+  {
+   "id": "careers",
+   "template": "careers",
+   "path": "careers/",
+   "livePath": "/careers",
+   "evidence": [
+    "careers"
+   ],
+   "head": {
+    "title": "Careers at Springfield Ave Dispensary | Irvington, NJ",
+    "description": "Join the team at Springfield Ave Dispensary in Irvington, NJ. View open cannabis dispensary positions and apply today.",
+    "canonical": "https://springfieldavedispensary.store/careers",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Careers at Springfield Ave Dispensary",
+     "og:description": "Explore open positions at Springfield Ave Dispensary in Irvington, NJ. We're looking for passionate people who care about cannabis and community.",
+     "og:url": "https://springfieldavedispensary.store/careers",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Careers at Springfield Ave Dispensary",
+     "twitter:description": "Explore open positions at Springfield Ave Dispensary in Irvington, NJ. We're looking for passionate people who care about cannabis and community.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Careers at Springfield Ave Dispensary | Irvington, NJ"
+  },
+  {
+   "id": "contact",
+   "template": "contact",
+   "path": "contact/",
+   "livePath": "/contact",
+   "evidence": [
+    "contact",
+    "index"
+   ],
+   "head": {
+    "title": "Contact Springfield Ave Dispensary | Irvington, NJ",
+    "description": "Get in touch with Springfield Ave Dispensary in Irvington, NJ. Find our address, hours, phone number, and contact form.",
+    "canonical": "https://springfieldavedispensary.store/contact",
+    "og": {
+     "og:type": "website",
+     "og:site_name": "Springfield Ave Dispensary",
+     "og:title": "Contact Springfield Ave Dispensary",
+     "og:description": "Reach Springfield Ave Dispensary in Irvington, NJ. Hours, directions, phone, and a contact form — all in one place.",
+     "og:url": "https://springfieldavedispensary.store/contact",
+     "og:image": "https://springfieldavedispensary.store/sad-opengraph.jpg",
+     "twitter:card": "summary_large_image",
+     "twitter:title": "Contact Springfield Ave Dispensary",
+     "twitter:description": "Reach Springfield Ave Dispensary in Irvington, NJ. Hours, directions, phone, and a contact form — all in one place.",
+     "twitter:image": "https://springfieldavedispensary.store/sad-opengraph.jpg"
+    },
+    "ld": [
+     "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}"
+    ]
+   },
+   "serverTitle": "Contact Springfield Ave Dispensary | Irvington, NJ"
+  },
+  {
+   "id": "notfound",
+   "template": "notfound",
+   "path": "404.html",
+   "livePath": null,
+   "evidence": [
+    "index"
+   ],
+   "isNew": true,
+   "head": {
+    "declared": "notfound"
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+/* 01-hero — the post hero: back link, category + date, the h1. ONE left edge with the article: every child starts where
+   the reading column (--post-col, 02-article.css) starts; the h1 may run wider to the right (max 21ch). Trimmed padding
+   so the picture and the start of the text share the first screen. */
+.page-hero--post { --pool-x: 30%; --pool-y: 12%; padding-block: clamp(24px, 3.8vw, 56px) clamp(20px, 2.4vw, 32px); }
+.page-hero--post .page-hero__in { max-width: 960px; margin-inline: auto; }
+.page-hero--post .page-hero__in > * { margin-left: max(0px, (100% - var(--post-col)) / 2); }
+.page-hero--post h1 { font-size: clamp(2.05rem, 1.2rem + 2.9vw, 3.75rem); line-height: 1.02; margin-bottom: 0; max-width: 21ch; }
+.post-back { display: inline-flex; align-items: center; min-height: 44px; margin: 0 0 2px; color: var(--ink-2); text-decoration: none;
+  font: 650 .75rem/1.2 var(--f-body); letter-spacing: .16em; text-transform: uppercase; transition: color var(--dur) var(--ease); }
+.post-back:hover { color: var(--ink); }
+.post-hero__meta { margin: 0 0 12px; }

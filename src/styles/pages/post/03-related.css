@@ -1,0 +1,12 @@
+/* 03-related — "More from Dispatch": three across from 768px; a swipe rail on phones. A hairline of light on top. */
+.related { --pool-x: 72%; --pool-y: 58%; padding-top: calc(var(--sec-y) * .8); }
+.related::after { content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: min(100% - 2 * var(--gutter), var(--container)); height: 1px; pointer-events: none;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--emerald-c) 35%, transparent), color-mix(in srgb, var(--accent-glow-c) 25%, transparent), color-mix(in srgb, var(--emerald-c) 35%, transparent), transparent); }
+.related__rail { list-style: none; --rail-col: 78%; }
+.related__item { min-width: 0; }
+.related__controls { display: none; }
+.post-card--compact .post-card__title { font-size: clamp(1.05rem, .98rem + .3vw, 1.25rem); }
+@media (min-width: 768px) {
+  .related__rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+}
+@media (max-width: 767.98px) { .related__controls { display: flex; justify-content: flex-end; margin-top: 14px; } }

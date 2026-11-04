@@ -1,0 +1,6 @@
+{
+ "_note": "Lane blog: strings the blog listing + post template ADD that the rendered live Springfield pages do not show. Same shape as ui-labels.json.",
+ "labels": [
+  { "text": "No posts in this category yet.", "why": "blog listing filter empty state: the live Updates category has no posts and the rendered live page shows no empty-state line (the capture never clicked a filter), so selecting Updates would otherwise show a blank area" }
+ ]
+}

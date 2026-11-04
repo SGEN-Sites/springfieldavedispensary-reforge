@@ -1,0 +1,2 @@
+/* loyalty 05-launch — the panel lives in 00-visit.css (shared with bundles). */
+.tpl-loyalty .launch { --pool-c: var(--emerald); }

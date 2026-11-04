@@ -1,0 +1,19 @@
+/* notfound 01-hero — one lit, centred screen: the big outlined 404 above the heading, the way back below. */
+.tpl-notfound .page-hero { display: grid; align-items: center; min-height: min(calc(100svh - var(--header-h) - var(--dock-h)), 760px);
+  --pool-x: 50%; --pool-y: 42%; --pool-a: .2; --pool-w: 60%; --pool-h: 80%; }
+.nf-code { display: block; margin: 0 auto 6px; font: 800 clamp(6rem, 3rem + 13vw, 13rem)/.82 var(--f-display); letter-spacing: -.05em;
+  /* stroke painted UNDER a ground-coloured fill: the outer half of the stroke shows as a clean outline and the variable
+     font's overlapping inner contours are covered */
+  color: var(--bg-1); -webkit-text-stroke: 3px rgb(var(--accent-glow) / .8); paint-order: stroke fill;
+  text-shadow: 0 0 60px rgb(var(--accent-glow) / .25); font-variation-settings: "opsz" 96; user-select: none; }
+.tpl-notfound .page-hero h1 { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.4rem); }
+.tpl-notfound .page-hero__actions { gap: 10px; }
+.nf-floats .float { width: clamp(110px, 12vw, 190px); }
+.nf-f1 { left: max(2vw, calc(50% - 640px)); top: 20%; }
+.nf-f2 { right: max(2vw, calc(50% - 620px)); bottom: 14%; }
+@media (max-width: 899.98px) { .nf-floats { display: none; } }
+@media (max-width: 599.98px) {
+  .tpl-notfound .page-hero__actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .tpl-notfound .page-hero__actions .btn:first-child { grid-column: 1 / -1; }
+  .tpl-notfound .page-hero__actions .btn { padding: 0 12px; }
+}

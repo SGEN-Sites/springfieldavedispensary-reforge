@@ -1,0 +1,16 @@
+/* 02-categories */
+.cats { --pool-x: 20%; --pool-y: 30%; --pool-a: .09; }
+.cats__rail { list-style: none; }
+.cats__controls { display: none; }
+@media (min-width: 1100px) {
+  .cats__rail { grid-auto-flow: row; grid-template-columns: repeat(6, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+}
+@media (min-width: 768px) and (max-width: 1099.98px) {
+  .cats__rail { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
+  .cats__rail .tile { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 767.98px) {
+  .cats__rail { --rail-col: 42%; }
+  .cats__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .cats__rail .tile__name { font-size: 1rem; }
+}
