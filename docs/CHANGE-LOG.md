@@ -189,7 +189,12 @@ found, and this build fixes: the status dot kept pulsing under reduced motion wh
 reached with Tab could sit under the bar (`scroll-padding-bottom`, WCAG 2.2 "focus not obscured"); on pages with a
 short first section the bar came up before any scroll; a page restored with Back could show a bar closed elsewhere;
 on short screens (a phone on its side) the bar took too much height, so it now needs 500 px of height; and it now sits
-before the footer in the tab order, so a keyboard reaches it while it is on screen. Below 1180 px the status shows its label only; below 1024 px the
+before the footer in the tab order, so a keyboard reaches it while it is on screen.
+
+**Menu drawer keeps the page where it was** (found while testing the bar; owner OK 2026-11-05). On tablets and phones,
+closing the menu without picking a link scrolled the page back near the top: focus returned to the sticky header's menu
+button and `scroll-padding-top` made the browser scroll up to "reveal" it. Focus now returns without scrolling
+(`focus({ preventScroll: true })`); checked for Escape, the close button and the backdrop at 1024, 768, 390 and 360 px. Below 1180 px the status shows its label only; below 1024 px the
 bag tile goes and Get Directions shows its map icon (its name stays for screen readers). Not on the 8 Menu pages: they
 are the order flow, and the bar would sit over the Dutchie embed. Phones keep the dock (Deals · Shop Now · Get
 Directions). Hooks: `docs/BUILD-CONTRACT.md` §4.
