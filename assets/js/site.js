@@ -100,7 +100,9 @@
     drawer.classList.remove('is-open'); toggle && toggle.setAttribute('aria-expanded', 'false'); d.body.classList.remove('no-scroll');
     var done = function () { drawer.hidden = true; };
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) done(); else setTimeout(done, 380);
-    toggle && toggle.focus();
+    // back to the menu button WITHOUT scrolling: the header is sticky and scroll-padding-top made the browser scroll the
+    // page up to "reveal" the button (closing the menu used to jump the page near the top)
+    toggle && toggle.focus({ preventScroll: true });
   }
   if (toggle) toggle.addEventListener('click', function () { toggle.getAttribute('aria-expanded') === 'true' ? closeDrawer() : openDrawer(); });
   $$('[data-drawer-close]').forEach(function (b) { b.addEventListener('click', closeDrawer); });
