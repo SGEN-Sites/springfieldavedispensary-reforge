@@ -26,7 +26,16 @@ const J = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 const SITE = J('src/content/site.json');
 const S = J('src/content/shared.json');
 const UI = J('src/content/ui-labels.json');
-const META_NEW = (UI.pageMeta || {});
+// head fields of the NEW pages: ui-labels.json pageMeta, plus any lane file's pageMeta (src/content/ui-labels.d/*.json,
+// e.g. blog-imports.json for the owner-supplied posts). A page id declared twice is a build error, never a silent win.
+const META_NEW = { ...(UI.pageMeta || {}) };
+const LANES = path.join(ROOT, 'src', 'content', 'ui-labels.d');
+for (const f of (fs.existsSync(LANES) ? fs.readdirSync(LANES).filter((x) => x.endsWith('.json')).sort() : [])) {
+  for (const [id, m] of Object.entries(J(path.join('src', 'content', 'ui-labels.d', f)).pageMeta || {})) {
+    if (META_NEW[id]) throw new Error(`build: pageMeta for "${id}" is declared twice (ui-labels.d/${f})`);
+    META_NEW[id] = m;
+  }
+}
 
 // ---- clean output (keep nothing stale)
 fs.rmSync(OUT, { recursive: true, force: true });
@@ -75,7 +84,7 @@ for (const pg0 of SITE.pages) {
   const mod = await renderer(pg0.template);
   if (!mod) { skipped.push(pg0.id + ' (no src/pages/' + pg0.template + '.mjs)'); continue; }
   const pg = structuredClone(pg0);
-  if (pg.isNew) pg.head = { ...(META_NEW[pg.id] || {}), og: (META_NEW[pg.id] || {}).og || {}, ld: [] };
+  if (pg.isNew) pg.head = { ...(META_NEW[pg.id] || {}), og: (META_NEW[pg.id] || {}).og || {}, ld: (META_NEW[pg.id] || {}).ld || [] };
   if (PREVIEW) pg.head.robots = 'noindex, nofollow';
   const is404 = pg.path === '404.html';
   const link = is404 ? ((to) => (to == null ? '#' : /^(https?:|mailto:|tel:|#)/.test(to) ? to : BASE.replace(/\/?$/, '/') + to.replace(/^\//, ''))) : makeLink(pg.path);

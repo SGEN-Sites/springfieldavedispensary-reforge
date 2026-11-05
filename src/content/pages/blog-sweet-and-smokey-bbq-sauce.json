@@ -1,0 +1,398 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-sweet-and-smokey-bbq-sauce/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Cannabutter BBQ Sauce: Sweet, Smoky and Easy to Dose",
+  "accent": "BBQ Sauce"
+ },
+ "dek": "A summer cookout sauce built around dosing: simmer the base, whisk in cannabutter at the end, divide the batch into 12 portions and serve one per person at the table.",
+ "pictureKey": "blog-sweet-and-smokey-bbq-sauce",
+ "pictureAlt": "A black bowl of glossy barbecue sauce with a basting brush, charred red peppers beside it",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Add up the THC in the cannabutter and any canna-honey, then divide by 12 portions."
+    ]
+   },
+   {
+    "runs": [
+     "Serve infused sauce at the table in measured portions, and baste with plain sauce."
+    ]
+   },
+   {
+    "runs": [
+     "Whisk the infusion in at the end, over the lowest heat."
+    ]
+   },
+   {
+    "runs": [
+     "Refrigerate up to a week in a jar labeled with the portion size and dose."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing Cannabis BBQ Sauce by the Portion",
+    "href": "#dosing-cannabis-bbq-sauce-by-the-portion"
+   },
+   {
+    "text": "Ingredients",
+    "href": "#ingredients"
+   },
+   {
+    "text": "Simmer and Finish",
+    "href": "#simmer-and-finish"
+   },
+   {
+    "text": "Grill-Side Option",
+    "href": "#grill-side-option"
+   },
+   {
+    "text": "Storage and Labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Cannabis BBQ sauce is the easy part of a summer cookout; the dosing is the real skill. Make the batch, divide it into a set number of portions and serve one per person instead of mopping infused sauce across the whole grill."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-cannabis-bbq-sauce-by-the-portion",
+   "text": "Dosing Cannabis BBQ Sauce by the Portion"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Total the THC in your cannabutter and any canna-honey, then divide by 12; the recipe card walks through an example. Spoon portions onto plates at the table rather than over shared platters, so guests skipping THC can stick to plain sauce. This sauce is strictly for adults 21 and older. It may take 2 hours to be felt, so offer one portion and wait (",
+    {
+     "text": "setting a dose",
+     "href": "blog/edibles-101-dosing/"
+    },
+    ")."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Ketchup, cider vinegar and Worcestershire make the tangy base, molasses and brown sugar sweeten it, and smoked paprika plus a few pantry spices bring smoke and warmth. The dose comes from ",
+    {
+     "text": "cannabutter",
+     "href": "blog/canna-butter-recipe/"
+    },
+    ", and ",
+    {
+     "text": "canna-honey",
+     "href": "blog/canna-honey/"
+    },
+    " can replace some of the sugar. Need flower to make either? ",
+    {
+     "text": "Order online",
+     "href": "shop/"
+    },
+    " from Springfield Ave Dispensary for curbside or in-store pickup."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "simmer-and-finish",
+   "text": "Simmer and Finish"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Simmer everything except the infusion gently for 10 to 15 minutes, stirring so the sugars don't scorch, and thin with water as needed. Then drop the heat to its lowest setting and whisk in the cannabutter and any canna-honey until glossy. Melting is all they need, so there's no reason to cook them longer. Cool before portioning."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "grill-side-option",
+   "text": "Grill-Side Option"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "No free burner? Simmer the base in a small, heavy pot on the cooler side of the grate, stirring often, since grill heat is harder to control. Lift the pot off before the infusion goes in. Serving it with ",
+    "another infused dish",
+    "? Count both doses, or use plain sauce on those plates."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and Labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Pour the cooled sauce into a jar labeled \"THC\" with the date, the 2-tablespoon portion size and the dose per portion. It keeps up to a week in the fridge; give it a shelf away from the everyday condiments and beyond the reach of kids and pets."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "About 1½ cups (12 portions of about 2 tablespoons)"
+   },
+   {
+    "label": "Prep time",
+    "value": "5 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "15 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "1 cup ketchup"
+        ]
+       },
+       {
+        "runs": [
+         "¼ cup apple cider vinegar"
+        ]
+       },
+       {
+        "runs": [
+         "1 tablespoon Worcestershire sauce"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons molasses"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons packed brown sugar (or part canna-honey; see the dosing note)"
+        ]
+       },
+       {
+        "runs": [
+         "1½ teaspoons smoked paprika"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon garlic powder"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon onion powder"
+        ]
+       },
+       {
+        "runs": [
+         "½ teaspoon mustard powder"
+        ]
+       },
+       {
+        "runs": [
+         "½ teaspoon chili powder"
+        ]
+       },
+       {
+        "runs": [
+         "½ teaspoon black pepper"
+        ]
+       },
+       {
+        "runs": [
+         "½ teaspoon salt"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons butter, split between your measured cannabutter and plain butter (see the dosing note)"
+        ]
+       },
+       {
+        "runs": [
+         "2 to 4 tablespoons water, to thin"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Whisk the ketchup, vinegar, Worcestershire, molasses, brown sugar, spices and salt in a small saucepan."
+        ]
+       },
+       {
+        "runs": [
+         "Bring to a gentle simmer over medium-low heat and cook 10 to 15 minutes, stirring often, until slightly thickened."
+        ]
+       },
+       {
+        "runs": [
+         "Whisk in water a tablespoon at a time until the sauce reaches the texture you like."
+        ]
+       },
+       {
+        "runs": [
+         "Turn the heat to its lowest setting. Whisk in the cannabutter, plain butter and any canna-honey until melted and glossy, about 1 minute, then take the pan off the heat."
+        ]
+       },
+       {
+        "runs": [
+         "Let it cool, then divide the sauce into 12 equal portions, or store it in a labeled jar and measure each portion as you serve."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      {
+       "b": true,
+       "text": "THC per portion = (THC in the cannabutter + THC in any canna-honey) ÷ 12."
+      },
+      " Figure the cannabutter's ceiling by multiplying the flower's grams by its THC share written as a decimal, then by 1,000. Example: 3.5 g of 16% flower in 1 cup of butter tops out at 560 mg, which works out to roughly 35 mg in each tablespoon. One tablespoon in this sauce, alongside a tablespoon of plain butter, puts at most about 35 mg in the batch, or about 3 mg per portion. Add 1 teaspoon of canna-honey estimated at 10 mg and the batch holds about 45 mg, nearly 4 mg per portion. Actual amounts are lower after decarboxylation and infusion losses. Start low with one portion, wait 2 hours before another, and keep the labeled jar where kids and pets can't get it."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Should I use canna-honey and cannabutter together?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "You can, as long as you add both totals before dividing. One infusion is simpler and leaves less room for error. If canna-honey is part of the sweetener, sweetness and dose are linked, so adjust the taste with plain brown sugar or molasses, never extra canna-honey."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I baste meat with infused sauce on the grill?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Better not. Basting spreads THC unevenly, some drips into the fire, and everyone eating from that platter gets a dose nobody can measure, including guests who wanted none. Baste with a plain sauce, such as a second batch of this recipe made without the infusion, then let each adult add one measured portion of the infused kind at the table."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How long does infused BBQ sauce last?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "A week in the fridge, sealed and labeled. For longer, freeze 2-tablespoon portions in a silicone mold and bag them with the dose marked, so each cube is one portion. Thaw in the fridge and stir before serving, since butter can separate as the sauce cools."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis frequently asked questions",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/faq/index.html"
+   },
+   {
+    "label": "Wang M. et al. (2016), Decarboxylation study of acidic cannabinoids, Cannabis and Cannabinoid Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-honey/",
+    "imageKey": "blog-canna-honey",
+    "catLabel": "Recipes",
+    "title": "Canna-Honey: Infused Honey in About 20 Minutes"
+   },
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)"
+   }
+  ]
+ }
+}

@@ -1,6 +1,4 @@
 {
- "_note": "Lane blog: live strings not carried into the rebuild, each with a reason. Same shape as removals.json.",
- "removals": [
-  { "page": "blog", "text": "Load More", "why": "the live Load More button loads nothing: all 5 live posts are already on the page (audit/pages/blog/expanded.json: clicking LOAD MORE made 0 new items appear). A button that does nothing is dropped; owner call logged in the lane report" }
- ]
+ "_note": "Lane blog: live strings not carried into the rebuild, each with a reason. Same shape as removals.json. (2026-11-05: the live \"Load More\" removal was withdrawn: with the owner-supplied posts the list has 36 cards, so the live button now pages them — src/scripts/blog.js.)",
+ "removals": []
 }

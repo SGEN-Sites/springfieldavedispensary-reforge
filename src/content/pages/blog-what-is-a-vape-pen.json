@@ -1,0 +1,381 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-what-is-a-vape-pen/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Cannabis Vape Pens: Anatomy, Heating and Everyday Use",
+  "accent": "Vape Pens"
+ },
+ "dek": "A vape pen is a slim, battery-powered device that heats cannabis oil into vapor. Here's how the parts work, how to switch one on and how it differs from dry-herb and dab pens.",
+ "pictureKey": "blog-what-is-a-vape-pen",
+ "pictureAlt": "A matte black vape pen with an amber oil cartridge leaning on a dark stone in warm light",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "A vape pen pairs a battery and heating element with a cartridge, warming cannabis oil into vapor without burning it."
+    ]
+   },
+   {
+    "runs": [
+     "Some pens heat when you press a button; draw-activated pens switch on when you inhale."
+    ]
+   },
+   {
+    "runs": [
+     "Cartridge pens and dry-herb vaporizers are different devices, and vaping isn't harmless, so start with one small puff."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What is a vape pen?",
+    "href": "#what-is-a-vape-pen"
+   },
+   {
+    "text": "Parts of a vape pen: mouthpiece, cartridge, atomizer, button and battery",
+    "href": "#parts-of-a-vape-pen-mouthpiece-cartridge-atomizer-button-and-bat"
+   },
+   {
+    "text": "How do vape pens work? Heat turns oil into vapor without burning it",
+    "href": "#how-do-vape-pens-work-heat-turns-oil-into-vapor-without-burning"
+   },
+   {
+    "text": "How to turn on a vape pen: button clicks versus draw-activated pens",
+    "href": "#how-to-turn-on-a-vape-pen-button-clicks-versus-draw-activated-pe"
+   },
+   {
+    "text": "How to use a vape pen with an oil cartridge, step by step",
+    "href": "#how-to-use-a-vape-pen-with-an-oil-cartridge-step-by-step"
+   },
+   {
+    "text": "Dry-herb vaporizers: a different device",
+    "href": "#dry-herb-vaporizers-a-different-device"
+   },
+   {
+    "text": "Why people choose vapes: portability, less odor, simple portions",
+    "href": "#why-people-choose-vapes-portability-less-odor-simple-portions"
+   },
+   {
+    "text": "Vape pens versus dab pens",
+    "href": "#vape-pens-versus-dab-pens"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "What is a vape pen? It's a slim, battery-powered device that heats cannabis oil, or in some models ground flower, until it turns into vapor you can inhale. Many cannabis vape pens pair a rechargeable battery with a prefilled oil cartridge. Here's how the parts fit together, how to switch one on and what to expect the first time."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-is-a-vape-pen",
+   "text": "What is a vape pen?"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Named for its pen-like shape, a vape pen is easy to carry and simple to use. Many are cartridge pens: a battery plus a cartridge of cannabis oil. All-in-one pens combine both in a single unit you use until it's empty. Dry-herb vaporizers and dab pens look similar but work differently."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "parts-of-a-vape-pen-mouthpiece-cartridge-atomizer-button-and-bat",
+   "text": "Parts of a vape pen: mouthpiece, cartridge, atomizer, button and battery"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Mouthpiece:"
+      },
+      " the tip you inhale from."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Cartridge or tank:"
+      },
+      " holds the oil; prefilled cartridges come sealed."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Atomizer:"
+      },
+      " the heating element, usually a coil or ceramic core."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Button:"
+      },
+      " found on button-activated pens only."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Battery:"
+      },
+      " the rechargeable power source, often with an indicator light."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-do-vape-pens-work-heat-turns-oil-into-vapor-without-burning",
+   "text": "How do vape pens work? Heat turns oil into vapor without burning it"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Press the button or inhale, and the battery powers the atomizer, which warms the oil until its cannabinoids and terpenes turn to vapor, with no flame and no burning. If your battery has heat settings, start low: cooler settings feel gentler, hotter ones make bigger, harsher puffs."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-turn-on-a-vape-pen-button-clicks-versus-draw-activated-pe",
+   "text": "How to turn on a vape pen: button clicks versus draw-activated pens"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "On many button batteries, five quick clicks turns the power on or off, and a few clicks in a row may change the heat setting. Patterns vary by brand, so check the instructions. Draw-activated pens have no button; a sensor starts heating as soon as you inhale."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-use-a-vape-pen-with-an-oil-cartridge-step-by-step",
+   "text": "How to use a vape pen with an oil cartridge, step by step"
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      "Charge the battery fully."
+     ]
+    },
+    {
+     "runs": [
+      "Screw the cartridge on gently; snug is enough."
+     ]
+    },
+    {
+     "runs": [
+      "Turn the battery on if it has a button."
+     ]
+    },
+    {
+     "runs": [
+      "Inhale slowly for two or three seconds, holding the button if there is one."
+     ]
+    },
+    {
+     "runs": [
+      "Take one short puff, then wait at least 15 minutes; inhaled THC can take up to half an hour to peak."
+     ]
+    },
+    {
+     "runs": [
+      "Store the pen upright, away from heat."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dry-herb-vaporizers-a-different-device",
+   "text": "Dry-herb vaporizers: a different device"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A dry-herb vaporizer heats ground flower in a small oven without burning it, and lab tests show temperature-controlled electric models efficiently convert THCA to THC. Vapor can hit harder than smoke: in a Johns Hopkins study of infrequent users, vaporized cannabis produced stronger effects and higher blood THC than smoking the same dose."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-people-choose-vapes-portability-less-odor-simple-portions",
+   "text": "Why people choose vapes: portability, less odor, simple portions"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Portability:"
+      },
+      " no lighter or papers needed."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Less odor:"
+      },
+      " vapor tends to fade faster than smoke, though it isn't scent-free."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Simple portions:"
+      },
+      " you control the length and number of puffs. A puff isn't a measured dose, so the label's THC figure is your guide to strength."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Vaping still carries risks. A 2019 outbreak of serious lung injuries, with more than 2,800 hospitalizations or deaths, was strongly linked to vitamin E acetate in some THC vapes. At the time, the CDC and FDA recommended that people not use THC vaping products, particularly ones from informal sources such as friends, family or dealers."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "vape-pens-versus-dab-pens",
+   "text": "Vape pens versus dab pens"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A vape pen uses a prefilled oil cartridge, while a dab pen has an open chamber you load by hand with solid concentrate, such as wax or shatter. Concentrates are far stronger than flower, so dab pens suit experienced consumers. When you're ready, ",
+    {
+     "text": "browse vapes on our menu",
+     "href": "shop/"
+    },
+    "; vaping is for adults 21 and older, so please use it responsibly."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Why won't my vape pen turn on?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Charge the battery fully, and if it has a button, try five quick clicks, a common on-off pattern. Check that the cartridge is screwed on snugly but not too tight, and wipe the contacts on both pieces with a dry cotton swab. If the light still stays off, the battery may need replacing."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Is vaping easier on the lungs than smoking?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not necessarily. Vaporizing skips burning, and research on dry-herb vaporizers found less carbon monoxide and lower exposure to some smoke toxins. That doesn't make vaping safe, and oil cartridges are a different product: a 2019 outbreak of serious lung injuries was strongly linked to vitamin E acetate in some THC vapes. Talk to a doctor about lung concerns."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What does '510' mean on a battery?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It's a common screw-thread size shared by many vape batteries and cartridges. If both use 510 threading, they should screw together and work as a pair, even from different brands. Pod systems and all-in-one pens often use their own fittings, so a 510 cartridge won't fit them."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "CDC, Outbreak of Lung Injury Associated with the Use of E-Cigarette, or Vaping, Products (archived; last reviewed August 3, 2021)",
+    "host": "archive.cdc.gov",
+    "href": "https://archive.cdc.gov/www_cdc_gov/tobacco/basic_information/e-cigarettes/severe-lung-disease.html"
+   },
+   {
+    "label": "Spindle TR et al. (2018), Acute effects of smoked and vaporized cannabis in healthy adults who infrequently use cannabis: a crossover trial, JAMA Network Open",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324384/"
+   },
+   {
+    "label": "Lanz C et al. (2016), Medicinal cannabis: in vitro validation of vaporizers for the smoke-free inhalation of cannabis, PLOS ONE",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4718604/"
+   },
+   {
+    "label": "Chaiton M et al. (2022), Are vaporizers a lower-risk alternative to smoking cannabis? Canadian Journal of Public Health",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8975973/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

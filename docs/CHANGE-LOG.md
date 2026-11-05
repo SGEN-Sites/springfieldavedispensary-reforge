@@ -105,3 +105,67 @@ proven able to fail). Not packaged: `sr-package` refuses over a red gate without
 Project gates on the same build: prove-content PASS (1151 strings, 0 unproved), parity PASS (649 live text runs, 0
 missing; 208 links; 291 head fields; 34 form items), check.mjs PASS (22 pages x 6 sizes, 1426 checks), axe PASS (46 scans,
 0 serious/critical), sr-parity PARITY (99.9% recall), sr-fabrication SOURCED (137 claims), sr-decontaminate CLEAN.
+
+## Owner changes (2026-11-05)
+
+**F10 closed.** The Dutchie menu renders on the preview in a real browser: `/shop/` shows the embed's categories and
+`/shop/flower/` live products with prices, served from `dutchie.com/embedded-menu/springfield-ave-dispensary/` (the live
+embed id). Dutchie accepts the preview's origin.
+
+**Eyebrow dash removed** (owner: "remove all emdashes like these on all eyebrows"). The 22 px lime rule `base.css` drew
+before every `.eyebrow` (`.eyebrow::before`) is gone site-wide, with its two now-dead overrides (`.eyebrow--plain`, the
+Menu hero's under-390 px rule). No eyebrow string contains a dash character (every content file checked).
+
+**32 owner-supplied blog posts** (owner: at least 30 posts from the agency's article library, every mention of the
+source brand changed to Springfield, and "ensure location matches 1070 Springfield Ave Suite C Irvington, NJ 07111 or
+within the area for SEO purposes so change if possible").
+- Source: the agency's article library (a preview the agency built for another client; its name and address are kept
+  only in the local `audit/imports/`, never in this repo). The 30 posts whose article text carried no out-of-state legal
+  or location content, plus two that the recipes depend on (the canna-butter recipe, "The Entourage Effect").
+- Method: a local converter applies only declared rules to the untouched source (every rule must match; every change is
+  logged), and `prove-content` proves every imported string against the rules-applied text (`audit/pages/import-<slug>/`).
+  The converter's `--check` fails on any hand edit of its outputs (`docs/BUILD-CONTRACT.md` §2).
+- What the rules change: the source brand → "Springfield Ave Dispensary"; multi-store wording ("your nearest store",
+  "selection varies by store") → Springfield's one store in Irvington; the source's loyalty club → Springfield's own
+  words "Our tiered loyalty program is being finalized and will roll out in the coming months." (not live yet, F2); its
+  menu, store and club links → Menu, Contact, Loyalty; the out-of-state public-use line in every 21+ note → the New Jersey
+  rule in the Cannabis Regulatory Commission's own words ("Cannabis smoking is allowed where cigarette smoking is
+  permitted, unless stated otherwise.", https://www.nj.gov/cannabis/adult-personal/, read 2026-11-05); one out-of-state
+  gifting sentence and its court citation removed (New Jersey's rule for homemade infused butter was not verified); the
+  source state's medical-card age rule ("or 18 and older with a medical marijuana card") removed, since Springfield is
+  21+ recreational; the lines that sent readers to the menu for tinctures removed (Springfield's menu has no tincture
+  category); sentences that pointed at guides Springfield does not have removed or trimmed, each with the question that
+  led into it. Links to imported posts stay; "THC dosage guide" → Edibles 101, "terpene primer" → Understanding
+  Terpenes. 112 declared rules in all (71 drops, 40 text rules, 1 source drop), every one matched.
+- Independent review before publishing (4 reviewers, every post read against its untouched source, every image read):
+  41 findings. Fixed: a safety warning the converter had dropped (the isopropyl-alcohol callout; the converter now fails
+  on any empty callout), the medical-card age rule, 6 questions left without their answer, 4 tincture lines, a lost
+  dose-stacking warning (now "Serving it with another infused dish? Count both doses, or use plain sauce on those
+  plates."), a list intro that still said "three", an overpromising link line, a heading anchor that kept "by store",
+  3 images that contradicted their own post (wine glasses beside "leave alcohol out of it"; a heap of powder beside
+  "spread in a single layer"; a coupe where the recipe says a rocks glass over ice) and 5 alt texts. Kept on purpose:
+  the budtender lines, because Springfield's own homepage says "Our budtenders are on the floor and ready to help.";
+  the Canadian public-health citations (cited guidance, not a location).
+- Template (backward compatible: the 5 live posts render as before): a one-line summary under the h1, Key takeaways, "In
+  this article", headings, lists, tables (each scrolls inside its own box on phones), callouts, the recipe card, the FAQ
+  (the Contact page's accordions), Sources, the 21+ note. Every post, the live ones included, now ends with the store's
+  address and Get Directions beside "Shop the Menu →". The blog listing is a grid (4 / 3 / 2 / 1 across) with a Recipes
+  filter and the live "Load More" button paging 12 cards at a time (its declared removal is withdrawn).
+- SEO: per post a title in the live pattern ("<title> | Springfield Ave Dispensary Blog"), description, canonical, Open
+  Graph and Twitter fields with the post's own image, and the live posts' LocalBusiness + BlogPosting structured data;
+  all 32 are in the sitemap.
+- Date shown: "Nov 05, 2026", the day they were added (a declared label).
+- Images (owner: "ensure all new content include image"; chose "AI image per post", approved the 3-image pilot look):
+  one image per post, fal Flux Pro Ultra, textless still life and food photography in the dark editorial style of the
+  live blog photos; no people, logos, labels or text, nothing aimed at children, no smoke. 44 renders for 32 shipped:
+  3 first passes were rejected on my own review (embossed or stamped lettering on a jar and a pot; butter that read as
+  scrambled eggs) and 3 more on the independent review (above); each was redone twice. List price $2.64 (approved cap
+  $2.82). Every image was read at full resolution; each alt text describes the pixels.
+
+Open owner calls from this change:
+
+| # | Finding | What the rebuild does until decided |
+|---|---|---|
+| N1 | The 32 articles are the agency library's wording; if the other site publishes the same articles, search engines usually rank only one copy | ships them as adapted; rewriting them for Springfield would make them unique |
+| N2 | All 32 carry the same date (Nov 05, 2026) | the honest date they were added |
+| N3 | The 32 images are AI-generated (no store, staff or real product is shown) | no disclosure line; add one if the owner wants it |

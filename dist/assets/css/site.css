@@ -181,9 +181,9 @@ h4, .h4 { font-size: 1.0625rem; line-height: 1.25; letter-spacing: -.005em; font
   display: inline-flex; align-items: center; gap: .7em; margin: 0 0 14px;
   font: 600 var(--t-xs)/1.2 var(--f-body); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--ink-3);
 }
-.eyebrow::before { content: ""; inline-size: 22px; block-size: 1px; background: linear-gradient(90deg, var(--accent), transparent); flex: none; }
+/* no leading dash: the lime rule that used to sit before every eyebrow was removed on the owner's word (2026-11-05,
+   "remove all emdashes like these on all eyebrows") */
 .eyebrow--center { justify-content: center; }
-.eyebrow--plain::before { display: none; }
 
 .lede { font-size: var(--t-lg); line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
 .muted { color: var(--ink-3); }

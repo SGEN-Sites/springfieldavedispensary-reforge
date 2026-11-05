@@ -1,0 +1,394 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-herbed-grilled-cheese/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Herbed Cannabis Grilled Cheese, Dosed Through the Onions",
+  "accent": "Grilled Cheese"
+ },
+ "dek": "Three melty cheeses on brioche, with herby onions that carry the cannabutter. Split the onions four ways and every sandwich gets an even dose.",
+ "pictureKey": "blog-herbed-grilled-cheese",
+ "pictureAlt": "Three grilled cheese halves, two stacked, with melted cheese and caramelized onions on a wooden board with thyme",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "The cannabutter goes into the caramelized onions, which you split into four equal portions."
+    ]
+   },
+   {
+    "runs": [
+     "Divide the THC in the cannabutter by four for your per-sandwich estimate."
+    ]
+   },
+   {
+    "runs": [
+     "Medium-low heat keeps the butter from scorching and helps protect its potency."
+    ]
+   },
+   {
+    "runs": [
+     "Sandwiches are best fresh; leftover onions keep 3 to 4 days in a labeled container."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing a cannabis grilled cheese: keep the heat low",
+    "href": "#dosing-a-cannabis-grilled-cheese-keep-the-heat-low"
+   },
+   {
+    "text": "Ingredients and method",
+    "href": "#ingredients-and-method"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Pairings and a variation",
+    "href": "#pairings-and-a-variation"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "This cannabis grilled cheese stacks white cheddar, Gruyère and Muenster on brioche with jammy onions cooked in cannabutter, thyme and rosemary. The onions carry the whole dose, so splitting them four ways gives every sandwich the same amount."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-a-cannabis-grilled-cheese-keep-the-heat-low",
+   "text": "Dosing a cannabis grilled cheese: keep the heat low"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Divide the THC in your cannabutter by four. With butter estimated at 28 mg per tablespoon, 1 tablespoon gives about 7 mg per sandwich at most. Scrape all the butter from the pan into the onions before you portion them."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Butter's milk solids scorch at high heat, and long, hot cooking can break THC down, so the cannabutter joins the onions only for the last stretch, on low. Try half a sandwich first and wait 2 hours."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ingredients-and-method",
+   "text": "Ingredients and method"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Cook sliced onions slowly in olive oil until golden, then add the cannabutter, herbs and a pinch of brown sugar and cook until deep amber. Butter the outside of the brioche (or use mayo), layer the cheeses and these infused caramelized onions, and griddle over medium-low until melted. Our ",
+    {
+     "text": "cannabutter recipe",
+     "href": "blog/canna-butter-recipe/"
+    },
+    " covers the infusion, and you can order flower ahead for curbside pickup from ",
+    {
+     "text": "our Irvington store",
+     "href": "shop/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A cannabutter grilled cheese is best eaten fresh. Refrigerate leftover onions in a sealed container labeled with the date and dose, and use them within 3 to 4 days. Keep them away from kids and pets; poison control is 1-800-222-1222."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "pairings-and-a-variation",
+   "text": "Pairings and a variation"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Serve with tomato soup and crisp pickles. For a different dose point, keep the onions plain and finish each sandwich with a brush of melted cannabutter or a measured drizzle of ",
+    {
+     "text": "canna-honey",
+     "href": "blog/canna-honey/"
+    },
+    ", not both. More cravings? Read about ",
+    {
+     "text": "the munchies",
+     "href": "blog/cannabis-tasting-what-are-munchies/"
+    },
+    " or try our ",
+    {
+     "text": "hot honey pizza",
+     "href": "blog/hot-honey-pizza/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For adults 21 and older. Enjoy it responsibly."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "4 sandwiches"
+   },
+   {
+    "label": "Prep time",
+    "value": "15 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "50 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "2 large yellow onions, thinly sliced"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons olive oil"
+        ]
+       },
+       {
+        "runs": [
+         "1 tablespoon cannabutter (or the amount your dose math calls for)"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon fresh thyme leaves"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 teaspoon finely chopped fresh rosemary"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon brown sugar"
+        ]
+       },
+       {
+        "runs": [
+         "Salt"
+        ]
+       },
+       {
+        "runs": [
+         "8 slices brioche, about 1/2 inch thick"
+        ]
+       },
+       {
+        "runs": [
+         "3 ounces Gruyère, grated"
+        ]
+       },
+       {
+        "runs": [
+         "4 slices Muenster"
+        ]
+       },
+       {
+        "runs": [
+         "3 ounces white cheddar, grated"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons softened butter or mayonnaise, for the bread"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Heat the olive oil in a wide skillet over medium-low. Add the onions and a pinch of salt and cook, stirring every few minutes, until soft and light golden, about 25 minutes. Add a splash of water if they stick."
+        ]
+       },
+       {
+        "runs": [
+         "Turn the heat to low. Add the cannabutter, thyme, rosemary and brown sugar and cook gently, stirring, until deep amber, 10 to 15 minutes. Don't let the butter smoke."
+        ]
+       },
+       {
+        "runs": [
+         "Scrape the onions and every bit of butter into a bowl, stir well and divide into four equal portions."
+        ]
+       },
+       {
+        "runs": [
+         "Heat the oven to 200°F. Spread butter or mayo on one side of each bread slice."
+        ]
+       },
+       {
+        "runs": [
+         "Set four slices buttered side down in a skillet over medium-low. Layer Gruyère, a slice of Muenster, one onion portion and cheddar on each, then top with the remaining bread, buttered side up."
+        ]
+       },
+       {
+        "runs": [
+         "Cook 3 to 4 minutes per side, covering the pan briefly, until golden and melted. Keep finished sandwiches warm on a rack in the oven."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "Think of this as an estimate. Example: 1 tablespoon of cannabutter at about 28 mg ÷ 4 sandwiches ≈ 7 mg per sandwich at most. Your real number depends on how potent the flower in your butter was and on how much THC the decarb and infusion lost, so it's likely lower. Start with half a sandwich and wait at least 2 hours before eating more. Label leftover onions as infused, and keep everything away from children and pets."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "How do I keep cannabutter from burning?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Keep the burner at medium-low or lower and add the cannabutter late, once the onions have softened. If the butter browns fast or starts to smoke, pull the pan off the heat for a minute. A heavy skillet holds steadier heat than a thin one."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I make the onions ahead?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Cook and portion them up to 3 days ahead and refrigerate them in a labeled container. Before building the sandwiches, warm each portion gently in the skillet, or let it come to room temperature so the cheese melts evenly around it."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Which cheeses melt best?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "The trio in this recipe works well: Gruyère brings nutty depth, Muenster melts silky and white cheddar adds tang. Fontina, Havarti and young Gouda melt well too. Grate the firmer cheeses so they melt before the bread gets too dark."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Wang M. et al., Decarboxylation Study of Acidic Cannabinoids, Cannabis and Cannabinoid Research (2016)",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis and Poisoning (February 15, 2024)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/health-effects/poisoning.html"
+   },
+   {
+    "label": "USDA Food Safety and Inspection Service: Leftovers and Food Safety",
+    "host": "fsis.usda.gov",
+    "href": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-butter-recipe/",
+    "imageKey": "blog-canna-butter-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Butter (Ghee or Butter, Water-Bath Method)"
+   },
+   {
+    "href": "blog/canna-honey/",
+    "imageKey": "blog-canna-honey",
+    "catLabel": "Recipes",
+    "title": "Canna-Honey: Infused Honey in About 20 Minutes"
+   },
+   {
+    "href": "blog/hot-honey-pizza/",
+    "imageKey": "blog-hot-honey-pizza",
+    "catLabel": "Recipes",
+    "title": "Hot Honey Pepperoni Pizza with a Canna-Oil Crust"
+   }
+  ]
+ }
+}

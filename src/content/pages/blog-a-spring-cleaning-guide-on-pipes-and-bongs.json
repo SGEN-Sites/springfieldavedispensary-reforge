@@ -1,0 +1,806 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-a-spring-cleaning-guide-on-pipes-and-bongs/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide",
+  "accent": "Spring Cleaning"
+ },
+ "dek": "Resin dulls flavor and makes every hit harsher. Here is how to deep-clean bongs, pipes, rigs, vapes and grinders, with a supply list and a simple schedule.",
+ "pictureKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+ "pictureAlt": "A clean glass water pipe and a small glass flask on dark stone beside coarse salt and cotton swabs",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "A shake of 91% or 99% isopropyl alcohol and coarse salt cleans most glass; rinse it well and let it dry fully before using it again."
+    ]
+   },
+   {
+    "runs": [
+     "Change bong water every session, and deep-clean every week or two if you use your piece daily."
+    ]
+   },
+   {
+    "runs": [
+     "Never soak or boil wood or anything electronic, and keep alcohol and boiling water away from acrylic; clean those pieces gently instead."
+    ]
+   },
+   {
+    "runs": [
+     "Isopropyl alcohol is a highly flammable liquid, so work in a ventilated room away from lighters and torches."
+    ]
+   },
+   {
+    "runs": [
+     "Collect the kief before you clean a grinder, and freeze the grinder first so resin brushes off."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Why dirty gear tastes worse, and the hygiene side",
+    "href": "#why-dirty-gear-tastes-worse-and-the-hygiene-side"
+   },
+   {
+    "text": "How often to clean: signs and a simple schedule",
+    "href": "#how-often-to-clean-signs-and-a-simple-schedule"
+   },
+   {
+    "text": "What you'll need",
+    "href": "#what-youll-need"
+   },
+   {
+    "text": "How to clean a bong with alcohol and salt",
+    "href": "#how-to-clean-a-bong-with-alcohol-and-salt"
+   },
+   {
+    "text": "Other ways to clean a bong",
+    "href": "#other-ways-to-clean-a-bong"
+   },
+   {
+    "text": "How to clean a pipe: glass vs. wood",
+    "href": "#how-to-clean-a-pipe-glass-vs-wood"
+   },
+   {
+    "text": "Dab rigs, bangers and vapes: what can and can't get wet",
+    "href": "#dab-rigs-bangers-and-vapes-what-can-and-cant-get-wet"
+   },
+   {
+    "text": "How to clean a grinder, and save the kief",
+    "href": "#how-to-clean-a-grinder-and-save-the-kief"
+   },
+   {
+    "text": "Keeping your gear clean longer",
+    "href": "#keeping-your-gear-clean-longer"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Knowing how to clean a bong, pipe or grinder is the simplest upgrade you can give your gear. Resin builds up with every use, and it dulls flavor, slows airflow and makes each hit harsher. A seasonal overhaul, regular deep cleans for the pieces you use daily and a few minutes of weekly upkeep keep everything tasting the way it should. Here's what you'll need and how to clean each piece, device by device."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-dirty-gear-tastes-worse-and-the-hygiene-side",
+   "text": "Why dirty gear tastes worse, and the hygiene side"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Resin is the sticky, dark residue left behind when cannabis burns. It coats glass, gums up downstems and screens, and adds a stale, bitter taste that covers the flavor of fresh flower. As it narrows the airway, you pull harder, and harder pulls bring hotter, harsher smoke."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "There's a hygiene side too. A water pipe is warm, damp and touched by mouths, which is just what microbes like. One study of tobacco water pipes, or hookahs, found bacteria growing in about 70% of the water-bowl samples tested, including types that can cause pneumonia. Another found bacteria and fungi on mouthpieces and handles."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Bongs work on the same principle, and sharing adds risk. A 2024 study in Thailand, where tuberculosis is common, linked smoking cannabis from a shared bong with higher odds of the disease. Fresh water, a clean mouthpiece and your own piece go a long way."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-often-to-clean-signs-and-a-simple-schedule",
+   "text": "How often to clean: signs and a simple schedule"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "How often to clean a bong depends on how often you use it, but a few signs say it's time no matter what:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      "Water that looks cloudy, yellow or brown, or smells stale"
+     ]
+    },
+    {
+     "runs": [
+      "Visible resin on the glass, the downstem or the bowl"
+     ]
+    },
+    {
+     "runs": [
+      "A tight, slow draw or bubbling that sounds muffled"
+     ]
+    },
+    {
+     "runs": [
+      "A harsh or burnt taste, even with fresh flower"
+     ]
+    },
+    {
+     "runs": [
+      "A grinder that sticks or won't turn smoothly"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Use this schedule as a starting point and adjust it to your habits:"
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Piece",
+    "Quick upkeep",
+    "Deep clean"
+   ],
+   "rows": [
+    [
+     "Bong",
+     "Fresh water every session; rinse after use",
+     "Every week or two with daily use, at least monthly otherwise"
+    ],
+    [
+     "Glass pipe",
+     "Knock out ash; run a pipe cleaner through",
+     "Every week or two with regular use"
+    ],
+    [
+     "Wood pipe",
+     "Brush out ash; let it air out",
+     "A gentle clean about once a month"
+    ],
+    [
+     "Dab rig and banger",
+     "Swab the banger after each dab",
+     "A weekly soak for the glass"
+    ],
+    [
+     "Vape",
+     "Wipe the mouthpiece and connection",
+     "When flavor fades, following the maker's instructions"
+    ],
+    [
+     "Grinder",
+     "Tap it out; brush the teeth",
+     "Monthly, or whenever it sticks"
+    ]
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-youll-need",
+   "text": "What you'll need"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Most of these supplies are probably in your kitchen or bathroom already:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Isopropyl alcohol, 91% or 99%."
+      },
+      " Higher strengths dissolve resin faster and evaporate quickly. 70% works too, just more slowly."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Coarse salt."
+      },
+      " Kosher or rock salt acts as a scrubber when you shake it with alcohol."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "White vinegar and baking soda,"
+      },
+      " for an alcohol-free option."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Pipe cleaners, cotton swabs and a soft brush."
+      },
+      " An old toothbrush does the job."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Resealable plastic bags"
+      },
+      " for soaking small parts."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Rubber gloves, paper towels and a tub"
+      },
+      " to catch drips."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Plugs or plastic wrap"
+      },
+      " to cover openings while you shake."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Warm water and mild dish soap"
+      },
+      " for rinsing, and for pieces that can't take alcohol."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      {
+       "b": true,
+       "text": "Warning:"
+      },
+      " Isopropyl alcohol is a highly flammable liquid. Work in a ventilated room, keep it away from lighters, torches and stoves, and wear gloves, since it can irritate your eyes, nose and throat and dry out your skin."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-clean-a-bong-with-alcohol-and-salt",
+   "text": "How to clean a bong with alcohol and salt"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The alcohol-and-salt shake is the classic deep clean for glass. To clean a bong with alcohol and salt:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      "Let the bong cool completely, then pour out the old water."
+     ]
+    },
+    {
+     "runs": [
+      "Remove the bowl piece and downstem and set them aside."
+     ]
+    },
+    {
+     "runs": [
+      "Rinse the bong with warm, not hot, tap water to wash out loose debris."
+     ]
+    },
+    {
+     "runs": [
+      "Pour in enough isopropyl alcohol to cover the bottom chamber, then add a tablespoon or two of coarse salt."
+     ]
+    },
+    {
+     "runs": [
+      "Cover the openings with plugs, plastic wrap or gloved hands, then shake and swirl for a minute or two. Aim the salt at stained spots."
+     ]
+    },
+    {
+     "runs": [
+      "For heavy buildup, let it sit for 15 to 30 minutes, then shake again."
+     ]
+    },
+    {
+     "runs": [
+      "Pour out the dirty alcohol and rinse thoroughly with warm water until no alcohol smell remains."
+     ]
+    },
+    {
+     "runs": [
+      "Let the bong air-dry completely before you use it."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Don't light anything near the piece until it's fully rinsed and dry. Alcohol vapor can linger inside a chamber longer than you'd expect."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "the-bowl-piece-and-downstem",
+   "text": "The bowl piece and downstem"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Small parts get dirty fastest, because every bit of smoke passes through them. Drop the bowl piece and downstem into a resealable bag, add enough alcohol to cover them and a pinch of coarse salt, then seal and shake. Let them soak for 20 to 30 minutes, and work a pipe cleaner through the downstem and its slits. Rinse well with warm water and let them dry. If your downstem sits in a rubber grommet, take the grommet off and wash it separately with warm, soapy water."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "other-ways-to-clean-a-bong",
+   "text": "Other ways to clean a bong"
+  },
+  {
+   "kind": "h3",
+   "id": "vinegar-and-baking-soda",
+   "text": "Vinegar and baking soda"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If you'd rather skip alcohol, a vinegar-and-baking-soda soak will clean a bong too. Add a few spoonfuls of baking soda, pour in white vinegar and let it fizz, then swirl. A handful of coarse salt adds scrubbing power. This mix is gentler and slower, so give it a longer soak, around an hour for moderate buildup, and repeat if needed. Rinse very well so no vinegar smell or taste is left behind."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "hot-water-and-boiling-for-glass-only",
+   "text": "Hot water and boiling, for glass only"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Hot water can loosen resin in small glass pieces, but glass can crack when its temperature changes suddenly. If you boil a glass pipe, start it in cool water, bring the water up to heat slowly, and let the piece cool in the pot before you take it out. Skip boiling for large or delicate pieces, never boil acrylic or wood, and follow the maker's care notes for silicone."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "store-bought-cleaners",
+   "text": "Store-bought cleaners"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Cleaners made for glass pipes are another option. Follow the directions on the label, wear gloves, and rinse the piece thoroughly afterward so no residue is left inside."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-clean-a-pipe-glass-vs-wood",
+   "text": "How to clean a pipe: glass vs. wood"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Different materials need different care, so check what your pipe is made of before you start."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "glass-pipes",
+   "text": "Glass pipes"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Here's how to clean a glass pipe:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      "Knock out the ash and let the pipe cool."
+     ]
+    },
+    {
+     "runs": [
+      "Put it in a resealable bag with enough isopropyl alcohol to cover it and a spoonful of coarse salt."
+     ]
+    },
+    {
+     "runs": [
+      "Seal the bag, shake it for a minute, then let the pipe soak for 20 to 30 minutes, longer for heavy resin."
+     ]
+    },
+    {
+     "runs": [
+      "Scrub the bowl, the carb hole and the mouthpiece with pipe cleaners and cotton swabs."
+     ]
+    },
+    {
+     "runs": [
+      "Rinse with warm water and let the pipe dry completely."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "wood-pipes",
+   "text": "Wood pipes"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Wood absorbs liquid and can crack or warp, so knowing how to clean a wood pipe is mostly about what not to do: no soaking, no boiling, no dishwasher. Brush out the ash, then run a dry pipe cleaner through the stem. For sticky spots, use a pipe cleaner barely dampened with alcohol and follow it with a dry one. Wipe the outside with a soft, dry cloth, skip metal scrapers that can gouge the bowl, and let the pipe air out overnight before you use it. If the maker lists care instructions, follow those first."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "acrylic-and-silicone",
+   "text": "Acrylic and silicone"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Alcohol can cloud or crack acrylic, so wash acrylic pieces with lukewarm water and mild soap. Silicone usually cleans up with warm, soapy water and a soft brush; check the maker's care notes."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dab-rigs-bangers-and-vapes-what-can-and-cant-get-wet",
+   "text": "Dab rigs, bangers and vapes: what can and can't get wet"
+  },
+  {
+   "kind": "h3",
+   "id": "dab-rigs-and-bangers",
+   "text": "Dab rigs and bangers"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Learning how to clean a dab rig starts with timing. After each dab, once the banger has cooled from hot to warm, wipe out leftover oil with a dry cotton swab. For a deep clean, let the banger cool completely, soak it in isopropyl alcohol in a glass jar or a bag, then swab, rinse and dry it fully. Clean the glass body of the rig the same way you would a bong. Never put alcohol on a hot banger, and make sure everything is completely dry before you heat it again."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Electric rigs need a lighter touch. Don't submerge the base or anything with wires or a battery, and clean only the parts the manual says can be removed and washed."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "vapes",
+   "text": "Vapes"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Batteries and electronics should never get wet. For vape pens and cartridges, wipe the mouthpiece and the threaded connection with a cotton swab barely dampened with alcohol, then let them dry before you reconnect anything. Dry-herb vaporizers usually need the chamber brushed out once it's cool, and some screens and mouthpieces can soak if the maker allows it."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Cartridges and disposables aren't designed to be opened or cleaned inside, and you should never refill a cartridge or add anything to it. If one keeps clogging or tastes burnt, replace it."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-clean-a-grinder-and-save-the-kief",
+   "text": "How to clean a grinder, and save the kief"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Here's how to clean a grinder without wasting anything:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Collect the kief first."
+      },
+      " Open the bottom chamber and scrape out the fine, sandy powder with a card or the scraper that came with your grinder."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Freeze it."
+      },
+      " Put the grinder in the freezer for 30 to 60 minutes. Cold makes resin brittle, so it comes off the teeth and screen more easily."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Brush it."
+      },
+      " Use a soft toothbrush on the teeth, threads and screen while the resin is still cold."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Soak a metal grinder for heavy buildup."
+      },
+      " Leave it in isopropyl alcohol for 20 to 30 minutes, scrub it, then rinse with warm water."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Dry it completely"
+      },
+      " before you put it back together."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Plastic and acrylic grinders should get warm, soapy water instead of alcohol, and wood grinders a dry brushing only. If your grinder has magnets or a special coating, check the maker's instructions before soaking it."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "keeping-your-gear-clean-longer",
+   "text": "Keeping your gear clean longer"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A few habits make every deep clean quicker:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Change bong water every session,"
+      },
+      " and don't leave water sitting in the piece between uses."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Use a screen"
+      },
+      " in pipes and bowls to keep ash out of the stem."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Rinse with warm water"
+      },
+      " after use, once the piece has cooled."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Keep your own piece and mouthpiece"
+      },
+      " when you can, rather than sharing."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Store gear dry,"
+      },
+      " in a padded case or on a clean shelf out of reach of kids and pets."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Grind only what you need,"
+      },
+      " so less resin builds up in the grinder."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Looking for screens, pipe cleaners or a new piece? The Springfield Ave Dispensary menu lists accessories, and selection changes, so check ",
+    {
+     "text": "our menu",
+     "href": "shop/"
+    },
+    " before you visit. 21+ only. Please consume responsibly."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "How often should you clean a bong?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Change the water after every session, and give the bong a full alcohol-and-salt clean every week or two if you use it daily. Lighter users can stretch the deep clean to every few weeks. Don't wait for brown water, a stale smell or a tight, harsh draw, though: the longer resin sits, the harder it is to remove."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can you clean a bong without alcohol?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Baking soda and white vinegar, with coarse salt for scrubbing, lift light to moderate resin without any alcohol. The mix works more slowly, so give it a longer soak and expect to repeat it for heavy buildup. Rinse thoroughly afterward so no vinegar smell or taste lingers, and let the glass dry completely before you use it."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Is it safe to boil a glass pipe?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It can be, with care. Start the pipe in cool water, heat the water gradually, and let the pipe cool in the pot before you take it out, since sudden temperature changes can crack glass. Skip boiling for large or delicate pieces and for acrylic or wood, and check the maker's care notes before heating silicone. For most glass, an alcohol soak is easier."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What's the safest way to clean a wooden pipe?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Keep it dry and gentle. Brush out the ash, run dry pipe cleaners through the stem, and use a cleaner barely dampened with alcohol only on sticky spots. Never soak or boil wood, avoid metal scrapers, and let the pipe air out overnight before you use it again. If the maker lists care instructions, follow those."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can you clean a vape cartridge?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Only on the outside. Cartridges and disposables aren't designed to be opened or soaked, so wipe the mouthpiece and the threaded connection with a cotton swab barely dampened with isopropyl alcohol, and let them dry before reconnecting. Never refill a cartridge or add anything to it. If a cart keeps clogging or tastes burnt, replace it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "CDC / NIOSH Pocket Guide to Chemical Hazards: Isopropyl alcohol",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/niosh/npg/npgd0359.html"
+   },
+   {
+    "label": "Alaidarous M., Alanazi M., Abdel-Hadi A. (2017), Isolation, identification, and antimicrobial susceptibility of bacteria associated with waterpipe contaminants in selected area of Saudi Arabia, BioMed Research International",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5592408/"
+   },
+   {
+    "label": "Altindis M. et al. (2020), Microbial contamination and infection risks of narghile besides hazards of tobacco, Central European Journal of Public Health",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/32228822/"
+   },
+   {
+    "label": "Chumchuen K., Chongsuvivatwong V. (2024), Increased active pulmonary tuberculosis risk from sharing bong of cannabis: a case-control study from Thailand, Frontiers in Public Health",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11598918/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   },
+   {
+    "href": "blog/top-cannabis-strains-of-2026/",
+    "imageKey": "blog-top-cannabis-strains-of-2026",
+    "catLabel": "Education",
+    "title": "Cannabis Strains Worth Knowing in 2026, and How to Choose One"
+   }
+  ]
+ }
+}

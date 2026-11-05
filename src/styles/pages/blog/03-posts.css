@@ -1,16 +1,19 @@
-/* 03-posts — "Categories" filter chips over the cards. >= 1100px: four across. Tablet + phones: a swipe rail. */
+/* 03-posts — "Categories" filter chips over every card, as a grid: four across from 1100px, three from 900px, two from
+   600px, one on phones. blog.js pages it (Load More); [hidden] cards leave the grid. Tokens only. */
 .posts { --pool-x: 12%; --pool-y: 62%; --pool-a: .1; padding-top: calc(var(--sec-y) * .5); }
 .posts__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-bottom: clamp(18px, 2.2vw, 28px); }
 .posts__label { flex: 0 0 100%; margin: 0; }
 .posts__filters { flex-wrap: wrap; overflow: visible; padding-bottom: 0; }
-.posts__rail { list-style: none; --rail-col: 80%; }
+.posts__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); list-style: none; margin: 0; padding: 0; }
 .posts__item { min-width: 0; }
-.posts__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
-.posts__carousel:not([data-overflow]) .posts__controls { display: none; }
+.posts__item[hidden] { display: none; }
 .posts__empty { margin: 0; padding: 22px 24px; color: var(--ink-2); font-size: var(--t-body); text-align: center; }
-@media (min-width: 1100px) {
-  .posts__rail { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
-  .posts__controls { display: none; }
+.posts__more { display: flex; justify-content: center; margin-top: clamp(22px, 2.8vw, 36px); }
+.posts__more .btn[hidden] { display: none; }
+@media (max-width: 1099.98px) { .posts__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 899.98px) { .posts__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 599.98px) {
+  .posts__grid { grid-template-columns: minmax(0, 1fr); }
+  .posts__filters { gap: 8px; } .posts__filters .chip { padding: 0 14px; }
+  .posts__more .btn { width: 100%; }
 }
-@media (min-width: 768px) and (max-width: 1099.98px) { .posts__rail { --rail-col: 44%; } }
-@media (max-width: 599.98px) { .posts__filters { gap: 8px; } .posts__filters .chip { padding: 0 14px; } }

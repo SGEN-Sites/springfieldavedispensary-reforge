@@ -1,0 +1,390 @@
+{
+ "_note": "Pages added on the owner's word (2026-11-05): owner-supplied posts imported by the local converter (P/audit/imports/). gen-site.mjs adds each to site.json as a new page whose evidence is audit/pages/import-<slug>/ (+ the live blog pages for the shared post-template words). DERIVED FILE: do not hand-edit.",
+ "addedOn": "2026-11-05",
+ "posts": [
+  {
+   "id": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+   "path": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+   "evidence": [
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "import-top-cannabis-strains-of-2026",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-canna-oil-recipe",
+   "path": "blog/canna-oil-recipe/",
+   "evidence": [
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "import-canna-berry-freezer-jam",
+    "import-fruitcake-canna-cocktail",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-indica-vs-sativa",
+   "path": "blog/indica-vs-sativa/",
+   "evidence": [
+    "import-indica-vs-sativa",
+    "import-strains-that-make-you-laugh",
+    "import-indica-strains-for-sleep",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-lamb-meatballs-in-red-sauce",
+   "path": "blog/lamb-meatballs-in-red-sauce/",
+   "evidence": [
+    "import-lamb-meatballs-in-red-sauce",
+    "import-canna-butter-recipe",
+    "import-canna-oil-recipe",
+    "import-canna-berry-freezer-jam",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-what-is-cbc-cannabichromene",
+   "path": "blog/what-is-cbc-cannabichromene/",
+   "evidence": [
+    "import-what-is-cbc-cannabichromene",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-top-cannabis-strains-of-2026",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-canna-berry-freezer-jam",
+   "path": "blog/canna-berry-freezer-jam/",
+   "evidence": [
+    "import-canna-berry-freezer-jam",
+    "import-canna-oil-recipe",
+    "import-hemp-almond-granola-clusters",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-top-cannabis-strains-of-2026",
+   "path": "blog/top-cannabis-strains-of-2026/",
+   "evidence": [
+    "import-top-cannabis-strains-of-2026",
+    "import-indica-vs-sativa",
+    "import-what-is-kush-cannabis",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-fruitcake-canna-cocktail",
+   "path": "blog/fruitcake-canna-cocktail/",
+   "evidence": [
+    "import-fruitcake-canna-cocktail",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "import-canna-berry-freezer-jam",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-cannabis-tasting-what-are-munchies",
+   "path": "blog/cannabis-tasting-what-are-munchies/",
+   "evidence": [
+    "import-cannabis-tasting-what-are-munchies",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-citrus-mimosa-party-with-single-strain-tinctures",
+   "path": "blog/citrus-mimosa-party-with-single-strain-tinctures/",
+   "evidence": [
+    "import-citrus-mimosa-party-with-single-strain-tinctures",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "import-canna-berry-freezer-jam",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-marijuana-and-intimacy",
+   "path": "blog/marijuana-and-intimacy/",
+   "evidence": [
+    "import-marijuana-and-intimacy",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-cannabis-infused-almond-butter",
+   "path": "blog/cannabis-infused-almond-butter/",
+   "evidence": [
+    "import-cannabis-infused-almond-butter",
+    "import-canna-oil-recipe",
+    "import-hemp-almond-granola-clusters",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-cannabis-decarboxylation",
+   "path": "blog/cannabis-decarboxylation/",
+   "evidence": [
+    "import-cannabis-decarboxylation",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-hot-honey-pizza",
+   "path": "blog/hot-honey-pizza/",
+   "evidence": [
+    "import-hot-honey-pizza",
+    "import-canna-oil-recipe",
+    "import-canna-honey",
+    "import-herbed-grilled-cheese",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-strains-that-make-you-laugh",
+   "path": "blog/strains-that-make-you-laugh/",
+   "evidence": [
+    "import-strains-that-make-you-laugh",
+    "import-indica-vs-sativa",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-bulletproof-cannabis-coffee",
+   "path": "blog/bulletproof-cannabis-coffee/",
+   "evidence": [
+    "import-bulletproof-cannabis-coffee",
+    "import-canna-oil-recipe",
+    "import-canna-butter-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-linalool-terpene",
+   "path": "blog/linalool-terpene/",
+   "evidence": [
+    "import-linalool-terpene",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-sweet-and-smokey-bbq-sauce",
+   "path": "blog/sweet-and-smokey-bbq-sauce/",
+   "evidence": [
+    "import-sweet-and-smokey-bbq-sauce",
+    "import-canna-honey",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-indica-strains-for-sleep",
+   "path": "blog/indica-strains-for-sleep/",
+   "evidence": [
+    "import-indica-strains-for-sleep",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-frozen-strawberry-canna-nade",
+   "path": "blog/frozen-strawberry-canna-nade/",
+   "evidence": [
+    "import-frozen-strawberry-canna-nade",
+    "import-infused-simple-syrup",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-does-weed-dehydrate-you",
+   "path": "blog/does-weed-dehydrate-you/",
+   "evidence": [
+    "import-does-weed-dehydrate-you",
+    "import-cannabis-tasting-what-are-munchies",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-infused-simple-syrup",
+   "path": "blog/infused-simple-syrup/",
+   "evidence": [
+    "import-infused-simple-syrup",
+    "import-frozen-strawberry-canna-nade",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-terpenes-ocimene",
+   "path": "blog/terpenes-ocimene/",
+   "evidence": [
+    "import-terpenes-ocimene",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-no-bake-cannabis-oatmeal-cookies",
+   "path": "blog/no-bake-cannabis-oatmeal-cookies/",
+   "evidence": [
+    "import-no-bake-cannabis-oatmeal-cookies",
+    "import-canna-butter-recipe",
+    "import-infused-peanut-butter-cheesecake-bars",
+    "import-canna-oil-recipe",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-what-is-kush-cannabis",
+   "path": "blog/what-is-kush-cannabis/",
+   "evidence": [
+    "import-what-is-kush-cannabis",
+    "import-indica-vs-sativa",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-hemp-almond-granola-clusters",
+   "path": "blog/hemp-almond-granola-clusters/",
+   "evidence": [
+    "import-hemp-almond-granola-clusters",
+    "import-canna-oil-recipe",
+    "import-canna-honey",
+    "import-canna-berry-freezer-jam",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-what-is-a-vape-pen",
+   "path": "blog/what-is-a-vape-pen/",
+   "evidence": [
+    "import-what-is-a-vape-pen",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-canna-honey",
+   "path": "blog/canna-honey/",
+   "evidence": [
+    "import-canna-honey",
+    "import-canna-oil-recipe",
+    "import-hot-honey-pizza",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-the-entourage-effect",
+   "path": "blog/the-entourage-effect/",
+   "evidence": [
+    "import-the-entourage-effect",
+    "import-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "import-indica-vs-sativa",
+    "import-what-is-cbc-cannabichromene",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-herbed-grilled-cheese",
+   "path": "blog/herbed-grilled-cheese/",
+   "evidence": [
+    "import-herbed-grilled-cheese",
+    "import-canna-butter-recipe",
+    "import-canna-honey",
+    "import-hot-honey-pizza",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-infused-peanut-butter-cheesecake-bars",
+   "path": "blog/infused-peanut-butter-cheesecake-bars/",
+   "evidence": [
+    "import-infused-peanut-butter-cheesecake-bars",
+    "import-no-bake-cannabis-oatmeal-cookies",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  },
+  {
+   "id": "blog-canna-butter-recipe",
+   "path": "blog/canna-butter-recipe/",
+   "evidence": [
+    "import-canna-butter-recipe",
+    "import-cannabis-decarboxylation",
+    "import-canna-oil-recipe",
+    "import-lamb-meatballs-in-red-sauce",
+    "blog",
+    "blog-understanding-terpenes"
+   ]
+  }
+ ]
+}

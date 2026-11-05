@@ -1,0 +1,545 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-indica-strains-for-sleep/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Indica Strains for Sleep: Profiles, Terpenes and Formats",
+  "accent": "Sleep"
+ },
+ "dek": "A look at the indica-leaning strains, terpenes and formats adults reach for at night, the limits of the sleep research, and how to build a sensible evening routine.",
+ "pictureKey": "blog-indica-strains-for-sleep",
+ "pictureAlt": "A purple cannabis bud beside a cup of tea and a lit candle on a dark night table",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Indica is a loose label: terpenes, cannabinoids, dose and timing shape how a product feels at night."
+    ]
+   },
+   {
+    "runs": [
+     "Myrcene and linalool showed sedative effects in mouse studies, but human evidence is limited."
+    ]
+   },
+   {
+    "runs": [
+     "A 2017 review found THC may help people fall asleep sooner, but could impair sleep quality with long-term use."
+    ]
+   },
+   {
+    "runs": [
+     "Evidence for CBN is thin: a 2024 trial of 20 mg nightly missed its main sleep-quality measure."
+    ]
+   },
+   {
+    "runs": [
+     "Match the format’s timing to your evening, start low and talk to a clinician about ongoing sleep problems."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Who this guide is for",
+    "href": "#who-this-guide-is-for"
+   },
+   {
+    "text": "What makes a strain feel sleepy?",
+    "href": "#what-makes-a-strain-feel-sleepy"
+   },
+   {
+    "text": "Classic indica strains for sleep: profiles, not promises",
+    "href": "#classic-indica-strains-for-sleep-profiles-not-promises"
+   },
+   {
+    "text": "Formats at night",
+    "href": "#formats-at-night"
+   },
+   {
+    "text": "Why more people are trying it, and what research shows",
+    "href": "#why-more-people-are-trying-it-and-what-research-shows"
+   },
+   {
+    "text": "Routine tips for winding down",
+    "href": "#routine-tips-for-winding-down"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "If you already enjoy cannabis in the evening, you've probably heard that indica strains for sleep are the way to go. The reality is more nuanced. Indica is a loose label, and the science linking cannabis and sleep is young and mixed. This guide covers what people look for at night, from terpenes and cannabinoids to formats, and what the science can and can't tell you."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "who-this-guide-is-for",
+   "text": "Who this guide is for"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "It's written for adults 21 and older who already use cannabis and want to understand their evening options. It's educational, not medical advice, and cannabis is no substitute for care from a professional."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If you have trouble sleeping most nights, snore heavily or feel worn out during the day, talk to a doctor, because ongoing sleep problems have many possible causes. Pregnant or breastfeeding, on medication, or managing a health condition? Get a clinician's input before using cannabis."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-makes-a-strain-feel-sleepy",
+   "text": "What makes a strain feel sleepy?"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Two groups of compounds usually get the credit: terpenes, which shape aroma, and cannabinoids, which drive effects. Here's where the evidence stands for each."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "terpenes-myrcene-linalool-and-caryophyllene",
+   "text": "Terpenes: myrcene, linalool and caryophyllene"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Myrcene"
+      },
+      " is the musky, hop-like terpene people often tie to heavier strains. In a 2002 mouse study, high injected doses reduced movement, relaxed muscles and lengthened sleep after a sedative drug."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Linalool"
+      },
+      " is the floral note in lavender. In a 2009 study, mice that breathed it in a chamber for an hour slept longer after a sedative drug and moved less. Read more in our ",
+      {
+       "text": "linalool guide",
+       "href": "blog/linalool-terpene/"
+      },
+      "."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Caryophyllene"
+      },
+      " adds a peppery, spicy note. People often count it among the terpenes in sleepy strains, but any link to sleep is unproven."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Keep these studies in perspective. The mice got large injected doses or an hour in a linalool-filled chamber, which is very different from smoking a strain or eating a gummy. Human evidence for terpenes and sleep is limited."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "cannabinoids-thc-and-cbn",
+   "text": "Cannabinoids: THC and CBN"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    {
+     "b": true,
+     "text": "THC"
+    },
+    " is the main driver of cannabis's effects. A 2017 review concluded that THC may cut the time it takes to drift off, yet could harm sleep quality with long-term use. The authors described the research as in its infancy, with mixed results."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    {
+     "b": true,
+     "text": "CBN"
+    },
+    " is often marketed as a sleep cannabinoid. A 2021 review of the research on CBN for sleep found too little evidence to support the claims. It also noted that sleep products on the market usually hold 5 mg of CBN or less. In a 2024 trial of 293 adults who rated their own sleep as poor, the group given 20 mg of CBN nightly for a week didn't do significantly better than placebo on the main measure, sleep quality. Those taking CBN alone did report fewer nighttime awakenings than the placebo group. One trial can't settle the question."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "classic-indica-strains-for-sleep-profiles-not-promises",
+   "text": "Classic indica strains for sleep: profiles, not promises"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Some indica-leaning names come up again and again when people talk about nighttime strains. Here's how they're usually described. None is proven to improve sleep, and batches of the same strain can smell and test differently, so use these as starting points for your nose."
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Hindu Kush:"
+      },
+      " named for the mountain range that runs through Afghanistan and Pakistan; usually described as earthy and woody, with a sweet edge."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Northern Lights:"
+      },
+      " a well-known indica-leaning line; often described as sweet and earthy."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Granddaddy Purple:"
+      },
+      " known for its purple hues; often described as grape and berry."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Bubba Kush:"
+      },
+      " often described as earthy, with notes some compare to coffee or cocoa."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A strain name tells you just a little, and there's no best indica for sleep that suits everyone. The labels themselves don't reliably describe a plant's genetics, as our ",
+    {
+     "text": "indica vs. sativa guide",
+     "href": "blog/indica-vs-sativa/"
+    },
+    " explains. The label's THC and CBD figures, plus terpene results when they're listed, tell you more than the name. They can even show whether so-called myrcene strains actually test high in myrcene."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "formats-at-night",
+   "text": "Formats at night"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "How you consume matters as much as what you choose, because each format runs on its own clock. Pharmacology research puts inhaled THC's onset at seconds to minutes, with the peak around 15 to 30 minutes and most effects gone within 2 to 3 hours. Swallowed THC usually kicks in after 30 to 90 minutes, peaks at 2 to 3 hours and, depending on the dose, can linger for 4 to 12 hours."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Format",
+    "Timing",
+    "Keep in mind"
+   ],
+   "rows": [
+    [
+     "Edibles",
+     "Slow to start, long-lasting",
+     "Give them a head start, and never stack doses while you wait"
+    ],
+    [
+     "Capsules",
+     "Like edibles",
+     "A set amount per capsule makes dosing simple"
+    ],
+    [
+     "Drinks",
+     "Swallowed, so closer to edibles",
+     "Sip slowly and wait before having more"
+    ],
+    [
+     "Infused pre-rolls",
+     "Felt within minutes",
+     "Often stronger than plain flower, so pause after a puff or two"
+    ],
+    [
+     "Vapes",
+     "Felt within minutes, fades sooner",
+     "Easy to adjust a little at a time"
+    ],
+    [
+     "Tinctures",
+     "Swallowed drops act like an edible",
+     "Little research covers drops held under the tongue, so time them like an edible"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Long-lasting formats may still be active when your alarm sounds, so plan for a full night."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-more-people-are-trying-it-and-what-research-shows",
+   "text": "Why more people are trying it, and what research shows"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Legal access in more states has made it easy for adults to experiment, and marketing has followed. The 2021 CBN review opened by noting that makers of cannabis products have claimed unique sleep-promoting effects for CBN, then found the published evidence didn't support those claims."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "What the research does suggest:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      "THC may help some people fall asleep faster in the short term."
+     ]
+    },
+    {
+     "runs": [
+      "The same 2017 review flagged possible harm to sleep quality over the long term."
+     ]
+    },
+    {
+     "runs": [
+      "Terpene sleep findings come mostly from animal studies at high doses."
+     ]
+    },
+    {
+     "runs": [
+      "CBN has one recent trial with mixed results."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "What it doesn't show is that any strain, terpene or product reliably improves sleep."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "routine-tips-for-winding-down",
+   "text": "Routine tips for winding down"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Set the scene."
+      },
+      " A dark, cool, quiet room and a regular bedtime help, whatever else you do."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Start low."
+      },
+      " Use the smallest amount that feels comfortable, and raise it only gradually."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Match the format to your schedule."
+      },
+      " Inhaled cannabis acts fast, while edibles need a head start."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Keep notes."
+      },
+      " Track the product, the amount and the timing, plus how you felt the next morning."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Watch your tolerance."
+      },
+      " Nightly use can build tolerance, so occasional breaks are worth considering."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Don't combine it with alcohol or sleep aids"
+      },
+      " unless your doctor says it's okay."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If a label leaves you with questions, a budtender can walk you through it on your next visit. Use cannabis responsibly, and never drive after consuming."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Is indica always better for sleep?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "No. Indica is a loose label that doesn’t reliably reflect a plant’s genetics, so two products sold as indica can feel quite different. Your dose, the terpene profile, your timing and your tolerance matter more than the word on the jar. Read the label, start small and keep notes on what suits your evenings."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How far ahead of bedtime should I take an edible?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Give it a head start. Research on swallowed THC shows effects usually begin 30 to 90 minutes in, peak at around 2 to 3 hours and, depending on the dose, can run 4 to 12 hours. Plan on taking it an hour or two before bed, and don’t double up while you’re waiting."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Does CBN make you sleepy?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "The evidence is thin. A 2021 review found too little research to support sleep claims for CBN, and noted most sleep products contain 5 mg or less. A 2024 trial of 20 mg nightly found no significant change in overall sleep quality, though people reported fewer awakenings. More research is needed before anyone can say CBN works."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can cannabis affect sleep quality over time?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It may. A 2017 review found that THC might help people fall asleep faster in the short term but could impair sleep quality with long-term use. Frequent use can also build tolerance. If you lean on cannabis most nights, consider taking breaks, and talk to a clinician about sleep trouble that lasts."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Babson, Sottile and Morabito (2017), cannabis, cannabinoids and sleep: a review, Current Psychiatry Reports",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/28349316/"
+   },
+   {
+    "label": "Corroon (2021), cannabinol and sleep: separating fact from fiction, Cannabis and Cannabinoid Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8612407/"
+   },
+   {
+    "label": "Bonn-Miller et al. (2024), randomized trial of CBN with and without CBD on sleep quality, Experimental and Clinical Psychopharmacology",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/37796540/"
+   },
+   {
+    "label": "do Vale et al. (2002), central effects of citral, myrcene and limonene in mice, Phytomedicine",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/12587690/"
+   },
+   {
+    "label": "Linck et al. (2009), inhaled linalool-induced sedation in mice, Phytomedicine",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/18824339/"
+   },
+   {
+    "label": "Grotenhermen (2003), pharmacokinetics and pharmacodynamics of cannabinoids, Clinical Pharmacokinetics",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/12648025/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

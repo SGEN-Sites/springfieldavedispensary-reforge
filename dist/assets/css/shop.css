@@ -68,7 +68,7 @@
   .menu-meta__sep { display: none; }
   .menu-crumbs { margin-bottom: 2px; }
 }
-@media (max-width: 389.98px) { .page-hero--menu .eyebrow { letter-spacing: .14em; } .page-hero--menu .eyebrow::before { display: none; } }
+@media (max-width: 389.98px) { .page-hero--menu .eyebrow { letter-spacing: .14em; } }
 
 /* pages/shop/02-embed.css */
 /* 02-embed — sticky category filters under the header, then the live Dutchie menu at full container width.

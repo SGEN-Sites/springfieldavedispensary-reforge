@@ -1,0 +1,383 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-what-is-kush-cannabis/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Kush Cannabis: From the Hindu Kush Mountains to Today's Menus",
+  "accent": "Kush"
+ },
+ "dek": "Kush takes its name from the Hindu Kush mountains of Afghanistan and Pakistan. Here's how those plants shaped modern cannabis, what Kush usually smells like, and why the name isn't a promise.",
+ "pictureKey": "blog-what-is-kush-cannabis",
+ "pictureAlt": "A frosty cannabis cola with orange pistils in front of snow-dusted mountain peaks at dusk",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Kush strains take their name from the Hindu Kush, a mountain range about 500 miles long in Afghanistan and Pakistan."
+    ]
+   },
+   {
+    "runs": [
+     "Afghan hashish plants became the model for what people call 'indica,' but genetic studies show indica and sativa labels don't reliably track genetics."
+    ]
+   },
+   {
+    "runs": [
+     "A strain name is a clue, not a promise, so read the label and lab data."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What is Kush? Its roots in the Hindu Kush",
+    "href": "#what-is-kush-its-roots-in-the-hindu-kush"
+   },
+   {
+    "text": "Indica, sativa or hybrid?",
+    "href": "#indica-sativa-or-hybrid"
+   },
+   {
+    "text": "Kush as everyday slang",
+    "href": "#kush-as-everyday-slang"
+   },
+   {
+    "text": "How Kush genetics traveled west in the 1960s and 1970s",
+    "href": "#how-kush-genetics-traveled-west-in-the-1960s-and-1970s"
+   },
+   {
+    "text": "OG Kush and the 1990s",
+    "href": "#og-kush-and-the-1990s"
+   },
+   {
+    "text": "Common Kush traits: aroma, bud structure and reported effects",
+    "href": "#common-kush-traits-aroma-bud-structure-and-reported-effects"
+   },
+   {
+    "text": "Well-known Kush strains",
+    "href": "#well-known-kush-strains"
+   },
+   {
+    "text": "Shopping tip: read the lab data, not just the name",
+    "href": "#shopping-tip-read-the-lab-data-not-just-the-name"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "What is Kush? It's a family of cannabis strains named for the Hindu Kush, a mountain range in Afghanistan and Pakistan where local cannabis has long been grown for hashish. Today \"Kush\" appears in many strain names, and it's also casual slang for cannabis in general. Here's where the name comes from, how those genetics reached the West, and what the name can and can't tell you."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-is-kush-its-roots-in-the-hindu-kush",
+   "text": "What is Kush? Its roots in the Hindu Kush"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The Hindu Kush is a mountain system about 500 miles (800 km) long. It begins at the Pamirs, near where the borders of Afghanistan, China and Pakistani-administered Kashmir meet, and runs southwest through Pakistan into Afghanistan. Its highest peak, Tirich Mir, rises 25,230 feet."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Farmers there kept local cannabis varieties going for generations, the kind of long-established strains growers call landraces. Afghan plants grown for hashish caught botanists' attention, and early classifiers described them as short, densely branched plants with broad leaflets."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "indica-sativa-or-hybrid",
+   "text": "Indica, sativa or hybrid?"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Kush strains are usually sold as indica or as hybrids that lean indica, because 20th-century botanists used Afghan hashish plants as their model for Cannabis indica. That short, bushy, broad-leaf look became the popular picture of an indica."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Genetics tell a messier story. A 2021 study that genotyped more than 100 cannabis samples found that plants labeled sativa and indica were genetically indistinct across the genome. An earlier study of 30 dispensary strains likewise found no clear genetic support for the indica, sativa and hybrid categories. So \"indica\" on a Kush label reflects tradition, not reliable genetics or a promised effect. Our guide to ",
+    {
+     "text": "indica vs. sativa",
+     "href": "blog/indica-vs-sativa/"
+    },
+    " explains the labels in depth."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "kush-as-everyday-slang",
+   "text": "Kush as everyday slang"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "So what does kush mean in everyday talk? It has become casual shorthand for cannabis in general, often with a hint of quality, and you'll hear it in music and everyday talk about flower with no Kush genetics at all."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-kush-genetics-traveled-west-in-the-1960s-and-1970s",
+   "text": "How Kush genetics traveled west in the 1960s and 1970s"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The story usually told goes like this: in the 1960s and 1970s, young Western travelers crossed Afghanistan on the overland route nicknamed the Hippie Trail, and some carried cannabis seeds home. Growers in North America and Europe then bred those plants, prizing their compact size and resin. Firm records are scarce, so take the details as lore. Whatever the route, Afghan-type plants left a mark: their short, bushy shape suits indoor growing, and \"Kush\" turns up in the names of many later strains."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "og-kush-and-the-1990s",
+   "text": "OG Kush and the 1990s"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "OG Kush is the family's breakout strain. Most accounts date its fame to the early 1990s, first in South Florida and then in Los Angeles, where it became a West Coast favorite. Its parentage is disputed, and even the meaning of \"OG\" has several competing explanations."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "common-kush-traits-aroma-bud-structure-and-reported-effects",
+   "text": "Common Kush traits: aroma, bud structure and reported effects"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Aroma:"
+      },
+      " often described as earthy, woody or piney, with spicy, hashy or fuel-like notes."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Bud structure:"
+      },
+      " dense, chunky flowers, frequently with a heavy frosting of trichomes."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Reported effects:"
+      },
+      " many people describe Kush as relaxing and body-focused, but experiences vary with the plant, the dose and the person."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Think of these as tendencies, not promises, since Kush crosses can lean in very different directions."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "well-known-kush-strains",
+   "text": "Well-known Kush strains"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A few Kush names come up often:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Hindu Kush:"
+      },
+      " named straight for the mountains and often sold as a classic, landrace-style line"
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "OG Kush:"
+      },
+      " the 1990s strain behind a large family of \"OG\" crosses"
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Bubba Kush:"
+      },
+      " often described as heavy and earthy-sweet"
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Purple Kush:"
+      },
+      " known for its purple hues; researchers have even used a sequenced Purple Kush genome to build genetic markers for studying other strains"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "These are examples, not a list of what's in stock; selection changes often. Our look at ",
+    {
+     "text": "notable strains this year",
+     "href": "blog/top-cannabis-strains-of-2026/"
+    },
+    " shows what's catching attention now."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "shopping-tip-read-the-lab-data-not-just-the-name",
+   "text": "Shopping tip: read the lab data, not just the name"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A strain name is only a clue. In one genetic study, most strains had at least one genetic outlier when bought from different dispensaries, so two jars with the same Kush name can look, smell and feel different."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "So read the label: check the THC and CBD figures, look at any terpenes listed, and ask our budtenders what they're noticing in a particular batch. When you're ready, ",
+    {
+     "text": "browse our menu",
+     "href": "shop/"
+    },
+    " to see what's available today. Kush or not, it's for adults 21 and older; please consume responsibly."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "What does Kush usually smell like?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Kush is usually described as earthy, woody or piney, often with a spicy, hashy or fuel-like edge, and some crosses lean sweet. Those notes come from terpenes, which vary from plant to plant and batch to batch. Smell is personal, so compare the terpenes listed on labels and ask a budtender which batches stand out."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How is Kush different from OG Kush?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Kush is the broad family name, rooted in plants from the Hindu Kush region. OG Kush is one specific strain within that family; by most accounts, it rose to fame in the 1990s, first in Florida and then in California. Its exact parentage is disputed, and even the \"OG\" in its name has several competing explanations."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Are Kush strains stronger than others?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not necessarily. Potency depends on the individual plant, how it was grown and how fresh it is, not on the word Kush in the name. Some Kush strains test high and some don't, and the same name can vary from grower to grower. Check the THC figure on the label rather than going by the name."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Encyclopaedia Britannica, Hindu Kush (mountain system, Afghanistan and Pakistan)",
+    "host": "britannica.com",
+    "href": "https://www.britannica.com/place/Hindu-Kush"
+   },
+   {
+    "label": "McPartland JM (2018), Cannabis systematics at the levels of family, genus, and species, Cannabis and Cannabinoid Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6225593/"
+   },
+   {
+    "label": "Watts S et al. (2021), Cannabis labelling is associated with genetic variation in terpene synthase genes, Nature Plants",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8516649/"
+   },
+   {
+    "label": "Schwabe AL, McGlaughlin ME (2019), Genetic tools weed out misconceptions of strain reliability in Cannabis sativa, Journal of Cannabis Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815053/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-cannabis-infused-almond-butter/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Homemade Cannabis-Infused Almond Butter",
+  "accent": "Almond Butter"
+ },
+ "dek": "A homemade nut butter where the infused oil helps the blend turn creamy, and you set the dose per serving from the strength of your own oil.",
+ "pictureKey": "blog-cannabis-infused-almond-butter",
+ "pictureAlt": "A jar of smooth almond butter with a wooden spoon, whole almonds and apple slices on dark slate",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Season and taste the almond butter before the infused oil goes in, never after."
+    ]
+   },
+   {
+    "runs": [
+     "Dose per serving × number of servings ÷ your oil's mg per teaspoon = teaspoons of infused oil."
+    ]
+   },
+   {
+    "runs": [
+     "Loosen a thick batch with plain oil, never water."
+    ]
+   },
+   {
+    "runs": [
+     "It contains tree nuts, and it's a 4-day fridge item; freeze what you won't eat in time."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing: set the dose per serving first",
+    "href": "#dosing-set-the-dose-per-serving-first"
+   },
+   {
+    "text": "What you need",
+    "href": "#what-you-need"
+   },
+   {
+    "text": "How to make cannabis almond butter",
+    "href": "#how-to-make-cannabis-almond-butter"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Serving ideas",
+    "href": "#serving-ideas"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Cannabis almond butter is a spreadable edible you make in a food processor: toasted almonds blended until creamy, then finished with a measured spoon of canna-oil, which smooths the butter and carries the THC. Peanuts, cashews and other nuts work the same way."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-set-the-dose-per-serving-first",
+   "text": "Dosing: set the dose per serving first"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Pick a dose per two-tablespoon serving, multiply by the servings and divide by your oil's mg per teaspoon. Two cups of almonds make about 1 cup of butter, or 8 servings. At 2.5 mg each that's 20 mg, which comes to about 1 1/2 teaspoons if your oil's ceiling is roughly 13 mg a teaspoon. Season and taste before the infused oil goes in, since every taste after that is a dose. Our ",
+    {
+     "text": "THC dosage guide",
+     "href": "blog/edibles-101-dosing/"
+    },
+    " has more on picking an amount."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-you-need",
+   "text": "What you need"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You need almonds, raw or toasted, plus salt and optional maple, cinnamon or vanilla. Add a measured amount of canna-coconut oil or another oil from our ",
+    {
+     "text": "canna oil recipe",
+     "href": "blog/canna-oil-recipe/"
+    },
+    ", and keep plain oil handy for thinning. You can order flower for your oil ahead from ",
+    {
+     "text": "Springfield Ave Dispensary in Irvington",
+     "href": "shop/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-make-cannabis-almond-butter",
+   "text": "How to make cannabis almond butter"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Toast the almonds at 350°F for about 10 minutes and cool them until just warm. Process, scraping often, through crumbs and a thick ball to a smooth paste, 10 to 15 minutes. Season and taste, then stream in the infused oil and blend a full minute. Thin with plain oil, never water, which makes nut butter seize."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Label the jar \"infused,\" with the date, the mg per serving and a \"contains tree nuts\" warning. It's made with homemade infused oil, which the CDC says to refrigerate for no more than 4 days, so keep it in the fridge, use it within 4 days and freeze extra portions. Give it a separate shelf from the household nut butter, one that children and pets can't reach."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "serving-ideas",
+   "text": "Serving ideas"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Spread a measured serving on toast or apple slices, stir it into oatmeal or blend it into a ",
+    "cannabis smoothie",
+    ". If you pair it with ",
+    {
+     "text": "infused granola clusters",
+     "href": "blog/hemp-almond-granola-clusters/"
+    },
+    ", count both doses. Measure with a tablespoon, since a generous knife-swipe can be double."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "About 1 cup (8 two-tablespoon servings)"
+   },
+   {
+    "label": "Prep time",
+    "value": "20 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "10 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "2 cups almonds (raw or toasted)"
+        ]
+       },
+       {
+        "runs": [
+         "1/4 teaspoon fine salt, plus more to taste"
+        ]
+       },
+       {
+        "runs": [
+         "Optional: 1 to 2 teaspoons maple syrup, 1/4 teaspoon cinnamon, 1/4 teaspoon vanilla"
+        ]
+       },
+       {
+        "runs": [
+         "About 1 1/2 teaspoons canna-coconut oil or another infused oil, measured for your dose (see the note)"
+        ]
+       },
+       {
+        "runs": [
+         "Plain neutral oil, as needed for thinning"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Heat the oven to 350°F. Toast the almonds on a sheet pan for about 10 minutes, then cool until just warm."
+        ]
+       },
+       {
+        "runs": [
+         "Process the almonds, scraping the bowl often, until they pass from crumbs to a thick ball to a smooth paste, 10 to 15 minutes."
+        ]
+       },
+       {
+        "runs": [
+         "Add the salt and any flavorings, with maple syrup last and sparingly. Taste and adjust now, before the infused oil goes in."
+        ]
+       },
+       {
+        "runs": [
+         "With the motor running, stream in the measured infused oil and process for 1 minute."
+        ]
+       },
+       {
+        "runs": [
+         "If the butter is thick, add plain oil a teaspoon at a time. Never add water."
+        ]
+       },
+       {
+        "runs": [
+         "Transfer to a jar, mark it with the date, the dose per serving and \"contains tree nuts,\" and keep it cold: 4 days in the fridge, or freeze portions."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "Estimate only: 8 servings × 2.5 mg = 20 mg, or about 1 1/2 teaspoons of oil whose ceiling is roughly 13 mg per teaspoon. Real oil usually comes in under its ceiling, depending on the starting flower and on decarb and infusion losses. Have one serving, then wait at least 2 hours before deciding on another. Label the jar and keep it somewhere only adults reach."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Can I use peanuts or cashews instead?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Peanuts, cashews, pecans and hazelnuts all work with the same method, though processing times vary from nut to nut. The dosing math doesn't change: measure the finished batch, count the two-tablespoon servings and size the infused oil to match. Label it with the right allergen."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Why add oil to nut butter?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Two reasons. Nuts release their own oil as they process, but a little extra helps a dry batch turn smooth and spreadable. Here, the infused oil is also what carries the THC, since THC dissolves in fat. Use plain oil for any extra thinning so the dose stays put."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How much infused almond butter is one serving?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Plan on two tablespoons, the serving size this recipe's math uses, and work out its strength from your own batch. In the example above, a serving carries about 2.5 mg at most. Measure with a spoon, try one serving the first time and give it at least 2 hours."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "PubChem (NIH): Tetrahydrocannabinol, solubility",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/16078"
+   },
+   {
+    "label": "CDC: Botulism Prevention (homemade oils made with garlic or herbs)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/botulism/prevention/index.html"
+   },
+   {
+    "label": "University of Georgia Extension, Circular 1334: How to Safely Make Infused Oils (2024)",
+    "host": "fieldreport.caes.uga.edu",
+    "href": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/"
+   },
+   {
+    "label": "Public Health Agency of Canada: Council of Chief Medical Officers of Health statement on cannabis extracts, edibles and topicals (2020)",
+    "host": "canada.ca",
+    "href": "https://www.canada.ca/en/public-health/news/2020/01/council-of-chief-medical-officers-of-health-ccmoh-statement-on-cannabis-extracts-edibles-and-topical-products.html"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/hemp-almond-granola-clusters/",
+    "imageKey": "blog-hemp-almond-granola-clusters",
+    "catLabel": "Recipes",
+    "title": "Crunchy Infused Granola Clusters with Hemp Hearts and Almonds"
+   },
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)"
+   }
+  ]
+ }
+}

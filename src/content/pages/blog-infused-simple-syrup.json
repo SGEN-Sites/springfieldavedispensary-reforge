@@ -1,0 +1,404 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-infused-simple-syrup/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Cannabis-Infused Simple Syrup That Actually Infuses",
+  "accent": "Simple Syrup"
+ },
+ "dek": "THC barely dissolves in sugar water, so simmering flower in syrup leaves most of it behind. Use vegetable glycerin or a measured tincture instead, and do the math.",
+ "pictureKey": "blog-infused-simple-syrup",
+ "pictureAlt": "A small glass bottle of golden syrup beside a copper jigger and a lemon twist on dark marble",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "THC barely dissolves in water: about 2.8 mg per liter at room temperature."
+    ]
+   },
+   {
+    "runs": [
+     "It does dissolve in alcohol, oils and glycerin, and glycerin mixes smoothly into syrup."
+    ]
+   },
+   {
+    "runs": [
+     "Divide the total THC by the teaspoons of syrup you made, and shake before every use."
+    ]
+   },
+   {
+    "runs": [
+     "Store the syrup in the fridge in a bottle labeled with the date and strength."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Why plain sugar water falls short",
+    "href": "#why-plain-sugar-water-falls-short"
+   },
+   {
+    "text": "How to dose cannabis simple syrup",
+    "href": "#how-to-dose-cannabis-simple-syrup"
+   },
+   {
+    "text": "Two methods that work",
+    "href": "#two-methods-that-work"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Ways to use it",
+    "href": "#ways-to-use-it"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "A good cannabis simple syrup sweetens coffee, tea, lemonade and mocktails with a dose you can count by the teaspoon. The catch: simmering flower in sugar water barely works. Here's why, plus two methods that do."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-plain-sugar-water-falls-short",
+   "text": "Why plain sugar water falls short"
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Liquid",
+    "Does THC dissolve in it?"
+   ],
+   "rows": [
+    [
+     "Water",
+     "Barely: about 2.8 mg per liter"
+    ],
+    [
+     "Alcohol",
+     "Readily"
+    ],
+    [
+     "Oils and fats",
+     "Readily"
+    ],
+    [
+     "Glycerin",
+     "Yes, and glycerin mixes with water"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "So simmered sugar water leaves most of the THC in the plant matter you strain out, while glycerin carries THC into a water-based syrup."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-dose-cannabis-simple-syrup",
+   "text": "How to dose cannabis simple syrup"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Divide the total THC by the teaspoons of syrup. For the glycerin method, 1.75 grams of 20% flower holds at most 350 mg; in about 2 cups (96 teaspoons) that's under 4 mg per teaspoon, and real numbers run lower. With a tincture, use the label: 100 mg in 1 1/2 cups (72 teaspoons) is about 1.4 mg per teaspoon. Shake before each use, start with one teaspoon and wait 2 hours."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "two-methods-that-work",
+   "text": "Two methods that work"
+  },
+  {
+   "kind": "h3",
+   "id": "glycerin-method",
+   "text": "Glycerin method"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Along with sugar and water, you need food-grade vegetable glycerin and decarbed flower (",
+    {
+     "text": "how to decarb",
+     "href": "blog/cannabis-decarboxylation/"
+    },
+    "). Warm the flower in the glycerin over very low heat for 2 to 3 hours without letting it simmer. Strain, then stir the infused glycerin into cooled syrup."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "tincture-method",
+   "text": "Tincture method"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Make the syrup, let it cool completely, and whisk in a measured amount of THC tincture. Alcohol- and glycerin-based tinctures blend in; oil-based ones float."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Bottle the syrup, label it with the date and estimated mg per teaspoon, and refrigerate it where kids and pets can't reach. Poison control is 1-800-222-1222."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ways-to-use-it",
+   "text": "Ways to use it"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Stir a measured teaspoon into coffee, iced tea or our ",
+    {
+     "text": "strawberry canna-nade",
+     "href": "blog/frozen-strawberry-canna-nade/"
+    },
+    ". Blend it into slushies, or add a counted number of teaspoons to a popsicle base and divide by the molds. It can also replace part of the sugar syrup in homemade marshmallows cut into equal squares."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For adults 21 and older. Enjoy it responsibly."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "About 2 cups (glycerin method) or 1 1/2 cups (tincture method)"
+   },
+   {
+    "label": "Prep time",
+    "value": "15 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "3 hours"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "1 cup water"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup white sugar"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup light brown sugar"
+        ]
+       },
+       {
+        "runs": [
+         "Glycerin method: 1/2 cup food-grade vegetable glycerin"
+        ]
+       },
+       {
+        "runs": [
+         "Glycerin method: 1.75 grams cannabis flower"
+        ]
+       },
+       {
+        "runs": [
+         "Tincture method: a THC tincture, alcohol- or glycerin-based, measured to your dose"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "For the syrup, bring the water and both sugars to a simmer, stirring until dissolved. Cool completely."
+        ]
+       },
+       {
+        "runs": [
+         "Glycerin method: decarb the flower on a lined tray in a 240°F oven for 30 to 40 minutes, then cool it and break it up."
+        ]
+       },
+       {
+        "runs": [
+         "Warm the flower in the glycerin over very low heat, in a double boiler or a slow cooker on low, for 2 to 3 hours. Keep it below a simmer and stir now and then."
+        ]
+       },
+       {
+        "runs": [
+         "Strain through a fine sieve lined with cheesecloth, pressing gently, and stir the infused glycerin into the cooled syrup."
+        ]
+       },
+       {
+        "runs": [
+         "Tincture method: whisk the measured tincture into the cooled syrup until evenly mixed."
+        ]
+       },
+       {
+        "runs": [
+         "Bottle, label with the date and estimated mg per teaspoon, and refrigerate. Shake before each use."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "These are estimates. Glycerin example: 1.75 g of flower at 20% THC = 1.75 × 1,000 × 0.20 = 350 mg at most, and 350 ÷ 96 teaspoons ≈ 3.6 mg per teaspoon at most. Tincture example: 100 mg ÷ 72 teaspoons ≈ 1.4 mg per teaspoon. For the glycerin version, the real figure depends on your flower's actual potency and on what decarboxylation and the infusion lose, so expect less. Start with one teaspoon and wait at least 2 hours before having more. Label the bottle and keep it away from children and pets."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "How strong is homemade cannabis syrup?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "As strong as your math says, at most. For glycerin syrup, multiply grams of flower by 1,000 and by the THC percentage, divide by the teaspoons of syrup, and expect less. With a tincture, the label gives the mg you add. A few mg per teaspoon keeps one spoonful modest."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How long does infused syrup last?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Plan on about a month in the fridge in a clean, sealed bottle. Shake it before each use, since the infusion can settle. Toss it if it turns cloudy, smells off or shows mold, and keep the label current with the batch date and strength."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I use it in hot drinks?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Stir a measured teaspoon into coffee or tea just as you would plain syrup; a warm drink doesn't change the dose. Plan on the usual edible wait of up to 2 hours before deciding on more, and keep track of how many teaspoons you've had."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "PubChem (NIH): Tetrahydrocannabinol, solubility",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/16078"
+   },
+   {
+    "label": "PubChem (NIH): Glycerol, solubility",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+   },
+   {
+    "label": "Wang M. et al., Decarboxylation Study of Acidic Cannabinoids, Cannabis and Cannabinoid Research (2016)",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis and Poisoning (February 15, 2024)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/health-effects/poisoning.html"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/frozen-strawberry-canna-nade/",
+    "imageKey": "blog-frozen-strawberry-canna-nade",
+    "catLabel": "Recipes",
+    "title": "A THC Lemonade Slush: Frozen Strawberry Canna-nade"
+   },
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)"
+   }
+  ]
+ }
+}

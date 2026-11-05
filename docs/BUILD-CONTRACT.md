@@ -23,7 +23,7 @@ src/tools/build.mjs              -> dist/  (node src/tools/build.mjs)
 dist/                            the deliverable. Every link relative, so dist/ works from any folder.
 ```
 
-## 2. Pages (22 outputs)
+## 2. Pages (54 outputs: the 22 below + 32 owner-supplied posts, 2026-11-05)
 
 | path | id / evidence | template |
 |---|---|---|
@@ -39,6 +39,14 @@ dist/                            the deliverable. Every link relative, so dist/ 
 | `contact/` | contact | contact |
 | `deals/` (NEW, brief) | deals; evidence index + index/deal-modals.json | deals |
 | `404.html` (NEW, brief) | notfound | notfound |
+| `blog/<slug>/` x 32 (NEW, owner 2026-11-05) | blog-<slug>; evidence import-<slug> (+ its three related posts' import-<slug>, blog, blog-understanding-terpenes); list in `src/content/imports.json` | post |
+
+The 32 owner-supplied posts are DERIVED files: a local converter (kept in `audit/imports/`, not shipped) writes each
+`src/content/pages/blog-<slug>.json`, `src/content/imports.json`, the imported items of `pages/blog.json` and
+`ui-labels.d/blog-imports.json` (the posts' head fields + their one declared label, the date) from the untouched source
+and its declared rules; `prove-content` proves every string against `audit/pages/import-<slug>/` (the source text after
+those rules, marked as import evidence, not a live capture). Change a post by changing the rules and re-running the
+converter, never by hand: its `--check` mode fails on any hand edit.
 
 Head fields (title, description, canonical, og, twitter, JSON-LD) are the LIVE rendered values (from
 `audit/pages/<id>/harvest.json`), never rewritten. New pages get declared meta (ui-labels.json).

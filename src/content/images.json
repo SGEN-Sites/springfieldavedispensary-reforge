@@ -431,5 +431,869 @@
   "file": "assets/img/favicon-32.png",
   "origin": "https://springfieldavedispensary.store/favicon-32.png",
   "role": "ICON/UI"
+ },
+ "blog-canna-honey-480": {
+  "file": "assets/img/blog-canna-honey-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-99b5-7fe0-8496-f6d4d2575414 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 14266
+ },
+ "blog-canna-honey-960": {
+  "file": "assets/img/blog-canna-honey-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-99b5-7fe0-8496-f6d4d2575414 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 36094
+ },
+ "blog-canna-honey-1408": {
+  "file": "assets/img/blog-canna-honey-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-99b5-7fe0-8496-f6d4d2575414 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 60310
+ },
+ "blog-what-is-a-vape-pen-480": {
+  "file": "assets/img/blog-what-is-a-vape-pen-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9c49-7561-887f-14d4454228ad (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 7880
+ },
+ "blog-what-is-a-vape-pen-960": {
+  "file": "assets/img/blog-what-is-a-vape-pen-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9c49-7561-887f-14d4454228ad (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 22096
+ },
+ "blog-what-is-a-vape-pen-1408": {
+  "file": "assets/img/blog-what-is-a-vape-pen-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9c49-7561-887f-14d4454228ad (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 37840
+ },
+ "blog-what-is-kush-cannabis-480": {
+  "file": "assets/img/blog-what-is-kush-cannabis-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9b09-7660-adfd-142e51f8410a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 18048
+ },
+ "blog-what-is-kush-cannabis-960": {
+  "file": "assets/img/blog-what-is-kush-cannabis-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9b09-7660-adfd-142e51f8410a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 53412
+ },
+ "blog-what-is-kush-cannabis-1408": {
+  "file": "assets/img/blog-what-is-kush-cannabis-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b0-9b09-7660-adfd-142e51f8410a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 94922
+ },
+ "blog-a-spring-cleaning-guide-on-pipes-and-bongs-480": {
+  "file": "assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a25b-7cf1-b85d-2a4f2aac0212 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 11254
+ },
+ "blog-a-spring-cleaning-guide-on-pipes-and-bongs-960": {
+  "file": "assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a25b-7cf1-b85d-2a4f2aac0212 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 31802
+ },
+ "blog-a-spring-cleaning-guide-on-pipes-and-bongs-1408": {
+  "file": "assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a25b-7cf1-b85d-2a4f2aac0212 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 54508
+ },
+ "blog-bulletproof-cannabis-coffee-480": {
+  "file": "assets/img/blog-bulletproof-cannabis-coffee-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-47ac-7d62-937f-5fff77f10b6f (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 11168
+ },
+ "blog-bulletproof-cannabis-coffee-960": {
+  "file": "assets/img/blog-bulletproof-cannabis-coffee-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-47ac-7d62-937f-5fff77f10b6f (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 28390
+ },
+ "blog-bulletproof-cannabis-coffee-1408": {
+  "file": "assets/img/blog-bulletproof-cannabis-coffee-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-47ac-7d62-937f-5fff77f10b6f (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 47028
+ },
+ "blog-canna-berry-freezer-jam-480": {
+  "file": "assets/img/blog-canna-berry-freezer-jam-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4024-7500-8866-feeaa5e15d2a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 19190
+ },
+ "blog-canna-berry-freezer-jam-960": {
+  "file": "assets/img/blog-canna-berry-freezer-jam-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4024-7500-8866-feeaa5e15d2a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 54028
+ },
+ "blog-canna-berry-freezer-jam-1408": {
+  "file": "assets/img/blog-canna-berry-freezer-jam-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4024-7500-8866-feeaa5e15d2a (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 92966
+ },
+ "blog-canna-butter-recipe-480": {
+  "file": "assets/img/blog-canna-butter-recipe-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-6b40-7d21-9b70-b418556db5e5 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 17092
+ },
+ "blog-canna-butter-recipe-960": {
+  "file": "assets/img/blog-canna-butter-recipe-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-6b40-7d21-9b70-b418556db5e5 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 40892
+ },
+ "blog-canna-butter-recipe-1408": {
+  "file": "assets/img/blog-canna-butter-recipe-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-6b40-7d21-9b70-b418556db5e5 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 67086
+ },
+ "blog-canna-oil-recipe-480": {
+  "file": "assets/img/blog-canna-oil-recipe-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-676c-71d2-ae80-0dcc9f0a8a9e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 21720
+ },
+ "blog-canna-oil-recipe-960": {
+  "file": "assets/img/blog-canna-oil-recipe-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-676c-71d2-ae80-0dcc9f0a8a9e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 55248
+ },
+ "blog-canna-oil-recipe-1408": {
+  "file": "assets/img/blog-canna-oil-recipe-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-676c-71d2-ae80-0dcc9f0a8a9e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 90284
+ },
+ "blog-cannabis-decarboxylation-480": {
+  "file": "assets/img/blog-cannabis-decarboxylation-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-eb2a-7bf0-b53c-d59788ec8247 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 15334
+ },
+ "blog-cannabis-decarboxylation-960": {
+  "file": "assets/img/blog-cannabis-decarboxylation-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-eb2a-7bf0-b53c-d59788ec8247 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 36686
+ },
+ "blog-cannabis-decarboxylation-1408": {
+  "file": "assets/img/blog-cannabis-decarboxylation-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-eb2a-7bf0-b53c-d59788ec8247 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 58756
+ },
+ "blog-cannabis-infused-almond-butter-480": {
+  "file": "assets/img/blog-cannabis-infused-almond-butter-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-44a3-7491-879d-c029270e6a59 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 15916
+ },
+ "blog-cannabis-infused-almond-butter-960": {
+  "file": "assets/img/blog-cannabis-infused-almond-butter-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-44a3-7491-879d-c029270e6a59 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 42320
+ },
+ "blog-cannabis-infused-almond-butter-1408": {
+  "file": "assets/img/blog-cannabis-infused-almond-butter-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-44a3-7491-879d-c029270e6a59 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 70710
+ },
+ "blog-cannabis-tasting-what-are-munchies-480": {
+  "file": "assets/img/blog-cannabis-tasting-what-are-munchies-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a998-7ac3-889b-036a22aa49ce (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 17338
+ },
+ "blog-cannabis-tasting-what-are-munchies-960": {
+  "file": "assets/img/blog-cannabis-tasting-what-are-munchies-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a998-7ac3-889b-036a22aa49ce (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 43986
+ },
+ "blog-cannabis-tasting-what-are-munchies-1408": {
+  "file": "assets/img/blog-cannabis-tasting-what-are-munchies-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a998-7ac3-889b-036a22aa49ce (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 74530
+ },
+ "blog-citrus-mimosa-party-with-single-strain-tinctures-480": {
+  "file": "assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4334-70a2-95e7-dcd51332f90d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 16026
+ },
+ "blog-citrus-mimosa-party-with-single-strain-tinctures-960": {
+  "file": "assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4334-70a2-95e7-dcd51332f90d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 43704
+ },
+ "blog-citrus-mimosa-party-with-single-strain-tinctures-1408": {
+  "file": "assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-4334-70a2-95e7-dcd51332f90d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 75360
+ },
+ "blog-does-weed-dehydrate-you-480": {
+  "file": "assets/img/blog-does-weed-dehydrate-you-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b84d-7850-b8ef-eb1ce52da129 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 17102
+ },
+ "blog-does-weed-dehydrate-you-960": {
+  "file": "assets/img/blog-does-weed-dehydrate-you-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b84d-7850-b8ef-eb1ce52da129 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 53812
+ },
+ "blog-does-weed-dehydrate-you-1408": {
+  "file": "assets/img/blog-does-weed-dehydrate-you-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b84d-7850-b8ef-eb1ce52da129 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 96150
+ },
+ "blog-frozen-strawberry-canna-nade-480": {
+  "file": "assets/img/blog-frozen-strawberry-canna-nade-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c39f-7940-8ce0-04ade2178b30 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 13808
+ },
+ "blog-frozen-strawberry-canna-nade-960": {
+  "file": "assets/img/blog-frozen-strawberry-canna-nade-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c39f-7940-8ce0-04ade2178b30 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 35734
+ },
+ "blog-frozen-strawberry-canna-nade-1408": {
+  "file": "assets/img/blog-frozen-strawberry-canna-nade-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c39f-7940-8ce0-04ade2178b30 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 59008
+ },
+ "blog-fruitcake-canna-cocktail-480": {
+  "file": "assets/img/blog-fruitcake-canna-cocktail-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-ec60-7663-b51f-780b0c73b428 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 15458
+ },
+ "blog-fruitcake-canna-cocktail-960": {
+  "file": "assets/img/blog-fruitcake-canna-cocktail-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-ec60-7663-b51f-780b0c73b428 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 45532
+ },
+ "blog-fruitcake-canna-cocktail-1408": {
+  "file": "assets/img/blog-fruitcake-canna-cocktail-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-ec60-7663-b51f-780b0c73b428 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 79164
+ },
+ "blog-hemp-almond-granola-clusters-480": {
+  "file": "assets/img/blog-hemp-almond-granola-clusters-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c841-7110-8a40-5b13aa1f4847 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 18742
+ },
+ "blog-hemp-almond-granola-clusters-960": {
+  "file": "assets/img/blog-hemp-almond-granola-clusters-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c841-7110-8a40-5b13aa1f4847 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 49748
+ },
+ "blog-hemp-almond-granola-clusters-1408": {
+  "file": "assets/img/blog-hemp-almond-granola-clusters-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c841-7110-8a40-5b13aa1f4847 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 85044
+ },
+ "blog-herbed-grilled-cheese-480": {
+  "file": "assets/img/blog-herbed-grilled-cheese-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c9ca-7ec0-afaf-11d12c036937 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 18864
+ },
+ "blog-herbed-grilled-cheese-960": {
+  "file": "assets/img/blog-herbed-grilled-cheese-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c9ca-7ec0-afaf-11d12c036937 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 52044
+ },
+ "blog-herbed-grilled-cheese-1408": {
+  "file": "assets/img/blog-herbed-grilled-cheese-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c9ca-7ec0-afaf-11d12c036937 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 91084
+ },
+ "blog-hot-honey-pizza-480": {
+  "file": "assets/img/blog-hot-honey-pizza-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-461d-7313-a1cf-b51dc49172bb (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 22172
+ },
+ "blog-hot-honey-pizza-960": {
+  "file": "assets/img/blog-hot-honey-pizza-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-461d-7313-a1cf-b51dc49172bb (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 59188
+ },
+ "blog-hot-honey-pizza-1408": {
+  "file": "assets/img/blog-hot-honey-pizza-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-461d-7313-a1cf-b51dc49172bb (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 99686
+ },
+ "blog-indica-strains-for-sleep-480": {
+  "file": "assets/img/blog-indica-strains-for-sleep-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b642-7120-8f11-e264453b3290 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 7354
+ },
+ "blog-indica-strains-for-sleep-960": {
+  "file": "assets/img/blog-indica-strains-for-sleep-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b642-7120-8f11-e264453b3290 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 19212
+ },
+ "blog-indica-strains-for-sleep-1408": {
+  "file": "assets/img/blog-indica-strains-for-sleep-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b642-7120-8f11-e264453b3290 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 32228
+ },
+ "blog-indica-vs-sativa-480": {
+  "file": "assets/img/blog-indica-vs-sativa-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a495-71f3-87aa-16fc53792d31 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 12652
+ },
+ "blog-indica-vs-sativa-960": {
+  "file": "assets/img/blog-indica-vs-sativa-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a495-71f3-87aa-16fc53792d31 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 38530
+ },
+ "blog-indica-vs-sativa-1408": {
+  "file": "assets/img/blog-indica-vs-sativa-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a495-71f3-87aa-16fc53792d31 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 68604
+ },
+ "blog-infused-peanut-butter-cheesecake-bars-480": {
+  "file": "assets/img/blog-infused-peanut-butter-cheesecake-bars-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-cb39-7750-89a1-a9d80bd8f243 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 30840
+ },
+ "blog-infused-peanut-butter-cheesecake-bars-960": {
+  "file": "assets/img/blog-infused-peanut-butter-cheesecake-bars-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-cb39-7750-89a1-a9d80bd8f243 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 82598
+ },
+ "blog-infused-peanut-butter-cheesecake-bars-1408": {
+  "file": "assets/img/blog-infused-peanut-butter-cheesecake-bars-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-cb39-7750-89a1-a9d80bd8f243 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 139718
+ },
+ "blog-infused-simple-syrup-480": {
+  "file": "assets/img/blog-infused-simple-syrup-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c52e-7d83-b8ee-5d356cb7d141 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 12390
+ },
+ "blog-infused-simple-syrup-960": {
+  "file": "assets/img/blog-infused-simple-syrup-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c52e-7d83-b8ee-5d356cb7d141 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 28760
+ },
+ "blog-infused-simple-syrup-1408": {
+  "file": "assets/img/blog-infused-simple-syrup-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c52e-7d83-b8ee-5d356cb7d141 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 45148
+ },
+ "blog-lamb-meatballs-in-red-sauce-480": {
+  "file": "assets/img/blog-lamb-meatballs-in-red-sauce-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-3ef8-76a1-afd8-50c9175b4cbc (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 22270
+ },
+ "blog-lamb-meatballs-in-red-sauce-960": {
+  "file": "assets/img/blog-lamb-meatballs-in-red-sauce-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-3ef8-76a1-afd8-50c9175b4cbc (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 60806
+ },
+ "blog-lamb-meatballs-in-red-sauce-1408": {
+  "file": "assets/img/blog-lamb-meatballs-in-red-sauce-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-3ef8-76a1-afd8-50c9175b4cbc (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 107302
+ },
+ "blog-linalool-terpene-480": {
+  "file": "assets/img/blog-linalool-terpene-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b3d9-7282-b569-b6ff806e1f0b (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 25576
+ },
+ "blog-linalool-terpene-960": {
+  "file": "assets/img/blog-linalool-terpene-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b3d9-7282-b569-b6ff806e1f0b (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 84986
+ },
+ "blog-linalool-terpene-1408": {
+  "file": "assets/img/blog-linalool-terpene-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b3d9-7282-b569-b6ff806e1f0b (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 159890
+ },
+ "blog-marijuana-and-intimacy-480": {
+  "file": "assets/img/blog-marijuana-and-intimacy-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-e8a5-72a3-b3f0-c464c7704cba (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 11700
+ },
+ "blog-marijuana-and-intimacy-960": {
+  "file": "assets/img/blog-marijuana-and-intimacy-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-e8a5-72a3-b3f0-c464c7704cba (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 27742
+ },
+ "blog-marijuana-and-intimacy-1408": {
+  "file": "assets/img/blog-marijuana-and-intimacy-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9d1-e8a5-72a3-b3f0-c464c7704cba (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 42936
+ },
+ "blog-no-bake-cannabis-oatmeal-cookies-480": {
+  "file": "assets/img/blog-no-bake-cannabis-oatmeal-cookies-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c6a9-7e11-b37d-8dd38d9d9aa0 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 23484
+ },
+ "blog-no-bake-cannabis-oatmeal-cookies-960": {
+  "file": "assets/img/blog-no-bake-cannabis-oatmeal-cookies-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c6a9-7e11-b37d-8dd38d9d9aa0 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 64088
+ },
+ "blog-no-bake-cannabis-oatmeal-cookies-1408": {
+  "file": "assets/img/blog-no-bake-cannabis-oatmeal-cookies-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b8-c6a9-7e11-b37d-8dd38d9d9aa0 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 111942
+ },
+ "blog-strains-that-make-you-laugh-480": {
+  "file": "assets/img/blog-strains-that-make-you-laugh-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b01c-74f1-9312-b785424370a9 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 21330
+ },
+ "blog-strains-that-make-you-laugh-960": {
+  "file": "assets/img/blog-strains-that-make-you-laugh-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b01c-74f1-9312-b785424370a9 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 56280
+ },
+ "blog-strains-that-make-you-laugh-1408": {
+  "file": "assets/img/blog-strains-that-make-you-laugh-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b01c-74f1-9312-b785424370a9 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 96570
+ },
+ "blog-sweet-and-smokey-bbq-sauce-480": {
+  "file": "assets/img/blog-sweet-and-smokey-bbq-sauce-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-68e9-7cf3-abc4-74a8e4b6291d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 18356
+ },
+ "blog-sweet-and-smokey-bbq-sauce-960": {
+  "file": "assets/img/blog-sweet-and-smokey-bbq-sauce-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-68e9-7cf3-abc4-74a8e4b6291d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 46306
+ },
+ "blog-sweet-and-smokey-bbq-sauce-1408": {
+  "file": "assets/img/blog-sweet-and-smokey-bbq-sauce-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9bd-68e9-7cf3-abc4-74a8e4b6291d (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 74820
+ },
+ "blog-terpenes-ocimene-480": {
+  "file": "assets/img/blog-terpenes-ocimene-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b9b7-7661-b20f-e3b90b237e02 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 11918
+ },
+ "blog-terpenes-ocimene-960": {
+  "file": "assets/img/blog-terpenes-ocimene-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b9b7-7661-b20f-e3b90b237e02 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 69734
+ },
+ "blog-terpenes-ocimene-1408": {
+  "file": "assets/img/blog-terpenes-ocimene-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-b9b7-7661-b20f-e3b90b237e02 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 192548
+ },
+ "blog-the-entourage-effect-480": {
+  "file": "assets/img/blog-the-entourage-effect-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-bb49-7433-8130-ef3eae8054e2 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 14656
+ },
+ "blog-the-entourage-effect-960": {
+  "file": "assets/img/blog-the-entourage-effect-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-bb49-7433-8130-ef3eae8054e2 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 39916
+ },
+ "blog-the-entourage-effect-1408": {
+  "file": "assets/img/blog-the-entourage-effect-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-bb49-7433-8130-ef3eae8054e2 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 67404
+ },
+ "blog-top-cannabis-strains-of-2026-480": {
+  "file": "assets/img/blog-top-cannabis-strains-of-2026-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a7ed-7793-9322-5177b982c48e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 18502
+ },
+ "blog-top-cannabis-strains-of-2026-960": {
+  "file": "assets/img/blog-top-cannabis-strains-of-2026-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a7ed-7793-9322-5177b982c48e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 66510
+ },
+ "blog-top-cannabis-strains-of-2026-1408": {
+  "file": "assets/img/blog-top-cannabis-strains-of-2026-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a7ed-7793-9322-5177b982c48e (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 127902
+ },
+ "blog-what-is-cbc-cannabichromene-480": {
+  "file": "assets/img/blog-what-is-cbc-cannabichromene-480.webp",
+  "w": 480,
+  "h": 268,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a60b-7953-8dad-625205093350 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 22576
+ },
+ "blog-what-is-cbc-cannabichromene-960": {
+  "file": "assets/img/blog-what-is-cbc-cannabichromene-960.webp",
+  "w": 960,
+  "h": 536,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a60b-7953-8dad-625205093350 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 59706
+ },
+ "blog-what-is-cbc-cannabichromene-1408": {
+  "file": "assets/img/blog-what-is-cbc-cannabichromene-1408.webp",
+  "w": 1408,
+  "h": 786,
+  "origin": "generated: fal-ai/flux-pro/v1.1-ultra request 01a1a9b7-a60b-7953-8dad-625205093350 (owner-approved AI image, 2026-11-05)",
+  "alt": "",
+  "role": "CONTENT IMAGE",
+  "bytes": 97382
  }
 }

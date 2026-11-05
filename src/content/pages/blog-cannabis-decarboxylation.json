@@ -1,0 +1,642 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-cannabis-decarboxylation/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Cannabis Decarboxylation: What It Is and How to Decarb at Home",
+  "accent": "Decarb"
+ },
+ "dek": "Raw flower is mostly THCA. Here's how gentle heat turns it into THC for edibles and oils, with the times, temperatures and home methods that work.",
+ "pictureKey": "blog-cannabis-decarboxylation",
+ "pictureAlt": "Pea-sized pieces of cannabis flower spread in a single layer on a parchment-lined baking sheet in front of a glowing oven",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Decarbing uses gentle heat to turn THCA and CBDA into THC and CBD. Edibles and oils need it; smoking and vaping do it for you."
+    ]
+   },
+   {
+    "runs": [
+     "For THC-rich flower, start at about 240°F for 30 to 45 minutes. CBD-rich flower needs roughly twice as long."
+    ]
+   },
+   {
+    "runs": [
+     "Lower, slower heat keeps more aroma, and a sealed jar or bag keeps the smell in."
+    ]
+   },
+   {
+    "runs": [
+     "Skip the microwave: it heats unevenly and can scorch your flower."
+    ]
+   },
+   {
+    "runs": [
+     "Label decarbed flower clearly and store it airtight, cool, dark and out of reach."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What decarboxylation does: THCA and CBDA become THC and CBD",
+    "href": "#what-decarboxylation-does-thca-and-cbda-become-thc-and-cbd"
+   },
+   {
+    "text": "When to decarb, and when to skip it",
+    "href": "#when-to-decarb-and-when-to-skip-it"
+   },
+   {
+    "text": "Why it matters: potency, consistency and flavor",
+    "href": "#why-it-matters-potency-consistency-and-flavor"
+   },
+   {
+    "text": "Temperature and time: cannabinoids vs. terpenes and flavonoids",
+    "href": "#temperature-and-time-cannabinoids-vs-terpenes-and-flavonoids"
+   },
+   {
+    "text": "THC-rich, CBD-rich and balanced flower compared",
+    "href": "#thc-rich-cbd-rich-and-balanced-flower-compared"
+   },
+   {
+    "text": "Methods compared: oven, jar, bag, water bath and devices",
+    "href": "#methods-compared-oven-jar-bag-water-bath-and-devices"
+   },
+   {
+    "text": "How to decarb weed in the oven, step by step",
+    "href": "#how-to-decarb-weed-in-the-oven-step-by-step"
+   },
+   {
+    "text": "Storing decarbed flower and next steps",
+    "href": "#storing-decarbed-flower-and-next-steps"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Raw cannabis flower is rich in THCA, an acid form of THC that isn't considered intoxicating until it's heated. Decarboxylation, or decarbing, is the gentle heating step that turns THCA into THC, and it's what makes homemade edibles work. If you're learning how to decarb weed at home, the short answer is a low oven: about 240°F for 30 to 45 minutes on a lined tray. Below, we explain why that works, when you can skip it and how the other methods compare."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-decarboxylation-does-thca-and-cbda-become-thc-and-cbd",
+   "text": "What decarboxylation does: THCA and CBDA become THC and CBD"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The cannabis plant doesn't make much THC or CBD directly. It makes their acid forms, THCA and CBDA, along with CBGA and other acids. Each acid carries an extra carboxyl group, a small cluster of carbon, oxygen and hydrogen atoms. Heat knocks that group off as carbon dioxide, and what's left is the familiar cannabinoid."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Researchers have measured how quickly this happens. In a 2016 lab study of cannabis extracts, THCA was almost fully converted after about 30 minutes at 230°F (110°C). At 266°F (130°C) it took 9 minutes, and at 293°F (145°C) just 6. CBDA and CBGA converted at roughly half the speed of THCA, and part of them was lost to side reactions along the way."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Flower on a home oven tray is bulkier than a lab sample, and home ovens drift, so home methods run a little longer than the lab times."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "when-to-decarb-and-when-to-skip-it",
+   "text": "When to decarb, and when to skip it"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Smoking and vaping:"
+      },
+      " skip it. A flame or a vaporizer's heating chamber converts THCA in the moment, so heating the flower first would only dry it out and waste aroma."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Edibles, butter and oil:"
+      },
+      " decarb first. Infusions simmer well below oven temperatures, so they convert THCA slowly and unevenly on their own."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Tinctures:"
+      },
+      " decarb first. Steeping in alcohol or oil doesn't supply enough heat to do the job."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Kief and hash for cooking:"
+      },
+      " decarb these too. They're concentrated forms of the same plant acids."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Activated extracts:"
+      },
+      " many distillates are decarboxylated during processing. The label's THC and THCA figures show which form you have."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "What about cannabutter without decarbing? It works, but expect a weaker and less predictable result. A gentle simmer converts THCA far more slowly than an oven does, and how much converts changes with every batch."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-it-matters-potency-consistency-and-flavor",
+   "text": "Why it matters: potency, consistency and flavor"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    {
+     "b": true,
+     "text": "Potency."
+    },
+    " Skip the decarb and much of the THCA in your flower stays THCA, so a batch of brownies can turn out far weaker than you planned."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    {
+     "b": true,
+     "text": "Consistency."
+    },
+    " A measured, even decarb gives you the same starting point each time. That makes it easier to portion homemade edibles and to compare one batch with the next."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    {
+     "b": true,
+     "text": "Flavor."
+    },
+    " Heat also drives off terpenes, the aromatic compounds behind each strain's smell and taste. Too much heat leaves a toasted, bitter note that carries into everything you cook."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "temperature-and-time-cannabinoids-vs-terpenes-and-flavonoids",
+   "text": "Temperature and time: cannabinoids vs. terpenes and flavonoids"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Decarbing is a trade-off. Higher heat converts cannabinoids faster, but terpenes are volatile, and they begin to evaporate well below their boiling points. Much higher heat can also oxidize THC into a cannabinoid called CBN, and it scorches the plant material."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Here's where some common terpenes boil. Most sit well above a decarb oven, yet they still evaporate steadily at lower temperatures, and the loss speeds up as the heat climbs."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Terpene",
+    "Aroma notes",
+    "Boiling point"
+   ],
+   "rows": [
+    [
+     "Alpha-pinene",
+     "Pine",
+     "About 311°F (155°C)"
+    ],
+    [
+     "Myrcene",
+     "Earthy, musky",
+     "About 333°F (167°C)"
+    ],
+    [
+     "Limonene",
+     "Citrus",
+     "About 349°F (176°C)"
+    ],
+    [
+     "Linalool",
+     "Floral",
+     "About 388°F (198°C)"
+    ],
+    [
+     "Beta-caryophyllene",
+     "Peppery, spicy",
+     "About 493°F (256°C)"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "That's why lower and slower keeps more aroma, and why a sealed jar or bag helps: it holds in some of what does evaporate. Flavonoids, which add to color and flavor, have been studied far less in home cooking. Moderate heat and no scorching remain the safest approach for them too."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For THC-rich flower, 230 to 245°F for 30 to 45 minutes converts THCA in a reasonable time without roasting the aroma away."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "thc-rich-cbd-rich-and-balanced-flower-compared",
+   "text": "THC-rich, CBD-rich and balanced flower compared"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Because CBDA converts at about half the speed of THCA, flower that's rich in CBD needs more time in the oven. Use these numbers as starting points and adjust for your own oven."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Flower type",
+    "Main acid",
+    "Oven starting point",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "THC-rich",
+     "THCA",
+     "240°F for 30 to 45 minutes",
+     "The standard for most edibles"
+    ],
+    [
+     "CBD-rich, including hemp-type CBD flower",
+     "CBDA",
+     "240°F for 60 to 90 minutes",
+     "Roughly double the THC time"
+    ],
+    [
+     "Balanced, about 1:1",
+     "THCA and CBDA",
+     "240°F for about 60 minutes",
+     "A middle ground for both acids"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If you decarb CBD flower, the longer bake means more aroma loss. A sealed jar is a good fit here, since it keeps more of the terpenes in the container."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "methods-compared-oven-jar-bag-water-bath-and-devices",
+   "text": "Methods compared: oven, jar, bag, water bath and devices"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Here's how the common home methods stack up."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Method",
+    "How it works",
+    "Good for",
+    "Watch out for"
+   ],
+   "rows": [
+    [
+     "Oven tray",
+     "Broken-up flower on a parchment-lined baking sheet",
+     "Simple, even results",
+     "Strong smell, more aroma loss"
+    ],
+    [
+     "Oven bag",
+     "Flower sealed in an oven-safe cooking bag on a tray",
+     "Less smell",
+     "Check the bag's heat rating and keep it off the oven walls"
+    ],
+    [
+     "Mason jar",
+     "Flower in a closed canning jar on a towel-lined tray",
+     "Keeping smell and aroma in",
+     "Takes longer; let the jar cool fully before opening"
+    ],
+    [
+     "Water bath",
+     "Flower vacuum-sealed and held in water just below boiling, on the stovetop or with a sous vide stick",
+     "No scorching",
+     "Slower conversion, so plan on 90 minutes or more"
+    ],
+    [
+     "Decarb device",
+     "A countertop unit that holds a set temperature in a sealed chamber",
+     "Hands-off, low smell",
+     "Cost; follow the maker's instructions"
+    ],
+    [
+     "Microwave",
+     "Short bursts of microwave heat",
+     "Speed, in theory",
+     "Uneven heating, scorching and unpredictable strength"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For the water bath, keep the sealed bag off the bottom of the pot with a rack or a clip, and top up the water as it evaporates."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "There's also a slow, natural version. A little THCA turns into THC while flower is dried, cured and stored, but far too little to replace a proper decarb for edibles."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-decarb-weed-in-the-oven-step-by-step",
+   "text": "How to decarb weed in the oven, step by step"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The oven tray method is the easiest place to start. Stay home while the oven is on, keep the kitchen ventilated, and keep children and pets out of the way."
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      "Preheat the oven to 240°F (about 115°C). An inexpensive oven thermometer helps, since many ovens run hot or cold."
+     ]
+    },
+    {
+     "runs": [
+      "Break the flower into small pieces by hand or with a coarse grind. Skip powder: it scorches faster and is harder to strain later."
+     ]
+    },
+    {
+     "runs": [
+      "Cover a baking sheet with parchment and spread the pieces out so they don't overlap."
+     ]
+    },
+    {
+     "runs": [
+      "Bake THC-rich flower for 30 to 45 minutes, gently shaking the tray about halfway through. Give CBD-rich flower 60 to 90 minutes."
+     ]
+    },
+    {
+     "runs": [
+      "Check the color. Well-decarbed flower looks golden brown and feels dry and crumbly, while dark brown means it's gone too far."
+     ]
+    },
+    {
+     "runs": [
+      "Let it cool on the tray, then move it to an airtight glass jar and label it clearly."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Using a jar instead? Put the broken-up flower in a canning jar, close the lid finger-tight, set it on a towel-lined tray and bake at the same temperature for about 60 minutes. Let the jar cool completely before you open it."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storing-decarbed-flower-and-next-steps",
+   "text": "Storing decarbed flower and next steps"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Decarbed flower is ready to infuse. Keep it in a sealed glass jar somewhere cool and dark, and use it soon for the best flavor. Label the jar so nobody mistakes it for regular flower, and keep it well away from children and pets."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "From here, most home cooks make one of two things:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Butter"
+      },
+      " for baking: our ",
+      {
+       "text": "cannabutter guide",
+       "href": "blog/canna-butter-recipe/"
+      },
+      " walks through the simmer and the strain."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Cooking oil"
+      },
+      " for savory dishes and dressings: see ",
+      {
+       "text": "how to make canna oil",
+       "href": "blog/canna-oil-recipe/"
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Homemade edibles vary in strength, so try a small portion first and give it plenty of time before having more. Need flower for your next batch? Browse the menu in our ",
+    {
+     "text": "online shop",
+     "href": "shop/"
+    },
+    " and order ahead for pickup, or ask our budtenders to help you choose. Enjoy cannabis responsibly."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "What temperature should I decarb cannabis at?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "A common home setting is 230 to 245°F, about 110 to 118°C. That range converts THCA to THC in roughly 30 to 45 minutes while going easier on aroma than hotter settings. CBD-rich flower needs about twice as long. Ovens often run hot or cold, so an oven thermometer is worth having."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How long does decarbing take?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "About 30 to 45 minutes for THC-rich flower on an open tray at 240°F, plus cooling time. A sealed jar takes closer to an hour, because the heat has to get through the glass. A water bath just below boiling needs 90 minutes or more, and CBD-rich flower roughly doubles each of these times."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Do I have to decarb cannabis before making edibles?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes, if you want predictable strength. Butter and oil infusions stay well below oven temperatures, so they convert THCA slowly and unevenly on their own. Decarbing first makes each batch more consistent and easier to portion. Smoking and vaping don't need this step, since the heat does the job in the moment."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I decarb cannabis in a microwave?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It's best not to. Microwaves heat unevenly, so some pieces scorch while others barely warm, and there's no reliable way to hold a steady temperature. The result is harsh flavor and unpredictable strength. An oven, a sealed jar, a water bath or a dedicated decarb device gives you far more control."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Will decarbing make my kitchen smell?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes, especially on an open tray. Heat releases terpenes, the aromatic compounds behind that familiar cannabis smell. A sealed mason jar, an oven bag or an enclosed decarb device keeps most of the smell contained. Open the jar only after it has cooled completely, and run the range hood while you work."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Wang M. et al., Decarboxylation Study of Acidic Cannabinoids, Cannabis and Cannabinoid Research (2016)",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "PubChem (NIH): alpha-Pinene, boiling point",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/6654"
+   },
+   {
+    "label": "PubChem (NIH): Myrcene, boiling point",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/31253"
+   },
+   {
+    "label": "PubChem (NIH): Limonene, boiling point",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/22311"
+   },
+   {
+    "label": "PubChem (NIH): Linalool, boiling point",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/6549"
+   },
+   {
+    "label": "PubChem (NIH): Caryophyllene, boiling point",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/5281515"
+   },
+   {
+    "label": "Moreno-Sanz G., Can You Pass the Acid Test? Critical Review and Novel Therapeutic Perspectives of Delta-9-Tetrahydrocannabinolic Acid A, Cannabis and Cannabinoid Research (2016)",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/28861488/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

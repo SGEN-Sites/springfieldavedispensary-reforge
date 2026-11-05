@@ -1,0 +1,419 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-lamb-meatballs-in-red-sauce/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)",
+  "accent": "Meatballs"
+ },
+ "dek": "Lamb meatballs spiced with toasted ancho, guajillo, anise and cinnamon, simmered in a red sauce that is finished with cannabutter and served in equal ladles.",
+ "pictureKey": "blog-lamb-meatballs-in-red-sauce",
+ "pictureAlt": "Lamb meatballs in red chile sauce with fresh cilantro in a black cast-iron skillet",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Whisk the cannabutter into the finished sauce once it stops bubbling, and blend it in thoroughly."
+    ]
+   },
+   {
+    "runs": [
+     "Divide the THC in the cannabutter by four servings."
+    ]
+   },
+   {
+    "runs": [
+     "Serve equal ladles of sauce and the same number of meatballs per bowl."
+    ]
+   },
+   {
+    "runs": [
+     "Cook ground lamb to 160°F, and reheat leftovers gently to 165°F."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing cannabis meatballs: finish the sauce with cannabutter",
+    "href": "#dosing-cannabis-meatballs-finish-the-sauce-with-cannabutter"
+   },
+   {
+    "text": "Ingredients and method",
+    "href": "#ingredients-and-method"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Serving",
+    "href": "#serving"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "These cannabis meatballs make a hearty, chile-warm dinner: lamb albóndigas seasoned with toasted ancho and guajillo chiles, anise, cardamom and cinnamon, simmered in a tomato red sauce finished with cannabutter."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-cannabis-meatballs-finish-the-sauce-with-cannabutter",
+   "text": "Dosing cannabis meatballs: finish the sauce with cannabutter"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Divide the THC in your cannabutter by four servings: at an estimated 32 mg per tablespoon, 1 tablespoon gives about 8 mg per serving at most. Whisk it into the finished sauce until it disappears, ladle equal amounts, and give every bowl the same number of meatballs. Try half a serving first and wait 2 hours."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ingredients-and-method",
+   "text": "Ingredients and method"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Toast the stemmed, seeded chiles in a dry skillet until fragrant, toast the anise, cardamom and cinnamon, and grind it all to a powder, saving a teaspoon for garnish. Mix ground lamb with breadcrumbs, egg, shallot, garlic and a spoonful of the blend, roll about 20 meatballs, and bake until browned."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For the ancho guajillo sauce, soften more shallot and garlic, add tomato paste and the rest of the spices, then canned tomatoes and stock, and simmer until thickened. Finish with the cannabutter, add the meatballs, and keep it at a bare simmer until they reach 160°F inside. Our ",
+    {
+     "text": "cannabutter recipe",
+     "href": "blog/canna-butter-recipe/"
+    },
+    " covers the infusion, and you can order flower ahead from ",
+    {
+     "text": "our Irvington store",
+     "href": "shop/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Refrigerate leftovers in containers labeled \"infused,\" with the date and dose per serving, and eat them within 3 to 4 days. Reheat gently over low heat until they reach 165°F. Poison control is 1-800-222-1222."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "serving",
+   "text": "Serving"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Spoon into shallow bowls, scatter cilantro and a pinch of the reserved spice blend, and serve toasted baguette for the sauce."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For adults 21 and older who know the dish is infused."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "4 servings (about 20 meatballs)"
+   },
+   {
+    "label": "Prep time",
+    "value": "30 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "45 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "2 dried ancho chiles, stemmed and seeded"
+        ]
+       },
+       {
+        "runs": [
+         "2 dried guajillo chiles, stemmed and seeded"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon anise seed"
+        ]
+       },
+       {
+        "runs": [
+         "Seeds from 4 green cardamom pods (or 1/4 teaspoon ground cardamom)"
+        ]
+       },
+       {
+        "runs": [
+         "1 small cinnamon stick, broken (or 1/2 teaspoon ground cinnamon)"
+        ]
+       },
+       {
+        "runs": [
+         "1 1/2 pounds ground lamb"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup breadcrumbs"
+        ]
+       },
+       {
+        "runs": [
+         "1 large egg"
+        ]
+       },
+       {
+        "runs": [
+         "2 shallots, minced, divided"
+        ]
+       },
+       {
+        "runs": [
+         "4 garlic cloves, minced, divided"
+        ]
+       },
+       {
+        "runs": [
+         "1 1/2 teaspoons salt, divided"
+        ]
+       },
+       {
+        "runs": [
+         "1 tablespoon olive oil"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons tomato paste"
+        ]
+       },
+       {
+        "runs": [
+         "1 can (28 ounces) crushed tomatoes"
+        ]
+       },
+       {
+        "runs": [
+         "1 cup chicken or vegetable stock"
+        ]
+       },
+       {
+        "runs": [
+         "1 tablespoon cannabutter (or the amount your dose math calls for)"
+        ]
+       },
+       {
+        "runs": [
+         "Chopped cilantro and a toasted baguette, for serving"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Heat the oven to 400°F and line a baking sheet with parchment."
+        ]
+       },
+       {
+        "runs": [
+         "Toast the chiles in a dry skillet over medium heat, 15 to 20 seconds per side, until fragrant. Toast the anise, cardamom and cinnamon for about 1 minute. Cool, then grind to a powder and set aside 1 teaspoon for garnish."
+        ]
+       },
+       {
+        "runs": [
+         "Mix the lamb, breadcrumbs, egg, half the shallot and garlic, 1 tablespoon of the spice blend and 1 teaspoon salt. Roll into about 20 meatballs and bake for 15 minutes, until browned."
+        ]
+       },
+       {
+        "runs": [
+         "Meanwhile, warm the olive oil in a wide pot over medium heat. Cook the remaining shallot and garlic until soft, 3 to 4 minutes, then stir in the tomato paste and the remaining spice blend for 1 minute."
+        ]
+       },
+       {
+        "runs": [
+         "Add the tomatoes, stock and remaining salt. Simmer, stirring now and then, until slightly thickened, 15 to 20 minutes."
+        ]
+       },
+       {
+        "runs": [
+         "Lower the heat until the sauce stops bubbling, then whisk in the cannabutter for a full minute, until completely blended."
+        ]
+       },
+       {
+        "runs": [
+         "Add the meatballs, cover and keep at a bare simmer for about 10 minutes, until they reach 160°F in the center."
+        ]
+       },
+       {
+        "runs": [
+         "Serve equal ladles of sauce with five meatballs per bowl, topped with cilantro and the reserved spice, with toasted baguette alongside."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "This is an estimate only. Example: 1 tablespoon of cannabutter at about 32 mg ÷ 4 servings ≈ 8 mg per serving at most. THC per serving depends on the potency of the flower behind your butter and on losses during decarboxylation and infusion. Start with half a serving and wait at least 2 hours before having more. Label leftovers as infused, and keep them away from children and pets."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "When should cannabutter go into a sauce?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "At the end. Let the sauce finish reducing, lower the heat until it stops bubbling, then whisk the cannabutter in until fully blended. Adding it last keeps its time on the heat short, and steady whisking spreads the THC evenly, so every ladle carries a fair share."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I use beef instead of lamb?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Ground beef works well, or a beef and pork mix. Cook it to the same 160°F safe minimum as lamb, checked with a thermometer in the center of a meatball. Ground turkey or chicken works too, but poultry needs 165°F."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How spicy are ancho and guajillo chiles?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Mild to medium. Anchos, which are dried poblanos, taste sweet and raisin-like, while guajillos bring a brighter, tangy warmth. Removing the seeds and veins tames them further. For more kick, add a dried chile de árbol or a pinch of cayenne to the blend."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "USDA Food Safety and Inspection Service: Lamb From Farm to Table",
+    "host": "fsis.usda.gov",
+    "href": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/lamb-farm-table"
+   },
+   {
+    "label": "USDA Food Safety and Inspection Service: Safe Minimum Internal Temperature Chart",
+    "host": "fsis.usda.gov",
+    "href": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+   },
+   {
+    "label": "USDA Food Safety and Inspection Service: Leftovers and Food Safety",
+    "host": "fsis.usda.gov",
+    "href": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+   },
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis and Poisoning (February 15, 2024)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/health-effects/poisoning.html"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-butter-recipe/",
+    "imageKey": "blog-canna-butter-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Butter (Ghee or Butter, Water-Bath Method)"
+   },
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/canna-berry-freezer-jam/",
+    "imageKey": "blog-canna-berry-freezer-jam",
+    "catLabel": "Recipes",
+    "title": "Canna-Berry Freezer Jam with Raspberries"
+   }
+  ]
+ }
+}

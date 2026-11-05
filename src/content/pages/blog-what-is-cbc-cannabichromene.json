@@ -1,0 +1,654 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-what-is-cbc-cannabichromene/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says",
+  "accent": "CBC"
+ },
+ "dek": "CBC is a non-intoxicating cannabinoid found in small amounts in most cannabis. Here's how the plant makes it, what lab studies explore, and how to spot it on a lab report.",
+ "pictureKey": "blog-what-is-cbc-cannabichromene",
+ "pictureAlt": "A macro of glistening cannabis trichomes with a small vial of golden oil behind them",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "CBC (cannabichromene) is a cannabinoid the plant makes from CBGA, by way of its raw acid form, CBCA."
+    ]
+   },
+   {
+    "runs": [
+     "In lab tests it activates the CB2 receptor but not CB1, the receptor behind THC's high, and it isn't considered intoxicating."
+    ]
+   },
+   {
+    "runs": [
+     "Most CBC research comes from cells and animals; human data are scarce, and none of it shows CBC can prevent or relieve any condition."
+    ]
+   },
+   {
+    "runs": [
+     "Retail flower usually holds only a trace of CBC, and most labels skip it, so the full lab report is where to look."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What is CBC, and how does the plant make it?",
+    "href": "#what-is-cbc-and-how-does-the-plant-make-it"
+   },
+   {
+    "text": "Does CBC get you high?",
+    "href": "#does-cbc-get-you-high"
+   },
+   {
+    "text": "How CBC acts in the body: CB2, TRPA1, TRPV1 and anandamide",
+    "href": "#how-cbc-acts-in-the-body-cb2-trpa1-trpv1-and-anandamide"
+   },
+   {
+    "text": "What early research explores: inflammation, skin, nerve cells and microbes",
+    "href": "#what-early-research-explores-inflammation-skin-nerve-cells-and-m"
+   },
+   {
+    "text": "CBC compared with CBD and THC",
+    "href": "#cbc-compared-with-cbd-and-thc"
+   },
+   {
+    "text": "Where CBC shows up: flower, concentrates and oils",
+    "href": "#where-cbc-shows-up-flower-concentrates-and-oils"
+   },
+   {
+    "text": "CBC in CBD oil: full-spectrum, broad-spectrum and isolate",
+    "href": "#cbc-in-cbd-oil-full-spectrum-broad-spectrum-and-isolate"
+   },
+   {
+    "text": "Reading a label or lab report for CBC",
+    "href": "#reading-a-label-or-lab-report-for-cbc"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "What is CBC? Cannabichromene (CBC) belongs to the large family of cannabinoids the cannabis plant produces, alongside THC and CBD. It doesn't cause a high, it usually appears in small amounts, and it has drawn steady interest from researchers. Most of that research is early-stage work in cells and animals, not people. Here's what CBC is, how it seems to act in the body, what scientists have tested so far and how to find it on a label or lab report."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-is-cbc-and-how-does-the-plant-make-it",
+   "text": "What is CBC, and how does the plant make it?"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Cannabinoids are made in the trichomes, the tiny resin glands that frost a cannabis flower. They share a common starting point: CBGA, the acid form of CBG, which is why CBG gets called the mother cannabinoid. Enzymes in the plant then convert CBGA into one of three acids: THCA, CBDA or CBCA."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "CBCA is the raw, acidic form of CBC. Heat and drying knock a small piece off the molecule, a process called decarboxylation, and CBCA becomes CBC, the same way THCA becomes THC."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Most strains make only small amounts of CBC. In a 2025 analysis of 178 retail flower samples from 52 Colorado dispensaries, CBC averaged 0.04% by weight, and the highest sample reached 0.35%. THC in those same samples averaged about 21%, so CBC is a very small slice of the total."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "does-cbc-get-you-high",
+   "text": "Does CBC get you high?"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "It doesn't. THC's high comes mainly from activating CB1, a cannabinoid receptor concentrated in brain areas such as the cortex, hypothalamus and cerebellum. CB2, by contrast, sits mainly on immune cells, including support cells in the brain. In cell experiments, CBC activated the related CB2 receptor but not CB1, and reviewers point out that this lack of CB1 activity is consistent with CBC not producing THC-like effects."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "That doesn't mean CBC does nothing. \"Psychoactive\" simply means a substance acts on the brain or nervous system, and CBC interacts with several targets there. \"Intoxicating\" means a substance impairs you or produces a high, and research so far doesn't suggest CBC does that."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In a product that also contains THC, any high you feel comes from the THC. Some animal studies suggest CBC can strengthen certain THC effects, but no human study has shown that the small amounts in typical products change how THC feels."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-cbc-acts-in-the-body-cb2-trpa1-trpv1-and-anandamide",
+   "text": "How CBC acts in the body: CB2, TRPA1, TRPV1 and anandamide"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Lab studies point to a handful of targets:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "CB2 receptors:"
+      },
+      " CBC switched on CB2, a cannabinoid receptor tied mainly to the immune system, in cell experiments. Its affinity for CB2 is reported to be similar to THC's."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "TRPA1:"
+      },
+      " a channel on sensory nerve cells that responds to irritants. CBC activated it at very low concentrations, making it more potent there than most cannabinoids tested."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "TRPV1:"
+      },
+      " a heat-sensing channel. CBC activated it too, but only at much higher concentrations."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Anandamide:"
+      },
+      " your body makes its own cannabinoid-like messenger called anandamide. In lab work, CBC slowed cells' uptake of it, which in theory could leave more of it active for longer."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "There's a big caveat. These effects were measured in cells, at concentrations researchers chose. It isn't clear that the amounts in everyday products reach those levels in the human body, and studies of how people absorb and process CBC are scarce."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-early-research-explores-inflammation-skin-nerve-cells-and-m",
+   "text": "What early research explores: inflammation, skin, nerve cells and microbes"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Scientists have looked at CBC in several areas. Here's what kind of evidence exists for each:"
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Area",
+    "Type of study",
+    "What researchers saw"
+   ],
+   "rows": [
+    [
+     "Inflammation",
+     "Mice",
+     "Fewer signs of inflammation in several mouse models"
+    ],
+    [
+     "Skin",
+     "Human oil-gland cells in a dish",
+     "Less oil production when the cells were pushed to overproduce"
+    ],
+    [
+     "Nerve cells",
+     "Mouse neural stem cells in a dish",
+     "More cells survived as they matured"
+    ],
+    [
+     "Microbes",
+     "Lab tests on bacteria",
+     "Activity against some bacteria, including a drug-resistant staph strain"
+    ]
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "inflammation",
+   "text": "Inflammation"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In mouse studies, CBC reduced inflammation-driven overactivity of the gut and lessened tissue damage in a chemically induced model of colitis. Researchers still aren't sure which receptor is responsible: studies have pointed to CB1, CB2 and TRPA1, and some data suggest other mechanisms entirely."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "skin",
+   "text": "Skin"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In a 2016 study, researchers grew human sebocytes, the cells that make skin oil, in the lab. CBC lowered their baseline oil production and blunted the extra oil production triggered by a fatty acid called arachidonic acid. That's a dish of cells, not a person's skin."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "nerve-cells",
+   "text": "Nerve cells"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A 2013 study found that CBC helped mouse neural stem cells survive as they matured in a dish, while holding back their development into support cells called astrocytes. The researchers linked the effect, at least in part, to adenosine signaling."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "microbes",
+   "text": "Microbes"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In lab tests, CBC and its acid form showed activity against some bacteria, including MRSA, a drug-resistant staph strain, though in one study CBC had no effect on E. coli. Test-tube results like these are a long way from a usable medicine."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "what-it-adds-up-to",
+   "text": "What it adds up to"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Each of these is an early clue rather than a result you can count on. Cell and animal studies often fail to carry over to people, and the doses used in them don't map neatly onto a gummy or a joint."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Human research is thin. The main human data come from a study of a cannabis extract that happened to contain CBC alongside CBD and THC. It tracked how the body handled the compounds and how well people tolerated them, not whether anyone's health improved. A 2024 review in a pharmacology journal concluded that CBC products are widely used with little or no evidence of their safety or effectiveness."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "None of this shows that CBC prevents, relieves or reverses any condition, and CBC isn't approved as a medicine. If you're pregnant or breastfeeding, take medications or manage a health condition, talk with a clinician before using any cannabis product."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "cbc-compared-with-cbd-and-thc",
+   "text": "CBC compared with CBD and THC"
+  },
+  {
+   "kind": "table",
+   "head": [
+    "",
+    "CBC",
+    "CBD",
+    "THC"
+   ],
+   "rows": [
+    [
+     "Intoxicating?",
+     "No",
+     "No",
+     "Yes"
+    ],
+    [
+     "Research depth",
+     "Mostly cell and animal studies",
+     "Extensive, including an approved medicine",
+     "Extensive, including approved medicines"
+    ],
+    [
+     "Average in Colorado retail flower (2025 study)",
+     "0.04%",
+     "0.05%",
+     "About 21%"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The table shows why CBC gets less attention. It's present in tiny amounts, and its human research base is small. CBD and THC have been studied in people for decades, and medicines based on each have been approved by regulators for specific conditions."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The flower row holds a surprise: in THC-dominant retail flower, CBD can be nearly as scarce as CBC. If you're looking for any minor cannabinoid, CBD included, the lab report matters more than the strain name. CBC is one of several minor cannabinoids getting a closer look."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "where-cbc-shows-up-flower-concentrates-and-oils",
+   "text": "Where CBC shows up: flower, concentrates and oils"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You're most likely to find measurable CBC in products that keep the plant's broader chemistry:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Flower:"
+      },
+      " present in trace amounts, usually well under 1%."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Concentrates:"
+      },
+      " extraction concentrates cannabinoids, so CBC can climb higher. Concentrates in the 2025 Colorado study averaged 0.40% CBC, with a top value of 1.89%."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Whole-plant extracts and full-spectrum oils:"
+      },
+      " these keep a wide range of cannabinoids, so they may carry some CBC."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Distillates and isolates:"
+      },
+      " refined toward a single compound, so they may contain little or none."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Because the amounts are so small, CBC is rarely the reason to choose one product over another. If it matters to you, only the lab report can tell you what's there."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "cbc-in-cbd-oil-full-spectrum-broad-spectrum-and-isolate",
+   "text": "CBC in CBD oil: full-spectrum, broad-spectrum and isolate"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Hemp CBD oils come in three main styles, and only two of them are likely to contain CBC:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Full-spectrum:"
+      },
+      " keeps the plant's range of cannabinoids and terpenes, plus a trace of THC. CBC may be among them."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Broad-spectrum:"
+      },
+      " keeps many of those compounds but removes or reduces the THC. CBC can remain."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Isolate:"
+      },
+      " purified CBD on its own, with no CBC."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Full-spectrum products are often marketed with the \"entourage effect,\" a theory that plant compounds work better together. Our explainer on ",
+    {
+     "text": "the entourage effect",
+     "href": "blog/the-entourage-effect/"
+    },
+    " looks at how well that idea holds up."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "reading-a-label-or-lab-report-for-cbc",
+   "text": "Reading a label or lab report for CBC"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Labels are built around THC and CBD, and minor cannabinoids like CBC are optional extras that many producers skip. In the 2025 Colorado study, 84% of the 277 products examined listed none of the minor cannabinoids on the label."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The fuller picture lives on the certificate of analysis, the lab report for a product's batch. Here's what to look for:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "CBC and CBCA:"
+      },
+      " CBC is the active form; CBCA is the raw acid form that heat converts."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Units:"
+      },
+      " results appear as a percentage or in milligrams per gram. One percent equals 10 mg per gram."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "ND or LOQ notes:"
+      },
+      " \"ND\" means the lab didn't detect it, and an LOQ note means there was too little to measure precisely."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Batch match:"
+      },
+      " the batch or lot number on the report should match your package."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If a product's lab results leave you with questions, a budtender can help you read them."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Will CBC change how a THC product feels?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Probably not in a way you would notice. Some animal research suggests CBC can strengthen certain effects of THC, but no human study has shown that the small amounts in typical products change how THC feels. What you experience depends mostly on the THC dose, your tolerance and your consumption method. With any new product, start low and go slow."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How is CBC different from CBD in the body?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "They lean on different targets, as far as lab studies show. CBC activates CB2, a cannabinoid receptor tied mainly to the immune system, and switches on TRPA1, a sensory channel on nerve cells, at very low concentrations. CBD has a far larger body of research behind it, including human trials and an approved medicine, while CBC research is mostly cell and animal work. Neither is intoxicating."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Is there any CBC in hemp CBD oil?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Sometimes. Full-spectrum and broad-spectrum hemp oils can carry small amounts of CBC along with other minor cannabinoids, while CBD isolate is CBD alone. The only way to know is the product's lab report, which lists each cannabinoid the lab tested. If CBC is missing from the report or marked ND, the lab either didn't test for it or didn't find it."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Why is CBC rarely listed on labels?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Because labels center on THC and CBD, and minor cannabinoids are optional. In a 2025 study of 277 products from Colorado dispensaries, 84% of labels listed none of the minor cannabinoids, CBC included. There's also very little to report: CBC averaged 0.04% in the study's flower samples. For a fuller picture, ask for the product's lab report."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What is the acid form of CBC?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It's CBCA, short for cannabichromenic acid. The living plant makes CBCA from CBGA, and heat or drying later converts it into CBC, the same way THCA turns into THC. Raw plant material holds mostly the acid forms of its cannabinoids, so a lab report may list both CBCA and CBC for the same product."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Sepulveda DE, Vrana KE, Kellogg JJ et al. (2024), The potential of cannabichromene (CBC) as a therapeutic agent, Journal of Pharmacology and Experimental Therapeutics",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11493452/"
+   },
+   {
+    "label": "Udoh M et al. (2019), Cannabichromene is a cannabinoid CB2 receptor agonist, British Journal of Pharmacology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6932936/"
+   },
+   {
+    "label": "De Petrocellis L et al. (2011), Effects of cannabinoids and cannabinoid-enriched Cannabis extracts on TRP channels and endocannabinoid metabolic enzymes, British Journal of Pharmacology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165957/"
+   },
+   {
+    "label": "Oláh A et al. (2016), Differential effectiveness of selected non-psychotropic phytocannabinoids on human sebocyte functions, Experimental Dermatology",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/27094344/"
+   },
+   {
+    "label": "Shinjyo N, Di Marzo V (2013), The effect of cannabichromene on adult neural stem/progenitor cells, Neurochemistry International",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/23941747/"
+   },
+   {
+    "label": "Giordano G et al. (2025), Accuracy of labeled THC potency across flower and concentrate cannabis products, Scientific Reports",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12216457/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/top-cannabis-strains-of-2026/",
+    "imageKey": "blog-top-cannabis-strains-of-2026",
+    "catLabel": "Education",
+    "title": "Cannabis Strains Worth Knowing in 2026, and How to Choose One"
+   }
+  ]
+ }
+}

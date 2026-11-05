@@ -1,0 +1,398 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-hemp-almond-granola-clusters/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Crunchy Infused Granola Clusters with Hemp Hearts and Almonds",
+  "accent": "Granola"
+ },
+ "dek": "Crunchy oat, almond and hemp heart clusters with canna-oil standing in for part of the coconut oil. Measure it by the half cup, or bake it plain and dose each bowl.",
+ "pictureKey": "blog-hemp-almond-granola-clusters",
+ "pictureAlt": "A dark bowl piled with golden granola clusters, more clusters scattered on a wooden board",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Swap part of the coconut oil for canna-oil, then divide the THC by half-cup servings."
+    ]
+   },
+   {
+    "runs": [
+     "Big clusters come from pressing the granola flat and not stirring it while it bakes."
+    ]
+   },
+   {
+    "runs": [
+     "Hemp hearts add crunch and protein, but they can't get you high."
+    ]
+   },
+   {
+    "runs": [
+     "Label the jar clearly and store it well away from everyday cereal."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing this cannabis granola recipe",
+    "href": "#dosing-this-cannabis-granola-recipe"
+   },
+   {
+    "text": "Ingredients and method",
+    "href": "#ingredients-and-method"
+   },
+   {
+    "text": "Hemp hearts: crunch, not a high",
+    "href": "#hemp-hearts-crunch-not-a-high"
+   },
+   {
+    "text": "Storage, labeling and serving",
+    "href": "#storage-labeling-and-serving"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "This cannabis granola recipe makes big, crunchy clusters of oats, almonds, pumpkin seeds and hemp hearts, glazed with maple and a measured splash of canna-oil. Bake it infused or plain."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-this-cannabis-granola-recipe",
+   "text": "Dosing this cannabis granola recipe"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The THC comes from the canna-oil, not the hemp hearts. With oil at about 36 mg per tablespoon, 2 tablespoons put roughly 72 mg into 12 half-cup servings, about 6 mg each at most, and the bake may cost a little. Measure with a half-cup scoop. To dose by the bowl instead, bake it plain and add a measured spoon of ",
+    {
+     "text": "canna-honey",
+     "href": "blog/canna-honey/"
+    },
+    ". Start with half a serving and wait 2 hours."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ingredients-and-method",
+   "text": "Ingredients and method"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Warm the maple syrup, brown sugar and coconut oil, then stir in the canna-oil and vanilla off the heat. Coat the oats, nuts and seeds completely, fold in a frothy egg white, press the mix flat on a lined sheet and bake low without stirring. Those three steps make the clusters. Cool it fully before breaking it up. See our ",
+    {
+     "text": "canna-oil recipe",
+     "href": "blog/canna-oil-recipe/"
+    },
+    " for the infusion, and order flower ahead for pickup from ",
+    {
+     "text": "our Irvington store",
+     "href": "shop/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "hemp-hearts-crunch-not-a-high",
+   "text": "Hemp hearts: crunch, not a high"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Hemp hearts are shelled hemp seeds, sold in grocery stores. They bring nutty crunch and some protein, but no high."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-labeling-and-serving",
+   "text": "Storage, labeling and serving"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Store the clusters airtight for up to two weeks in a jar labeled \"infused,\" with the date and mg per half cup, far from the family cereal. Poison control is 1-800-222-1222. Serve over yogurt with fruit, or add ",
+    {
+     "text": "berry freezer jam",
+     "href": "blog/canna-berry-freezer-jam/"
+    },
+    " to plain granola instead."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "For adults 21 and older. Enjoy it responsibly."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "About 6 cups (12 half-cup servings)"
+   },
+   {
+    "label": "Prep time",
+    "value": "15 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "45 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "3 cups old-fashioned rolled oats"
+        ]
+       },
+       {
+        "runs": [
+         "1 cup almonds, roughly chopped"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup pumpkin seeds"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup hemp hearts"
+        ]
+       },
+       {
+        "runs": [
+         "1 1/2 teaspoons ground cinnamon"
+        ]
+       },
+       {
+        "runs": [
+         "3/4 teaspoon salt"
+        ]
+       },
+       {
+        "runs": [
+         "1/2 cup maple syrup"
+        ]
+       },
+       {
+        "runs": [
+         "1/4 cup packed brown sugar"
+        ]
+       },
+       {
+        "runs": [
+         "1/4 cup coconut oil"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons canna-oil or canna-coconut oil (or the amount your dose math calls for)"
+        ]
+       },
+       {
+        "runs": [
+         "2 teaspoons vanilla extract"
+        ]
+       },
+       {
+        "runs": [
+         "1 egg white"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Heat the oven to 300°F and line a rimmed baking sheet with parchment."
+        ]
+       },
+       {
+        "runs": [
+         "In a large bowl, toss the oats, almonds, pumpkin seeds, hemp hearts, cinnamon and salt."
+        ]
+       },
+       {
+        "runs": [
+         "Warm the maple syrup, brown sugar and coconut oil over low heat just until the sugar dissolves. Take the pan off the heat and stir in the canna-oil and vanilla."
+        ]
+       },
+       {
+        "runs": [
+         "Pour the warm mixture over the dry ingredients and stir until every oat looks glossy, so the oil spreads evenly."
+        ]
+       },
+       {
+        "runs": [
+         "Whisk the egg white until frothy and fold it through the granola."
+        ]
+       },
+       {
+        "runs": [
+         "Spread the mix on the sheet and press it into a firm, even layer about 1/2 inch thick."
+        ]
+       },
+       {
+        "runs": [
+         "Bake for 40 to 45 minutes, turning the pan halfway but never stirring, until golden and dry at the edges."
+        ]
+       },
+       {
+        "runs": [
+         "Cool completely on the pan, about 45 minutes, then break into clusters. Measure the yield in half cups and label the jar."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "An estimate only. Example: 2 tablespoons of canna-oil at about 36 mg per tablespoon = 72 mg, and 72 ÷ 12 half-cup servings ≈ 6 mg per serving at most. What you actually get depends on the potency of the cannabis behind your oil and on losses during decarboxylation, infusion and baking. Start with a quarter cup and wait at least 2 hours before eating more. Label the jar and keep it away from children and pets."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Do hemp seeds contain THC?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Only trace amounts, if any. Hemp seeds don't naturally contain THC, though they can pick up traces from other plant material during harvest and processing. The FDA has said eating hulled hemp seed ingredients can't make you high, so any effect here comes from the canna-oil."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Does baking reduce the THC in canna-oil?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "It can, somewhat. A lab study found baking THC brownies didn't degrade the THC, but granola bakes in a thin layer until it's dry, so some loss is possible; that's why this recipe bakes low. Read your per-serving math as a ceiling, and don't add extra oil to compensate."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I make it nut-free?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Use sunflower seeds or more pumpkin seeds in place of the almonds and keep everything else the same. Baking for someone with a nut allergy? Read every label, including any canna-oil you didn't make yourself, for nut ingredients or shared-equipment warnings."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "U.S. Food and Drug Administration: FDA Responds to Three GRAS Notices for Hemp Seed-Derived Ingredients for Use in Human Food (December 20, 2018)",
+    "host": "fda.gov",
+    "href": "https://www.fda.gov/food/hfp-constituent-updates/fda-responds-three-gras-notices-hemp-seed-derived-ingredients-use-human-food"
+   },
+   {
+    "label": "Wolf C.E., Poklis J.L., Poklis A., Stability of Tetrahydrocannabinol and Cannabidiol in Prepared Quality Control Medible Brownies, Journal of Analytical Toxicology (2017)",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/27798074/"
+   },
+   {
+    "label": "Wang M. et al. (2016), Decarboxylation study of acidic cannabinoids, Cannabis and Cannabinoid Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis and Poisoning (February 15, 2024)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/health-effects/poisoning.html"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/canna-honey/",
+    "imageKey": "blog-canna-honey",
+    "catLabel": "Recipes",
+    "title": "Canna-Honey: Infused Honey in About 20 Minutes"
+   },
+   {
+    "href": "blog/canna-berry-freezer-jam/",
+    "imageKey": "blog-canna-berry-freezer-jam",
+    "catLabel": "Recipes",
+    "title": "Canna-Berry Freezer Jam with Raspberries"
+   }
+  ]
+ }
+}

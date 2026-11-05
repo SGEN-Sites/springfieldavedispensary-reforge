@@ -1,0 +1,418 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-no-bake-cannabis-oatmeal-cookies/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "No-Bake Cannabis Oatmeal Cookies with Tart Cherries and Pecans",
+  "accent": "Cookies"
+ },
+ "dek": "Chewy chocolate-oat cookies made on the stovetop, with cannabutter stirred in after the boil and the batch shaped into exactly 12 so the math stays simple.",
+ "pictureKey": "blog-no-bake-cannabis-oatmeal-cookies",
+ "pictureAlt": "No-bake chocolate oatmeal cookies with cherries and pecans on parchment on dark slate",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Boil the sugar, evaporated milk, cocoa and plain butter for 1 minute; the cannabutter goes in off the heat."
+    ]
+   },
+   {
+    "runs": [
+     "Shape exactly 12 cookies, so each one carries a twelfth of the THC."
+    ]
+   },
+   {
+    "runs": [
+     "Store them in a labeled, airtight container in the fridge, apart from everyday snacks."
+    ]
+   },
+   {
+    "runs": [
+     "Certified gluten-free oats, plant-based butter and coconut milk make easy swaps."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "How to Dose No-Bake Cannabis Cookies",
+    "href": "#how-to-dose-no-bake-cannabis-cookies"
+   },
+   {
+    "text": "Ingredients",
+    "href": "#ingredients"
+   },
+   {
+    "text": "Three Moments That Matter",
+    "href": "#three-moments-that-matter"
+   },
+   {
+    "text": "Storage and Labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Gluten-Free and Vegan Swaps",
+    "href": "#gluten-free-and-vegan-swaps"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "These no-bake cannabis cookies are chewy chocolate-oat rounds with tart cherries and toasted pecans, made on the stovetop with no oven. Stirring the cannabutter in after the one-minute boil spares it the hottest step, and shaping exactly 12 cookies keeps the math simple."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-dose-no-bake-cannabis-cookies",
+   "text": "How to Dose No-Bake Cannabis Cookies"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The boil uses plain butter only. Off the burner, stir in the measured cannabutter, fold in the oats and shape 12 equal cookies, each holding a twelfth of the THC. To estimate your butter's strength, start with our ",
+    {
+     "text": "cannabutter guide",
+     "href": "blog/canna-butter-recipe/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "They're for adults 21 and older. Eat one, then wait a full 2 hours before reaching for a second (",
+    {
+     "text": "dosing basics",
+     "href": "blog/edibles-101-dosing/"
+    },
+    ")."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Quick oats set more firmly than old-fashioned ones, and evaporated milk makes a richer base than regular milk. Pecans, tart cherries, cocoa, vanilla and salt carry the flavor; peanut butter is optional. Making fresh cannabutter? Order flower ahead from ",
+    {
+     "text": "Springfield Ave Dispensary",
+     "href": "shop/"
+    },
+    " for in-store or curbside pickup."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "three-moments-that-matter",
+   "text": "Three Moments That Matter"
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The boil."
+      },
+      " Start the minute once bubbles cover the surface. Too short and the cookies stay soft; too long and they crumble."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Off the heat."
+      },
+      " Mix the cannabutter in completely before the oats go in."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Portioning."
+      },
+      " Weigh the mixture and divide by 12, or use a level scoop."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and Labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Store the cookies airtight in the fridge, labeled \"THC\" with the date and the dose per cookie, and keep them out of sight: to a child, they look like any other cookie. Keep Poison Help's number, 1-800-222-1222, handy, and call a veterinarian if a pet eats one."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "gluten-free-and-vegan-swaps",
+   "text": "Gluten-Free and Vegan Swaps"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Certified gluten-free oats, with every add-in checked for gluten, make a gluten-free batch. For vegan cookies, use plant-based butter in the boil, full-fat coconut milk instead of evaporated milk, and an infusion made with coconut oil or vegan butter."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "12 cookies"
+   },
+   {
+    "label": "Prep time",
+    "value": "10 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "5 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "1¼ cups quick oats (certified gluten-free if needed)"
+        ]
+       },
+       {
+        "runs": [
+         "⅓ cup pecans, toasted and chopped"
+        ]
+       },
+       {
+        "runs": [
+         "⅓ cup dried tart cherries, chopped"
+        ]
+       },
+       {
+        "runs": [
+         "⅛ teaspoon salt"
+        ]
+       },
+       {
+        "runs": [
+         "1 cup granulated sugar"
+        ]
+       },
+       {
+        "runs": [
+         "¼ cup evaporated milk"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons plain unsalted butter, for the boil"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons unsweetened cocoa powder"
+        ]
+       },
+       {
+        "runs": [
+         "2 tablespoons butter for after the boil: your measured cannabutter, topped up with plain butter (see the dosing note)"
+        ]
+       },
+       {
+        "runs": [
+         "1 teaspoon vanilla extract"
+        ]
+       },
+       {
+        "runs": [
+         "1 to 2 tablespoons creamy peanut butter (optional)"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Line a tray with parchment. Combine the oats, pecans, cherries and salt in a bowl."
+        ]
+       },
+       {
+        "runs": [
+         "In a medium saucepan over medium heat, stir together the sugar, evaporated milk, plain butter and cocoa. Bring to a full rolling boil and boil for exactly 1 minute, stirring."
+        ]
+       },
+       {
+        "runs": [
+         "Take the pan off the heat. Stir in the cannabutter blend, the peanut butter if using, and the vanilla until smooth, about 30 seconds."
+        ]
+       },
+       {
+        "runs": [
+         "Fold in the oat mixture until every oat is coated."
+        ]
+       },
+       {
+        "runs": [
+         "Portion 12 equal mounds onto the parchment with a level scoop, or weigh the mixture and divide by 12."
+        ]
+       },
+       {
+        "runs": [
+         "Chill for about 30 minutes, until set, then store in a labeled airtight container in the fridge."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      {
+       "b": true,
+       "text": "THC per cookie = THC in the cannabutter you add ÷ 12."
+      },
+      " Estimate your butter first: grams of flower × THC percentage (as a decimal) × 1,000 gives the most THC it can hold. For example, 3.5 g of flower labeled 16% THC, infused into 1 cup (16 tablespoons) of butter, comes to at most 560 mg, roughly 35 mg per tablespoon. One tablespoon of that here, with 1 tablespoon of plain butter, means no more than about 3 mg per cookie. Decarboxylation and infusion lose some THC, so these figures are ceilings, not promises. Start low with one cookie, give it 2 hours, and keep the labeled container somewhere kids and pets can't reach."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Why add the cannabutter off the heat?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "To keep each cookie's dose predictable. Off the burner, you have time to blend the butter evenly before the oats go in, and the infusion skips the boil, which runs hotter than plain boiling water. Long or very high heat can cost THC, so there's no reason to boil it."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How long do they keep?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "About a week, sealed airtight and refrigerated, which also keeps them firm. For longer storage, freeze them in a single layer, then bag and label them and thaw one at a time. Either way, the dose per cookie belongs on the label."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Are no-bake cookies gluten-free?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not automatically. Oats contain no gluten themselves, but cross-contact with wheat, barley or rye is common, so regular oats can carry some. If gluten matters to you or someone you're sharing with, buy oats labeled certified gluten-free and check the add-ins. If you have celiac disease, ask your doctor or a dietitian first: research suggests most people with it can eat moderate amounts of oats, but not everyone."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Centers for Disease Control and Prevention: Cannabis frequently asked questions",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/cannabis/faq/index.html"
+   },
+   {
+    "label": "Wang M. et al. (2016), Decarboxylation study of acidic cannabinoids, Cannabis and Cannabinoid Research",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH): Eating, diet and nutrition for celiac disease (oats and cross-contact)",
+    "host": "niddk.nih.gov",
+    "href": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-butter-recipe/",
+    "imageKey": "blog-canna-butter-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Butter (Ghee or Butter, Water-Bath Method)"
+   },
+   {
+    "href": "blog/infused-peanut-butter-cheesecake-bars/",
+    "imageKey": "blog-infused-peanut-butter-cheesecake-bars",
+    "catLabel": "Recipes",
+    "title": "Peanut Butter Cheesecake Bars with a Cannabis Chocolate Drizzle"
+   },
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   }
+  ]
+ }
+}

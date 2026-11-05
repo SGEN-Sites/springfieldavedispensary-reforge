@@ -1,0 +1,810 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-top-cannabis-strains-of-2026/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Cannabis Strains Worth Knowing in 2026, and How to Choose One",
+  "accent": "2026"
+ },
+ "dek": "The strains and strain families worth knowing in 2026, built from public strain records instead of sales data, plus a simple way to choose one.",
+ "pictureKey": "blog-top-cannabis-strains-of-2026",
+ "pictureAlt": "Five cannabis buds in a row on dark slate, four in shades of green and one deep purple bud in the middle",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "This list comes from public strain databases and one industry award list, not from Springfield Ave Dispensary sales data."
+    ]
+   },
+   {
+    "runs": [
+     "Classics like Blue Dream, OG Kush, Sour Diesel, GSC and Granddaddy Purple still show up in the family trees of newer strains."
+    ]
+   },
+   {
+    "runs": [
+     "Leafly named Hash Burger, a savory, funky hybrid, its 2025 Strain of the Year in March 2026."
+    ]
+   },
+   {
+    "runs": [
+     "Indica and sativa labels don’t reliably track a plant’s genetics; cannabinoid and terpene data tell you more."
+    ]
+   },
+   {
+    "runs": [
+     "Strain names are examples: selection varies by batch, so check our menu."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Top cannabis strains 2026: how this list was built",
+    "href": "#top-cannabis-strains-2026-how-this-list-was-built"
+   },
+   {
+    "text": "Proven classics still worth knowing",
+    "href": "#proven-classics-still-worth-knowing"
+   },
+   {
+    "text": "Strain families shaping 2026 menus",
+    "href": "#strain-families-shaping-2026-menus"
+   },
+   {
+    "text": "Why lab data beats indica, sativa and hybrid labels",
+    "href": "#why-lab-data-beats-indica-sativa-and-hybrid-labels"
+   },
+   {
+    "text": "Choosing a format: flower, vapes, live products and edibles",
+    "href": "#choosing-a-format-flower-vapes-live-products-and-edibles"
+   },
+   {
+    "text": "A simple way to choose a strain",
+    "href": "#a-simple-way-to-choose-a-strain"
+   },
+   {
+    "text": "Using a dispensary menu well",
+    "href": "#using-a-dispensary-menu-well"
+   },
+   {
+    "text": "Availability varies by batch",
+    "href": "#availability-varies-by-batch"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Looking for the top cannabis strains 2026 has to offer? This guide covers two groups: classics that have been around for years and still turn up as parents of newer strains, and the strain families shaping menus heading into 2026, from creamy dessert crosses to savory, gassy funk. For each, you’ll find the reported lineage, the aroma and what people say they feel, plus a simple way to choose a strain and a format. One note up front: a strain name is a starting point, and the lab data on the label matters more."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "top-cannabis-strains-2026-how-this-list-was-built",
+   "text": "Top cannabis strains 2026: how this list was built"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "This isn’t a sales ranking. We built it from public sources: strain databases that publish reported lineage, aroma and user-reported effects, plus one industry award list, Leafly’s annual Strain of the Year. We didn’t use Springfield Ave Dispensary sales data, and no strain here is a claim about what’s in stock at our store."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A few cautions apply to every entry:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Lineage is often disputed."
+      },
+      " Many famous strains began as clone-only cuts or private crosses, and different growers sell different plants under the same name. A 2015 genetic study concluded that strain names often don’t reflect a meaningful genetic identity."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Reported effects are user reports,"
+      },
+      " not lab measurements, and the same strain can feel different to different people."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Potency changes by batch."
+      },
+      " A strain name doesn’t fix its THC percentage, so read the label on the batch in front of you."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "reading-a-strains-family-tree",
+   "text": "Reading a strain’s family tree"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Strain lineages use a shorthand worth knowing before you read the tables:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "A × B"
+      },
+      " means the strain came from crossing two parent strains."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "A cut"
+      },
+      " is one specific plant kept going through cuttings. \"Clone-only\" means it was never sold as seed."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "F1"
+      },
+      " marks the first generation of a cross."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "A number after the name,"
+      },
+      " as in Gelato #33, usually marks one selected plant out of many seedlings from the same cross."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "proven-classics-still-worth-knowing",
+   "text": "Proven classics still worth knowing"
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Strain",
+    "Reported lineage",
+    "Aroma",
+    "What people report"
+   ],
+   "rows": [
+    [
+     "Blue Dream",
+     "Blueberry × Haze, from Northern California",
+     "Sweet blueberry and dark berry",
+     "Relaxed, happy and uplifted, with a clear head"
+    ],
+    [
+     "OG Kush",
+     "Disputed; one long-standing theory points to Chemdog and Lemon Thai",
+     "Lemon, pine, fuel and damp earth",
+     "A quick euphoric lift that turns body-heavy"
+    ],
+    [
+     "Sour Diesel",
+     "Usually traced to Chemdog 91 × Super Skunk, though disputed",
+     "Pungent fuel, sour citrus and pepper",
+     "A fast, energetic, cerebral rush"
+    ],
+    [
+     "GSC (Girl Scout Cookies)",
+     "OG Kush × Durban Poison, from Northern California around 2012",
+     "Earthy, with lemon and citrus",
+     "Happy, relaxed and euphoric"
+    ],
+    [
+     "Granddaddy Purple",
+     "Purple Urkle × Big Bud, popularized in 2003",
+     "Ripe grape, dark berries and earth",
+     "Relaxed, often sleepy"
+    ],
+    [
+     "Jack Herer",
+     "Widely traced to Haze, Northern Lights #5 and Shiva Skunk",
+     "Pine, earthy herbs, citrus and pepper",
+     "Uplifted, happy and relaxed"
+    ],
+    [
+     "Durban Poison",
+     "Roots in South Africa, named for the port city of Durban",
+     "Sweet earth, pine and a licorice-like bite",
+     "A bright, energetic, focused rush"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "GSC matters beyond its own jar. It’s a parent of Gelato and GMO Cookies, and through Gelato a grandparent of Runtz and Ice Cream Cake, so if you like those newer strains, you’ve already met some of GSC."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "strain-families-shaping-2026-menus",
+   "text": "Strain families shaping 2026 menus"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Newer strains tend to travel in families named for how they smell and taste. Four are worth knowing. For each, the right format depends on whether you’re choosing for aroma or for effect, which we cover further down."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "dessert-strains",
+   "text": "Dessert strains"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Sweet, creamy and often fruity. Several dessert strains trace back to GSC."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Strain",
+    "Reported lineage",
+    "Aroma",
+    "What people report"
+   ],
+   "rows": [
+    [
+     "Gelato",
+     "Sunset Sherbet × Thin Mint GSC, from the San Francisco Bay Area",
+     "Creamy sweetness, berry and citrus",
+     "A euphoric lift with body relaxation"
+    ],
+    [
+     "Wedding Cake",
+     "Best known as Triangle Kush × Animal Mints; other versions differ",
+     "Tangy vanilla, earthy pepper, a little gas",
+     "An upbeat start that settles into heavier relaxation"
+    ],
+    [
+     "Ice Cream Cake",
+     "One well-known version is Wedding Cake × Gelato #33",
+     "Vanilla, sweet dough and nuts",
+     "Relaxed, happy, sometimes sleepy"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Good formats: flower, or a live resin or live rosin product, where the creamy aroma comes through."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "gas-and-savory-funk",
+   "text": "Gas and savory funk"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Some strains drawing attention lately smell less like candy and more like fuel, garlic or onion."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Strain",
+    "Reported lineage",
+    "Aroma",
+    "What people report"
+   ],
+   "rows": [
+    [
+     "GMO Cookies",
+     "Chemdog × GSC",
+     "Diesel, skunk, pepper and savory onion",
+     "Relaxed, happy and uplifted"
+    ],
+    [
+     "Hash Burger",
+     "Han Solo Hash Plant × Double Burger",
+     "Earth, umami, onion and a skunky funk",
+     "A heavy, relaxing body feel with giggly euphoria"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In March 2026, Leafly named Hash Burger its 2025 Strain of the Year, from a shortlist that also included Gush Mints, Sour Diesel, Dulce de Uva and Blue Lobster. It’s one platform’s pick, based on its own traffic and reviews, but it’s a sign that funky, savory profiles have a following alongside the sweet ones."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Good formats: flower and pre-rolls, where that pungency is the point."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "citrus-strains",
+   "text": "Citrus strains"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Bright, zesty and sharp, often with a skunky edge underneath."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Strain",
+    "Reported lineage",
+    "Aroma",
+    "What people report"
+   ],
+   "rows": [
+    [
+     "Tangie",
+     "Californian Orange × Skunk #1",
+     "Tangerine peel with a sour, skunky bite",
+     "Uplifted, focused and happy"
+    ],
+    [
+     "Super Lemon Haze",
+     "Lemon Skunk × Super Silver Haze; versions vary",
+     "Lemon, sweet citrus and herbal spice",
+     "Uplifted, happy and energetic"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Good formats: flower, or a live resin or live rosin vape if you want the fruit to come through."
+   ]
+  },
+  {
+   "kind": "h3",
+   "id": "exotic-crosses",
+   "text": "Exotic crosses"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Newer hybrids that mix candy, fruit and gas, often bred from the families above."
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Strain",
+    "Reported lineage",
+    "Aroma",
+    "What people report"
+   ],
+   "rows": [
+    [
+     "Runtz",
+     "Zkittlez × Gelato",
+     "Berry and tropical fruit over a little gas",
+     "Relaxed, happy and uplifted"
+    ],
+    [
+     "Gush Mints",
+     "Kush Mints × an F1 Durban and Gushers cross",
+     "Creamy dough, dark fruit, fuel and a mint finish",
+     "A euphoric lift, then deep relaxation"
+    ],
+    [
+     "Super Boof",
+     "Black Cherry Punch × Tropicana Cookies",
+     "Orange and grapefruit peel with cherry",
+     "Euphoric, relaxed and uplifted"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Good formats: flower or live products if flavor is the draw; any format if you’re choosing for the effect alone."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "why-lab-data-beats-indica-sativa-and-hybrid-labels",
+   "text": "Why lab data beats indica, sativa and hybrid labels"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Menus still sort strains into indica, sativa and hybrid, but research shows those labels are a weak guide:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      "A 2021 study in ",
+      {
+       "i": true,
+       "text": "Nature Plants"
+      },
+      " genotyped more than 100 cannabis samples and found sativa- and indica-labeled samples were genetically indistinct across the genome. The labels lined up with a small number of terpenes instead."
+     ]
+    },
+    {
+     "runs": [
+      "A 2022 analysis of commercial cannabis from six U.S. states found that product labels didn’t consistently match the chemical profiles inside."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "What tells you more is the label’s cannabinoid content and, when listed, its terpenes. Our guides to ",
+    {
+     "text": "indica vs sativa",
+     "href": "blog/indica-vs-sativa/"
+    },
+    " and ",
+    {
+     "text": "cannabis terpenes",
+     "href": "blog/understanding-terpenes/"
+    },
+    " go deeper."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "choosing-a-format-flower-vapes-live-products-and-edibles",
+   "text": "Choosing a format: flower, vapes, live products and edibles"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Once you’ve picked a profile, the format decides how you’ll experience it:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Flower and pre-rolls"
+      },
+      " show off a strain’s full aroma and let you take small amounts at a time."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Vape carts"
+      },
+      " are convenient and come on quickly. Distillate carts usually get their flavor from added terpenes, so they may not taste like the strain named on the box."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Live resin and live rosin"
+      },
+      " are made from fresh-frozen plants to keep more of the original terpenes, so they aim to stay close to the strain’s natural aroma."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Edibles"
+      },
+      " are about effect more than flavor. Strain character may matter less once THC is cooked into a gummy, and edibles take much longer to kick in."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "New to concentrates? Start with the smallest amount. Commercial concentrates typically run well over 50% THC, several times stronger than flower."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "a-simple-way-to-choose-a-strain",
+   "text": "A simple way to choose a strain"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You don’t need to memorize lineages. Four steps get you most of the way:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Start with aroma."
+      },
+      " Think about which family appeals to you: sweet and creamy, fuel and funk, bright citrus, or fruity crosses. Smell and taste are a fair guide to what you’ll enjoy, if not to how you’ll feel."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Pick the experience and the setting."
+      },
+      " A quiet evening at home calls for different choices than an afternoon with friends. Tell your budtender which one you’re planning for."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Choose a strength you can manage."
+      },
+      " If you’re newer, look for a lower THC number and plan on small amounts. If a strain is new to you, make the first session a test run."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Keep notes."
+      },
+      " Write down the strain, the format, the THC on the label and how it felt. After a few tries, your own notes beat any list, including this one."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "using-a-dispensary-menu-well",
+   "text": "Using a dispensary menu well"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A good menu does a lot of the work for you:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Filter by product type first,"
+      },
+      " then by strain or profile."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Read the lab data,"
+      },
+      " including THC, CBD and terpenes where they’re listed, not just the strain name."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Compare batches."
+      },
+      " The same strain from two growers, or two harvests, can test differently."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Ask a budtender."
+      },
+      " Describe the aroma or feeling you’re after and what you’ve liked before. That often helps more than a strain name."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "At Springfield Ave Dispensary, there’s an ",
+    {
+     "text": "online menu",
+     "href": "shop/"
+    },
+    " you can browse before you visit, and you can order ahead for in-store or curbside pickup. Our budtenders are glad to help you translate a strain you liked into options on today’s menu. Shop with us often? ",
+    {
+     "text": "Our tiered loyalty program",
+     "href": "loyalty/"
+    },
+    " is being finalized and will roll out in the coming months."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "availability-varies-by-batch",
+   "text": "Availability varies by batch"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Strains come and go with each harvest. A strain on this list may be on our menu this week and gone the next, and the same name can test differently from one batch to another. Think of these names as examples, check our menu for what’s there today, and ask about similar profiles if a favorite isn’t in stock. Valid government ID required. 21+ only."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Which strains are popular heading into 2026?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Long-running names like Blue Dream, OG Kush, Sour Diesel and GSC still anchor many newer crosses, alongside dessert, gas and citrus families. One industry signal: Leafly named Hash Burger, a savory, funky hybrid, its 2025 Strain of the Year, with Gush Mints and Sour Diesel among the other finalists."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What counts as a strong strain?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Potency belongs to a batch, not a name. The same strain can test at very different THC levels depending on the grower and the harvest, so read the total THC on the label in front of you. Higher THC means stronger effects, not necessarily a better experience."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Do sativas always feel energizing?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "No. Research has found that sativa and indica labels don’t reliably match a plant’s genetics or chemistry, and two plants with the same label can feel quite different. Cannabinoid and terpene data, plus your own experience, are better guides than the label alone."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How should a newcomer pick a strain?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Start with the experience you want and how strong you want it, then look at lab data rather than names. Choose a lower-THC option, take a small amount, and keep notes on how it felt. A budtender can suggest a few starting points based on aromas you like."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Will these strains be on Springfield Ave Dispensary’s menu?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Maybe, but we can’t promise any specific strain. Selection changes with every harvest, so check our online menu for today’s options. If a strain you want isn’t there, our budtenders can suggest something with a similar profile."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Watts S. et al. (2021), Cannabis labelling is associated with genetic variation in terpene synthase genes, Nature Plants",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8516649/"
+   },
+   {
+    "label": "Smith C.J. et al. (2022), The phytochemical diversity of commercial Cannabis in the United States, PLOS ONE",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9119530/"
+   },
+   {
+    "label": "Sawler J. et al. (2015), The genetic structure of marijuana and hemp, PLOS ONE",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4550350/"
+   },
+   {
+    "label": "GreenState: The funk-fueled weed strain Leafly just crowned 2025’s best (March 6, 2026)",
+    "host": "greenstate.com",
+    "href": "https://www.greenstate.com/lifestyle/hash-burger-2025-strain-of-the-year/"
+   },
+   {
+    "label": "Munger K.R., Anreise K.M., Strongin R.M. (2025), Cannabis concentrate vaping chemistry, Frontiers in Toxicology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12183170/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-kush-cannabis/",
+    "imageKey": "blog-what-is-kush-cannabis",
+    "catLabel": "Education",
+    "title": "Kush Cannabis: From the Hindu Kush Mountains to Today's Menus"
+   },
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   }
+  ]
+ }
+}

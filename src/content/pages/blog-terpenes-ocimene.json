@@ -1,0 +1,454 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-terpenes-ocimene/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Ocimene: The Herbal, Floral Terpene in Cannabis",
+  "accent": "Ocimene"
+ },
+ "dek": "Ocimene ranks among the most widespread scent compounds in the plant world, and in cannabis it usually plays a supporting role. Learn its aroma, where it occurs and how to find it.",
+ "pictureKey": "blog-terpenes-ocimene",
+ "pictureAlt": "Mango slices and fresh basil around a frosty cannabis bud on dark slate",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Ocimene is a monoterpene with a warm, herbal, floral scent, named after Ocimum, the basil genus."
+    ]
+   },
+   {
+    "runs": [
+     "It's one of the most common compounds in flower scents and also turns up in hops, basil and mango."
+    ]
+   },
+   {
+    "runs": [
+     "In cannabis it is usually a supporting terpene: in one California lab dataset, its best showing was second place, behind myrcene."
+    ]
+   },
+   {
+    "runs": [
+     "Lab-dish studies on fungi and inflammation used concentrated oils and do not show effects in people."
+    ]
+   },
+   {
+    "runs": [
+     "To find ocimene, check the batch's terpene results rather than the strain name."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What is the ocimene terpene? The name and the chemistry",
+    "href": "#what-is-the-ocimene-terpene-the-name-and-the-chemistry"
+   },
+   {
+    "text": "Ocimene smell and taste: herbal, floral and warm",
+    "href": "#ocimene-smell-and-taste-herbal-floral-and-warm"
+   },
+   {
+    "text": "Where ocimene occurs in nature",
+    "href": "#where-ocimene-occurs-in-nature"
+   },
+   {
+    "text": "What ocimene may add to a cannabis profile",
+    "href": "#what-ocimene-may-add-to-a-cannabis-profile"
+   },
+   {
+    "text": "Early lab research on fungi and inflammation, with its limits",
+    "href": "#early-lab-research-on-fungi-and-inflammation-with-its-limits"
+   },
+   {
+    "text": "Strains often reported with notable ocimene",
+    "href": "#strains-often-reported-with-notable-ocimene"
+   },
+   {
+    "text": "Finding ocimene on a label or menu",
+    "href": "#finding-ocimene-on-a-label-or-menu"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "The ocimene terpene is a fragrant compound that many plants use to scent their flowers and leaves, and it shows up in cannabis too, usually in a supporting role. It smells warm, herbal and floral, and it takes its name from basil's botanical genus. Early lab research on it is just that, early. To know whether a product carries much of it, check the batch's lab results instead of the strain name."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-is-the-ocimene-terpene-the-name-and-the-chemistry",
+   "text": "What is the ocimene terpene? The name and the chemistry"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Ocimene is a monoterpene, one of the small, light terpenes that evaporate easily and carry a plant's scent. Like ",
+    "pinene",
+    " and ",
+    "terpinolene",
+    ", it belongs to the group of terpenes that give cannabis its brighter top notes. Its name comes from Ocimum, the genus that includes basil."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "It comes in a few closely related forms. One of them, beta-ocimene, has two versions, cis and trans, also written (Z) and (E). Trans-beta-ocimene is the more common of the two in flower scents."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "On a lab report, you may see ocimene listed as a single total or broken out as beta-ocimene, cis-ocimene or trans-ocimene. They all belong to the same family. For a refresher on terpenes in general, start with our ",
+    {
+     "text": "cannabis terpenes primer",
+     "href": "blog/understanding-terpenes/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "ocimene-smell-and-taste-herbal-floral-and-warm",
+   "text": "Ocimene smell and taste: herbal, floral and warm"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Chemical references describe beta-ocimene as having a warm, herbaceous aroma, and flavor chemists file its taste under floral. Picture a handful of fresh herbs with a soft, flowery lift rather than anything sharp or skunky."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In cannabis, ocimene usually plays a supporting part. It rounds out a profile built on other terpenes, adding a fresh, green edge rather than defining the smell on its own."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "where-ocimene-occurs-in-nature",
+   "text": "Where ocimene occurs in nature"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Ocimene is one of the most widespread scents in the plant world:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Flowers."
+      },
+      " It ranks among the most common compounds in floral scents. Citing a published list of floral scent compounds, one review reports trans-beta-ocimene in the flower scents of 71% of the 90 plant families on it, from snapdragons to mandarin blossoms."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Leaves."
+      },
+      " Many plants also release it from their leaves, especially when insects start feeding, as part of their defenses."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Hops and herbs."
+      },
+      " It has been reported in hops, and basil, its namesake, carries it too."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Fruit."
+      },
+      " In some mangoes it leads the aroma: a 2026 study of two mango varieties found beta-ocimene was the main aroma compound in one of them."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-ocimene-may-add-to-a-cannabis-profile",
+   "text": "What ocimene may add to a cannabis profile"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Most of what ocimene does in cannabis is about aroma. A little can brighten an earthy profile with a fresh, herbal top note. In lab data from California, it appeared beside myrcene and limonene in some cultivars, and beside myrcene and alpha-pinene in others."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Studies in people haven't shown whether ocimene changes the way cannabis feels, so descriptions of it as uplifting or energizing rest on anecdote. The broader idea that terpenes and cannabinoids work together, called ",
+    {
+     "text": "the entourage effect",
+     "href": "blog/the-entourage-effect/"
+    },
+    ", is still being tested too."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "early-lab-research-on-fungi-and-inflammation-with-its-limits",
+   "text": "Early lab research on fungi and inflammation, with its limits"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Ocimene has turned up in a handful of lab studies, mostly as part of essential oils:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Fungi."
+      },
+      " In a 2015 lab study, an essential oil rich in cis-beta-ocimene, and the isolated compound itself, held back the growth of several fungi. Alpha-pinene, the oil's other main component, was the stronger of the two."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Inflammation."
+      },
+      " In a 2013 study, an essential oil that was more than 40% ocimene lowered nitric oxide, an inflammation signal, produced by immune cells in a dish. But the single compound the researchers tested from that oil was sabinene, not ocimene, so the result can't be pinned on ocimene."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "These are test-tube results with concentrated oils. They don't show that the ocimene in cannabis does anything for a person's health, and they're no reason to choose a product for a health concern. If you're managing a condition, talk with your doctor."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "strains-often-reported-with-notable-ocimene",
+   "text": "Strains often reported with notable ocimene"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Online strain lists name plenty of ocimene strains, but published lab data paints a more modest picture. In a 2017 study of 233 samples representing 30 cultivars from one California medical dispensary, ocimene never led a group's terpene profile."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Its best showing was in cultivars sold as Strawberry Haze, where trans-ocimene ranked second behind myrcene; the study grouped Strawberry Cough with it. In a set of purple-named cultivars, including Grape Ape and Purple Urkle, ocimene came after myrcene and alpha-pinene."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Those names are examples from one dispensary several years ago, not a list of what any store carries. The same strain name from a different grower can test very differently, so use a name as a starting point and the batch's lab results as the final word."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "finding-ocimene-on-a-label-or-menu",
+   "text": "Finding ocimene on a label or menu"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Terpene results don't always make it onto the package. Look for a terpene panel on the label, in the menu listing or in the producer's lab report, then check:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The name."
+      },
+      " Ocimene, beta-ocimene, cis-ocimene and trans-ocimene all point to the same family."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The rank."
+      },
+      " In the top three or four, it is probably shaping the aroma. Further down, it is background."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The leaders."
+      },
+      " Ocimene adds to the profile set by the top terpenes rather than defining it, so read it in that context."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The units."
+      },
+      " Terpenes are usually listed as a percentage of weight or in milligrams per gram."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Prefer to ask in person? Our budtenders are happy to help you compare what's listed, and cannabis is for adults 21 and older."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "How would you describe ocimene's aroma?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Warm, herbal and floral. Chemical references describe beta-ocimene as having a warm, herbaceous aroma, and flavor chemists file its taste under floral. In cannabis it usually sits in the background, adding a fresh, green lift to a profile led by other terpenes. Think of a handful of fresh herbs or a flower bed rather than citrus peel or pine needles."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Is ocimene linked to an uplifting feel?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not by any research in people. You'll see ocimene described as uplifting or energizing online, but those descriptions come from anecdote and marketing rather than studies of how it changes cannabis effects. How a product feels depends mostly on its THC and CBD content, the amount you take and your own body, so judge it by your own experience."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Which strains tend to carry ocimene?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "In one California lab study, ocimene stood out most in cultivars sold as Strawberry Haze and Strawberry Cough, and it also appeared in purple-named cultivars such as Grape Ape. Strain names aren't consistent from grower to grower, though, and these are examples rather than a list of what any store stocks. The batch's terpene results are the reliable guide."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How common is ocimene in cannabis?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Common as a supporting player, rare as the star. In a dataset of 30 California cultivars it never led a group's terpene profile, and its best showing was second place behind myrcene. So if ocimene sits near the top of a terpene panel, you've found something a little unusual."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "PubChem (NIH): beta-Ocimene, aroma, flavor profile and reported natural sources",
+    "host": "pubchem.ncbi.nlm.nih.gov",
+    "href": "https://pubchem.ncbi.nlm.nih.gov/compound/18756"
+   },
+   {
+    "label": "Farré-Armengol et al. (2017), β-Ocimene, a Key Floral and Foliar Volatile Involved in Multiple Interactions between Plants and Other Organisms, Molecules",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/28703755/"
+   },
+   {
+    "label": "Li et al. (2026), Integrative analysis of volatile organic compounds and transcriptional-metabolic networks in two mango cultivars with contrasting aromas, Food Research International",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/42116446/"
+   },
+   {
+    "label": "Fischedick (2017), Identification of Terpenoid Chemotypes Among High (-)-trans-Δ9-Tetrahydrocannabinol-Producing Cannabis sativa L. Cultivars, Cannabis and Cannabinoid Research",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/28861503/"
+   },
+   {
+    "label": "Cavaleiro et al. (2015), Antifungal activity of the essential oil of Angelica major against Candida, Cryptococcus, Aspergillus and dermatophyte species, Journal of Natural Medicines",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/25576097/"
+   },
+   {
+    "label": "Valente et al. (2013), Antifungal, antioxidant and anti-inflammatory activities of Oenanthe crocata L. essential oil, Food and Chemical Toxicology",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/24012643/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

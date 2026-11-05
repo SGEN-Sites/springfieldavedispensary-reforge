@@ -1,0 +1,392 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-bulletproof-cannabis-coffee/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Bulletproof Cannabis Coffee, Dosed Your Way",
+  "accent": "Coffee"
+ },
+ "dek": "A five-minute butter coffee where only part of the fat is infused, so you learn your dose before you scale up.",
+ "pictureKey": "blog-bulletproof-cannabis-coffee",
+ "pictureAlt": "A creamy, frothy coffee in a black mug on dark slate with a pat of butter and scattered coffee beans",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Swap only part of the fat for canna-coconut oil or infused ghee, starting at 1/8 to 1/4 teaspoon."
+    ]
+   },
+   {
+    "runs": [
+     "THC in food can need 2 hours to register and lingers for hours, so make this a day-off drink."
+    ]
+   },
+   {
+    "runs": [
+     "Hot coffee builds steam in a blender: fill it halfway at most, vent it the way your manual says and start slow."
+    ]
+   },
+   {
+    "runs": [
+     "In the first controlled human study of the pair (2025), caffeine barely changed how THC felt."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Dosing and safety: start small, plan a slow day",
+    "href": "#dosing-and-safety-start-small-plan-a-slow-day"
+   },
+   {
+    "text": "What goes in cannabis coffee",
+    "href": "#what-goes-in-cannabis-coffee"
+   },
+   {
+    "text": "How to blend hot coffee safely",
+    "href": "#how-to-blend-hot-coffee-safely"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Variations",
+    "href": "#variations"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Cannabis coffee in the bulletproof style is hot coffee blended with butter or ghee and coconut oil until creamy and foamy. THC dissolves in fat, so a measured spoon of canna-coconut oil or infused ghee blends right in, while the rest of the fat stays plain to keep the dose small."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-and-safety-start-small-plan-a-slow-day",
+   "text": "Dosing and safety: start small, plan a slow day"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If your canna-coconut oil works out to about 13 mg per teaspoon at most, a quarter teaspoon carries about 3 mg and an eighth about 1.6 mg. Infused food can take as long as 2 hours to register, and its effects can linger 4 to 12 hours, so a morning cup shapes your whole day. Make it a day-off drink, never one before work or driving. Our ",
+    {
+     "text": "THC dosage guide",
+     "href": "blog/edibles-101-dosing/"
+    },
+    " walks through first doses."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-goes-in-cannabis-coffee",
+   "text": "What goes in cannabis coffee"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Most of the fat is plain: a tablespoon of unsalted butter or ghee and a teaspoon or two of coconut or MCT oil. The infused part is just 1/8 to 1/4 teaspoon of canna-coconut oil or infused ghee, from our ",
+    {
+     "text": "cannabutter recipe",
+     "href": "blog/canna-butter-recipe/"
+    },
+    " or ",
+    {
+     "text": "canna oil recipe",
+     "href": "blog/canna-oil-recipe/"
+    },
+    ". Measure it with a real measuring spoon, and add a pinch of salt."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "how-to-blend-hot-coffee-safely",
+   "text": "How to blend hot coffee safely"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Warm the blender jar with hot tap water first. Fill it no more than halfway, since steam can push hot liquid past the lid, and vent the lid the way your blender's manual says for hot liquids. Hold a folded towel over the lid, start on the lowest speed, then raise it and blend for about 20 seconds, until foamy. A milk frother in a tall mug works too."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Drink it right away, before it separates and before anyone else can grab an infused cup. Keep the infused oil labeled with its strength and date, apart from the plain oil and out of children's and pets' reach. Homemade oils made with herbs belong in the fridge for no more than 4 days, so freeze small portions of what you won't use by then."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "variations",
+   "text": "Variations"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Dairy-free:"
+      },
+      " plain coconut oil in place of the butter, with canna-coconut oil rather than infused ghee."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Iced:"
+      },
+      " blend with room-temperature coffee, then pour over ice."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Spiced:"
+      },
+      " a pinch of cinnamon and a drop of vanilla."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Sweet:"
+      },
+      " maple syrup, or ",
+      {
+       "text": "canna-honey",
+       "href": "blog/canna-honey/"
+      },
+      " with all-plain oils."
+     ]
+    }
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "1 serving"
+   },
+   {
+    "label": "Prep time",
+    "value": "5 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "5 minutes"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "1 cup hot, strong brewed coffee"
+        ]
+       },
+       {
+        "runs": [
+         "1 tablespoon unsalted butter or ghee"
+        ]
+       },
+       {
+        "runs": [
+         "1 to 2 teaspoons plain coconut or MCT oil"
+        ]
+       },
+       {
+        "runs": [
+         "1/8 to 1/4 teaspoon canna-coconut oil or infused ghee (see the note)"
+        ]
+       },
+       {
+        "runs": [
+         "Pinch of salt"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Brew the coffee."
+        ]
+       },
+       {
+        "runs": [
+         "Warm the blender jar with hot tap water, then pour the water out."
+        ]
+       },
+       {
+        "runs": [
+         "Add the coffee, butter or ghee, plain oil, measured infused oil and salt, filling the jar no more than halfway."
+        ]
+       },
+       {
+        "runs": [
+         "Set the lid the way your blender's manual says for hot liquids, hold a folded towel over it and start on the lowest speed."
+        ]
+       },
+       {
+        "runs": [
+         "Raise the speed gradually and blend for about 20 seconds, until creamy and foamy. Drink it right away."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "Estimate only: if your canna-coconut oil comes to about 13 mg per teaspoon, a quarter teaspoon is roughly 3 mg and an eighth roughly 1.6 mg. How strong your oil really is comes down to the starting flower and the losses from decarbing and infusing. Begin at the low end and let at least 2 hours go by before another cup. The oil jar needs a clear label and a spot kids and pets can't reach."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "How much canna-oil should go in coffee?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "An eighth to a quarter teaspoon. With oil at about 13 mg per teaspoon at most, a quarter teaspoon is roughly 3 mg. Canada's chief medical officers of health set 2.5 mg as a sensible ceiling for a first edible, so an eighth is the cautious start."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Does caffeine change how THC feels?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not much, according to the first controlled human study of the pair. In a 2025 Johns Hopkins trial with 20 adults, adding about 180 mg of caffeine to 7.5 mg of oral THC barely changed THC's effects, impairment or blood levels. It may have shifted how impaired people felt behind the wheel, and it won't cancel out THC."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I use cannabutter instead of coconut oil?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes. Butter coffee already calls for butter, so swapping part of it for cannabutter or infused ghee works the same way. Measure the infused portion by the teaspoon and keep the rest of the fat plain, so the dose stays small."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Strickland J.C. et al., Effect of caffeine and cannabidiol co-administration on THC subjective effects, performance impairment and pharmacokinetics, Neuropsychopharmacology (2025)",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/40962814/"
+   },
+   {
+    "label": "Public Health Agency of Canada: Council of Chief Medical Officers of Health statement on cannabis extracts, edibles and topicals (2020)",
+    "host": "canada.ca",
+    "href": "https://www.canada.ca/en/public-health/news/2020/01/council-of-chief-medical-officers-of-health-ccmoh-statement-on-cannabis-extracts-edibles-and-topical-products.html"
+   },
+   {
+    "label": "CDC: Botulism Prevention (homemade oils made with garlic or herbs)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/botulism/prevention/index.html"
+   },
+   {
+    "label": "University of Georgia Extension, Circular 1334: How to Safely Make Infused Oils (2024)",
+    "host": "fieldreport.caes.uga.edu",
+    "href": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)"
+   },
+   {
+    "href": "blog/canna-butter-recipe/",
+    "imageKey": "blog-canna-butter-recipe",
+    "catLabel": "Recipes",
+    "title": "Canna-Butter (Ghee or Butter, Water-Bath Method)"
+   },
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)"
+   }
+  ]
+ }
+}

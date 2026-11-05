@@ -1,0 +1,633 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-marijuana-and-intimacy/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Marijuana and Sex: Research, Dosing and Communication",
+  "accent": "Sex"
+ },
+ "dek": "Some adults say cannabis changes their intimate life, for better or worse. Here is what studies actually found, why dose matters, and how to explore with consent and care.",
+ "pictureKey": "blog-marijuana-and-intimacy",
+ "pictureAlt": "Two cups of herbal tea, a lit candle, cannabis leaves and an amber dropper bottle on a tray on dark silk",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Surveys suggest some adults enjoy sex more after using cannabis, while others find it leaves them sleepy or less focused, or makes no difference."
+    ]
+   },
+   {
+    "runs": [
+     "A large 2017 study linked cannabis use with more frequent sex, but it can’t show that cannabis caused it."
+    ]
+   },
+   {
+    "runs": [
+     "Dose matters: a 2020 review found low doses generally helped or did nothing for women's desire, while high doses got in the way."
+    ]
+   },
+   {
+    "runs": [
+     "Talk first, agree on boundaries while you’re both sober, and never give cannabis to anyone without their clear consent."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "What people report",
+    "href": "#what-people-report"
+   },
+   {
+    "text": "The science: the endocannabinoid system, arousal and anxiety",
+    "href": "#the-science-the-endocannabinoid-system-arousal-and-anxiety"
+   },
+   {
+    "text": "Marijuana and sex: what studies found, and their limits",
+    "href": "#marijuana-and-sex-what-studies-found-and-their-limits"
+   },
+   {
+    "text": "Dosing: less is more",
+    "href": "#dosing-less-is-more"
+   },
+   {
+    "text": "Choosing formats and profiles",
+    "href": "#choosing-formats-and-profiles"
+   },
+   {
+    "text": "Setting the mood",
+    "href": "#setting-the-mood"
+   },
+   {
+    "text": "Communication and consent",
+    "href": "#communication-and-consent"
+   },
+   {
+    "text": "THC vs. CBD in intimacy",
+    "href": "#thc-vs-cbd-in-intimacy"
+   },
+   {
+    "text": "Beyond indica vs. sativa: terpenes and personal response",
+    "href": "#beyond-indica-vs-sativa-terpenes-and-personal-response"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "Marijuana and sex is a topic plenty of adults are curious about, and a growing body of research has tried to answer it. The short version: some people report more desire and enjoyment, others report the opposite, and dose seems to make a big difference. This guide covers what studies found, where they fall short, and how to explore with consent and communication at the center."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-people-report",
+   "text": "What people report"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Most of what's known about cannabis and intimacy comes from surveys that ask people to describe their own experiences."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In a 2019 online survey of 216 adults who had used cannabis around sex, 38.7% said sex was better and 24.5% said it was sometimes better. Another 16% said it was better in some ways and worse in others, and only 4.7% said it was worse. Most reported more desire, greater sensitivity to touch and an easier time relaxing. Others found that cannabis made them sleepy or less focused, or that it made no difference at all."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "A separate 2019 survey of 373 women at a gynecology practice found that about a third had used cannabis before sex. Most of those women reported more desire and more satisfying orgasms, with no change in lubrication."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "These are self-reports from people who chose to answer, so they describe experiences rather than prove effects."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "the-science-the-endocannabinoid-system-arousal-and-anxiety",
+   "text": "The science: the endocannabinoid system, arousal and anxiety"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Your body makes its own cannabinoid-like messengers as part of the endocannabinoid system, a signaling network involved in mood, stress, appetite and more. Researchers have long suspected it plays a role in sexual response."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The picture is more complicated than \"cannabis turns it up.\" In a small 2012 study of 21 women, rising arousal while watching an erotic film went along with falling levels of the body's own endocannabinoids. That suggests the system is involved, though not in a simple, more-is-better way."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Anxiety is the other half of the story. Some people say a little THC eases self-consciousness and helps them stay present. Others find that THC, especially at higher doses, brings racing thoughts or worry, which is the opposite of what intimacy needs."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "marijuana-and-sex-what-studies-found-and-their-limits",
+   "text": "Marijuana and sex: what studies found, and their limits"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The best-known study drew on a large national survey. In 2017, Stanford researchers analyzed answers from more than 50,000 adults in the National Survey of Family Growth. Women who used cannabis monthly, weekly or daily, and men who used it weekly or daily, reported having sex more often in the previous four weeks than people who had never used it. The pattern held across demographic groups."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Not every finding points the same way. A 2019 analysis pooled five studies covering 3,395 men. Erectile dysfunction was roughly twice as common among men who smoked cannabis as among those who didn't. The studies varied widely, and the authors called for longer-term research to sort out cause and effect."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Keep these limits in mind:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Association isn't causation."
+      },
+      " People who use cannabis may differ from people who don't in many other ways."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Most data are self-reported."
+      },
+      " Surveys rely on memory and candor, and volunteers may be enthusiasts."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Heavy users are overrepresented."
+      },
+      " In the 2019 online survey, more than a third of participants used cannabis daily."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Dose and product are rarely measured."
+      },
+      " Few studies record how much THC people took, or in what form."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Snapshots, not timelines."
+      },
+      " The national survey captured a single point in time, and it measured how often people had sex, not how good it was."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "What's missing are controlled trials that give people measured doses and track sexual function over time. Until those exist, the research describes patterns and personal reports, not reliable effects."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-less-is-more",
+   "text": "Dosing: less is more"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If one finding holds up across the research, it's that dose matters. A 2020 review of 12 human and 8 animal studies looked at cannabinoids and female sexual function. It found dose-dependent effects on desire: low doses generally helped or did nothing, while high doses got in the way. The human data came mainly from questionnaires, so even this pattern needs more study."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "That matches what many people describe about THC and libido: a small amount can feel relaxing and sensory, while too much can leave you foggy, anxious or sleepy."
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Go lower than usual."
+      },
+      " Start with the smallest amount you'd use on any evening, or less."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Try it solo first."
+      },
+      " Learn how a product affects you before bringing it into a shared moment."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Wait for the full effect"
+      },
+      " before you decide on more."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Keep notes"
+      },
+      " on the product, the amount and how it went."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Tolerance changes the math, too. Someone who uses cannabis daily may need more to feel anything, while an occasional consumer can feel a small dose strongly. Partners rarely share the same tolerance, so each person should dose for themselves."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "choosing-formats-and-profiles",
+   "text": "Choosing formats and profiles"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Inhaled cannabis,"
+      },
+      " from flower or a vape, is felt within minutes and fades within a few hours, so it's easier to adjust a little at a time."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Edibles"
+      },
+      " are slower and last longer. If you're considering edibles for date night, take them well ahead of time and never add more while you wait. A late-arriving edible can turn a planned evening into a sleepy one."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Drinks"
+      },
+      " behave much like edibles, and timing varies from product to product."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Lower-THC or balanced products,"
+      },
+      " with similar amounts of THC and CBD, keep the THC dose down and the experience easier to manage."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "setting-the-mood",
+   "text": "Setting the mood"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Pick a comfortable, private space"
+      },
+      " where you won't be interrupted."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Choose a relaxed night."
+      },
+      " Effects can linger, so an evening without early plans the next morning works best."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Keep water nearby."
+      },
+      " Dry mouth is a common side effect of cannabis."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Have a light snack ready,"
+      },
+      " and skip a heavy meal right beforehand."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Leave alcohol out of it."
+      },
+      " Adding it to cannabis raises the odds of feeling more impaired than you planned."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Plan protection and anything else you'll need"
+      },
+      " ahead of time, while you're thinking clearly."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "communication-and-consent",
+   "text": "Communication and consent"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Cannabis should never be a shortcut around a conversation. Talk before anyone consumes: whether you both want to try it, how much, and what you'd like to do or avoid."
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Consent comes first, and it's ongoing."
+      },
+      " Either of you can change your mind at any point."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Set boundaries while you're both sober."
+      },
+      " Decide on limits before cannabis is involved."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Stop if either of you is too impaired to make clear choices."
+      },
+      " Someone who's too high can't meaningfully consent."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Never give cannabis to anyone without their clear knowledge and agreement,"
+      },
+      " including in food or drinks."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Check in during and after."
+      },
+      " A simple \"how are you feeling?\" keeps you both comfortable."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Have a plan B."
+      },
+      " Agree on what you'll do if either of you feels too high or simply isn't into it: slow down, switch to something low-key, drink some water and rest."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Deciding that cannabis isn't part of your intimate life is a perfectly good outcome, too. Cannabis is for consenting adults 21 and older."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "thc-vs-cbd-in-intimacy",
+   "text": "THC vs. CBD in intimacy"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "THC is the intoxicating cannabinoid, and it drives most of the effects people describe, good and bad. CBD isn't intoxicating, and little research has looked at CBD and arousal specifically. Some people choose balanced THC and CBD products hoping for a gentler experience, but that idea hasn't been tested in intimate settings."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "beyond-indica-vs-sativa-terpenes-and-personal-response",
+   "text": "Beyond indica vs. sativa: terpenes and personal response"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You'll find lists of the best strains for intimacy online, but neither strain names nor indica and sativa labels are reliable guides. The labels don't reliably reflect a plant's genetics or chemistry, and two people can react very differently to the same product."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Terpenes offer a better way to describe what you enjoy. If a citrusy or floral aroma appeals to you, look for limonene or linalool on the terpene panel. Keep expectations modest, though: terpenes shape aroma and flavor, and claims about specific effects go beyond the evidence. Our ",
+    {
+     "text": "guide to cannabis terpenes",
+     "href": "blog/understanding-terpenes/"
+    },
+    " has more."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Your own body has the last word. If you have ongoing concerns about desire, arousal or sexual function, take medications, or are pregnant or trying to conceive, talk to a clinician. Changes in libido can have many causes, and cannabis isn't a fix for any of them."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Is cannabis an aphrodisiac?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not in any proven sense. Some people report more desire and enjoyment after using cannabis, and a large survey linked cannabis use with having sex more often. But those studies can’t show cause and effect, other people report the opposite, and higher doses may dampen desire. It affects people differently rather than working as a reliable enhancer."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Does cannabis boost a low libido?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "There’s no solid evidence that it does. Some people report more desire after using cannabis, but those reports come from surveys, and higher doses may have the opposite effect. Low libido can have many causes, from stress to medications to hormones, so it’s worth talking to a clinician about."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Are edibles good for date night?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "They can work, but timing is tricky. Edibles are slow to start and last for hours, so a dose taken too late or too large can leave you sleepy right when you’d rather be present. If you try one, take a low dose well ahead of time, agree on a plan together and never add a second dose while you wait."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "What dose works best for intimacy?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Less than you might think. A 2020 review found dose-dependent effects on desire in women: low doses generally helped or did nothing, while high doses got in the way. Start with the smallest amount you’d normally use, or less, try it on your own first, and let the full effect arrive before you decide on more."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Sun and Eisenberg (2017), marijuana use and sexual frequency in the United States, Journal of Sexual Medicine",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/29110804/"
+   },
+   {
+    "label": "Lynn et al. (2019), marijuana use prior to sex and sexual function in women, Sexual Medicine",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522945/"
+   },
+   {
+    "label": "Wiebe and Just (2019), how cannabis alters sexual experience: a survey of men and women, Journal of Sexual Medicine",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/31447385/"
+   },
+   {
+    "label": "Lynn et al. (2020), effects of cannabinoids on female sexual function, Sexual Medicine Reviews",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/31521567/"
+   },
+   {
+    "label": "Pizzol et al. (2019), cannabis use and erectile dysfunction: systematic review and meta-analysis, American Journal of Men’s Health",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6893937/"
+   },
+   {
+    "label": "Klein et al. (2012), circulating endocannabinoid concentrations and sexual arousal in women, Journal of Sexual Medicine",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3856894/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

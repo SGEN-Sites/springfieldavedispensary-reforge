@@ -1,0 +1,811 @@
+{
+ "_note": "Lane blog, owner-supplied posts (2026-11-05). DERIVED FILE (local import converter): the one declared label the imported posts add, and their head fields (pageMeta, merged by build.mjs like ui-labels.json pageMeta).",
+ "labels": [
+  {
+   "text": "Nov 05, 2026",
+   "why": "publish date shown on the 32 owner-supplied posts added on 2026-11-05 (the day they were added to Springfield; the source carried its own preview build date, which is not a Springfield date)"
+  },
+  {
+   "text": "A clean glass water pipe and a small glass flask on dark stone beside coarse salt and cotton swabs",
+   "why": "alt text of the owner-approved AI image of blog/a-spring-cleaning-guide-on-pipes-and-bongs/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A plain glass jar of golden infused oil beside a copper pot, with a dish of golden kief and rosemary on dark stone",
+   "why": "alt text of the owner-approved AI image of blog/canna-oil-recipe/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Two potted cannabis plants side by side on a black background, one short and one much taller",
+   "why": "alt text of the owner-approved AI image of blog/indica-vs-sativa/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Lamb meatballs in red chile sauce with fresh cilantro in a black cast-iron skillet",
+   "why": "alt text of the owner-approved AI image of blog/lamb-meatballs-in-red-sauce/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A macro of glistening cannabis trichomes with a small vial of golden oil behind them",
+   "why": "alt text of the owner-approved AI image of blog/what-is-cbc-cannabichromene/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A glass jar of glossy raspberry jam with a spoon, fresh raspberries scattered on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/canna-berry-freezer-jam/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Five cannabis buds in a row on dark slate, four in shades of green and one deep purple bud in the middle",
+   "why": "alt text of the owner-approved AI image of blog/top-cannabis-strains-of-2026/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A ruby spiced mocktail in a rocks glass over ice with an orange peel twist and cherries, cinnamon dusted on the table",
+   "why": "alt text of the owner-approved AI image of blog/fruitcake-canna-cocktail/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A slate tasting board of mango, green grapes, dark chocolate and popcorn",
+   "why": "alt text of the owner-approved AI image of blog/cannabis-tasting-what-are-munchies/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Two flutes of citrus juice and sparkling water beside amber dropper bottles and orange slices on a dark bar",
+   "why": "alt text of the owner-approved AI image of blog/citrus-mimosa-party-with-single-strain-tinctures/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Two cups of herbal tea, a lit candle, cannabis leaves and an amber dropper bottle on a tray on dark silk",
+   "why": "alt text of the owner-approved AI image of blog/marijuana-and-intimacy/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A jar of smooth almond butter with a wooden spoon, whole almonds and apple slices on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/cannabis-infused-almond-butter/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Pea-sized pieces of cannabis flower spread in a single layer on a parchment-lined baking sheet in front of a glowing oven",
+   "why": "alt text of the owner-approved AI image of blog/cannabis-decarboxylation/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A pepperoni pizza with a blistered crust drizzled with hot honey on a dark wooden board",
+   "why": "alt text of the owner-approved AI image of blog/hot-honey-pizza/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A frosty cannabis bud between two lemon halves and fresh mint on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/strains-that-make-you-laugh/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A creamy, frothy coffee in a black mug on dark slate with a pat of butter and scattered coffee beans",
+   "why": "alt text of the owner-approved AI image of blog/bulletproof-cannabis-coffee/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Sprigs of lavender beside a frosty cannabis bud and scattered seeds on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/linalool-terpene/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A black bowl of glossy barbecue sauce with a basting brush, charred red peppers beside it",
+   "why": "alt text of the owner-approved AI image of blog/sweet-and-smokey-bbq-sauce/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A purple cannabis bud beside a cup of tea and a lit candle on a dark night table",
+   "why": "alt text of the owner-approved AI image of blog/indica-strains-for-sleep/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A frozen strawberry lemonade slush in a tall glass with a lemon wheel and strawberries on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/frozen-strawberry-canna-nade/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A tall glass of iced water beside a cannabis leaf on dark stone",
+   "why": "alt text of the owner-approved AI image of blog/does-weed-dehydrate-you/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A small glass bottle of golden syrup beside a copper jigger and a lemon twist on dark marble",
+   "why": "alt text of the owner-approved AI image of blog/infused-simple-syrup/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Mango slices and fresh basil around a frosty cannabis bud on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/terpenes-ocimene/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "No-bake chocolate oatmeal cookies with cherries and pecans on parchment on dark slate",
+   "why": "alt text of the owner-approved AI image of blog/no-bake-cannabis-oatmeal-cookies/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A frosty cannabis cola with orange pistils in front of snow-dusted mountain peaks at dusk",
+   "why": "alt text of the owner-approved AI image of blog/what-is-kush-cannabis/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A dark bowl piled with golden granola clusters, more clusters scattered on a wooden board",
+   "why": "alt text of the owner-approved AI image of blog/hemp-almond-granola-clusters/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A matte black vape pen with an amber oil cartridge leaning on a dark stone in warm light",
+   "why": "alt text of the owner-approved AI image of blog/what-is-a-vape-pen/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A wooden honey dipper drizzling golden honey into a small glass jar on dark slate, with cannabis leaves and thyme behind it",
+   "why": "alt text of the owner-approved AI image of blog/canna-honey/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Two clear dropper bottles and a small vial of golden oil beside a frosty cannabis bud on dark stone",
+   "why": "alt text of the owner-approved AI image of blog/the-entourage-effect/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Three grilled cheese halves, two stacked, with melted cheese and caramelized onions on a wooden board with thyme",
+   "why": "alt text of the owner-approved AI image of blog/herbed-grilled-cheese/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "Peanut butter cheesecake bars with a chocolate drizzle and pretzel pieces on parchment",
+   "why": "alt text of the owner-approved AI image of blog/infused-peanut-butter-cheesecake-bars/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  },
+  {
+   "text": "A block of pale golden butter on a wooden board with a knife, a jar of ghee and cannabis leaves behind it",
+   "why": "alt text of the owner-approved AI image of blog/canna-butter-recipe/ (2026-11-05): describes the pixels, read at full resolution; not a claim"
+  }
+ ],
+ "pageMeta": {
+  "blog-a-spring-cleaning-guide-on-pipes-and-bongs": {
+   "title": "How to Clean a Bong, Pipe, Dab Rig, Vape and Grinder | Springfield Ave Dispensary Blog",
+   "description": "How to clean a bong, glass or wood pipe, dab rig, vape and grinder: supply lists, step-by-step methods, safety notes and how often to clean each piece.",
+   "canonical": "https://springfieldavedispensary.store/blog/a-spring-cleaning-guide-on-pipes-and-bongs",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide",
+    "og:description": "How to clean a bong, glass or wood pipe, dab rig, vape and grinder: supply lists, step-by-step methods, safety notes and how often to clean each piece.",
+    "og:url": "https://springfieldavedispensary.store/blog/a-spring-cleaning-guide-on-pipes-and-bongs",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide",
+    "twitter:description": "How to clean a bong, glass or wood pipe, dab rig, vape and grinder: supply lists, step-by-step methods, safety notes and how often to clean each piece.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide\",\"description\":\"How to clean a bong, glass or wood pipe, dab rig, vape and grinder: supply lists, step-by-step methods, safety notes and how often to clean each piece.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-a-spring-cleaning-guide-on-pipes-and-bongs-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/a-spring-cleaning-guide-on-pipes-and-bongs\"}}"
+   ]
+  },
+  "blog-canna-oil-recipe": {
+   "title": "Canna Oil Recipe: Fast Kief-Infused Olive Oil | Springfield Ave Dispensary Blog",
+   "description": "A quick canna oil recipe: kief infused into olive oil in a sealed jar water bath with no straining, plus flower directions, potency math and safe storage.",
+   "canonical": "https://springfieldavedispensary.store/blog/canna-oil-recipe",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Canna-Oil (Quick Kief or Flower Infusion)",
+    "og:description": "A quick canna oil recipe: kief infused into olive oil in a sealed jar water bath with no straining, plus flower directions, potency math and safe storage.",
+    "og:url": "https://springfieldavedispensary.store/blog/canna-oil-recipe",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-canna-oil-recipe-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Canna-Oil (Quick Kief or Flower Infusion)",
+    "twitter:description": "A quick canna oil recipe: kief infused into olive oil in a sealed jar water bath with no straining, plus flower directions, potency math and safe storage.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-canna-oil-recipe-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Canna-Oil (Quick Kief or Flower Infusion)\",\"description\":\"A quick canna oil recipe: kief infused into olive oil in a sealed jar water bath with no straining, plus flower directions, potency math and safe storage.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-canna-oil-recipe-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/canna-oil-recipe\"}}"
+   ]
+  },
+  "blog-indica-vs-sativa": {
+   "title": "Indica vs Sativa vs Hybrid: Differences, Effects, Chart | Springfield Ave Dispensary Blog",
+   "description": "Indica vs sativa vs hybrid, explained: where the labels come from, a comparison chart, the myths to drop and how terpenes and dose shape the way cannabis feels.",
+   "canonical": "https://springfieldavedispensary.store/blog/indica-vs-sativa",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You",
+    "og:description": "Indica vs sativa vs hybrid, explained: where the labels come from, a comparison chart, the myths to drop and how terpenes and dose shape the way cannabis feels.",
+    "og:url": "https://springfieldavedispensary.store/blog/indica-vs-sativa",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-indica-vs-sativa-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You",
+    "twitter:description": "Indica vs sativa vs hybrid, explained: where the labels come from, a comparison chart, the myths to drop and how terpenes and dose shape the way cannabis feels.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-indica-vs-sativa-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You\",\"description\":\"Indica vs sativa vs hybrid, explained: where the labels come from, a comparison chart, the myths to drop and how terpenes and dose shape the way cannabis feels.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-indica-vs-sativa-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/indica-vs-sativa\"}}"
+   ]
+  },
+  "blog-lamb-meatballs-in-red-sauce": {
+   "title": "Cannabis Meatballs: Lamb in Ancho-Guajillo Red Sauce | Springfield Ave Dispensary Blog",
+   "description": "Toasted-chile lamb meatballs simmered in a tomato red sauce finished with cannabutter, with simple per-serving dose math and an equal-ladle serving plan.",
+   "canonical": "https://springfieldavedispensary.store/blog/lamb-meatballs-in-red-sauce",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)",
+    "og:description": "Toasted-chile lamb meatballs simmered in a tomato red sauce finished with cannabutter, with simple per-serving dose math and an equal-ladle serving plan.",
+    "og:url": "https://springfieldavedispensary.store/blog/lamb-meatballs-in-red-sauce",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-lamb-meatballs-in-red-sauce-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)",
+    "twitter:description": "Toasted-chile lamb meatballs simmered in a tomato red sauce finished with cannabutter, with simple per-serving dose math and an equal-ladle serving plan.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-lamb-meatballs-in-red-sauce-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)\",\"description\":\"Toasted-chile lamb meatballs simmered in a tomato red sauce finished with cannabutter, with simple per-serving dose math and an equal-ladle serving plan.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-lamb-meatballs-in-red-sauce-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/lamb-meatballs-in-red-sauce\"}}"
+   ]
+  },
+  "blog-what-is-cbc-cannabichromene": {
+   "title": "What Is CBC? Cannabichromene and What Studies Show | Springfield Ave Dispensary Blog",
+   "description": "What is CBC? A guide to cannabichromene: how the plant makes it, why it isn't intoxicating, what early research explores and how to find it on lab reports.",
+   "canonical": "https://springfieldavedispensary.store/blog/what-is-cbc-cannabichromene",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says",
+    "og:description": "What is CBC? A guide to cannabichromene: how the plant makes it, why it isn't intoxicating, what early research explores and how to find it on lab reports.",
+    "og:url": "https://springfieldavedispensary.store/blog/what-is-cbc-cannabichromene",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-cbc-cannabichromene-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says",
+    "twitter:description": "What is CBC? A guide to cannabichromene: how the plant makes it, why it isn't intoxicating, what early research explores and how to find it on lab reports.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-cbc-cannabichromene-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says\",\"description\":\"What is CBC? A guide to cannabichromene: how the plant makes it, why it isn't intoxicating, what early research explores and how to find it on lab reports.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-what-is-cbc-cannabichromene-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/what-is-cbc-cannabichromene\"}}"
+   ]
+  },
+  "blog-canna-berry-freezer-jam": {
+   "title": "Cannabis Jam Recipe: Easy Infused Raspberry Jam | Springfield Ave Dispensary Blog",
+   "description": "A small-batch raspberry freezer jam infused after cooking with canna-coconut oil or a tincture, with per-tablespoon dosing and fridge or freezer storage.",
+   "canonical": "https://springfieldavedispensary.store/blog/canna-berry-freezer-jam",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Canna-Berry Freezer Jam with Raspberries",
+    "og:description": "A small-batch raspberry freezer jam infused after cooking with canna-coconut oil or a tincture, with per-tablespoon dosing and fridge or freezer storage.",
+    "og:url": "https://springfieldavedispensary.store/blog/canna-berry-freezer-jam",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-canna-berry-freezer-jam-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Canna-Berry Freezer Jam with Raspberries",
+    "twitter:description": "A small-batch raspberry freezer jam infused after cooking with canna-coconut oil or a tincture, with per-tablespoon dosing and fridge or freezer storage.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-canna-berry-freezer-jam-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Canna-Berry Freezer Jam with Raspberries\",\"description\":\"A small-batch raspberry freezer jam infused after cooking with canna-coconut oil or a tincture, with per-tablespoon dosing and fridge or freezer storage.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-canna-berry-freezer-jam-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/canna-berry-freezer-jam\"}}"
+   ]
+  },
+  "blog-top-cannabis-strains-of-2026": {
+   "title": "Top Cannabis Strains 2026: What to Know and Try | Springfield Ave Dispensary Blog",
+   "description": "Top cannabis strains 2026: classics and trending strain families with lineage, aroma and reported effects, plus how to choose a strain and format by lab data.",
+   "canonical": "https://springfieldavedispensary.store/blog/top-cannabis-strains-of-2026",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabis Strains Worth Knowing in 2026, and How to Choose One",
+    "og:description": "Top cannabis strains 2026: classics and trending strain families with lineage, aroma and reported effects, plus how to choose a strain and format by lab data.",
+    "og:url": "https://springfieldavedispensary.store/blog/top-cannabis-strains-of-2026",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-top-cannabis-strains-of-2026-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabis Strains Worth Knowing in 2026, and How to Choose One",
+    "twitter:description": "Top cannabis strains 2026: classics and trending strain families with lineage, aroma and reported effects, plus how to choose a strain and format by lab data.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-top-cannabis-strains-of-2026-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Cannabis Strains Worth Knowing in 2026, and How to Choose One\",\"description\":\"Top cannabis strains 2026: classics and trending strain families with lineage, aroma and reported effects, plus how to choose a strain and format by lab data.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-top-cannabis-strains-of-2026-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/top-cannabis-strains-of-2026\"}}"
+   ]
+  },
+  "blog-fruitcake-canna-cocktail": {
+   "title": "Fruitcake Canna-Cocktail: A Holiday THC Mocktail | Springfield Ave Dispensary Blog",
+   "description": "A holiday THC mocktail of chilled black tea, cranberry and berry preserves, with orange peel, warm fruitcake spices and a measured tincture. No liquor.",
+   "canonical": "https://springfieldavedispensary.store/blog/fruitcake-canna-cocktail",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "A Fruitcake-Spiced Canna-Cocktail Without the Booze",
+    "og:description": "A holiday THC mocktail of chilled black tea, cranberry and berry preserves, with orange peel, warm fruitcake spices and a measured tincture. No liquor.",
+    "og:url": "https://springfieldavedispensary.store/blog/fruitcake-canna-cocktail",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-fruitcake-canna-cocktail-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "A Fruitcake-Spiced Canna-Cocktail Without the Booze",
+    "twitter:description": "A holiday THC mocktail of chilled black tea, cranberry and berry preserves, with orange peel, warm fruitcake spices and a measured tincture. No liquor.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-fruitcake-canna-cocktail-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"A Fruitcake-Spiced Canna-Cocktail Without the Booze\",\"description\":\"A holiday THC mocktail of chilled black tea, cranberry and berry preserves, with orange peel, warm fruitcake spices and a measured tincture. No liquor.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-fruitcake-canna-cocktail-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/fruitcake-canna-cocktail\"}}"
+   ]
+  },
+  "blog-cannabis-tasting-what-are-munchies": {
+   "title": "What Are the Munchies? Why Cannabis Makes You Hungry | Springfield Ave Dispensary Blog",
+   "description": "What are the munchies? See why cannabis makes you hungry, from CB1 receptors to a sharper sense of smell, plus terpene-inspired snack pairings and tips.",
+   "canonical": "https://springfieldavedispensary.store/blog/cannabis-tasting-what-are-munchies",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "The Munchies Explained, Plus Terpene-Inspired Snack Pairings",
+    "og:description": "What are the munchies? See why cannabis makes you hungry, from CB1 receptors to a sharper sense of smell, plus terpene-inspired snack pairings and tips.",
+    "og:url": "https://springfieldavedispensary.store/blog/cannabis-tasting-what-are-munchies",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-tasting-what-are-munchies-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Munchies Explained, Plus Terpene-Inspired Snack Pairings",
+    "twitter:description": "What are the munchies? See why cannabis makes you hungry, from CB1 receptors to a sharper sense of smell, plus terpene-inspired snack pairings and tips.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-tasting-what-are-munchies-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Munchies Explained, Plus Terpene-Inspired Snack Pairings\",\"description\":\"What are the munchies? See why cannabis makes you hungry, from CB1 receptors to a sharper sense of smell, plus terpene-inspired snack pairings and tips.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-cannabis-tasting-what-are-munchies-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/cannabis-tasting-what-are-munchies\"}}"
+   ]
+  },
+  "blog-citrus-mimosa-party-with-single-strain-tinctures": {
+   "title": "Cannabis Mimosa Bar with Citrus and THC Tinctures | Springfield Ave Dispensary Blog",
+   "description": "Build a self-serve cannabis mimosa bar on sparkling water or alcohol-free bubbles, with citrus juices and labeled tinctures that guests measure themselves.",
+   "canonical": "https://springfieldavedispensary.store/blog/citrus-mimosa-party-with-single-strain-tinctures",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "A Self-Serve Citrus Mimosa Bar with THC Tinctures",
+    "og:description": "Build a self-serve cannabis mimosa bar on sparkling water or alcohol-free bubbles, with citrus juices and labeled tinctures that guests measure themselves.",
+    "og:url": "https://springfieldavedispensary.store/blog/citrus-mimosa-party-with-single-strain-tinctures",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "A Self-Serve Citrus Mimosa Bar with THC Tinctures",
+    "twitter:description": "Build a self-serve cannabis mimosa bar on sparkling water or alcohol-free bubbles, with citrus juices and labeled tinctures that guests measure themselves.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"A Self-Serve Citrus Mimosa Bar with THC Tinctures\",\"description\":\"Build a self-serve cannabis mimosa bar on sparkling water or alcohol-free bubbles, with citrus juices and labeled tinctures that guests measure themselves.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-citrus-mimosa-party-with-single-strain-tinctures-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/citrus-mimosa-party-with-single-strain-tinctures\"}}"
+   ]
+  },
+  "blog-marijuana-and-intimacy": {
+   "title": "Cannabis and Intimacy: What Research and Surveys Report | Springfield Ave Dispensary Blog",
+   "description": "Marijuana and sex: what studies on desire, satisfaction and dose found, their limits, THC vs. CBD, and how to explore with consent and clear communication.",
+   "canonical": "https://springfieldavedispensary.store/blog/marijuana-and-intimacy",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Marijuana and Sex: Research, Dosing and Communication",
+    "og:description": "Marijuana and sex: what studies on desire, satisfaction and dose found, their limits, THC vs. CBD, and how to explore with consent and clear communication.",
+    "og:url": "https://springfieldavedispensary.store/blog/marijuana-and-intimacy",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-marijuana-and-intimacy-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Marijuana and Sex: Research, Dosing and Communication",
+    "twitter:description": "Marijuana and sex: what studies on desire, satisfaction and dose found, their limits, THC vs. CBD, and how to explore with consent and clear communication.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-marijuana-and-intimacy-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Marijuana and Sex: Research, Dosing and Communication\",\"description\":\"Marijuana and sex: what studies on desire, satisfaction and dose found, their limits, THC vs. CBD, and how to explore with consent and clear communication.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-marijuana-and-intimacy-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/marijuana-and-intimacy\"}}"
+   ]
+  },
+  "blog-cannabis-infused-almond-butter": {
+   "title": "Cannabis Almond Butter: An Infused Nut Butter Recipe | Springfield Ave Dispensary Blog",
+   "description": "Make homemade cannabis almond butter with a measured spoon of canna-oil, work out the dose per two-tablespoon serving, and try easy flavors and pairings.",
+   "canonical": "https://springfieldavedispensary.store/blog/cannabis-infused-almond-butter",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Homemade Cannabis-Infused Almond Butter",
+    "og:description": "Make homemade cannabis almond butter with a measured spoon of canna-oil, work out the dose per two-tablespoon serving, and try easy flavors and pairings.",
+    "og:url": "https://springfieldavedispensary.store/blog/cannabis-infused-almond-butter",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-infused-almond-butter-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Homemade Cannabis-Infused Almond Butter",
+    "twitter:description": "Make homemade cannabis almond butter with a measured spoon of canna-oil, work out the dose per two-tablespoon serving, and try easy flavors and pairings.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-infused-almond-butter-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Homemade Cannabis-Infused Almond Butter\",\"description\":\"Make homemade cannabis almond butter with a measured spoon of canna-oil, work out the dose per two-tablespoon serving, and try easy flavors and pairings.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-cannabis-infused-almond-butter-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/cannabis-infused-almond-butter\"}}"
+   ]
+  },
+  "blog-cannabis-decarboxylation": {
+   "title": "How to Decarb Weed: A Cannabis Decarboxylation Guide | Springfield Ave Dispensary Blog",
+   "description": "How to decarb weed at home: what decarboxylation does, when you need it, temperatures and times that work, plus oven, jar, bag, water bath and device methods.",
+   "canonical": "https://springfieldavedispensary.store/blog/cannabis-decarboxylation",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabis Decarboxylation: What It Is and How to Decarb at Home",
+    "og:description": "How to decarb weed at home: what decarboxylation does, when you need it, temperatures and times that work, plus oven, jar, bag, water bath and device methods.",
+    "og:url": "https://springfieldavedispensary.store/blog/cannabis-decarboxylation",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-decarboxylation-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabis Decarboxylation: What It Is and How to Decarb at Home",
+    "twitter:description": "How to decarb weed at home: what decarboxylation does, when you need it, temperatures and times that work, plus oven, jar, bag, water bath and device methods.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-cannabis-decarboxylation-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Cannabis Decarboxylation: What It Is and How to Decarb at Home\",\"description\":\"How to decarb weed at home: what decarboxylation does, when you need it, temperatures and times that work, plus oven, jar, bag, water bath and device methods.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-cannabis-decarboxylation-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/cannabis-decarboxylation\"}}"
+   ]
+  },
+  "blog-hot-honey-pizza": {
+   "title": "Hot Honey Pizza: A Cannabis Pizza Recipe | Springfield Ave Dispensary Blog",
+   "description": "A homemade pepperoni and jalapeño pizza with canna-oil kneaded into the dough and an optional canna-honey drizzle, with clear per-slice dose math.",
+   "canonical": "https://springfieldavedispensary.store/blog/hot-honey-pizza",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Hot Honey Pepperoni Pizza with a Canna-Oil Crust",
+    "og:description": "A homemade pepperoni and jalapeño pizza with canna-oil kneaded into the dough and an optional canna-honey drizzle, with clear per-slice dose math.",
+    "og:url": "https://springfieldavedispensary.store/blog/hot-honey-pizza",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-hot-honey-pizza-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Hot Honey Pepperoni Pizza with a Canna-Oil Crust",
+    "twitter:description": "A homemade pepperoni and jalapeño pizza with canna-oil kneaded into the dough and an optional canna-honey drizzle, with clear per-slice dose math.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-hot-honey-pizza-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Hot Honey Pepperoni Pizza with a Canna-Oil Crust\",\"description\":\"A homemade pepperoni and jalapeño pizza with canna-oil kneaded into the dough and an optional canna-honey drizzle, with clear per-slice dose math.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-hot-honey-pizza-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/hot-honey-pizza\"}}"
+   ]
+  },
+  "blog-strains-that-make-you-laugh": {
+   "title": "Strains That Make You Laugh: The Science of the Giggles | Springfield Ave Dispensary Blog",
+   "description": "Why does cannabis make some people laugh? The science of THC, terpenes and good company, plus classic strains people link with the giggles and tips by format.",
+   "canonical": "https://springfieldavedispensary.store/blog/strains-that-make-you-laugh",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Which Strains Make You Laugh? The Science Behind Cannabis Giggles",
+    "og:description": "Why does cannabis make some people laugh? The science of THC, terpenes and good company, plus classic strains people link with the giggles and tips by format.",
+    "og:url": "https://springfieldavedispensary.store/blog/strains-that-make-you-laugh",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-strains-that-make-you-laugh-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Which Strains Make You Laugh? The Science Behind Cannabis Giggles",
+    "twitter:description": "Why does cannabis make some people laugh? The science of THC, terpenes and good company, plus classic strains people link with the giggles and tips by format.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-strains-that-make-you-laugh-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Which Strains Make You Laugh? The Science Behind Cannabis Giggles\",\"description\":\"Why does cannabis make some people laugh? The science of THC, terpenes and good company, plus classic strains people link with the giggles and tips by format.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-strains-that-make-you-laugh-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/strains-that-make-you-laugh\"}}"
+   ]
+  },
+  "blog-bulletproof-cannabis-coffee": {
+   "title": "Bulletproof Cannabis Coffee with Canna-Coconut Oil | Springfield Ave Dispensary Blog",
+   "description": "Blend a butter coffee with a small, adjustable spoon of canna-coconut oil or infused ghee, with tips for blending hot coffee safely and not overdoing it.",
+   "canonical": "https://springfieldavedispensary.store/blog/bulletproof-cannabis-coffee",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Bulletproof Cannabis Coffee, Dosed Your Way",
+    "og:description": "Blend a butter coffee with a small, adjustable spoon of canna-coconut oil or infused ghee, with tips for blending hot coffee safely and not overdoing it.",
+    "og:url": "https://springfieldavedispensary.store/blog/bulletproof-cannabis-coffee",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-bulletproof-cannabis-coffee-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Bulletproof Cannabis Coffee, Dosed Your Way",
+    "twitter:description": "Blend a butter coffee with a small, adjustable spoon of canna-coconut oil or infused ghee, with tips for blending hot coffee safely and not overdoing it.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-bulletproof-cannabis-coffee-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Bulletproof Cannabis Coffee, Dosed Your Way\",\"description\":\"Blend a butter coffee with a small, adjustable spoon of canna-coconut oil or infused ghee, with tips for blending hot coffee safely and not overdoing it.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-bulletproof-cannabis-coffee-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/bulletproof-cannabis-coffee\"}}"
+   ]
+  },
+  "blog-linalool-terpene": {
+   "title": "What Is the Linalool Terpene? Lavender Notes in Cannabis | Springfield Ave Dispensary Blog",
+   "description": "Learn what the linalool terpene is, why it smells floral, which plants make it, what relaxation, skin and immunity studies show, and how to spot it on labels.",
+   "canonical": "https://springfieldavedispensary.store/blog/linalool-terpene",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Linalool in Cannabis: Aroma, Sources and What Research Says",
+    "og:description": "Learn what the linalool terpene is, why it smells floral, which plants make it, what relaxation, skin and immunity studies show, and how to spot it on labels.",
+    "og:url": "https://springfieldavedispensary.store/blog/linalool-terpene",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-linalool-terpene-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Linalool in Cannabis: Aroma, Sources and What Research Says",
+    "twitter:description": "Learn what the linalool terpene is, why it smells floral, which plants make it, what relaxation, skin and immunity studies show, and how to spot it on labels.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-linalool-terpene-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Linalool in Cannabis: Aroma, Sources and What Research Says\",\"description\":\"Learn what the linalool terpene is, why it smells floral, which plants make it, what relaxation, skin and immunity studies show, and how to spot it on labels.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-linalool-terpene-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/linalool-terpene\"}}"
+   ]
+  },
+  "blog-sweet-and-smokey-bbq-sauce": {
+   "title": "Sweet and Smoky Cannabis BBQ Sauce Recipe | Springfield Ave Dispensary Blog",
+   "description": "Make a sweet, smoky cannabis BBQ sauce on the stove or the grill with cannabutter and optional canna-honey, then divide it into measured portions for dosing.",
+   "canonical": "https://springfieldavedispensary.store/blog/sweet-and-smokey-bbq-sauce",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabutter BBQ Sauce: Sweet, Smoky and Easy to Dose",
+    "og:description": "Make a sweet, smoky cannabis BBQ sauce on the stove or the grill with cannabutter and optional canna-honey, then divide it into measured portions for dosing.",
+    "og:url": "https://springfieldavedispensary.store/blog/sweet-and-smokey-bbq-sauce",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-sweet-and-smokey-bbq-sauce-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabutter BBQ Sauce: Sweet, Smoky and Easy to Dose",
+    "twitter:description": "Make a sweet, smoky cannabis BBQ sauce on the stove or the grill with cannabutter and optional canna-honey, then divide it into measured portions for dosing.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-sweet-and-smokey-bbq-sauce-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Cannabutter BBQ Sauce: Sweet, Smoky and Easy to Dose\",\"description\":\"Make a sweet, smoky cannabis BBQ sauce on the stove or the grill with cannabutter and optional canna-honey, then divide it into measured portions for dosing.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-sweet-and-smokey-bbq-sauce-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/sweet-and-smokey-bbq-sauce\"}}"
+   ]
+  },
+  "blog-indica-strains-for-sleep": {
+   "title": "Indica Strains for Sleep: Evening Picks for Winding Down | Springfield Ave Dispensary Blog",
+   "description": "Indica strains for sleep, explained: the terpenes and cannabinoids involved, classic evening profiles, formats, and what sleep research does and does not show.",
+   "canonical": "https://springfieldavedispensary.store/blog/indica-strains-for-sleep",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Indica Strains for Sleep: Profiles, Terpenes and Formats",
+    "og:description": "Indica strains for sleep, explained: the terpenes and cannabinoids involved, classic evening profiles, formats, and what sleep research does and does not show.",
+    "og:url": "https://springfieldavedispensary.store/blog/indica-strains-for-sleep",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-indica-strains-for-sleep-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Indica Strains for Sleep: Profiles, Terpenes and Formats",
+    "twitter:description": "Indica strains for sleep, explained: the terpenes and cannabinoids involved, classic evening profiles, formats, and what sleep research does and does not show.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-indica-strains-for-sleep-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Indica Strains for Sleep: Profiles, Terpenes and Formats\",\"description\":\"Indica strains for sleep, explained: the terpenes and cannabinoids involved, classic evening profiles, formats, and what sleep research does and does not show.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-indica-strains-for-sleep-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/indica-strains-for-sleep\"}}"
+   ]
+  },
+  "blog-frozen-strawberry-canna-nade": {
+   "title": "Frozen Strawberry Canna-nade: A THC Lemonade Recipe | Springfield Ave Dispensary Blog",
+   "description": "This THC lemonade recipe blends frozen strawberries and lemonade into a slush, with a measured tincture blended in before the ice so both glasses match.",
+   "canonical": "https://springfieldavedispensary.store/blog/frozen-strawberry-canna-nade",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "A THC Lemonade Slush: Frozen Strawberry Canna-nade",
+    "og:description": "This THC lemonade recipe blends frozen strawberries and lemonade into a slush, with a measured tincture blended in before the ice so both glasses match.",
+    "og:url": "https://springfieldavedispensary.store/blog/frozen-strawberry-canna-nade",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-frozen-strawberry-canna-nade-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "A THC Lemonade Slush: Frozen Strawberry Canna-nade",
+    "twitter:description": "This THC lemonade recipe blends frozen strawberries and lemonade into a slush, with a measured tincture blended in before the ice so both glasses match.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-frozen-strawberry-canna-nade-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"A THC Lemonade Slush: Frozen Strawberry Canna-nade\",\"description\":\"This THC lemonade recipe blends frozen strawberries and lemonade into a slush, with a measured tincture blended in before the ice so both glasses match.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-frozen-strawberry-canna-nade-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/frozen-strawberry-canna-nade\"}}"
+   ]
+  },
+  "blog-does-weed-dehydrate-you": {
+   "title": "Does Weed Dehydrate You? Cottonmouth Explained | Springfield Ave Dispensary Blog",
+   "description": "Does weed dehydrate you, or just dry your mouth? See why cannabis causes cottonmouth, which formats feel most drying and simple ways to stay comfortable.",
+   "canonical": "https://springfieldavedispensary.store/blog/does-weed-dehydrate-you",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Does Cannabis Dehydrate You? Why Your Mouth Gets Dry",
+    "og:description": "Does weed dehydrate you, or just dry your mouth? See why cannabis causes cottonmouth, which formats feel most drying and simple ways to stay comfortable.",
+    "og:url": "https://springfieldavedispensary.store/blog/does-weed-dehydrate-you",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-does-weed-dehydrate-you-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Does Cannabis Dehydrate You? Why Your Mouth Gets Dry",
+    "twitter:description": "Does weed dehydrate you, or just dry your mouth? See why cannabis causes cottonmouth, which formats feel most drying and simple ways to stay comfortable.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-does-weed-dehydrate-you-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Does Cannabis Dehydrate You? Why Your Mouth Gets Dry\",\"description\":\"Does weed dehydrate you, or just dry your mouth? See why cannabis causes cottonmouth, which formats feel most drying and simple ways to stay comfortable.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-does-weed-dehydrate-you-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/does-weed-dehydrate-you\"}}"
+   ]
+  },
+  "blog-infused-simple-syrup": {
+   "title": "Cannabis Simple Syrup: How to Make THC Syrup | Springfield Ave Dispensary Blog",
+   "description": "A cannabis simple syrup that really works: a glycerin or tincture method, since THC barely dissolves in sugar water, plus dose math and fridge storage.",
+   "canonical": "https://springfieldavedispensary.store/blog/infused-simple-syrup",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabis-Infused Simple Syrup That Actually Infuses",
+    "og:description": "A cannabis simple syrup that really works: a glycerin or tincture method, since THC barely dissolves in sugar water, plus dose math and fridge storage.",
+    "og:url": "https://springfieldavedispensary.store/blog/infused-simple-syrup",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-infused-simple-syrup-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabis-Infused Simple Syrup That Actually Infuses",
+    "twitter:description": "A cannabis simple syrup that really works: a glycerin or tincture method, since THC barely dissolves in sugar water, plus dose math and fridge storage.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-infused-simple-syrup-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Cannabis-Infused Simple Syrup That Actually Infuses\",\"description\":\"A cannabis simple syrup that really works: a glycerin or tincture method, since THC barely dissolves in sugar water, plus dose math and fridge storage.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-infused-simple-syrup-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/infused-simple-syrup\"}}"
+   ]
+  },
+  "blog-terpenes-ocimene": {
+   "title": "Ocimene Terpene: Aroma, Effects and Where It's Found | Springfield Ave Dispensary Blog",
+   "description": "A guide to the ocimene terpene: its herbal, floral aroma, the plants that make it, what early lab research suggests and how to find it in cannabis lab results.",
+   "canonical": "https://springfieldavedispensary.store/blog/terpenes-ocimene",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Ocimene: The Herbal, Floral Terpene in Cannabis",
+    "og:description": "A guide to the ocimene terpene: its herbal, floral aroma, the plants that make it, what early lab research suggests and how to find it in cannabis lab results.",
+    "og:url": "https://springfieldavedispensary.store/blog/terpenes-ocimene",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-terpenes-ocimene-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Ocimene: The Herbal, Floral Terpene in Cannabis",
+    "twitter:description": "A guide to the ocimene terpene: its herbal, floral aroma, the plants that make it, what early lab research suggests and how to find it in cannabis lab results.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-terpenes-ocimene-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Ocimene: The Herbal, Floral Terpene in Cannabis\",\"description\":\"A guide to the ocimene terpene: its herbal, floral aroma, the plants that make it, what early lab research suggests and how to find it in cannabis lab results.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-terpenes-ocimene-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/terpenes-ocimene\"}}"
+   ]
+  },
+  "blog-no-bake-cannabis-oatmeal-cookies": {
+   "title": "No-Bake Cannabis Cookies: Oatmeal, Cherry and Pecan | Springfield Ave Dispensary Blog",
+   "description": "Stovetop no-bake cannabis oatmeal cookies with cherries and pecans: cannabutter added off the heat, exactly 12 even cookies, gluten-free and vegan swaps.",
+   "canonical": "https://springfieldavedispensary.store/blog/no-bake-cannabis-oatmeal-cookies",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "No-Bake Cannabis Oatmeal Cookies with Tart Cherries and Pecans",
+    "og:description": "Stovetop no-bake cannabis oatmeal cookies with cherries and pecans: cannabutter added off the heat, exactly 12 even cookies, gluten-free and vegan swaps.",
+    "og:url": "https://springfieldavedispensary.store/blog/no-bake-cannabis-oatmeal-cookies",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-no-bake-cannabis-oatmeal-cookies-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "No-Bake Cannabis Oatmeal Cookies with Tart Cherries and Pecans",
+    "twitter:description": "Stovetop no-bake cannabis oatmeal cookies with cherries and pecans: cannabutter added off the heat, exactly 12 even cookies, gluten-free and vegan swaps.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-no-bake-cannabis-oatmeal-cookies-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"No-Bake Cannabis Oatmeal Cookies with Tart Cherries and Pecans\",\"description\":\"Stovetop no-bake cannabis oatmeal cookies with cherries and pecans: cannabutter added off the heat, exactly 12 even cookies, gluten-free and vegan swaps.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-no-bake-cannabis-oatmeal-cookies-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/no-bake-cannabis-oatmeal-cookies\"}}"
+   ]
+  },
+  "blog-what-is-kush-cannabis": {
+   "title": "What Is Kush? The Story Behind Kush Cannabis Strains | Springfield Ave Dispensary Blog",
+   "description": "What is Kush? The story of the Hindu Kush mountains, their landrace cannabis, how Kush reached the West, OG Kush, common traits and what 'kush' means as slang.",
+   "canonical": "https://springfieldavedispensary.store/blog/what-is-kush-cannabis",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Kush Cannabis: From the Hindu Kush Mountains to Today's Menus",
+    "og:description": "What is Kush? The story of the Hindu Kush mountains, their landrace cannabis, how Kush reached the West, OG Kush, common traits and what 'kush' means as slang.",
+    "og:url": "https://springfieldavedispensary.store/blog/what-is-kush-cannabis",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-kush-cannabis-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Kush Cannabis: From the Hindu Kush Mountains to Today's Menus",
+    "twitter:description": "What is Kush? The story of the Hindu Kush mountains, their landrace cannabis, how Kush reached the West, OG Kush, common traits and what 'kush' means as slang.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-kush-cannabis-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Kush Cannabis: From the Hindu Kush Mountains to Today's Menus\",\"description\":\"What is Kush? The story of the Hindu Kush mountains, their landrace cannabis, how Kush reached the West, OG Kush, common traits and what 'kush' means as slang.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-what-is-kush-cannabis-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/what-is-kush-cannabis\"}}"
+   ]
+  },
+  "blog-hemp-almond-granola-clusters": {
+   "title": "Cannabis Granola Recipe: Hemp Heart Almond Clusters | Springfield Ave Dispensary Blog",
+   "description": "Big, crunchy granola clusters with part of the coconut oil swapped for canna-oil, per half-cup dosing, and a plain answer on whether hemp seeds contain THC.",
+   "canonical": "https://springfieldavedispensary.store/blog/hemp-almond-granola-clusters",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Crunchy Infused Granola Clusters with Hemp Hearts and Almonds",
+    "og:description": "Big, crunchy granola clusters with part of the coconut oil swapped for canna-oil, per half-cup dosing, and a plain answer on whether hemp seeds contain THC.",
+    "og:url": "https://springfieldavedispensary.store/blog/hemp-almond-granola-clusters",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-hemp-almond-granola-clusters-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Crunchy Infused Granola Clusters with Hemp Hearts and Almonds",
+    "twitter:description": "Big, crunchy granola clusters with part of the coconut oil swapped for canna-oil, per half-cup dosing, and a plain answer on whether hemp seeds contain THC.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-hemp-almond-granola-clusters-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Crunchy Infused Granola Clusters with Hemp Hearts and Almonds\",\"description\":\"Big, crunchy granola clusters with part of the coconut oil swapped for canna-oil, per half-cup dosing, and a plain answer on whether hemp seeds contain THC.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-hemp-almond-granola-clusters-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/hemp-almond-granola-clusters\"}}"
+   ]
+  },
+  "blog-what-is-a-vape-pen": {
+   "title": "What Is a Vape Pen? Parts, Setup and Everyday Use | Springfield Ave Dispensary Blog",
+   "description": "What is a vape pen? Learn the parts, how heating works, how to turn one on and use a cartridge, how dry-herb devices differ and what sets dab pens apart.",
+   "canonical": "https://springfieldavedispensary.store/blog/what-is-a-vape-pen",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Cannabis Vape Pens: Anatomy, Heating and Everyday Use",
+    "og:description": "What is a vape pen? Learn the parts, how heating works, how to turn one on and use a cartridge, how dry-herb devices differ and what sets dab pens apart.",
+    "og:url": "https://springfieldavedispensary.store/blog/what-is-a-vape-pen",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-a-vape-pen-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cannabis Vape Pens: Anatomy, Heating and Everyday Use",
+    "twitter:description": "What is a vape pen? Learn the parts, how heating works, how to turn one on and use a cartridge, how dry-herb devices differ and what sets dab pens apart.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-what-is-a-vape-pen-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Cannabis Vape Pens: Anatomy, Heating and Everyday Use\",\"description\":\"What is a vape pen? Learn the parts, how heating works, how to turn one on and use a cartridge, how dry-herb devices differ and what sets dab pens apart.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-what-is-a-vape-pen-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/what-is-a-vape-pen\"}}"
+   ]
+  },
+  "blog-canna-honey": {
+   "title": "Canna-Honey: Making Cannabis-Infused Honey at Home | Springfield Ave Dispensary Blog",
+   "description": "Make cannabis infused honey in about 20 minutes by whisking canna-coconut oil into warm honey, with per-tablespoon dosing math, labels and safe storage.",
+   "canonical": "https://springfieldavedispensary.store/blog/canna-honey",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Canna-Honey: Infused Honey in About 20 Minutes",
+    "og:description": "Make cannabis infused honey in about 20 minutes by whisking canna-coconut oil into warm honey, with per-tablespoon dosing math, labels and safe storage.",
+    "og:url": "https://springfieldavedispensary.store/blog/canna-honey",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-canna-honey-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Canna-Honey: Infused Honey in About 20 Minutes",
+    "twitter:description": "Make cannabis infused honey in about 20 minutes by whisking canna-coconut oil into warm honey, with per-tablespoon dosing math, labels and safe storage.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-canna-honey-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Canna-Honey: Infused Honey in About 20 Minutes\",\"description\":\"Make cannabis infused honey in about 20 minutes by whisking canna-coconut oil into warm honey, with per-tablespoon dosing math, labels and safe storage.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-canna-honey-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/canna-honey\"}}"
+   ]
+  },
+  "blog-the-entourage-effect": {
+   "title": "The Entourage Effect: What It Is and What Science Says | Springfield Ave Dispensary Blog",
+   "description": "What the entourage effect is, where the idea came from, how cannabinoids and terpenes may interact, what evidence shows and doesn’t, and how to read labels.",
+   "canonical": "https://springfieldavedispensary.store/blog/the-entourage-effect",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "The Entourage Effect: How Cannabis Compounds May Work Together",
+    "og:description": "What the entourage effect is, where the idea came from, how cannabinoids and terpenes may interact, what evidence shows and doesn’t, and how to read labels.",
+    "og:url": "https://springfieldavedispensary.store/blog/the-entourage-effect",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-the-entourage-effect-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Entourage Effect: How Cannabis Compounds May Work Together",
+    "twitter:description": "What the entourage effect is, where the idea came from, how cannabinoids and terpenes may interact, what evidence shows and doesn’t, and how to read labels.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-the-entourage-effect-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Entourage Effect: How Cannabis Compounds May Work Together\",\"description\":\"What the entourage effect is, where the idea came from, how cannabinoids and terpenes may interact, what evidence shows and doesn’t, and how to read labels.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-the-entourage-effect-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/the-entourage-effect\"}}"
+   ]
+  },
+  "blog-herbed-grilled-cheese": {
+   "title": "Herbed Cannabis Grilled Cheese with Caramelized Onions | Springfield Ave Dispensary Blog",
+   "description": "A three-cheese grilled cheese with herby caramelized onions finished in cannabutter, easy per-sandwich dose math, and a low-heat method that helps protect potency.",
+   "canonical": "https://springfieldavedispensary.store/blog/herbed-grilled-cheese",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Herbed Cannabis Grilled Cheese, Dosed Through the Onions",
+    "og:description": "A three-cheese grilled cheese with herby caramelized onions finished in cannabutter, easy per-sandwich dose math, and a low-heat method that helps protect potency.",
+    "og:url": "https://springfieldavedispensary.store/blog/herbed-grilled-cheese",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-herbed-grilled-cheese-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Herbed Cannabis Grilled Cheese, Dosed Through the Onions",
+    "twitter:description": "A three-cheese grilled cheese with herby caramelized onions finished in cannabutter, easy per-sandwich dose math, and a low-heat method that helps protect potency.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-herbed-grilled-cheese-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Herbed Cannabis Grilled Cheese, Dosed Through the Onions\",\"description\":\"A three-cheese grilled cheese with herby caramelized onions finished in cannabutter, easy per-sandwich dose math, and a low-heat method that helps protect potency.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-herbed-grilled-cheese-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/herbed-grilled-cheese\"}}"
+   ]
+  },
+  "blog-infused-peanut-butter-cheesecake-bars": {
+   "title": "Peanut Butter Cannabis Cheesecake Bars | Springfield Ave Dispensary Blog",
+   "description": "Easy cookie-crust cheesecake bars with pretzels and chocolate, dosed through a measured canna-coconut-oil chocolate drizzle and cut into nine even bars.",
+   "canonical": "https://springfieldavedispensary.store/blog/infused-peanut-butter-cheesecake-bars",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Peanut Butter Cheesecake Bars with a Cannabis Chocolate Drizzle",
+    "og:description": "Easy cookie-crust cheesecake bars with pretzels and chocolate, dosed through a measured canna-coconut-oil chocolate drizzle and cut into nine even bars.",
+    "og:url": "https://springfieldavedispensary.store/blog/infused-peanut-butter-cheesecake-bars",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-infused-peanut-butter-cheesecake-bars-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Peanut Butter Cheesecake Bars with a Cannabis Chocolate Drizzle",
+    "twitter:description": "Easy cookie-crust cheesecake bars with pretzels and chocolate, dosed through a measured canna-coconut-oil chocolate drizzle and cut into nine even bars.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-infused-peanut-butter-cheesecake-bars-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Peanut Butter Cheesecake Bars with a Cannabis Chocolate Drizzle\",\"description\":\"Easy cookie-crust cheesecake bars with pretzels and chocolate, dosed through a measured canna-coconut-oil chocolate drizzle and cut into nine even bars.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-infused-peanut-butter-cheesecake-bars-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/infused-peanut-butter-cheesecake-bars\"}}"
+   ]
+  },
+  "blog-canna-butter-recipe": {
+   "title": "Cannabutter Recipe: Mason Jar Ghee Method | Springfield Ave Dispensary Blog",
+   "description": "A step-by-step cannabutter recipe using a sealed jar in a gentle water bath, a worksheet to estimate THC per teaspoon, and storage that keeps it safe.",
+   "canonical": "https://springfieldavedispensary.store/blog/canna-butter-recipe",
+   "og": {
+    "og:type": "article",
+    "og:site_name": "Springfield Ave Dispensary",
+    "og:title": "Canna-Butter (Ghee or Butter, Water-Bath Method)",
+    "og:description": "A step-by-step cannabutter recipe using a sealed jar in a gentle water bath, a worksheet to estimate THC per teaspoon, and storage that keeps it safe.",
+    "og:url": "https://springfieldavedispensary.store/blog/canna-butter-recipe",
+    "og:image": "https://springfieldavedispensary.store/assets/img/blog-canna-butter-recipe-1408.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Canna-Butter (Ghee or Butter, Water-Bath Method)",
+    "twitter:description": "A step-by-step cannabutter recipe using a sealed jar in a gentle water bath, a worksheet to estimate THC per teaspoon, and storage that keeps it safe.",
+    "twitter:image": "https://springfieldavedispensary.store/assets/img/blog-canna-butter-recipe-1408.webp"
+   },
+   "ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1070 Springfield Ave Suite C\",\"addressLocality\":\"Irvington\",\"addressRegion\":\"NJ\",\"postalCode\":\"07111\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.7249,\"longitude\":-74.2318},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Sunday\",\"opens\":\"10:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Monday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thursday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Friday\",\"opens\":\"09:00\",\"closes\":\"20:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Saturday\",\"opens\":\"09:00\",\"closes\":\"20:00\"}],\"priceRange\":\"$$\",\"email\":\"springfieldavedispensary@gmail.com\",\"image\":\"https://springfieldavedispensary.store/sad-opengraph.jpg\"}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Canna-Butter (Ghee or Butter, Water-Bath Method)\",\"description\":\"A step-by-step cannabutter recipe using a sealed jar in a gentle water bath, a worksheet to estimate THC per teaspoon, and storage that keeps it safe.\",\"datePublished\":\"2026-11-05\",\"image\":\"https://springfieldavedispensary.store/assets/img/blog-canna-butter-recipe-1408.webp\",\"author\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Springfield Ave Dispensary\",\"url\":\"https://springfieldavedispensary.store/\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://springfieldavedispensary.store/blog/canna-butter-recipe\"}}"
+   ]
+  }
+ }
+}

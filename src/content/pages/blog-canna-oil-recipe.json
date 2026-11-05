@@ -1,0 +1,419 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-canna-oil-recipe/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Recipes",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "Canna-Oil (Quick Kief or Flower Infusion)",
+  "accent": "Canna-Oil"
+ },
+ "dek": "Kief takes a shorter steep than flower here, skips the straining and tastes cleaner, which makes it a natural match for olive oil you drizzle. Flower directions included.",
+ "pictureKey": "blog-canna-oil-recipe",
+ "pictureAlt": "A plain glass jar of golden infused oil beside a copper pot, with a dish of golden kief and rosemary on dark stone",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "Kief gets about 2 hours in a jar water bath and stays in the oil, so there's nothing to strain."
+    ]
+   },
+   {
+    "runs": [
+     "Ground flower works too: infuse it for 3 to 4 hours, then strain."
+    ]
+   },
+   {
+    "runs": [
+     "Grams × 1,000 × THC% is the ceiling, and a cup of oil holds 96 half teaspoons."
+    ]
+   },
+   {
+    "runs": [
+     "Use infused oil raw or at the end of cooking, never for frying."
+    ]
+   },
+   {
+    "runs": [
+     "Refrigerated, it keeps 4 days; freeze what you won't use by then in measured cubes, right away."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "Kief or flower: which to choose",
+    "href": "#kief-or-flower-which-to-choose"
+   },
+   {
+    "text": "Dosing: estimate mg per half teaspoon",
+    "href": "#dosing-estimate-mg-per-half-teaspoon"
+   },
+   {
+    "text": "What you need",
+    "href": "#what-you-need"
+   },
+   {
+    "text": "The canna oil recipe, step by step",
+    "href": "#the-canna-oil-recipe-step-by-step"
+   },
+   {
+    "text": "Picking the oil",
+    "href": "#picking-the-oil"
+   },
+   {
+    "text": "Storage and labeling",
+    "href": "#storage-and-labeling"
+   },
+   {
+    "text": "Recipe",
+    "href": "#recipe"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "This canna oil recipe uses kief, the resin-rich powder that collects under a grinder's screen, to make infused olive oil in about 2 hours. Kief leaves almost no leafy material behind, so there's nothing to strain and less grassy flavor. Flower works too, with a longer infusion and a strain at the end."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "kief-or-flower-which-to-choose",
+   "text": "Kief or flower: which to choose"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Kief suits a finishing oil for bread, salads or ",
+    "canna-pesto",
+    " and is stronger by weight; flower suits bigger batches."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "dosing-estimate-mg-per-half-teaspoon",
+   "text": "Dosing: estimate mg per half teaspoon"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Grams × 1,000 × THC% is the most THC your oil can hold, spread across the 96 half teaspoons in a cup. One gram of kief labeled 40% THC gives 400 mg, about 4 mg per half teaspoon at most. Kief from your own grinder has no label, so assume it's strong. Try a quarter teaspoon by itself and let at least 2 hours pass before you cook with more. For starting amounts, see our ",
+    {
+     "text": "THC dosage guide",
+     "href": "blog/edibles-101-dosing/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-you-need",
+   "text": "What you need"
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      "1 cup olive oil or another oil"
+     ]
+    },
+    {
+     "runs": [
+      "1 gram kief, or 3.5 grams ground flower, decarbed"
+     ]
+    },
+    {
+     "runs": [
+      "A canning jar with a lid, a saucepan deep enough to submerge most of it, and a cooking thermometer"
+     ]
+    },
+    {
+     "runs": [
+      "Cheesecloth, for flower only"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You can order flower ahead from ",
+    {
+     "text": "the Springfield Ave Dispensary menu",
+     "href": "shop/"
+    },
+    " for pickup."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "the-canna-oil-recipe-step-by-step",
+   "text": "The canna oil recipe, step by step"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Kief scorches easily, so decarb it in a thin layer at 240°F for about 30 minutes and keep an eye on it; flower takes 30 to 45. Seal it in the jar with the oil, rest the jar on a towel in the saucepan and add water to the oil line. Keep the water just under a simmer, 180 to 200°F: about 2 hours for kief, 3 to 4 for flower. Vent once, halfway through. Kief oil is ready as is, while flower oil gets strained while warm."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "picking-the-oil",
+   "text": "Picking the oil"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Infused oil stays off high heat, so choose by flavor:"
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Oil",
+    "Flavor",
+    "Use it for"
+   ],
+   "rows": [
+    [
+     "Extra-virgin olive",
+     "Fruity, peppery",
+     "Drizzling, dressings"
+    ],
+    [
+     "Avocado, canola or sunflower",
+     "Mild",
+     "Baking, gentle sautés"
+    ],
+    [
+     "Coconut",
+     "Mild; firms when chilled",
+     "Baking, coffee, canna-honey"
+    ]
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "storage-and-labeling",
+   "text": "Storage and labeling"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The CDC says to refrigerate homemade oils made with herbs and toss them after 4 days, and University of Georgia Extension notes that a dried herb doesn't make the oil safe on its own. So keep only what you'll use within 4 days in the fridge, and freeze the rest in cubes right away. Write \"infused,\" the date and the mg per half teaspoon on the jar, and park it where children and pets can't reach."
+   ]
+  }
+ ],
+ "recipe": {
+  "title": "Recipe",
+  "facts": [
+   {
+    "label": "Makes",
+    "value": "About 1 cup (96 half teaspoons)"
+   },
+   {
+    "label": "Prep time",
+    "value": "35 minutes"
+   },
+   {
+    "label": "Cook time",
+    "value": "2 hours"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Ingredients",
+    "blocks": [
+     {
+      "kind": "ul",
+      "items": [
+       {
+        "runs": [
+         "1 gram kief (or 3.5 grams cannabis flower, coarsely ground)"
+        ]
+       },
+       {
+        "runs": [
+         "1 cup extra-virgin olive oil or another oil"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Steps",
+    "blocks": [
+     {
+      "kind": "ol",
+      "items": [
+       {
+        "runs": [
+         "Preheat the oven to 240°F. Spread the kief in a thin layer on parchment in a small baking dish and bake about 30 minutes, checking that it doesn't scorch (flower: 30 to 45 minutes). Cool it."
+        ]
+       },
+       {
+        "runs": [
+         "Scrape the kief into a canning jar, pour in the oil and screw the lid on finger-tight."
+        ]
+       },
+       {
+        "runs": [
+         "Rest the jar on a folded towel in a saucepan and pour in warm water to the height of the oil."
+        ]
+       },
+       {
+        "runs": [
+         "Keep the water just under a simmer, about 180 to 200°F, for 2 hours (flower: 3 to 4 hours), adding hot water as it evaporates."
+        ]
+       },
+       {
+        "runs": [
+         "At the halfway point, lift the jar with oven mitts, crack the lid open briefly to vent, swirl and set it back."
+        ]
+       },
+       {
+        "runs": [
+         "Cool the oil until warm. Kief oil needs no straining; pour flower oil through cheesecloth."
+        ]
+       },
+       {
+        "runs": [
+         "Mark the jar with the day you made it and its estimated strength. It keeps 4 days in the fridge; freeze any extra in measured cubes."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "note": {
+   "kind": "callout",
+   "tone": "warn",
+   "title": "Dosing note",
+   "blocks": [
+    {
+     "kind": "p",
+     "runs": [
+      "Estimate only: 1 g of kief labeled 40% THC holds at most 1 × 1,000 × 0.40 = 400 mg, about 4 mg per half teaspoon across 96 half teaspoons. With 3.5 g of 18% flower, it's 630 mg, about 6.6 mg per half teaspoon. The kief's real potency, plus losses in the oven and the water bath, decide the true number, which will usually be lower. Try a quarter teaspoon on its own before cooking with it, and let at least 2 hours pass. Write the strength on the jar and on anything you make with it, and shelve both where kids and pets can't get them."
+     ]
+    }
+   ]
+  }
+ },
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "What is kief and where does it come from?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Kief is the pile of tiny, resin-filled trichomes that shake loose from dried cannabis flower. It collects under the screen of a grinder with a kief catcher. Because it's mostly trichomes, the glands where the plant makes and stores THCA, the source of its THC, it typically packs more THC per gram than the buds it fell from, so go by the label's THC figure when there is one."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Can I make canna oil without straining?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Yes, with kief. It leaves so little plant material that the oil can go straight into a jar; just stir before you measure, since fine specks can settle. Flower is different. Its leafy bits turn the oil bitter and gritty, so strain it through cheesecloth while it's still warm."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "How long does canna oil last?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Four days in the fridge, which is the limit the CDC sets for homemade herb oils, and much longer frozen. Freezing it in measured cubes is the easy route: each cube carries a known estimate, and you thaw only what a recipe needs. A cupboard is never the place for homemade infused oil."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Wang M. et al., Decarboxylation Study of Acidic Cannabinoids, Cannabis and Cannabinoid Research (2016)",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5549281/"
+   },
+   {
+    "label": "CDC: Botulism Prevention (homemade oils made with garlic or herbs)",
+    "host": "cdc.gov",
+    "href": "https://www.cdc.gov/botulism/prevention/index.html"
+   },
+   {
+    "label": "University of Georgia Extension, Circular 1334: How to Safely Make Infused Oils (2024)",
+    "host": "fieldreport.caes.uga.edu",
+    "href": "https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/"
+   },
+   {
+    "label": "Colorado State University, Kendall Reagan Nutrition Center: Cooking with Fats and Oils (2019)",
+    "host": "chhs.colostate.edu",
+    "href": "https://www.chhs.colostate.edu/krnc/monthly-blog/cooking-with-fats-and-oils/"
+   },
+   {
+    "label": "Public Health Agency of Canada: Council of Chief Medical Officers of Health statement on cannabis extracts, edibles and topicals (2020)",
+    "host": "canada.ca",
+    "href": "https://www.canada.ca/en/public-health/news/2020/01/council-of-chief-medical-officers-of-health-ccmoh-statement-on-cannabis-extracts-edibles-and-topical-products.html"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)"
+   },
+   {
+    "href": "blog/canna-berry-freezer-jam/",
+    "imageKey": "blog-canna-berry-freezer-jam",
+    "catLabel": "Recipes",
+    "title": "Canna-Berry Freezer Jam with Raspberries"
+   },
+   {
+    "href": "blog/fruitcake-canna-cocktail/",
+    "imageKey": "blog-fruitcake-canna-cocktail",
+    "catLabel": "Recipes",
+    "title": "A Fruitcake-Spiced Canna-Cocktail Without the Booze"
+   }
+  ]
+ }
+}

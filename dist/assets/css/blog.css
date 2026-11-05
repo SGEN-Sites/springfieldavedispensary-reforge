@@ -17,9 +17,44 @@
 .post-card__more .arr { color: var(--accent); transition: transform var(--dur) var(--ease); }
 .post-card:hover .post-card__more .arr, .post-card:focus-visible .post-card__more .arr { transform: translateX(4px); }
 @media (max-width: 599.98px) { .post-card .post-card__excerpt { font-size: .875rem; } }
+
+/* the drawn cover (posts with no photograph): it fills its frame (card media 16:9; post figure 16:9, 11:5 from 900px).
+   One glow whose position follows the word (--gx/--gy from cards.mjs): emerald for Education, the one warm amber for
+   Recipes. The plate is the hero's street-sign plate (deep emerald glass, white hairline inset border, the sign face);
+   the word is the accent face, sized to its length (--len) inside the cover (container query units). */
+.cover { position: relative; z-index: 0; display: grid; place-items: center; width: 100%; height: 100%; overflow: hidden; container-type: inline-size;
+  background:
+    radial-gradient(62% 78% at var(--gx, 50%) var(--gy, 42%), color-mix(in srgb, var(--emerald-c) 34%, transparent), transparent 70%),
+    radial-gradient(120% 80% at 50% 118%, color-mix(in srgb, var(--emerald-deep-c) 42%, transparent), transparent 62%),
+    repeating-linear-gradient(135deg, color-mix(in srgb, var(--white) 2.2%, transparent) 0 1px, transparent 1px 16px),
+    var(--bg-2); }
+.cover--recipes { background:
+    radial-gradient(62% 78% at var(--gx, 50%) var(--gy, 42%), color-mix(in srgb, var(--amber-c) 26%, transparent), transparent 70%),
+    radial-gradient(120% 80% at 50% 118%, color-mix(in srgb, var(--emerald-deep-c) 40%, transparent), transparent 62%),
+    repeating-linear-gradient(135deg, color-mix(in srgb, var(--white) 2.2%, transparent) 0 1px, transparent 1px 16px),
+    var(--bg-2); }
+.cover__word { max-width: 88%; text-align: center; text-wrap: balance; color: var(--ink);
+  font: italic 400 clamp(1.5rem, min(16cqi, calc(132cqi / var(--len, 8))), 7.5rem)/.96 var(--f-accent);
+  text-shadow: 0 0 .5em color-mix(in srgb, var(--emerald-c) 38%, transparent); transition: transform .9s var(--ease); }
+.cover--recipes .cover__word { text-shadow: 0 0 .5em color-mix(in srgb, var(--amber-c) 30%, transparent); }
+.cover__plate { position: absolute; left: clamp(10px, 5cqi, 28px); top: clamp(10px, 5cqi, 28px); z-index: 1;
+  display: inline-flex; align-items: center; padding: .36em .66em .3em; border-radius: .22em;
+  font: 800 clamp(11px, 3.1cqi, 15px)/1 var(--f-sign); letter-spacing: .05em; text-transform: uppercase; color: var(--white);
+  background:
+    radial-gradient(80% 120% at 50% -24%, color-mix(in srgb, var(--emerald-c) 24%, transparent), transparent 66%),
+    linear-gradient(180deg, color-mix(in srgb, var(--emerald-deep-c) 86%, var(--bg-0)), color-mix(in srgb, var(--emerald-deep-c) 58%, var(--bg-0)));
+  border: 1px solid color-mix(in srgb, var(--emerald-c) 55%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 24%, transparent), 0 .8em 1.2em -.7em var(--black);
+  transform: rotate(-3deg); }
+.cover__plate::before { content: ""; position: absolute; inset: .16em; border-radius: .14em; pointer-events: none;
+  border: max(1px, .06em) solid color-mix(in srgb, var(--white) 60%, transparent); }
+.cover--hero .cover__plate { font-size: clamp(12px, 2.2cqi, 17px); }
+.cover--hero .cover__word { font-size: clamp(2.6rem, min(13cqi, calc(110cqi / var(--len, 8))), 8.5rem); }
+.post-card:hover .cover__word, .post-card:focus-visible .cover__word { transform: scale(1.04); }
+
 @media (prefers-reduced-motion: reduce) {
-  .post-card__media img, .post-card__more .arr { transition: none; }
-  .post-card:hover .post-card__media img, .post-card:hover .post-card__more .arr { transform: none; }
+  .post-card__media img, .post-card__more .arr, .cover__word { transition: none; }
+  .post-card:hover .post-card__media img, .post-card:hover .post-card__more .arr, .post-card:hover .cover__word { transform: none; }
 }
 
 /* pages/blog/01-hero.css */
@@ -67,19 +102,22 @@
 }
 
 /* pages/blog/03-posts.css */
-/* 03-posts — "Categories" filter chips over the cards. >= 1100px: four across. Tablet + phones: a swipe rail. */
+/* 03-posts — "Categories" filter chips over every card, as a grid: four across from 1100px, three from 900px, two from
+   600px, one on phones. blog.js pages it (Load More); [hidden] cards leave the grid. Tokens only. */
 .posts { --pool-x: 12%; --pool-y: 62%; --pool-a: .1; padding-top: calc(var(--sec-y) * .5); }
 .posts__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-bottom: clamp(18px, 2.2vw, 28px); }
 .posts__label { flex: 0 0 100%; margin: 0; }
 .posts__filters { flex-wrap: wrap; overflow: visible; padding-bottom: 0; }
-.posts__rail { list-style: none; --rail-col: 80%; }
+.posts__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); list-style: none; margin: 0; padding: 0; }
 .posts__item { min-width: 0; }
-.posts__controls { display: flex; justify-content: flex-end; margin-top: 14px; }
-.posts__carousel:not([data-overflow]) .posts__controls { display: none; }
+.posts__item[hidden] { display: none; }
 .posts__empty { margin: 0; padding: 22px 24px; color: var(--ink-2); font-size: var(--t-body); text-align: center; }
-@media (min-width: 1100px) {
-  .posts__rail { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; margin: 0; padding: 0; }
-  .posts__controls { display: none; }
+.posts__more { display: flex; justify-content: center; margin-top: clamp(22px, 2.8vw, 36px); }
+.posts__more .btn[hidden] { display: none; }
+@media (max-width: 1099.98px) { .posts__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 899.98px) { .posts__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 599.98px) {
+  .posts__grid { grid-template-columns: minmax(0, 1fr); }
+  .posts__filters { gap: 8px; } .posts__filters .chip { padding: 0 14px; }
+  .posts__more .btn { width: 100%; }
 }
-@media (min-width: 768px) and (max-width: 1099.98px) { .posts__rail { --rail-col: 44%; } }
-@media (max-width: 599.98px) { .posts__filters { gap: 8px; } .posts__filters .chip { padding: 0 14px; } }

@@ -43,11 +43,303 @@
    {
     "text": "Community",
     "catSlug": "community"
+   },
+   {
+    "text": "Recipes",
+    "catSlug": "recipes"
    }
   ],
   "readMore": "Read More →",
   "empty": "No posts in this category yet.",
   "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide",
+    "excerpt": "Resin dulls flavor and makes every hit harsher. Here is how to deep-clean bongs, pipes, rigs, vapes and grinders, with a supply list and a simple schedule."
+   },
+   {
+    "href": "blog/canna-oil-recipe/",
+    "imageKey": "blog-canna-oil-recipe",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Canna-Oil (Quick Kief or Flower Infusion)",
+    "excerpt": "Kief takes a shorter steep than flower here, skips the straining and tastes cleaner, which makes it a natural match for olive oil you drizzle. Flower directions included."
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You",
+    "excerpt": "Where the indica and sativa labels come from, what they can and can't tell you, and a better way to choose using terpenes, cannabinoids and dose."
+   },
+   {
+    "href": "blog/lamb-meatballs-in-red-sauce/",
+    "imageKey": "blog-lamb-meatballs-in-red-sauce",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Lamb Meatballs in a Cannabutter Chile Sauce (Albóndigas de Cordero)",
+    "excerpt": "Lamb meatballs spiced with toasted ancho, guajillo, anise and cinnamon, simmered in a red sauce that is finished with cannabutter and served in equal ladles."
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says",
+    "excerpt": "CBC is a non-intoxicating cannabinoid found in small amounts in most cannabis. Here's how the plant makes it, what lab studies explore, and how to spot it on a lab report."
+   },
+   {
+    "href": "blog/canna-berry-freezer-jam/",
+    "imageKey": "blog-canna-berry-freezer-jam",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Canna-Berry Freezer Jam with Raspberries",
+    "excerpt": "A bright raspberry jam that doubles as an easy-to-portion edible: the infusion goes in after cooking, so the math per tablespoon stays simple."
+   },
+   {
+    "href": "blog/top-cannabis-strains-of-2026/",
+    "imageKey": "blog-top-cannabis-strains-of-2026",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Cannabis Strains Worth Knowing in 2026, and How to Choose One",
+    "excerpt": "The strains and strain families worth knowing in 2026, built from public strain records instead of sales data, plus a simple way to choose one."
+   },
+   {
+    "href": "blog/fruitcake-canna-cocktail/",
+    "imageKey": "blog-fruitcake-canna-cocktail",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "A Fruitcake-Spiced Canna-Cocktail Without the Booze",
+    "excerpt": "Black tea, cranberry and berry preserves with orange peel and warm spice: an alcohol-free holiday glass with a measured THC tincture shaken in."
+   },
+   {
+    "href": "blog/cannabis-tasting-what-are-munchies/",
+    "imageKey": "blog-cannabis-tasting-what-are-munchies",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "The Munchies Explained, Plus Terpene-Inspired Snack Pairings",
+    "excerpt": "The munchies have a real basis in brain science. Here is what research shows, what it does not, and a terpene-inspired snack menu to plan ahead with."
+   },
+   {
+    "href": "blog/citrus-mimosa-party-with-single-strain-tinctures/",
+    "imageKey": "blog-citrus-mimosa-party-with-single-strain-tinctures",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "A Self-Serve Citrus Mimosa Bar with THC Tinctures",
+    "excerpt": "Juices on ice, alcohol-free bubbles and labeled tincture bottles with dose cards: a brunch bar where every guest builds and doses their own glass."
+   },
+   {
+    "href": "blog/marijuana-and-intimacy/",
+    "imageKey": "blog-marijuana-and-intimacy",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Marijuana and Sex: Research, Dosing and Communication",
+    "excerpt": "Some adults say cannabis changes their intimate life, for better or worse. Here is what studies actually found, why dose matters, and how to explore with consent and care."
+   },
+   {
+    "href": "blog/cannabis-infused-almond-butter/",
+    "imageKey": "blog-cannabis-infused-almond-butter",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Homemade Cannabis-Infused Almond Butter",
+    "excerpt": "A homemade nut butter where the infused oil helps the blend turn creamy, and you set the dose per serving from the strength of your own oil."
+   },
+   {
+    "href": "blog/cannabis-decarboxylation/",
+    "imageKey": "blog-cannabis-decarboxylation",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Cannabis Decarboxylation: What It Is and How to Decarb at Home",
+    "excerpt": "Raw flower is mostly THCA. Here's how gentle heat turns it into THC for edibles and oils, with the times, temperatures and home methods that work."
+   },
+   {
+    "href": "blog/hot-honey-pizza/",
+    "imageKey": "blog-hot-honey-pizza",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Hot Honey Pepperoni Pizza with a Canna-Oil Crust",
+    "excerpt": "Sweet heat meets a canna-oil crust: pepperoni, jalapeño and a drizzle of hot honey. The dough makes two pizzas, so bake one and freeze the other."
+   },
+   {
+    "href": "blog/strains-that-make-you-laugh/",
+    "imageKey": "blog-strains-that-make-you-laugh",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Which Strains Make You Laugh? The Science Behind Cannabis Giggles",
+    "excerpt": "THC, terpenes, company and setting all play a part in the cannabis giggles. Here's what research suggests, plus classic strains people link with laughter."
+   },
+   {
+    "href": "blog/bulletproof-cannabis-coffee/",
+    "imageKey": "blog-bulletproof-cannabis-coffee",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Bulletproof Cannabis Coffee, Dosed Your Way",
+    "excerpt": "A five-minute butter coffee where only part of the fat is infused, so you learn your dose before you scale up."
+   },
+   {
+    "href": "blog/linalool-terpene/",
+    "imageKey": "blog-linalool-terpene",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Linalool in Cannabis: Aroma, Sources and What Research Says",
+    "excerpt": "Linalool is the floral, lavender-like terpene in some cannabis. Find out where it comes from, how strong the research is, and how to read a label for it."
+   },
+   {
+    "href": "blog/sweet-and-smokey-bbq-sauce/",
+    "imageKey": "blog-sweet-and-smokey-bbq-sauce",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Cannabutter BBQ Sauce: Sweet, Smoky and Easy to Dose",
+    "excerpt": "A summer cookout sauce built around dosing: simmer the base, whisk in cannabutter at the end, divide the batch into 12 portions and serve one per person at the table."
+   },
+   {
+    "href": "blog/indica-strains-for-sleep/",
+    "imageKey": "blog-indica-strains-for-sleep",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Indica Strains for Sleep: Profiles, Terpenes and Formats",
+    "excerpt": "A look at the indica-leaning strains, terpenes and formats adults reach for at night, the limits of the sleep research, and how to build a sensible evening routine."
+   },
+   {
+    "href": "blog/frozen-strawberry-canna-nade/",
+    "imageKey": "blog-frozen-strawberry-canna-nade",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "A THC Lemonade Slush: Frozen Strawberry Canna-nade",
+    "excerpt": "A two-glass strawberry lemonade slush with one trick: the tincture is blended into the fruit before the ice, so both servings carry the same dose."
+   },
+   {
+    "href": "blog/does-weed-dehydrate-you/",
+    "imageKey": "blog-does-weed-dehydrate-you",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Does Cannabis Dehydrate You? Why Your Mouth Gets Dry",
+    "excerpt": "Cottonmouth is about saliva, not proof that your body is low on water. Here is why cannabis dries your mouth and how to stay comfortable."
+   },
+   {
+    "href": "blog/infused-simple-syrup/",
+    "imageKey": "blog-infused-simple-syrup",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Cannabis-Infused Simple Syrup That Actually Infuses",
+    "excerpt": "THC barely dissolves in sugar water, so simmering flower in syrup leaves most of it behind. Use vegetable glycerin or a measured tincture instead, and do the math."
+   },
+   {
+    "href": "blog/terpenes-ocimene/",
+    "imageKey": "blog-terpenes-ocimene",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Ocimene: The Herbal, Floral Terpene in Cannabis",
+    "excerpt": "Ocimene ranks among the most widespread scent compounds in the plant world, and in cannabis it usually plays a supporting role. Learn its aroma, where it occurs and how to find it."
+   },
+   {
+    "href": "blog/no-bake-cannabis-oatmeal-cookies/",
+    "imageKey": "blog-no-bake-cannabis-oatmeal-cookies",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "No-Bake Cannabis Oatmeal Cookies with Tart Cherries and Pecans",
+    "excerpt": "Chewy chocolate-oat cookies made on the stovetop, with cannabutter stirred in after the boil and the batch shaped into exactly 12 so the math stays simple."
+   },
+   {
+    "href": "blog/what-is-kush-cannabis/",
+    "imageKey": "blog-what-is-kush-cannabis",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Kush Cannabis: From the Hindu Kush Mountains to Today's Menus",
+    "excerpt": "Kush takes its name from the Hindu Kush mountains of Afghanistan and Pakistan. Here's how those plants shaped modern cannabis, what Kush usually smells like, and why the name isn't a promise."
+   },
+   {
+    "href": "blog/hemp-almond-granola-clusters/",
+    "imageKey": "blog-hemp-almond-granola-clusters",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Crunchy Infused Granola Clusters with Hemp Hearts and Almonds",
+    "excerpt": "Crunchy oat, almond and hemp heart clusters with canna-oil standing in for part of the coconut oil. Measure it by the half cup, or bake it plain and dose each bowl."
+   },
+   {
+    "href": "blog/what-is-a-vape-pen/",
+    "imageKey": "blog-what-is-a-vape-pen",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "Cannabis Vape Pens: Anatomy, Heating and Everyday Use",
+    "excerpt": "A vape pen is a slim, battery-powered device that heats cannabis oil into vapor. Here's how the parts work, how to switch one on and how it differs from dry-herb and dab pens."
+   },
+   {
+    "href": "blog/canna-honey/",
+    "imageKey": "blog-canna-honey",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Canna-Honey: Infused Honey in About 20 Minutes",
+    "excerpt": "Turn the canna-coconut oil you already made into honey for tea, toast and sauces, with simple math for the dose in every spoonful."
+   },
+   {
+    "href": "blog/the-entourage-effect/",
+    "imageKey": "blog-the-entourage-effect",
+    "catLabel": "Education",
+    "catSlug": "education",
+    "date": "Nov 05, 2026",
+    "title": "The Entourage Effect: How Cannabis Compounds May Work Together",
+    "excerpt": "The entourage effect is one of cannabis’s most repeated ideas and one of its least settled. Where it came from, what research shows, and how to read labels with it in mind."
+   },
+   {
+    "href": "blog/herbed-grilled-cheese/",
+    "imageKey": "blog-herbed-grilled-cheese",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Herbed Cannabis Grilled Cheese, Dosed Through the Onions",
+    "excerpt": "Three melty cheeses on brioche, with herby onions that carry the cannabutter. Split the onions four ways and every sandwich gets an even dose."
+   },
+   {
+    "href": "blog/infused-peanut-butter-cheesecake-bars/",
+    "imageKey": "blog-infused-peanut-butter-cheesecake-bars",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Peanut Butter Cheesecake Bars with a Cannabis Chocolate Drizzle",
+    "excerpt": "Salty-sweet bars on a peanut butter cookie crust, with a creamy cheesecake layer, pretzels and a canna-chocolate drizzle that splits evenly nine ways."
+   },
+   {
+    "href": "blog/canna-butter-recipe/",
+    "imageKey": "blog-canna-butter-recipe",
+    "catLabel": "Recipes",
+    "catSlug": "recipes",
+    "date": "Nov 05, 2026",
+    "title": "Canna-Butter (Ghee or Butter, Water-Bath Method)",
+    "excerpt": "The base infusion for our recipes: ghee or butter infused in a sealed jar in a gentle water bath, with a worked potency example and safe storage."
+   },
    {
     "href": "blog/understanding-terpenes/",
     "imageKey": "blog-terpenes",
@@ -84,6 +376,8 @@
     "title": "Community Clean-Up Event Recap",
     "excerpt": "Thank you to everyone who came out to help us clean up Irvington Park. See the photos and impact from our latest event."
    }
-  ]
+  ],
+  "loadMore": "Load More",
+  "pageSize": 12
  }
 }

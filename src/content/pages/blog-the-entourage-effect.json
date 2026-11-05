@@ -1,0 +1,543 @@
+{
+ "_note": "Owner-supplied post, added 2026-11-05 (owner, in chat). DERIVED FILE: written by the local import converter from the untouched source + its declared rules (P/audit/imports/); every string is proved by prove-content against audit/pages/import-the-entourage-effect/. Do not hand-edit: change the rules and re-run.",
+ "back": {
+  "text": "← Back to Dispatch",
+  "href": "blog/"
+ },
+ "catLabel": "Education",
+ "date": "Nov 05, 2026",
+ "title": {
+  "text": "The Entourage Effect: How Cannabis Compounds May Work Together",
+  "accent": "Entourage"
+ },
+ "dek": "The entourage effect is one of cannabis’s most repeated ideas and one of its least settled. Where it came from, what research shows, and how to read labels with it in mind.",
+ "pictureKey": "blog-the-entourage-effect",
+ "pictureAlt": "Two clear dropper bottles and a small vial of golden oil beside a frosty cannabis bud on dark stone",
+ "takeaways": {
+  "title": "Key takeaways",
+  "items": [
+   {
+    "runs": [
+     "The entourage effect is the idea that cannabis compounds act differently together than alone. It is a hypothesis, not a proven fact."
+    ]
+   },
+   {
+    "runs": [
+     "The term comes from a 1998 study of the body’s own cannabinoid-like messengers, not from research on the cannabis plant."
+    ]
+   },
+   {
+    "runs": [
+     "CBD and THC studies point in different directions: one trial found no softening at common ratios, and another found a large oral CBD dose made THC stronger."
+    ]
+   },
+   {
+    "runs": [
+     "A 2020 lab study found common terpenes don’t act on the main cannabinoid receptors, apart from a possible weak beta-caryophyllene effect, so any entourage effect would have to work another way."
+    ]
+   },
+   {
+    "runs": [
+     "A label with full cannabinoid and terpene data, plus a simple journal, tells you more than any marketing claim."
+    ]
+   }
+  ]
+ },
+ "toc": {
+  "title": "In this article",
+  "items": [
+   {
+    "text": "The entourage effect in one sentence",
+    "href": "#the-entourage-effect-in-one-sentence"
+   },
+   {
+    "text": "Where the term came from: 1998 research on endocannabinoids",
+    "href": "#where-the-term-came-from-1998-research-on-endocannabinoids"
+   },
+   {
+    "text": "THC and CBD together: what’s known",
+    "href": "#thc-and-cbd-together-whats-known"
+   },
+   {
+    "text": "Terpenes and flavonoids as possible contributors",
+    "href": "#terpenes-and-flavonoids-as-possible-contributors"
+   },
+   {
+    "text": "What the evidence does and doesn’t show",
+    "href": "#what-the-evidence-does-and-doesnt-show"
+   },
+   {
+    "text": "Full-spectrum, broad-spectrum and isolate products",
+    "href": "#full-spectrum-broad-spectrum-and-isolate-products"
+   },
+   {
+    "text": "Reading labels with the entourage idea in mind",
+    "href": "#reading-labels-with-the-entourage-idea-in-mind"
+   },
+   {
+    "text": "Keeping a cannabis journal",
+    "href": "#keeping-a-cannabis-journal"
+   },
+   {
+    "text": "Frequently asked questions",
+    "href": "#faq"
+   }
+  ]
+ },
+ "body": [
+  {
+   "kind": "p",
+   "runs": [
+    "The entourage effect is the idea that the compounds in cannabis, from THC and CBD to minor cannabinoids and terpenes, act differently together than they do alone. It is one of the most repeated ideas in cannabis and one of the least settled. Some research hints at interactions, other studies find none, and the interactions that do show up aren’t always the ones marketing promises. Here’s where the idea came from and what the evidence shows."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "the-entourage-effect-in-one-sentence",
+   "text": "The entourage effect in one sentence"
+  },
+  {
+   "kind": "quote",
+   "runs": [
+    "The entourage effect is the hypothesis that cannabis compounds can change one another’s effects, so a whole-plant product may act differently from a single purified compound."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "That could mean compounds boosting one another, softening one another, or changing how the body absorbs and breaks them down. The word \"may\" matters: the idea is still being tested."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "where-the-term-came-from-1998-research-on-endocannabinoids",
+   "text": "Where the term came from: 1998 research on endocannabinoids"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "The phrase entered science in 1998, in a study led by Shimon Ben-Shabat with Raphael Mechoulam, the chemist who first isolated THC in 1964. It wasn’t about the cannabis plant at all. The team was studying 2-AG, one of the body’s own cannabinoid-like messengers, called endocannabinoids."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "They found that 2-AG travels with related fatty compounds that don’t activate cannabinoid receptors on their own. In their tests on tissue and in mice, those companions still made 2-AG work harder, and the researchers called this an \"entourage effect.\""
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "In 2011, researcher Ethan Russo carried the idea over to the plant in a review titled \"Taming THC.\" He proposed that cannabinoids and terpenes such as limonene, myrcene, pinene, linalool and beta-caryophyllene might work together, and laid out how future studies could test it. A 2020 critical review later called the original 1998 use of the term a \"hypothetical afterthought\" and argued that marketing has stretched it well beyond the evidence."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "thc-and-cbd-together-whats-known",
+   "text": "THC and CBD together: what’s known"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "CBD is the compound most often credited with changing how THC feels, and the research is mixed:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "At common ratios, no softening."
+      },
+      " In a 2023 randomized trial, 46 healthy adults who rarely used cannabis inhaled vaporized cannabis with 10 mg of THC and either no CBD or 10, 20 or 30 mg of it. CBD didn’t change THC’s effects on memory, psychotic-like symptoms or any other measure. The authors found no evidence that CBD, at ratios common in products, protects against THC’s short-term effects."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "A large oral dose made THC stronger."
+      },
+      " In another 2023 trial, 18 adults ate brownies with 20 mg of THC, with or without 640 mg of CBD. With CBD, blood levels of THC and its active breakdown product were higher, and participants felt stronger effects and more impairment. The likely reason is that CBD slowed the body’s breakdown of THC."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "So CBD doesn’t cancel THC, and in some cases it can intensify it. What happens depends on the dose, the ratio and how you take it."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "terpenes-and-flavonoids-as-possible-contributors",
+   "text": "Terpenes and flavonoids as possible contributors"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Terpenes are aromatic compounds behind many of cannabis’s citrus, pine and pepper notes, and they are the plant compounds most often named in entourage claims. Our ",
+    {
+     "text": "terpenes guide",
+     "href": "blog/understanding-terpenes/"
+    },
+    " covers the common ones."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Lab work hasn’t found the mechanism many people assume. In a 2020 study, researchers tested five common cannabis terpenes alone and in mixtures with THC, CBD and the body’s own 2-AG. Apart from a possible weak interaction between beta-caryophyllene and the CB2 receptor, the terpenes neither acted on the main cannabinoid receptors, CB1 and CB2, nor changed how THC or CBD acted there. Terpenes could still matter through other pathways, but any entourage effect would have to work some other way."
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Flavonoids, the compounds that help give plants their color, are sometimes named as contributors too. For now, the human evidence for any of these interactions is thin."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "what-the-evidence-does-and-doesnt-show",
+   "text": "What the evidence does and doesn’t show"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Put together, the research supports a few careful statements:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Cannabis compounds can interact."
+      },
+      " CBD can change how the body processes THC, as the brownie trial showed."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Interactions aren’t always gentle."
+      },
+      " That same trial found stronger effects, not softer ones."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "The popular version is unproven."
+      },
+      " No solid evidence shows that a particular terpene blend reliably produces a particular feeling."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Most studies are small."
+      },
+      " Many involve a few dozen people, single doses and specific products, so results may not carry over to what you buy."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "That’s why we describe the entourage effect as an open question rather than a fact."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "full-spectrum-broad-spectrum-and-isolate-products",
+   "text": "Full-spectrum, broad-spectrum and isolate products"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "You’ll see these terms most often on CBD products, and they map loosely onto the entourage idea:"
+   ]
+  },
+  {
+   "kind": "table",
+   "head": [
+    "Term",
+    "What it usually means",
+    "Entourage angle"
+   ],
+   "rows": [
+    [
+     "Full-spectrum",
+     "Keeps a wide range of the plant’s cannabinoids and terpenes, including some THC",
+     "Keeps the most compounds together"
+    ],
+    [
+     "Broad-spectrum",
+     "Keeps many compounds but has the THC removed",
+     "A middle ground without THC"
+    ],
+    [
+     "Isolate",
+     "One purified compound, such as CBD",
+     "A single compound, so no entourage"
+    ]
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "These are industry terms, and companies don’t always use them the same way, so check the label or lab results for what’s inside."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "reading-labels-with-the-entourage-idea-in-mind",
+   "text": "Reading labels with the entourage idea in mind"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "If the idea interests you, the label is the place to start:"
+   ]
+  },
+  {
+   "kind": "ol",
+   "items": [
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Look past the THC number."
+      },
+      " Check the CBD and any other cannabinoids listed, such as CBG or CBN."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Find the terpene data."
+      },
+      " Some producers list the main terpenes and their amounts, which gives you something concrete to compare."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Note the format."
+      },
+      " Whole flower and products made to preserve the plant’s profile generally keep more of its original compounds than distillates or isolates."
+     ]
+    },
+    {
+     "runs": [
+      {
+       "b": true,
+       "text": "Be wary of promises."
+      },
+      " A label or ad that claims a specific blend will make you feel a certain way is going beyond what research shows."
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Our budtenders can point out where these details appear at our ",
+    {
+     "text": "Irvington store",
+     "href": "contact/"
+    },
+    "."
+   ]
+  },
+  {
+   "kind": "h2",
+   "id": "keeping-a-cannabis-journal",
+   "text": "Keeping a cannabis journal"
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Since the science can’t yet tell you which combination suits you, your own notes can. A simple journal helps you spot patterns over a few weeks:"
+   ]
+  },
+  {
+   "kind": "ul",
+   "items": [
+    {
+     "runs": [
+      "Product name, format and batch"
+     ]
+    },
+    {
+     "runs": [
+      "THC, CBD and any terpenes on the label"
+     ]
+    },
+    {
+     "runs": [
+      "How much you took, and when"
+     ]
+    },
+    {
+     "runs": [
+      "Where you were and what you were doing"
+     ]
+    },
+    {
+     "runs": [
+      "How you felt, when it started and when it faded"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "p",
+   "runs": [
+    "Over time you may notice you prefer certain profiles, or that a ratio you expected to be gentle wasn’t. If you take medications, are pregnant or have a health condition, talk with a clinician before using cannabis products, including CBD, which can change how your body processes THC and may interact with other medicines. 21+ only. Please consume responsibly."
+   ]
+  }
+ ],
+ "faq": {
+  "title": "Frequently asked questions",
+  "items": [
+   {
+    "q": "Is the entourage effect proven?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "No. It’s a hypothesis with some supporting hints and some contradicting results. Compounds in cannabis can interact, as studies of CBD and THC show, but no solid evidence shows that specific terpene blends reliably create specific effects, and lab tests have found little sign of common terpenes acting on cannabinoid receptors."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Where did the term \"entourage effect\" come from?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "From a 1998 study led by Shimon Ben-Shabat with chemist Raphael Mechoulam. It described how fatty compounds that travel with 2-AG, one of the body’s own cannabinoid-like messengers, boosted its activity in lab and mouse tests. The idea was applied to the cannabis plant later, most notably in a 2011 review."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Does CBD soften THC’s effects?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Not reliably. In a 2023 trial, adding up to three times as much CBD as THC to vaporized cannabis didn’t change THC’s effects. In another, a large oral dose of CBD made THC’s effects stronger, most likely by slowing its breakdown. CBD doesn’t cancel THC, so dose carefully either way."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Do isolate products miss out on it?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "By definition, yes: an isolate holds one compound, so there’s nothing for it to interact with. Whether that matters isn’t settled, since the entourage effect itself is unproven. Isolates also have a practical upside: you know which single compound you’re taking, and the label gives the amount."
+      ]
+     }
+    ]
+   },
+   {
+    "q": "Which products keep the most plant compounds?",
+    "a": [
+     {
+      "kind": "p",
+      "runs": [
+       "Generally, whole flower and products made to preserve the plant’s profile, such as live resin, live rosin or full-spectrum extracts. Distillates and isolates are refined toward a single compound, often with flavor added back. The label or lab results are the best guide to what a given product contains."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sources": {
+  "title": "Sources",
+  "items": [
+   {
+    "label": "Ben-Shabat S. et al. (1998), An entourage effect: inactive endogenous fatty acid glycerol esters enhance 2-arachidonoyl-glycerol cannabinoid activity, European Journal of Pharmacology",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/9721036/"
+   },
+   {
+    "label": "Russo E.B. (2011), Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+   },
+   {
+    "label": "Cogan P.S. (2020), The \"entourage effect\" or \"hodge-podge hashish\": the questionable rebranding, marketing, and expectations of cannabis polypharmacy, Expert Review of Clinical Pharmacology",
+    "host": "pubmed.ncbi.nlm.nih.gov",
+    "href": "https://pubmed.ncbi.nlm.nih.gov/32116073/"
+   },
+   {
+    "label": "Finlay D.B. et al. (2020), Terpenoids from cannabis do not mediate an entourage effect by acting at cannabinoid receptors, Frontiers in Pharmacology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7109307/"
+   },
+   {
+    "label": "Englund A. et al. (2023), Does cannabidiol make cannabis safer? A randomised, double-blind, cross-over trial of cannabis with four different CBD:THC ratios, Neuropsychopharmacology",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10156730/"
+   },
+   {
+    "label": "Zamarripa C.A. et al. (2023), Assessment of orally administered delta-9-THC when coadministered with cannabidiol on THC pharmacokinetics and pharmacodynamics in healthy adults: a randomized clinical trial, JAMA Network Open",
+    "host": "pmc.ncbi.nlm.nih.gov",
+    "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9926328/"
+   }
+  ]
+ },
+ "note": {
+  "badge": "21+",
+  "text": "For adults 21 and older. Keep cannabis away from children and pets, and never drive after consuming. In New Jersey, cannabis smoking is allowed where cigarette smoking is permitted, unless stated otherwise."
+ },
+ "shop": {
+  "text": "Shop the Menu →",
+  "href": "shop/"
+ },
+ "related": {
+  "eyebrow": "Blog",
+  "title": {
+   "text": "More from Dispatch",
+   "accent": "Dispatch"
+  },
+  "items": [
+   {
+    "href": "blog/a-spring-cleaning-guide-on-pipes-and-bongs/",
+    "imageKey": "blog-a-spring-cleaning-guide-on-pipes-and-bongs",
+    "catLabel": "Education",
+    "title": "Spring Cleaning Your Cannabis Gear: A Device-by-Device Guide"
+   },
+   {
+    "href": "blog/indica-vs-sativa/",
+    "imageKey": "blog-indica-vs-sativa",
+    "catLabel": "Education",
+    "title": "Indica, Sativa or Hybrid? What Those Labels Can and Can't Tell You"
+   },
+   {
+    "href": "blog/what-is-cbc-cannabichromene/",
+    "imageKey": "blog-what-is-cbc-cannabichromene",
+    "catLabel": "Education",
+    "title": "CBC, the Lesser-Known Cannabinoid: What It Is and What Research Says"
+   }
+  ]
+ }
+}

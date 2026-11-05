@@ -31,13 +31,25 @@ export function postMeta({ catLabel, date, badgeCls = '' }) {
   return `<span class="post-meta"><span class="badge${badgeCls ? ' ' + badgeCls : ''}">${esc(catLabel)}</span><time class="post-meta__date" datetime="${isoDate(date)}">${esc(date)}</time></span>`;
 }
 
+/** A drawn cover for a post with no photograph (the owner-supplied posts, 2026-11-05): the brand's street-sign plate
+ *  carrying the category, the post's key word set large in the accent face, one glow (emerald for Education, warm for
+ *  Recipes) whose position follows the word, so a grid of covers is not a wall of copies. Deterministic (no randomness:
+ *  builds stay byte-reproducible). Decorative: the card title and the h1 carry the same words. */
+export function coverArt(cv, label, { hero = false } = {}) {
+  let h = 0;
+  for (const ch of String(cv.word)) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  const gx = 18 + (h % 64), gy = 16 + ((h >>> 7) % 52), len = [...String(cv.word)].length;
+  return `<span class="cover cover--${esc(cv.tone)}${hero ? ' cover--hero' : ''}" style="--gx:${gx}%;--gy:${gy}%;--len:${len}" aria-hidden="true"><span class="cover__plate">${esc(label)}</span><span class="cover__word">${esc(cv.word)}</span></span>`;
+}
+
 /** One article card (a glass link). compact = the post page's "More from Dispatch" card (live: category + title only). */
 export function postCard(p, { link, readMore, compact = false, sizes }) {
   const meta = compact
     ? `<span class="post-meta"><span class="badge">${esc(p.catLabel)}</span></span>`
     : postMeta(p);
+  const media = p.cover ? coverArt(p.cover, p.catLabel) : img(picture(p.imageKey), { link, decorative: true, sizes });
   return `<a class="post-card glass card card--link${compact ? ' post-card--compact' : ''}" href="${link(p.href)}">
-    <div class="post-card__media">${img(picture(p.imageKey), { link, decorative: true, sizes })}</div>
+    <div class="post-card__media">${media}</div>
     <div class="post-card__body">
      ${meta}
      <h3 class="post-card__title">${keepCompounds(esc(p.title))}</h3>
