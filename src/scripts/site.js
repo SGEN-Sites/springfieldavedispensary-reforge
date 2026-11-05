@@ -118,12 +118,18 @@
   var bar = $('[data-pickup]');
   if (bar) {
     var BAR_KEY = 'sad-pickup-bar', barPast = false, barFoot = false, barTyping = false, barClosed = false, barForms = [];
-    try { barClosed = sessionStorage.getItem(BAR_KEY) === 'off'; } catch (e) {}
-    var syncBar = function () { bar.classList.toggle('is-on', barPast && !barFoot && !barTyping && !barForms.length && !barClosed); };
+    var barScrolled = window.scrollY > 8; // a short first section must not bring the bar up before the visitor scrolls
+    var readClosed = function () { try { barClosed = sessionStorage.getItem(BAR_KEY) === 'off'; } catch (e) {} };
+    readClosed();
+    var syncBar = function () { bar.classList.toggle('is-on', barScrolled && barPast && !barFoot && !barTyping && !barForms.length && !barClosed); };
+    var newest = function (en) { return en[en.length - 1]; }; // two crossings can queue: the last entry is the current state
     var firstSection = $('main > section'), siteFooter = $('.site-footer');
+    window.addEventListener('scroll', function () { if (!barScrolled && window.scrollY > 8) { barScrolled = true; syncBar(); } }, { passive: true });
+    // a page restored from the back/forward cache keeps its old state: re-read "closed for this visit"
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { readClosed(); syncBar(); } });
     if ('IntersectionObserver' in window && firstSection) {
-      new IntersectionObserver(function (en) { barPast = !en[0].isIntersecting; syncBar(); }, { rootMargin: '-30% 0px 0px 0px' }).observe(firstSection);
-      if (siteFooter) new IntersectionObserver(function (en) { barFoot = en[0].isIntersecting; syncBar(); }).observe(siteFooter);
+      new IntersectionObserver(function (en) { barPast = !newest(en).isIntersecting; syncBar(); }, { rootMargin: '-30% 0px 0px 0px' }).observe(firstSection);
+      if (siteFooter) new IntersectionObserver(function (en) { barFoot = newest(en).isIntersecting; syncBar(); }).observe(siteFooter);
       var formIO = new IntersectionObserver(function (en) {
         en.forEach(function (x) { var i = barForms.indexOf(x.target); if (x.isIntersecting && i < 0) barForms.push(x.target); else if (!x.isIntersecting && i >= 0) barForms.splice(i, 1); });
         syncBar();

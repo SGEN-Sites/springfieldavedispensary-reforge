@@ -110,7 +110,10 @@ body.no-scroll { overflow: hidden; }
    form field has focus, and for the rest of the visit once closed; the drawer and the age gate hide it too. Hidden =
    visibility:hidden, so nothing in it can take focus while it is out of view. */
 .pickup { display: none; }
-@media (min-width: 768px) {
+/* short screens (a phone on its side) keep their height for the page: no bar */
+@media (min-width: 768px) and (min-height: 500px) {
+  /* a control reached with Tab is never left under the bar (WCAG 2.2 focus not obscured) */
+  html { scroll-padding-bottom: 120px; }
   html.js .pickup { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); z-index: var(--z-dock);
     width: min(100% - 2 * var(--gutter), 1000px); display: flex; align-items: center; gap: 12px; padding: 10px 10px 10px 12px;
     border-radius: 24px; border: 1px solid var(--glass-line-hi);
@@ -151,7 +154,7 @@ body.no-scroll { overflow: hidden; }
 }
 html[data-motion="paused"] .pickup, html[data-motion="paused"] .pickup.is-on { transition: none; }
 html[data-motion="paused"] .pickup__meta .status__dot { animation: none; }
-@media (prefers-reduced-motion: reduce) { html.js .pickup, html.js .pickup.is-on { transition: none; } .pickup__meta .status__dot { animation: none; } }
+@media (prefers-reduced-motion: reduce) { html.js .pickup, html.js .pickup.is-on { transition: none; } .pickup__meta[data-open] .status__dot { animation: none; } }
 
 /* ---- footer ---- */
 .site-footer { position: relative; z-index: var(--z-content); margin-top: 0; padding-top: clamp(44px, 5.5vw, 72px); overflow: hidden;

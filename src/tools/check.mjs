@@ -491,12 +491,18 @@ const PIN_BAR = () => {
   b.style.setProperty('visibility', 'visible', 'important'); b.style.setProperty('opacity', '1', 'important'); b.style.setProperty('transform', t, 'important');
   return true;
 };
+// ...except where the site itself always hides it, over the footer (site.js): from geometry, not the site's timing, so
+// the page's last strip at full scroll is still rated against what a visitor sees.
+const FOOT_PIN = () => {
+  const b = document.querySelector('[data-pickup]'), f = document.querySelector('footer.site-footer'); if (!b || !f) return;
+  const r = f.getBoundingClientRect(); b.style.setProperty('visibility', r.top < innerHeight && r.bottom > 0 ? 'hidden' : 'visible', 'important');
+};
 async function runR5(page, V, vp) {
   const pinned = await page.evaluate(PIN_BAR);
-  if (pinned) V.note('R5', 'order bar pinned shown for this pass (its text rated at every position; page text under it not rated there)');
-  await runR5Pass(page, V, vp);
+  if (pinned) V.note('R5', 'order bar pinned shown for this pass, hidden where the footer is on screen (its text rated at every other position; page text under it not rated there)');
+  await runR5Pass(page, V, vp, pinned);
 }
-async function runR5Pass(page, V, vp) {
+async function runR5Pass(page, V, vp, pinned = false) {
   const meta = await page.evaluate(collectText);
   if (!meta.length) { V.fail('R5', 'page', 'no visible text run found to measure'); return; }
   const positions = await page.evaluate(r5Positions);
@@ -504,6 +510,7 @@ async function runR5Pass(page, V, vp) {
   const best = new Map(); const done = []; let shots = 0;
   for (const y of positions) {
     await page.evaluate((y) => scrollTo({ top: y, behavior: 'instant' }), y); await page.waitForTimeout(90);
+    if (pinned) await page.evaluate(FOOT_PIN);
     const g = await page.evaluate(r5Geo, done); if (!g.length) continue;
     const png = readPng(await page.screenshot({ type: 'png' })); shots++;
     for (const { i, rects } of g) {

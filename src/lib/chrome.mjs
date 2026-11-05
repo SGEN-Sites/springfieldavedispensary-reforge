@@ -166,8 +166,7 @@ ${header({ S, link, pagePath: pg.path })}
 <main id="main" tabindex="-1">
 ${main}
 </main>
-${footer({ S, link })}
-${[pickupBar({ S, link, pagePath: pg.path }), dock({ S, link, pagePath: pg.path })].filter(Boolean).join('\n')}
+${[pickupBar({ S, link, pagePath: pg.path }), footer({ S, link }), dock({ S, link, pagePath: pg.path })].filter(Boolean).join('\n')}
 ${ageGate({ S, link })}
 <script>window.SAD=${JSON.stringify({ hours: S._weeklyHours, open: S.status.open, closed: S.status.closed })};</script>
 ${['assets/js/site.js', ...scripts].map((s) => `<script src="${link(s)}" defer></script>`).join('\n')}

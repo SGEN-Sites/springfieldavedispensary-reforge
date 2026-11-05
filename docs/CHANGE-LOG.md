@@ -181,7 +181,13 @@ scrolled away, steps aside over the footer, whenever a form reaches the bottom f
 field, a submit button or a form's message), while a form field has focus, under the menu drawer and the age gate, and
 stays hidden for the rest of the visit once closed. The rendered gate's contrast rule (`check.mjs` R5) now pins the bar
 shown for its pass: the bar's own words are rated over every position, and page text is not rated where the bar
-covers it (before, a bar that appears only after scrolling was missed both ways). Below 1180 px the status shows its label only; below 1024 px the
+covers it (before, a bar that appears only after scrolling was missed both ways); where the footer is on screen the
+pinned bar steps aside, as the site's does, so the page's last strip is still rated. An independent code review then
+found, and this build fixes: the status dot kept pulsing under reduced motion while the store is open; a control
+reached with Tab could sit under the bar (`scroll-padding-bottom`, WCAG 2.2 "focus not obscured"); on pages with a
+short first section the bar came up before any scroll; a page restored with Back could show a bar closed elsewhere;
+on short screens (a phone on its side) the bar took too much height, so it now needs 500 px of height; and it now sits
+before the footer in the tab order, so a keyboard reaches it while it is on screen. Below 1180 px the status shows its label only; below 1024 px the
 bag tile goes and Get Directions shows its map icon (its name stays for screen readers). Not on the 8 Menu pages: they
 are the order flow, and the bar would sit over the Dutchie embed. Phones keep the dock (Deals · Shop Now · Get
 Directions). Hooks: `docs/BUILD-CONTRACT.md` §4.
