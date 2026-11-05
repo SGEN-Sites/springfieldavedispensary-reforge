@@ -508,10 +508,10 @@ async function runR5Pass(page, V, vp, pinned = false) {
   const positions = await page.evaluate(r5Positions);
   await page.addStyleTag({ content: HIDE_CSS }); await page.waitForTimeout(80);
   const best = new Map(); const done = []; let shots = 0;
-  for (const y of positions) {
+  const measureAt = async (y, only = null) => {
     await page.evaluate((y) => scrollTo({ top: y, behavior: 'instant' }), y); await page.waitForTimeout(90);
     if (pinned) await page.evaluate(FOOT_PIN);
-    const g = await page.evaluate(r5Geo, done); if (!g.length) continue;
+    const g = (await page.evaluate(r5Geo, done)).filter((x) => only === null || x.i === only); if (!g.length) return;
     const png = readPng(await page.screenshot({ type: 'png' })); shots++;
     for (const { i, rects } of g) {
       const m = meta[i]; const s = sampleBg(png, rects); if (!s) continue;
@@ -519,7 +519,21 @@ async function runR5Pass(page, V, vp, pinned = false) {
       const prev = best.get(i); if (!prev || res.ratio / res.min < prev.ratio / prev.min) best.set(i, res);
       if (!m.overlay) done.push(i);
     }
+  };
+  for (const y of positions) await measureAt(y);
+  // second chance: a run that every band position split (one line under the header, another under a bottom overlay)
+  // is scrolled to the middle of the free strip and rated there. Runs inside a sideways-scrolled rail stay unreachable.
+  let rescued = 0;
+  for (const i of meta.map((m, i) => i).filter((i) => !best.has(i) && !meta[i].overlay)) {
+    const y = await page.evaluate((i) => {
+      const it = window.__ckT[i]; if (!it || !it.el.isConnected) return null; const r = it.el.getBoundingClientRect(); if (r.width < 1 || r.height < 1) return null;
+      const h = document.querySelector('header.site-header'); const top = h ? Math.max(0, h.getBoundingClientRect().bottom) : 0;
+      return Math.max(0, Math.round(scrollY + r.top + r.height / 2 - (top + innerHeight) / 2));
+    }, i);
+    if (y === null) continue;
+    await measureAt(y, i); if (best.has(i)) rescued++;
   }
+  if (rescued) V.note('R5', `${rescued} text run(s) split at every band position were rated at their own position (second chance)`);
   const all = [...best.values()]; const judged = all.filter((r) => !r.decorative && !r.disabled);
   for (const r of judged) if (r.ratio < r.min - 0.005) V.fail('R5', r.sel, `contrast ${r.ratio.toFixed(2)}:1 < ${r.min}:1 (${r.size}px/${r.weight}; text ${r.fg} on ${r.bg}; ${r.how}${r.overlay ? '; sticky/fixed, worst position' : ''}; at scrollY ${r.scrollY})`);
   V.add('R5', judged.length);
