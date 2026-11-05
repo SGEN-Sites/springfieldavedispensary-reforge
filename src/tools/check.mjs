@@ -26,7 +26,8 @@
 //   R5  contrast on REAL PIXELS: text colours recorded, all text hidden, each section scrolled under the header,
 //       viewport screenshots, the brightest 10% (light text) / darkest 10% (dark text) of the pixels in each text
 //       rect vs the text colour (alpha composited). >= 4.5:1, >= 3:1 for >= 24px or >= 18.66px bold. Gradient text
-//       (background-clip:text) = its worst stop. Sticky / fixed text (header, dock) = worst over every position.
+//       (background-clip:text) = its worst stop. Sticky / fixed text (header, dock) = worst over every position; the
+//       order bar (aside.pickup, shown only after scrolling) is pinned shown for the pass, so it counts the same way.
 //       aria-hidden text is decorative (measured, reported, not failed); disabled controls are exempt. Worst 10 kept.
 //   R6  every <img>: width + height + alt attributes; loaded after scrolling into view; not distorted (> 3%) unless
 //       object-fit is not 'fill'.
@@ -381,7 +382,10 @@ const collectText = () => {
 const r5Positions = () => {
   const { vis } = window.__ck;
   const ovH = (sel) => { const e = document.querySelector(sel); if (!e || !vis(e)) return 0; const p = getComputedStyle(e).position; return p === 'fixed' || p === 'sticky' ? e.getBoundingClientRect().height : 0; };
-  const hH = ovH('header.site-header'), dH = ovH('nav.dock'); const band = Math.max(120, innerHeight - hH - dH - 8);
+  // the order bar (pinned shown for this pass, see PIN_BAR) covers the bottom of the screen like the dock: every page
+  // line still gets a position between the header and the bar
+  const bar = document.querySelector('[data-pickup]'); const bH = bar && vis(bar) && getComputedStyle(bar).position === 'fixed' ? Math.max(0, innerHeight - bar.getBoundingClientRect().top) : 0;
+  const hH = ovH('header.site-header'), dH = ovH('nav.dock'); const band = Math.max(120, innerHeight - hH - dH - bH - 8);
   const max = Math.max(0, document.documentElement.scrollHeight - innerHeight); const P = [0];
   for (const b of document.querySelectorAll('main > section, footer.site-footer')) {
     const r = b.getBoundingClientRect(); const top = r.top + scrollY, bot = top + r.height; let y = top - hH; P.push(y);
@@ -476,7 +480,23 @@ function watch(page, sink) {
 const step = (s) => { STEP = s; };
 
 // ---------------------------------------------------------------- the R5 pass
+// The order bar (aside.pickup[data-pickup], BUILD-CONTRACT §4) slides in on scroll, so at the top of the page it is
+// hidden: text collection would skip its words and the overlay list would miss it, and page text that later scrolls
+// under it would be rated against the bar's own pixels. For the R5 pass it is pinned SHOWN at its own resting place:
+// its text is rated at every position (the worst case) and page text is never rated where the bar covers it.
+const PIN_BAR = () => {
+  const b = document.querySelector('[data-pickup]'); if (!b || getComputedStyle(b).display === 'none') return false;
+  b.style.setProperty('transition', 'none', 'important'); b.classList.add('is-on');
+  const t = getComputedStyle(b).transform;
+  b.style.setProperty('visibility', 'visible', 'important'); b.style.setProperty('opacity', '1', 'important'); b.style.setProperty('transform', t, 'important');
+  return true;
+};
 async function runR5(page, V, vp) {
+  const pinned = await page.evaluate(PIN_BAR);
+  if (pinned) V.note('R5', 'order bar pinned shown for this pass (its text rated at every position; page text under it not rated there)');
+  await runR5Pass(page, V, vp);
+}
+async function runR5Pass(page, V, vp) {
   const meta = await page.evaluate(collectText);
   if (!meta.length) { V.fail('R5', 'page', 'no visible text run found to measure'); return; }
   const positions = await page.evaluate(r5Positions);

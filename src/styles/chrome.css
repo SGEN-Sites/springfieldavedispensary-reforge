@@ -105,6 +105,54 @@ body.no-scroll { overflow: hidden; }
   .dock a { white-space: nowrap; letter-spacing: .04em; }
 }
 
+/* ---- order bar: Order Online + Get Directions in reach on tablets and desktops (the phone dock does this below 768) ----
+   Hidden with no JS. site.js adds .is-on once the first section has scrolled up and drops it over the footer, while a
+   form field has focus, and for the rest of the visit once closed; the drawer and the age gate hide it too. Hidden =
+   visibility:hidden, so nothing in it can take focus while it is out of view. */
+.pickup { display: none; }
+@media (min-width: 768px) {
+  html.js .pickup { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); z-index: var(--z-dock);
+    width: min(100% - 2 * var(--gutter), 1000px); display: flex; align-items: center; gap: 12px; padding: 10px 10px 10px 12px;
+    border-radius: 24px; border: 1px solid var(--glass-line-hi);
+    background: radial-gradient(90% 170% at 0% 0%, color-mix(in srgb, var(--emerald-c) 16%, transparent), transparent 62%),
+      linear-gradient(150deg, color-mix(in srgb, var(--bg-3) 92%, transparent), color-mix(in srgb, var(--bg-1) 96%, transparent));
+    box-shadow: 0 28px 64px -22px color-mix(in srgb, var(--black) 92%, transparent), inset 0 1px 0 color-mix(in srgb, var(--white) 8%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(140%); backdrop-filter: blur(20px) saturate(140%);
+    opacity: 0; visibility: hidden; transform: translate(-50%, calc(100% + 28px));
+    transition: transform .6s var(--ease), opacity .3s var(--ease-soft), visibility 0s linear .6s; }
+  html.js .pickup.is-on { opacity: 1; visibility: visible; transform: translate(-50%, 0);
+    transition: transform .6s var(--ease), opacity .3s var(--ease-soft), visibility 0s; }
+  html.gate-open .pickup.is-on, body.no-scroll .pickup.is-on { opacity: 0; visibility: hidden; transform: translate(-50%, calc(100% + 28px)); }
+}
+.pickup__mark { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 16px; color: var(--accent-hi);
+  border: 1px solid color-mix(in srgb, var(--accent-glow-c) 30%, transparent);
+  background: radial-gradient(100% 100% at 30% 20%, color-mix(in srgb, var(--accent-glow-c) 24%, transparent), transparent 72%), var(--glass-fill-2); }
+.pickup__mark svg { width: 24px; height: 24px; }
+.pickup__copy { flex: 1; min-width: 0; display: grid; gap: 5px; }
+.pickup__title { margin: 0; font: 720 1.25rem/1.15 var(--f-display); letter-spacing: -.015em; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pickup__meta { margin: 0; display: flex; align-items: center; gap: 8px; min-width: 0; color: var(--ink-2); font-size: .8125rem; line-height: 1.3; white-space: nowrap; overflow: hidden; }
+.pickup__meta[data-open="true"] .status__dot { background: var(--accent); animation: pulse 2.4s var(--ease-soft) infinite; }
+.pickup__meta[data-open="false"] .status__dot { background: var(--closed); }
+.pickup__sep { color: var(--ink-4); }
+.pickup__pay { color: var(--ink-3); }
+.pickup__pay::first-letter { text-transform: uppercase; }
+.pickup .btn { min-height: 46px; }
+.pickup__x { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid transparent; background: none; color: var(--ink-2); }
+.pickup__x:hover { color: var(--ink); border-color: var(--glass-line); background: var(--glass-fill-2); }
+.pickup__x svg { width: 18px; height: 18px; }
+/* below 1180 the status shows its label only (as the header does at 1100-1279); below 1024 the bag tile goes and Get
+   Directions keeps its name for screen readers but shows the map icon only */
+@media (max-width: 1179.98px) { .pickup__meta .status__detail { display: none; } }
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .pickup__mark { display: none; }
+  .pickup__title { font-size: 1.125rem; }
+  .pickup__dir { width: 46px; padding: 0; }
+  .pickup__dir span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+html[data-motion="paused"] .pickup, html[data-motion="paused"] .pickup.is-on { transition: none; }
+html[data-motion="paused"] .pickup__meta .status__dot { animation: none; }
+@media (prefers-reduced-motion: reduce) { html.js .pickup, html.js .pickup.is-on { transition: none; } .pickup__meta .status__dot { animation: none; } }
+
 /* ---- footer ---- */
 .site-footer { position: relative; z-index: var(--z-content); margin-top: 0; padding-top: clamp(44px, 5.5vw, 72px); overflow: hidden;
   border-top: 1px solid var(--glass-line); background: radial-gradient(80% 70% at 50% 100%, color-mix(in srgb, var(--emerald-deep-c) 28%, transparent), transparent 70%), linear-gradient(180deg, color-mix(in srgb, var(--bg-0) 40%, transparent), var(--bg-0)); }

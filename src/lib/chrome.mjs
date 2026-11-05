@@ -1,5 +1,6 @@
-// chrome.mjs — the shared document: head, header, drawer, phone dock, footer, age gate. One consistent system on every page.
+// chrome.mjs — the shared document: head, header, drawer, phone dock, order bar, footer, age gate. One consistent system on every page.
 import { esc, attrs, img, icon } from './h.mjs';
+import { withAccent } from './parts.mjs';
 
 const isCurrent = (pagePath, href) => {
   if (href === '') return pagePath === '' ? 'page' : null;
@@ -89,6 +90,24 @@ export function dock({ S, link, pagePath }) {
 </nav>`;
 }
 
+/** Order bar (tablet + desktop; the phone dock does this job below 768px): Order Online + Get Directions, the live
+ *  open/closed status and the live payment answer. Not on the menu pages: they ARE the order flow and the bar would sit
+ *  over the embed. Hidden with no JS; site.js shows it once the first section has scrolled up (BUILD-CONTRACT §4). */
+export function pickupBar({ S, link, pagePath }) {
+  if (pagePath.startsWith('shop/')) return '';
+  const B = S.pickupBar;
+  return `<aside class="pickup" data-pickup aria-label="${esc(B.label)}">
+ <span class="pickup__mark" aria-hidden="true">${icon('bag')}</span>
+ <div class="pickup__copy">
+  <p class="pickup__title">${withAccent(B.title.text, B.title.accent)}</p>
+  <p class="pickup__meta" data-status><span class="status__dot" aria-hidden="true"></span><span class="status__label" data-status-label>${esc(S.status.open)}</span><span class="status__detail" data-status-detail></span><span class="pickup__sep" aria-hidden="true">·</span><span class="pickup__pay">${esc(B.pay)}</span></p>
+ </div>
+ <a class="btn btn--primary btn--sm pickup__order" href="${link('shop/')}">${esc(B.order)}${icon('arrowR')}</a>
+ <a class="btn btn--ghost btn--sm pickup__dir" href="${esc(S.directionsHref)}" target="_blank" rel="noopener">${icon('map')}<span>${esc(S.dock.directions)}</span></a>
+ <button type="button" class="pickup__x" data-pickup-x aria-label="${esc(B.hide)}">${icon('close')}</button>
+</aside>`;
+}
+
 export function footer({ S, link }) {
   const col = (title, links) => `<div class="footer-col"><h2>${esc(title)}</h2><ul>${links.map((l) => `<li><a href="${link(l.href)}">${esc(l.text)}</a></li>`).join('')}</ul></div>`;
   return `<footer class="site-footer">
@@ -148,7 +167,7 @@ ${header({ S, link, pagePath: pg.path })}
 ${main}
 </main>
 ${footer({ S, link })}
-${dock({ S, link, pagePath: pg.path })}
+${[pickupBar({ S, link, pagePath: pg.path }), dock({ S, link, pagePath: pg.path })].filter(Boolean).join('\n')}
 ${ageGate({ S, link })}
 <script>window.SAD=${JSON.stringify({ hours: S._weeklyHours, open: S.status.open, closed: S.status.closed })};</script>
 ${['assets/js/site.js', ...scripts].map((s) => `<script src="${link(s)}" defer></script>`).join('\n')}

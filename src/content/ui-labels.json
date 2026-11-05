@@ -11,6 +11,7 @@
   { "text": "Previous", "why": "carousel control accessible name" },
   { "text": "Next", "why": "carousel control accessible name" },
   { "text": "Close", "why": "dialog close button accessible name" },
+  { "text": "Hide this bar", "why": "accessible name of the order bar's close button (owner-requested bar, 2026-11-05); the bar then stays hidden for the rest of the visit" },
   { "text": "All", "why": "filter label (live blog uses ALL; menu filters use ALL) — fallback if DOM case differs" },
   { "text": "Closed", "why": "the live status label when the store is closed (live code: label \"Closed\"); the capture ran while the store was open so it never rendered" },
   { "text": "Thanks — we got your message. We'll get back to you within one business day.", "why": "LIVE /api/contact success message (live bundle form handler; shown only after a submit, so no capture renders it)" },

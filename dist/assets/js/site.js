@@ -111,6 +111,35 @@
   if (drawer) $$('a', drawer).forEach(function (a) { a.addEventListener('click', function () { if (a.getAttribute('href').charAt(0) === '#') closeDrawer(); }); });
   window.addEventListener('resize', function () { if (window.innerWidth >= 1100) closeDrawer(); });
 
+  /* ---------- order bar (tablet + desktop): shown once the first section has scrolled up; steps aside over the footer,
+     whenever a form reaches the bottom fifth of the screen (where the bar sits: it never covers a field, a submit button
+     or a form's status message), while a form field has focus, and for the rest of the visit once closed (sessionStorage
+     sad-pickup-bar). CSS hides it under the drawer and the age gate, and below 768px, where the phone dock does this ---------- */
+  var bar = $('[data-pickup]');
+  if (bar) {
+    var BAR_KEY = 'sad-pickup-bar', barPast = false, barFoot = false, barTyping = false, barClosed = false, barForms = [];
+    try { barClosed = sessionStorage.getItem(BAR_KEY) === 'off'; } catch (e) {}
+    var syncBar = function () { bar.classList.toggle('is-on', barPast && !barFoot && !barTyping && !barForms.length && !barClosed); };
+    var firstSection = $('main > section'), siteFooter = $('.site-footer');
+    if ('IntersectionObserver' in window && firstSection) {
+      new IntersectionObserver(function (en) { barPast = !en[0].isIntersecting; syncBar(); }, { rootMargin: '-30% 0px 0px 0px' }).observe(firstSection);
+      if (siteFooter) new IntersectionObserver(function (en) { barFoot = en[0].isIntersecting; syncBar(); }).observe(siteFooter);
+      var formIO = new IntersectionObserver(function (en) {
+        en.forEach(function (x) { var i = barForms.indexOf(x.target); if (x.isIntersecting && i < 0) barForms.push(x.target); else if (!x.isIntersecting && i >= 0) barForms.splice(i, 1); });
+        syncBar();
+      }, { rootMargin: '-80% 0px 0px 0px' });
+      $$('form').forEach(function (f) { formIO.observe(f); });
+    }
+    var isField = function (t) { return !!(t && t.matches && t.matches('input, textarea, select')); };
+    d.addEventListener('focusin', function (e) { if (isField(e.target)) { barTyping = true; syncBar(); } });
+    d.addEventListener('focusout', function (e) { if (isField(e.target)) { barTyping = false; syncBar(); } });
+    var barX = $('[data-pickup-x]', bar);
+    if (barX) barX.addEventListener('click', function () {
+      barClosed = true; try { sessionStorage.setItem(BAR_KEY, 'off'); } catch (e) {} syncBar();
+      var m = $('#main'); if (m) m.focus({ preventScroll: true });
+    });
+  }
+
   /* ---------- motion: pause control + reduced motion ---------- */
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   function setMotion(paused, persist) {

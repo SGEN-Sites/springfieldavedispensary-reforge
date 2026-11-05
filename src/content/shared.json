@@ -52,6 +52,14 @@
   "deals": "Deals",
   "directions": "Get Directions"
  },
+ "pickupBar": {
+  "_note": "Bottom order bar, tablet + desktop (owner request 2026-11-05; the phone dock does this job below 768px). Live words: the home Curbside Pickup card ('Curbside Pickup', 'Order online and pick up fast at ...'), the home hero button 'Order Online', the Contact FAQ payment answer ('We accept cash and debit cards in-store.'; CSS capitalises its first letter).",
+  "label": "Curbside Pickup",
+  "title": { "text": "Order online and pick up fast", "accent": "fast" },
+  "order": "Order Online",
+  "pay": "cash and debit cards in-store",
+  "hide": "Hide this bar"
+ },
  "address": {
   "street": "1070 Springfield Ave Suite C",
   "cityLine": "Irvington, NJ 07111",

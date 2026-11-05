@@ -169,3 +169,19 @@ Open owner calls from this change:
 | N1 | The 32 articles are the agency library's wording; if the other site publishes the same articles, search engines usually rank only one copy | ships them as adapted; rewriting them for Springfield would make them unique |
 | N2 | All 32 carry the same date (Nov 05, 2026) | the honest date they were added |
 | N3 | The 32 images are AI-generated (no store, staff or real product is shown) | no disclosure line; add one if the owner wants it |
+
+**Order bar** (owner, with a reference screenshot: "a bottom sticky bar like this for springfield ... it has to follow
+springfield's theme and branding"). A floating glass bar at the bottom of the screen on tablets and desktops (768 px and
+up), in the site's own system: deep green glass, the lime Order Online button, a glass Get Directions button, the bag
+icon in a lime-lit tile, the display face with one Instrument Serif accent word. Every word is Springfield's own:
+"Order online and pick up fast" (the home page's Curbside Pickup card, which also names the bar for screen readers), the
+live open / closed status (the header's function), "cash and debit cards in-store" (the Contact FAQ's payment answer),
+"Order Online" (the home hero button) -> the Menu, and "Get Directions". It slides up once the first section has
+scrolled away, steps aside over the footer, whenever a form reaches the bottom fifth of the screen (so it never covers a
+field, a submit button or a form's message), while a form field has focus, under the menu drawer and the age gate, and
+stays hidden for the rest of the visit once closed. The rendered gate's contrast rule (`check.mjs` R5) now pins the bar
+shown for its pass: the bar's own words are rated over every position, and page text is not rated where the bar
+covers it (before, a bar that appears only after scrolling was missed both ways). Below 1180 px the status shows its label only; below 1024 px the
+bag tile goes and Get Directions shows its map icon (its name stays for screen readers). Not on the 8 Menu pages: they
+are the order flow, and the bar would sit over the Dutchie embed. Phones keep the dock (Deals · Shop Now · Get
+Directions). Hooks: `docs/BUILD-CONTRACT.md` §4.
